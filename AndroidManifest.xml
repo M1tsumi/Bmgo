@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="com.mclauncher.peonlinebox.mcmultiplayer" platformBuildVersionCode="26" platformBuildVersionName="8.0.0">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.GET_PERMISSIONS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_ADDED"/>
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_CHANGED"/>
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_INSTALL"/>
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_REPLACED"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" android:required="false"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" android:protectionLevel="signature" android:required="false"/>
+    <uses-permission android:name="android.permission.CAMERA" android:required="false"/>
+    <uses-permission android:name="android.permission.READ_SETTINGS"/>
+    <meta-data android:name="android.support.VERSION" android:value="25.3.1"/>
+    <permission android:name="com.mclauncher.peonlinebox.mcmultiplayer.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.mclauncher.peonlinebox.mcmultiplayer.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <application android:allowBackup="false" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher" android:label="@string/appName" android:largeHeap="true" android:name="com.mcpeonline.multiplayer.App" android:supportsRtl="true" android:theme="@style/AppTheme">
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.mcpeonline.multiplayer.activity.HomeActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme" android:windowSoftInputMode="stateHidden|adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mcpeonline.multiplayer.activity.StartActivity" android:screenOrientation="portrait" android:theme="@style/startStyle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="oversea.multiplayer" android:scheme="sandbox"/>
+            </intent-filter>
+        </activity>
+        <activity android:alwaysRetainTaskState="true" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:hardwareAccelerated="true" android:name="com.mojang.minecraftpe.MainActivity" android:process="com.mclauncher.peonlinebox.mcmultiplayer.Minecraft" android:screenOrientation="sensorLandscape" android:theme="@style/mcTheme">
+            <meta-data android:name="android.app.lib_name" android:value="minecraftpe"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mcpeonline.multiplayer.activity.StartMcActivity" android:process="com.mclauncher.peonlinebox.mcmultiplayer.Minecraft" android:screenOrientation="sensorLandscape" android:theme="@style/startMcTheme"/>
+        <meta-data android:name="UMENG_APPKEY" android:value="55bf343e67e58ec65b003454"/>
+        <meta-data android:name="UMENG_CHANNEL" android:value="@string/channel_id"/>
+        <receiver android:enabled="true" android:exported="true" android:name="com.mcpeonline.multiplayer.receiver.DownloadManagerBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mcpeonline.multiplayer.activity.SpringboardActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mcpeonline.multiplayer.template.TemplateActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme" android:windowSoftInputMode="stateHidden|adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mcpeonline.multiplayer.activity.AccountActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mcpeonline.multiplayer.activity.UserActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mcpeonline.multiplayer.activity.MarketActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mcpeonline.multiplayer.activity.ToolsCategoryActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mcpeonline.multiplayer.activity.MarketSearchActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mcpeonline.multiplayer.activity.MyResourceActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mcpeonline.multiplayer.activity.CloudResourceActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mcpeonline.multiplayer.activity.FileChooserActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mcpeonline.multiplayer.activity.AllRankingActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <receiver android:enabled="true" android:exported="true" android:name="com.mcpeonline.multiplayer.receiver.DownloadMcVersionReceiver">
+            <intent-filter>
+                <action android:name="com.mclauncher.peonlinebox.mcmultiplayer.android.intent.action.Download.McVersion.Finish"/>
+                <action android:name="com.mclauncher.peonlinebox.mcmultiplayer.android.intent.action.Download.McVersion.Failure"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="true" android:name="com.mcpeonline.multiplayer.receiver.UpdateAppReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mcpeonline.multiplayer.activity.SearchActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <meta-data android:name="io.fabric.ApiKey" android:value="0109318aed089066be17b5a2d8e0ee838716d209"/>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:label="@string/app_name" android:name="com.facebook.FacebookActivity" android:theme="@style/com_facebook_activity_theme"/>
+        <activity android:exported="true" android:name="com.facebook.CustomTabActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="@string/fb_login_protocol_scheme"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:name="com.twitter.sdk.android.core.identity.OAuthActivity"/>
+        <provider android:authorities="com.facebook.app.FacebookContentProvider695324840598538" android:configChanges="keyboardHidden|orientation|screenSize" android:exported="@bool/facebookexp" android:name="com.facebook.FacebookContentProvider" android:process="com.mclauncher.peonlinebox.mcmultiplayer.Minecraft"/>
+        <service android:name="com.mcpeonline.multiplayer.service.FcmMessageListenerService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.mcpeonline.multiplayer.service.FcmInstanceIDListenerService" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="false" android:name="com.mcpeonline.multiplayer.service.LocalWebService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.mcpeonline.multiplayer.service.OnlineService"/>
+        <service android:exported="false" android:name="com.mcpeonline.multiplayer.service.FcmRegistrationIntentService"/>
+        <receiver android:enabled="true" android:name="com.google.android.gms.analytics.AnalyticsReceiver">
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.AnalyticsService"/>
+        <receiver android:exported="true" android:name="com.google.android.gms.analytics.CampaignTrackingReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.android.gms.analytics.CampaignTrackingService"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mcpeonline.visitor.activity.VisitorActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <meta-data android:name="com.google.android.gms.games.APP_ID" android:value="@string/app_id"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mcpeonline.multiplayer.activity.ConversationActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="com.mclauncher.peonlinebox.mcmultiplayer" android:pathPrefix="/conversation/" android:scheme="rong"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mcpeonline.multiplayer.activity.MyConversationActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.mcpeonline.multiplayer.activity.RealmsDetailActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.mcpeonline.multiplayer.activity.VipActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.mcpeonline.multiplayer.activity.DiamondActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.mcpeonline.multiplayer.activity.PropsMallActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.mcpeonline.multiplayer.activity.MyPropsActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="false" android:launchMode="singleTask" android:name="com.mcpeonline.multiplayer.activity.ActivityOnlineActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:hardwareAccelerated="true" android:name="com.unity3d.ads.adunit.AdUnitActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:hardwareAccelerated="true" android:name="com.unity3d.ads.adunit.AdUnitSoftwareActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <receiver android:enabled="true" android:exported="true" android:name="com.mcpeonline.multiplayer.receiver.MyPushMessageReceiver">
+            <intent-filter>
+                <action android:name="io.rong.push.intent.MESSAGE_ARRIVED"/>
+                <action android:name="io.rong.push.intent.MI_MESSAGE_ARRIVED"/>
+                <action android:name="io.rong.push.intent.MESSAGE_CLICKED"/>
+                <action android:name="io.rong.push.intent.MI_MESSAGE_CLICKED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="true" android:name="com.mcpeonline.multiplayer.receiver.MyNoticeMessageReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="com.mclauncher.peonlinebox.mcmultiplayer.intent.message.clicked"/>
+                <action android:name="com.mclauncher.peonlinebox.mcmultiplayer.intent.message.arrived"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="true" android:name="com.mcpeonline.multiplayer.service.McProcessChangeDataService"/>
+        <provider android:authorities="com.mclauncher.peonlinebox.mcmultiplayer.provider" android:exported="false" android:grantUriPermissions="true" android:name="android.support.v4.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths"/>
+        </provider>
+        <activity android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:hardwareAccelerated="true" android:installLocation="preferExternal" android:name="com.sandboxol.blockmango.EchoesActivity" android:process="com.mclauncher.peonlinebox.mcmultiplayer.Minecraft" android:screenOrientation="sensorLandscape" android:theme="@style/mcTheme"/>
+        <receiver android:enabled="true" android:exported="true" android:name="com.mcpeonline.multiplayer.receiver.DownloadRecommendGameReceiver">
+            <intent-filter>
+                <action android:name="com.mclauncher.peonlinebox.mcmultiplayer.android.intent.action.Download.Recommend.Game.Finish"/>
+                <action android:name="com.mclauncher.peonlinebox.mcmultiplayer.android.intent.action.Download.Recommend.Game.Failure"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.mcpeonline.multiplayer.activity.UserInfoActivity" android:process="com.mclauncher.peonlinebox.mcmultiplayer.Clothes" android:screenOrientation="portrait" android:theme="@style/TransparentActivity" android:windowSoftInputMode="stateHidden|adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="com.mcpeonline.multiplayer.activity.DressShopActivity" android:process="com.mclauncher.peonlinebox.mcmultiplayer.Clothes" android:theme="@style/TransparentActivity" android:windowSoftInputMode="stateHidden|adjustPan"/>
+        <service android:enabled="true" android:exported="true" android:name="com.mcpeonline.multiplayer.util.breakpoint.DownloadService"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.alibaba.sdk.android.feedback.windvane.CustomHybirdActivity" android:screenOrientation="portrait" android:theme="@style/feedbackTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.alibaba.sdk.android.feedback.impl.ErrorPageActivity" android:screenOrientation="portrait" android:theme="@style/ali_feedback_contentoverlay"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.alibaba.sdk.android.feedback.impl.NetworkChangeReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.alibaba.mtl.appmonitor.AppMonitorService"/>
+        <activity android:exported="false" android:name="com.twitter.sdk.android.tweetcomposer.ComposerActivity" android:windowSoftInputMode="stateVisible|adjustResize"/>
+        <service android:enabled="true" android:exported="false" android:name="com.twitter.sdk.android.tweetcomposer.TweetUploadService"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.twitter.sdk.android.tweetui.PlayerActivity" android:theme="@style/MediaTheme"/>
+        <activity android:name="com.twitter.sdk.android.tweetui.GalleryActivity" android:theme="@style/MediaTheme"/>
+        <activity android:configChanges="orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:icon="@drawable/tw__transparent" android:label="@string/kit_name" android:name="com.twitter.sdk.android.core.identity.ShareEmailActivity"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:exported="true" android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <receiver android:enabled="true" android:exported="true" android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="true" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="com.mclauncher.peonlinebox.mcmultiplayer"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"/>
+        <service android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="com.mclauncher.peonlinebox.mcmultiplayer.firebaseinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.facebook.ads.AudienceNetworkActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:name="com.google.android.gms.ads.AdActivity" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:name="com.facebook.CustomTabMainActivity"/>
+        <provider android:authorities="com.mclauncher.peonlinebox.mcmultiplayer.FacebookInitProvider" android:exported="false" android:name="com.facebook.internal.FacebookInitProvider"/>
+        <activity android:name="io.rong.imkit.activity.PictureSelectorActivity" android:screenOrientation="portrait"/>
+        <activity android:name="io.rong.imkit.activity.PicturePreviewActivity" android:screenOrientation="portrait"/>
+        <activity android:name="io.rong.imkit.tools.RongWebviewActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="io.rong.imkit.intent.action.webview"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="io.rong.imkit.widget.provider.TakingPicturesActivity" android:screenOrientation="portrait"/>
+        <activity android:name="io.rong.imkit.activity.PicturePagerActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <service android:exported="false" android:name="io.rong.push.core.PushRegistrationService"/>
+        <service android:exported="false" android:name="io.rong.push.PushService" android:process="io.rong.push"/>
+        <service android:exported="true" android:name="io.rong.push.core.MessageHandleService"/>
+        <receiver android:name="io.rong.push.PushReceiver" android:process="io.rong.push">
+            <intent-filter>
+                <action android:name="io.rong.push.intent.action.HEART_BEAT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="true" android:name="io.rong.imlib.ipc.RongService" android:process=":ipc"/>
+        <service android:name="io.rong.imlib.ReConnectService"/>
+        <receiver android:name="io.rong.imlib.ConnectChangeReceiver"/>
+        <receiver android:name="io.rong.imlib.HeartbeatReceiver" android:process=":ipc"/>
+        <meta-data android:name="RONG_CLOUD_APP_KEY" android:value="k51hidwq18uzb"/>
+        <receiver android:enabled="true" android:exported="true" android:name="io.rong.imkit.receiver.ChatRoomBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.mclauncher.peonlinebox.mcmultiplayer.float.enter.chat.room"/>
+                <action android:name="com.mclauncher.peonlinebox.mcmultiplayer.float.leave.chat.room"/>
+                <action android:name="com.mclauncher.peonlinebox.mcmultiplayer.float.create.chat.room"/>
+                <action android:name="com.mclauncher.peonlinebox.mcmultiplayer.float.chat.room.receiver.voice.msg"/>
+                <action android:name="com.mclauncher.peonlinebox.mcmultiplayer.float.close.voice"/>
+                <action android:name="com.mclauncher.peonlinebox.mcmultiplayer.float.open.voice"/>
+                <action android:name="com.mclauncher.peonlinebox.mcmultiplayer.float.chat.room.start.record"/>
+                <action android:name="com.mclauncher.peonlinebox.mcmultiplayer.float.chat.room.stop.record"/>
+                <action android:name="com.mclauncher.peonlinebox.mcmultiplayer.float.chat.conversationlist"/>
+                <action android:name="com.mclauncher.peonlinebox.mcmultiplayer.float.chat.friendlist"/>
+                <action android:name="com.mclauncher.peonlinebox.mcmultiplayer.float.chat.msglist"/>
+                <action android:name="com.mclauncher.peonlinebox.mcmultiplayer.float.chat.sendmsg"/>
+                <action android:name="com.mclauncher.peonlinebox.mcmultiplayer.float.chat.send.voice.msg"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>
