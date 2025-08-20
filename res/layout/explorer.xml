@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/colorPrimary" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/colorPrimaryDark" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/actionBarSize">
+        <ImageButton android:background="@null" android:paddingLeft="0.0dip" android:paddingRight="25.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/back_selector" android:onClick="back" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/select_file" />
+    </RelativeLayout>
+    <ListView android:id="@android:id/list" android:background="@color/allBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@color/text_color" android:gravity="center" android:id="@android:id/empty" android:background="@color/allBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/not_this_type_file" />
+</LinearLayout>

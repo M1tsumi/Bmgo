@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rlBg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/llContext" android:background="@drawable/bg_new_dialog" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerVertical="true">
+        <TextView android:gravity="center" android:id="@id/tvTransfer" android:background="@drawable/bg_two_grid_50_selector" android:visibility="gone" android:layout_height="@dimen/longClickEditBtnHeight" android:text="@string/tribe_transfer" style="@style/textView12spStyle" />
+        <TextView android:gravity="center" android:id="@id/tvFireElders" android:background="@drawable/bg_two_grid_50_selector" android:visibility="gone" android:layout_height="@dimen/longClickEditBtnHeight" android:text="@string/tribe_fire_elders" style="@style/textView12spStyle" />
+        <TextView android:gravity="center" android:id="@id/tvPromoteElders" android:background="@drawable/bg_two_grid_50_selector" android:visibility="gone" android:layout_height="@dimen/longClickEditBtnHeight" android:text="@string/tribe_promote_elders" style="@style/textView12spStyle" />
+        <TextView android:gravity="center" android:id="@id/tvFireCreator" android:background="@drawable/bg_two_grid_50_selector" android:visibility="gone" android:layout_height="@dimen/longClickEditBtnHeight" android:text="@string/tribe_fire_creator" style="@style/textView12spStyle" />
+        <TextView android:gravity="center" android:id="@id/tvPromoteCreator" android:background="@drawable/bg_two_grid_50_selector" android:visibility="gone" android:layout_height="@dimen/longClickEditBtnHeight" android:text="@string/tribe_promote_creator" style="@style/textView12spStyle" />
+        <TextView android:gravity="center" android:id="@id/tvRemove" android:background="@drawable/bg_two_grid_50_selector" android:visibility="gone" android:layout_height="@dimen/longClickEditBtnHeight" android:text="@string/tribe_remove" style="@style/textView12spStyle" />
+        <TextView android:gravity="center" android:id="@id/tvCancel" android:background="@drawable/bg_two_grid_50_selector" android:layout_height="@dimen/longClickEditBtnHeight" android:layout_marginTop="@dimen/new_ui_margin" android:text="@string/report_cancel" style="@style/textView12spStyle" />
+    </LinearLayout>
+</RelativeLayout>

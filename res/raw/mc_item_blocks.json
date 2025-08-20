@@ -1,0 +1,537 @@
+ [
+    {
+      "typeId": 1,
+      "name": "石头",
+      "icon": "item_1"
+    },
+    {
+      "typeId": 2,
+      "name": "草方块",
+      "icon": "item_2"
+    },
+    {
+      "typeId": 3,
+      "name": "泥土",
+      "icon": "item_3"
+    },
+    {
+      "typeId": 4,
+      "name": "圆石",
+      "icon": "item_4"
+    },
+    {
+      "typeId": 5,
+      "name": "木板",
+      "icon": "item_5"
+    },
+    {
+      "typeId": 7,
+      "name": "基岩",
+      "icon": "item_7"
+    },
+    {
+      "typeId": 8,
+      "name": "水",
+      "icon": "item_8"
+    },
+    {
+      "typeId": 9,
+      "name": "静止的水",
+      "icon": "item_9"
+    },
+    {
+      "typeId": 10,
+      "name": "岩浆",
+      "icon": "item_10"
+    },
+    {
+      "typeId": 11,
+      "name": "静止的岩浆",
+      "icon": "item_11"
+    },
+    {
+      "typeId": 12,
+      "name": "沙子",
+      "icon": "item_12"
+    },
+    {
+      "typeId": 13,
+      "name": "沙砾",
+      "icon": "item_13"
+    },
+    {
+      "typeId": 17,
+      "subId": 0,
+      "name": "木块",
+      "icon": "item_17"
+    },
+    {
+      "typeId": 17,
+      "subId": 1,
+      "name": "松木",
+      "icon": "item_17_1"
+    },
+    {
+      "typeId": 17,
+      "subId": 2,
+      "name": "桦木",
+      "icon": "item_17_2"
+    },
+    {
+      "typeId": 18,
+      "name": "树叶",
+      "icon": "item_18"
+    },
+    {
+      "typeId": 18,
+      "subId": 1,
+      "name": "方草块",
+      "icon": "item_18_1"
+    },
+    {
+      "typeId": 18,
+      "subId": 2,
+      "name": "松树叶",
+      "icon": "item_18_2"
+    },
+    {
+      "typeId": 20,
+      "name": "玻璃",
+      "icon": "item_20"
+    },
+    {
+      "typeId": 22,
+      "name": "青金石块",
+      "icon": "item_22"
+    },
+    {
+      "typeId": 24,
+      "name": "沙石",
+      "icon": "item_24"
+    },
+    {
+      "typeId": 24,
+      "subId": 1,
+      "name": "錾制沙石",
+      "icon": "item_1"
+    },
+    {
+      "typeId": 24,
+      "subId": 2,
+      "name": "平滑沙石",
+      "icon": "item_24_2"
+    },
+    {
+      "typeId": 35,
+      "name": "白色羊毛",
+      "icon": "item_35"
+    },
+    {
+      "typeId": 35,
+      "subId": 1,
+      "name": "橙色羊毛",
+      "icon": "item_35_1"
+    },
+    {
+      "typeId": 35,
+      "subId": 2,
+      "name": "品红羊毛",
+      "icon": "item_35_3"
+    },
+    {
+      "typeId": 35,
+      "subId": 3,
+      "name": "浅蓝色羊毛",
+      "icon": "item_35_3"
+    },
+    {
+      "typeId": 35,
+      "subId": 4,
+      "name": "黄色羊毛",
+      "icon": "item_35_4"
+    },
+    {
+      "typeId": 35,
+      "subId": 5,
+      "name": "黄绿色羊毛",
+      "icon": "item_35_5"
+    },
+    {
+      "typeId": 35,
+      "subId": 6,
+      "name": "粉红色羊毛",
+      "icon": "item_35_6"
+    },
+    {
+      "typeId": 35,
+      "subId": 7,
+      "name": "灰色羊毛",
+      "icon": "item_35_7"
+    },
+    {
+      "typeId": 35,
+      "subId": 8,
+      "name": "淡灰色羊毛",
+      "icon": "item_35_8"
+    },
+    {
+      "typeId": 35,
+      "subId": 9,
+      "name": "青色羊毛",
+      "icon": "item_35_9"
+    },
+    {
+      "typeId": 35,
+      "subId": 10,
+      "name": "紫色羊毛",
+      "icon": "item_35_10"
+    },
+    {
+      "typeId": 35,
+      "subId": 11,
+      "name": "蓝色羊毛",
+      "icon": "item_35_11"
+    },
+    {
+      "typeId": 35,
+      "subId": 12,
+      "name": "棕色羊毛",
+      "icon": "item_35_12"
+    },
+    {
+      "typeId": 35,
+      "subId": 13,
+      "name": "绿色羊毛",
+      "icon": "item_35_13"
+    },
+    {
+      "typeId": 35,
+      "subId": 14,
+      "name": "红色羊毛",
+      "icon": "item_35_14"
+    },
+    {
+      "typeId": 35,
+      "subId": 15,
+      "name": "黑色羊毛",
+      "icon": "item_35_15"
+    },
+    {
+      "typeId": 41,
+      "name": "金块",
+      "icon": "item_41"
+    },
+    {
+      "typeId": 42,
+      "name": "铁块",
+      "icon": "item_42"
+    },
+    {
+      "typeId": 43,
+      "subId": 1,
+      "name": "双石台阶",
+      "icon": "item_43_1"
+    },
+    {
+      "typeId": 43,
+      "subId": 2,
+      "name": "双砖台阶",
+      "icon": "item_43_2"
+    },
+    {
+      "typeId": 43,
+      "subId": 3,
+      "name": "双沙石台阶",
+      "icon": "item_43_2"
+    },
+    {
+      "typeId": 43,
+      "subId": 4,
+      "name": "双岩石台阶",
+      "icon": "item_43_4"
+    },
+    {
+      "typeId": 44,
+      "subId": 0,
+      "name": "石台阶",
+      "icon": "item_44"
+    },
+    {
+      "typeId": 44,
+      "subId": 1,
+      "name": "沙石台阶",
+      "icon": "item_44_1"
+    },
+    {
+      "typeId": 44,
+      "subId": 2,
+      "name": "木台阶(老)",
+      "icon": "item_4_2"
+    },
+    {
+      "typeId": 44,
+      "subId": 3,
+      "name": "圆石台阶",
+      "icon": "item_44_3"
+    },
+    {
+      "typeId": 44,
+      "subId": 4,
+      "name": "砖台阶",
+      "icon": "item_44_4"
+    },
+    {
+      "typeId": 44,
+      "subId": 5,
+      "name": "石砖台阶",
+      "icon": "item_44_5"
+    },
+    {
+      "typeId": 44,
+      "subId": 6,
+      "name": "石台阶",
+      "icon": "item_44_6"
+    },
+    {
+      "typeId": 44,
+      "subId": 7,
+      "name": "石英台阶",
+      "icon": "item_44_7"
+    },
+    {
+      "typeId": 45,
+      "name": "砖块",
+      "icon": "item_45"
+    },
+    {
+      "typeId": 47,
+      "name": "书架",
+      "icon": "item_47"
+    },
+    {
+      "typeId": 48,
+      "name": "苔石",
+      "icon": "item_48"
+    },
+    {
+      "typeId": 49,
+      "name": "磨曜石",
+      "icon": "item_49"
+    },
+    {
+      "typeId": 53,
+      "name": "木楼梯",
+      "icon": "item_53"
+    },
+    {
+      "typeId": 57,
+      "name": "钻石块",
+      "icon": "item_57"
+    },
+    {
+      "typeId": 60,
+      "name": "耕地",
+      "icon": "item_60"
+    },
+    {
+      "typeId": 67,
+      "name": "石楼梯",
+      "icon": "item_67"
+    },
+    {
+      "typeId": 78,
+      "name": "雪",
+      "icon": "item_78"
+    },
+    {
+      "typeId": 79,
+      "name": "冰",
+      "icon": "item_79"
+    },
+    {
+      "typeId": 80,
+      "name": "雪块",
+      "icon": "item_80"
+    },
+    {
+      "typeId": 87,
+      "name": "地狱石",
+      "icon": "item_87"
+    },
+    {
+      "typeId": 95,
+      "name": "隐形基石",
+      "icon": "item_95"
+    },
+    {
+      "typeId": 98,
+      "name": "石砖",
+      "icon": "item_98"
+    },
+    {
+      "typeId": 98,
+      "subId": 1,
+      "name": "苔石砖",
+      "icon": "item_98_1"
+    },
+    {
+      "typeId": 98,
+      "subId": 2,
+      "name": "裂石砖",
+      "icon": "item_98_2"
+    },
+    {
+      "typeId": 102,
+      "name": "玻璃板",
+      "icon": "item_102"
+    },
+    {
+      "typeId": 108,
+      "name": "砖楼梯",
+      "icon": "item_103"
+    },
+	{
+      "typeId": 109,
+      "name": "石砖楼梯",
+      "icon": "item_109"
+    },
+	{
+      "typeId": 112,
+      "name": "地狱砖",
+      "icon": "item_112"
+    },
+	{
+      "typeId": 114,
+      "name": "地狱砖楼梯",
+      "icon": "item_114"
+    },
+	{
+      "typeId": 128,
+      "name": "沙石楼梯",
+      "icon": "item_128"
+    },
+	{
+      "typeId": 139,
+      "name": "圆石梯",
+      "icon": "item_139"
+    },
+	{
+      "typeId": 156,
+      "name": "石英楼梯",
+      "icon": "item_156"
+    },
+	{
+      "typeId": 171,
+	  "subId": 0,
+      "name": "白色毯",
+      "icon": "item_171_0"
+    },
+	{
+      "typeId": 171,
+	  "subId": 1,
+      "name": "橙色毯",
+      "icon": "item_171_1"
+    },
+	{
+      "typeId": 171,
+	  "subId": 2,
+      "name": "品红毯",
+      "icon": "item_171_2"
+    },
+	{
+      "typeId": 171,
+	  "subId": 3,
+      "name": "淡蓝毯",
+      "icon": "item_171_3"
+    },
+	{
+      "typeId": 171,
+	  "subId": 4,
+      "name": "黄地毯",
+      "icon": "item_171_4"
+    },
+	{
+      "typeId": 171,
+	  "subId": 5,
+      "name": "黄绿毯",
+      "icon": "item_171_5"
+    },
+	{
+      "typeId": 171,
+	  "subId": 6,
+      "name": "粉红毯",
+      "icon": "item_171_6"
+    },
+	{
+      "typeId": 171,
+	  "subId": 7,
+      "name": "灰色毯",
+      "icon": "item_171_7"
+    },
+	{
+      "typeId": 171,
+	  "subId": 8,
+      "name": "浅灰毯",
+      "icon": "item_171_8"
+    },
+	{
+      "typeId": 171,
+	  "subId": 9,
+      "name": "青色毯",
+      "icon": "item_171_9"
+    },
+	{
+      "typeId": 171,
+	  "subId": 10,
+      "name": "紫色毯",
+      "icon": "item_171_10"
+    },
+	{
+      "typeId": 171,
+	  "subId": 11,
+      "name": "蓝色毯",
+      "icon": "item_171_11"
+    },
+	{
+      "typeId": 171,
+	  "subId": 12,
+      "name": "棕色毯",
+      "icon": "item_171_12"
+    },
+	{
+      "typeId": 171,
+	  "subId": 13,
+      "name": "绿色毯",
+      "icon": "item_171_13"
+    },
+	{
+      "typeId": 171,
+	  "subId": 14,
+      "name": "红色毯",
+      "icon": "item_171_14"
+    },
+	{
+      "typeId": 171,
+	  "subId": 15,
+      "name": "黑色毯",
+      "icon": "item_171_15"
+    },
+	{
+      "typeId": 155,
+	  "subId": 0,
+      "name": "石英方块",
+      "icon": "item_155_0"
+    },
+	{
+      "typeId": 155,
+	  "subId": 1,
+      "name": "錾石英方块",
+      "icon": "item_155_1"
+    },
+	{
+      "typeId": 155,
+	  "subId": 2,
+      "name": "柱石英方块",
+      "icon": "item_155_2"
+    }
+]

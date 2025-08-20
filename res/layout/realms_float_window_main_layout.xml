@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:background="@drawable/float_bg" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="128.0dip" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="15.0dip" android:paddingTop="6.0dip" android:paddingRight="15.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="34.0dip" android:layout_height="34.0dip" android:src="@mipmap/ic_launcher" />
+                    <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/float_font_main_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/meFragmentItemMLe" android:text="@string/floatAppName" android:lineSpacingExtra="6.0dip" />
+                </LinearLayout>
+                <TextView android:textColor="@color/float_font_main_color" android:id="@id/tvPing" android:layout_marginTop="6.0dip" android:checked="false" android:text="@string/float_realms_ping" style="@style/float_cmd_ping" />
+            </LinearLayout>
+            <TextView android:background="@color/float_right_line_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/float_tab_bottom_line_height" />
+            <RadioGroup android:orientation="vertical" android:id="@id/rgMain" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RadioButton android:id="@id/rbProp" android:visibility="gone" android:checked="false" android:text="@string/float_tab_prop" android:drawableLeft="@drawable/icon_float_prop" style="@style/float_cmd_button" />
+                <TextView android:background="@color/float_right_line_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/float_tab_bottom_line_height" />
+                <RadioButton android:id="@id/rbAttribute" android:visibility="visible" android:checked="false" android:text="@string/realms_float_window_my_attribute" android:drawableLeft="@drawable/icon_float_attribute" style="@style/float_cmd_button" />
+                <TextView android:background="@color/float_right_line_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/float_tab_bottom_line_height" />
+                <RadioButton android:id="@id/rbVoice" android:checked="false" android:text="@string/action_settings" android:drawableLeft="@drawable/float_rb_setting" style="@style/float_cmd_button" />
+                <TextView android:background="@color/float_line_color" android:layout_width="fill_parent" android:layout_height="@dimen/float_tab_bottom_line_height" />
+                <RadioButton android:id="@id/rbRoommate" android:visibility="visible" android:checked="false" android:text="@string/float_cmd_kick" android:drawableLeft="@drawable/float_rb_guest" style="@style/float_cmd_button" />
+                <TextView android:background="@color/float_right_line_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/float_tab_bottom_line_height" />
+                <RadioButton android:id="@id/rbFriend" android:visibility="visible" android:checked="false" android:text="@string/friend" android:drawableLeft="@drawable/float_rb_friend" style="@style/float_cmd_button" />
+                <TextView android:background="@color/float_right_line_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/float_tab_bottom_line_height" />
+                <RadioButton android:id="@id/rbScreen" android:visibility="visible" android:checked="false" android:text="@string/float_cmd_screen" android:drawableLeft="@drawable/float_screen_icon" style="@style/float_cmd_button" />
+                <TextView android:background="@color/float_right_line_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/float_tab_bottom_line_height" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:id="@id/hide" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <FrameLayout android:background="@drawable/float_bg" android:layout_width="270.0dip" android:layout_height="fill_parent">
+        <include android:id="@id/rightViewProps" android:visibility="gone" layout="@layout/float_props_view" />
+        <include android:id="@id/rightViewAttribute" android:visibility="gone" layout="@layout/float_attribute_view" />
+        <include android:id="@id/rightViewRoommate" android:visibility="gone" layout="@layout/float_realms_roommate" />
+        <include android:id="@id/rightViewFriend" android:visibility="gone" layout="@layout/float_realms_friend_view" />
+        <include android:id="@id/screenshot_layout" android:visibility="gone" layout="@layout/float_screenshot_view" />
+        <include android:id="@id/float_voice_layout" android:visibility="gone" layout="@layout/float_voice_view" />
+    </FrameLayout>
+</LinearLayout>

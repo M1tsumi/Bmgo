@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:background="@color/myTransparent" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:theme="@style/AppTheme.AppBarOverlay" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+        <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="@drawable/bg_top_bar" android:layout_width="fill_parent" android:layout_height="@dimen/actionBarSize" app:contentInsetStart="0.0dip" app:contentInsetEnd="0.0dip" app:contentInsetLeft="0.0dip" app:contentInsetRight="0.0dip" app:popupTheme="@style/AppTheme.PopupOverlay" app:navigationIcon="@null">
+            <ImageButton android:id="@id/ibBack" android:background="@null" android:paddingRight="8.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/back_selector" />
+            <com.mcpeonline.multiplayer.view.StrokeTextView android:layout_gravity="center" android:id="@id/tvTitle" android:paddingRight="5.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_marginRight="40.0dip" android:text="@string/props_name" app:shadowColor="#ff8b7d69" app:shadowSize="10" style="@style/homeToolBarTextStyle" />
+            <ImageView android:layout_gravity="right|center" android:id="@id/ibMyBag" android:background="@null" android:paddingLeft="0.0dip" android:paddingRight="6.0dip" android:visibility="visible" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/new_ic_bag_selector" />
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout android:orientation="vertical" android:background="@color/allBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <android.support.design.widget.TabLayout android:id="@id/tabs" android:layout_width="fill_parent" android:layout_height="38.0dip" app:tabIndicatorHeight="0.0dip" app:tabBackground="@drawable/bg_new_tab_selector" app:tabTextColor="@color/btn_new_select_color" style="@style/tabLayoutStyle" />
+        <android.support.v4.view.ViewPager android:id="@id/vpFragments" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="never" />
+    </LinearLayout>
+    <com.sandboxol.refresh.view.PageLoadingView android:id="@id/plvLoading" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" app:show_refresh_button="false" />
+    <View android:background="@drawable/bg_home_top_bar" android:layout_width="fill_parent" android:layout_height="17.0dip" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</android.support.design.widget.CoordinatorLayout>

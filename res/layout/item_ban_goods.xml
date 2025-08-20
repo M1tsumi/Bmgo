@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="57.0dip" android:layout_height="57.0dip" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivBanNormalBg" android:background="@drawable/bg_ban_normal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/ivBanImage" android:paddingLeft="10.0dip" android:layout_width="40.0dip" android:layout_height="30.0dip" android:layout_marginTop="10.0dip" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tvBanName" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TNT" android:lines="1" android:layout_below="@id/ivBanImage" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/ivBanSelectedBg" android:background="@drawable/bg_ban_selected" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/ivBanSelectState" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="6.0dip" android:src="@drawable/ic_ban_normal" />
+</RelativeLayout>

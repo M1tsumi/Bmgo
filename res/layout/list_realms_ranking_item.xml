@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:background="@drawable/bg_two_grid_50_selector" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="71.0dip" android:layout_height="fill_parent">
+            <ImageView android:id="@id/ivRealmsRankingItemRank" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_new_ranking_ic_bg" android:layout_centerInParent="true" />
+            <TextView android:id="@id/tvRealmsRankingItemRank" android:text="1" android:layout_centerInParent="true" style="@style/tv14spStyle" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="135.0dip" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <RelativeLayout android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginBottom="1.0dip">
+                    <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivIcon" android:layout_width="28.5dip" android:layout_height="28.5dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/head_df" app:type="round" />
+                    <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivIconBg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_head_border_default" app:type="round" />
+                </RelativeLayout>
+                <TextView android:textColor="@color/text_hint_content_color" android:ellipsize="end" android:id="@id/tvRealmsRankingItemName" android:layout_width="fill_parent" android:text="Duang" android:lines="1" style="@style/tv12spStyle" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llOtherContainer" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <RelativeLayout android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginBottom="1.0dip">
+                    <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivOtherIcon" android:layout_width="28.5dip" android:layout_height="28.5dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/head_df" app:type="round" />
+                    <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivOtherIconBg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_head_border_default" app:type="round" />
+                </RelativeLayout>
+                <TextView android:textColor="@color/text_hint_content_color" android:ellipsize="end" android:id="@id/tvRealmsRankingItemOtherName" android:layout_width="fill_parent" android:text="Duang" android:lines="1" style="@style/tv12spStyle" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="100.0">
+            <TextView android:textColor="@color/text_hint_content_color" android:gravity="center" android:id="@id/tvRealmsRankingItemKillNum" android:layout_width="0.0dip" android:text="3" android:layout_weight="57.0" style="@style/tv12spStyle" />
+            <LinearLayout android:gravity="right|center" android:orientation="horizontal" android:id="@id/llFocus" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="43.0">
+                <ImageView android:gravity="center" android:id="@id/ivRealmsRankingItemIsFollow" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_new_ranking_follow_selector" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:paddingTop="@dimen/new_ui_margin" android:paddingBottom="@dimen/new_ui_margin" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="62.0dip">
+        <FrameLayout android:background="@drawable/bg_new_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_12dp" android:layout_marginRight="@dimen/space_12dp" android:layout_marginBottom="@dimen/space_12dp">
+            <FrameLayout android:background="@drawable/bg_one_grid_50" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/space_12dp">
+                <com.mcpeonline.multiplayer.view.MyRecyclerView android:id="@id/rvPropsMallList" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+        </FrameLayout>
+    </ScrollView>
+    <com.sandboxol.refresh.view.PageLoadingView android:id="@id/plvLoading" android:layout_width="fill_parent" android:layout_height="fill_parent" app:show_refresh_button="false" />
+    <RelativeLayout android:background="@drawable/bg_friend_button_bg" android:paddingLeft="36.0dip" android:paddingRight="36.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="-2.0dip" android:layout_marginRight="-2.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="60.0dip">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginTop="3.0dip">
+                <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/text_hint_content_color" android:gravity="center" android:id="@id/tvPropsMallMyDiamonds" android:background="@drawable/bg_money_border" android:paddingLeft="4.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="24.0dip" android:minWidth="86.0dip" android:text="1000" android:drawableLeft="@drawable/ic_diamonds" android:drawablePadding="3.0dip" />
+                <ImageView android:id="@id/ivPropsMallAddDiamond" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:src="@drawable/store_add_dg_btn_selector" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/text_hint_content_color" android:gravity="center" android:id="@id/tvPropsMallMyGolds" android:background="@drawable/bg_money_border" android:paddingLeft="4.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" android:minWidth="86.0dip" android:text="1000" android:drawableLeft="@drawable/ic_gold" android:drawablePadding="3.0dip" />
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="right" android:id="@id/flPropsMallChangePropsType" android:background="@drawable/bg_one_grid_50_25_selector" android:layout_width="129.0dip" android:layout_height="wrap_content" android:minHeight="31.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <RelativeLayout android:background="#ffe4ebdb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="4.0dip">
+                <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/text_hint_content_color" android:ellipsize="end" android:id="@id/tvPropsMallPropsType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/all_props" android:lines="1" android:layout_centerVertical="true" android:textAllCaps="true" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.5dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="9.5dip" android:src="@drawable/arrow_bottom" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </FrameLayout>
+    </RelativeLayout>
+</RelativeLayout>

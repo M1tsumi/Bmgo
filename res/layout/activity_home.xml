@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:background="@color/allBackgroundColor" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:theme="@style/AppTheme.AppBarOverlay" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+        <include layout="@layout/home_toolbar_layout" />
+    </android.support.design.widget.AppBarLayout>
+    <include layout="@layout/home_rg_layout" />
+    <include android:id="@id/vActivityBox" android:visibility="gone" layout="@layout/layout_activity_box" />
+</android.support.design.widget.CoordinatorLayout>

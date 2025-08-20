@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/cdTalentIconBg" android:background="@drawable/bg_talent_item_selector" android:layout_width="75.0dip" android:layout_height="86.0dip" android:button="@null" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/ivTalentIcon" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="75.0dip" android:layout_height="86.0dip" android:src="@drawable/ic_attack" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/text_hint_content_color" android:gravity="center_vertical" android:id="@id/tvTalentName" android:layout_width="wrap_content" android:layout_height="37.0dip" android:text="@string/attack" android:layout_below="@id/ivTalentIcon" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@android:color/white" android:id="@id/tvTalentLevel" android:background="@drawable/bg_tribe_creator" android:paddingLeft="6.0dip" android:paddingTop="2.0dip" android:paddingRight="6.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="LV30/80" android:layout_below="@id/tvTalentName" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="end|bottom" android:orientation="horizontal" android:id="@id/rlHomeTab" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="@dimen/home_tab_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/bg_home_bottom_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" />
+    <RadioGroup android:orientation="horizontal" android:id="@id/rgHome" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true">
+        <View android:id="@id/vLeftBlock" android:layout_width="16.0dip" android:layout_height="fill_parent" android:layout_marginTop="6.0dip" />
+        <RadioButton android:id="@id/rbGame" android:background="@drawable/bg_home_bottom_left_right_button" android:checked="true" android:text="@string/homeTabOnline" android:drawableTop="@drawable/ic_home_server" style="@style/homeTab" />
+        <RadioButton android:id="@id/rbCloud" android:background="@drawable/bg_home_bottom_middle_button" android:text="@string/homeTabCloud" android:drawableTop="@drawable/ic_home_game" style="@style/homeTab" />
+        <RadioButton android:id="@id/rbTribe" android:background="@drawable/bg_home_bottom_middle_button" android:text="@string/tribe" android:drawableTop="@drawable/ic_home_clan" style="@style/homeTab" />
+        <RadioButton android:id="@id/rbFriend" android:background="@drawable/bg_home_bottom_middle_button" android:text="@string/friend" android:drawableTop="@drawable/ic_home_social" style="@style/homeTab" />
+        <RadioButton android:id="@id/rbMe" android:background="@drawable/bg_home_bottom_left_right_button" android:text="@string/homeTabMe" android:drawableTop="@drawable/ic_home_me" style="@style/homeTab" />
+        <View android:id="@id/vRightBlock" android:layout_width="16.0dip" android:layout_height="fill_parent" android:layout_marginTop="6.0dip" />
+    </RadioGroup>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="16.0dip" android:paddingTop="2.0dip" android:paddingRight="16.0dip" android:paddingBottom="2.0dip" android:focusable="false" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <RelativeLayout android:focusable="false" android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/ivRealmsPoint" android:background="@drawable/ic_red_point" android:visibility="gone" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="12.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/ivPointTribe" android:background="@drawable/ic_red_point" android:visibility="gone" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="12.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:focusable="false" android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/ivPoint" android:background="@drawable/ic_red_point" android:visibility="gone" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="12.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:focusable="false" android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/ivPoint2" android:background="@drawable/ic_red_point" android:visibility="gone" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="12.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

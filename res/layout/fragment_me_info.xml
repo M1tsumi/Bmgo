@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/content_user_info" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/btn_item_selector" android:padding="@dimen/pdSize" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/meFragmentItemPdSize">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:text="@string/myGrowthInfo" style="@style/myGrowthInfoStyle" />
+                <Button android:id="@id/btnWhatGrowth" style="@style/whatGrowthStyle" />
+            </LinearLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tpSize">
+                <ProgressBar android:id="@id/pbGrowthValue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="105" android:progress="60" android:progressDrawable="@drawable/progressbar_growth_value" android:minHeight="8.0dip" style="?android:attr/progressBarStyleHorizontal" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/pbGrowthValue">
+                    <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/levelTextStyle" />
+                    <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="lv1" android:layout_weight="2.0" style="@style/levelTextStyle" />
+                    <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="lv2" android:layout_weight="3.0" style="@style/levelTextStyle" />
+                    <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="lv3" android:layout_weight="4.0" style="@style/levelTextStyle" />
+                    <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="lv4" android:layout_weight="5.0" style="@style/levelTextStyle" />
+                    <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="lv5" android:layout_weight="6.0" style="@style/levelTextStyle" />
+                </LinearLayout>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tpSize" android:text="lv6" android:layout_below="@id/pbGrowthValue" android:layout_alignParentRight="true" style="@style/levelTextStyle" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:background="@color/me_info_line_bg" android:paddingLeft="@dimen/tpSize" android:paddingRight="@dimen/tpSize" android:visibility="gone" style="@style/meFragmentItem">
+            <ImageView android:layout_width="@dimen/imageTextIcon24" android:layout_height="@dimen/imageTextIcon24" android:src="@drawable/me_info_fragment_game_info" />
+            <TextView android:text="@string/me_info_game_info" style="@style/meItemTextStyle" />
+            <ImageView android:visibility="gone" style="@style/arrowStyle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/user_info_layout_centre_bg" android:paddingTop="@dimen/pdSize" android:paddingBottom="@dimen/pdSize" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/averageCreateRoomTime" style="@style/tv14spStyle" />
+            <TextView android:gravity="center" android:id="@id/tvGameTimeAvg" android:paddingTop="@dimen/tpSize" android:paddingBottom="@dimen/tpSize" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/minutes" style="@style/tv16spStyle" />
+            <TextView android:gravity="center" android:id="@id/tvMoreThan" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/moreThan" style="@style/tv14spStyle" />
+        </LinearLayout>
+        <include android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_12dp" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/space_12dp" layout="@layout/content_honor" />
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/new_ui_margin" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/new_ui_margin" layout="@layout/content_gift" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="start" android:orientation="vertical" android:tag="menu" android:background="@drawable/bg_new_dialog" android:padding="4.0dip" android:clickable="true" android:layout_width="250.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/lvGameRanking" android:paddingTop="@dimen/new_ui_margin" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@color/transparent" android:divider="@color/transparent" android:dividerHeight="0.0dip" />
+</LinearLayout>

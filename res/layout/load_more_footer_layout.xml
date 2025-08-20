@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sandboxol.refresh.view.LoadMoreFooterView android:background="@drawable/bg_foot_loading" android:layout_width="fill_parent" android:layout_height="150.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/ivLoading" android:background="@drawable/anim_refresh_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="10.0sp" android:textColor="#ffcebf9e" android:gravity="center" android:id="@id/tvLoadMore" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="@string/other_loading" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</com.sandboxol.refresh.view.LoadMoreFooterView>

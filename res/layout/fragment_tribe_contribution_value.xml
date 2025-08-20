@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/allBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="110.0dip">
+            <com.sandboxol.refresh.view.RefreshLayout android:id="@id/refreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ListView android:id="@id/swipe_target" android:paddingTop="4.0dip" android:paddingBottom="55.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:divider="@null" />
+            </com.sandboxol.refresh.view.RefreshLayout>
+            <com.sandboxol.refresh.view.PageLoadingView android:id="@id/plvLoading" android:layout_width="fill_parent" android:layout_height="fill_parent" app:refresh_button_text="@string/refresh" app:show_refresh_button="false" />
+        </RelativeLayout>
+        <RelativeLayout android:paddingLeft="7.0dip" android:paddingTop="7.0dip" android:paddingRight="@dimen/new_ui_margin" android:layout_width="fill_parent" android:layout_height="122.0dip">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/bg_one_grid_50" android:paddingLeft="100.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="10.0dip">
+                <TextView android:textStyle="bold" android:layout_marginBottom="8.0dip" android:text="@string/tribe_enable_estate" style="@style/textView12spStyle" />
+                <TextView android:textColor="@color/text_hint_content_color" android:id="@id/tvTribeEstate" style="@style/tv12spStyle" />
+            </LinearLayout>
+            <include layout="@layout/layout_tribe_head_icon" />
+            <ImageView android:id="@id/ivTribeEstateIntroduction" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="12.0dip" android:src="@drawable/what_tribe_contribution_selector" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:background="@drawable/bg_mini_game_start" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_alignParentBottom="true">
+        <Button android:textSize="@dimen/textSize14Sp" android:textColor="@color/text_button_color" android:id="@id/btContributing" android:background="@drawable/btn_light_button_selector" android:layout_width="150.0dip" android:layout_height="35.0dip" android:text="@string/tribe_contribute_want" android:textAllCaps="false" />
+    </LinearLayout>
+</RelativeLayout>

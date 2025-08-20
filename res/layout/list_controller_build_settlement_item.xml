@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/white" android:id="@id/tvRanking" android:text="" style="@style/float_build_settlement_text_view_style" />
+    <TextView android:textColor="@color/white" android:id="@id/tvName" android:text="" android:layout_weight="2.0" style="@style/float_build_settlement_text_view_style" />
+    <TextView android:textColor="@color/white" android:id="@id/tvScore" android:text="" style="@style/float_build_settlement_text_view_style" />
+    <TextView android:textColor="@color/white" android:id="@id/tvExp" android:text="" style="@style/float_build_settlement_text_view_style" />
+    <TextView android:textColor="@color/white" android:id="@id/tvGold" android:text="" style="@style/float_build_settlement_text_view_style" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/llTopView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0" />
+    <LinearLayout style="@style/dialogSizeStyle">
+        <LinearLayout android:orientation="vertical" style="@style/dialogMsgStyle">
+            <RelativeLayout android:layout_gravity="center_horizontal" android:background="@drawable/bg_task_title" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginBottom="8.0dip">
+                <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/congratulation" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <TextView android:textStyle="bold" android:textColor="@color/title_col" android:gravity="center_horizontal" android:id="@id/tvMailMsgAwardContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="25.0dip" android:layout_marginBottom="10.0dip" android:text="Diamond*1000, Gold*1000" android:lineSpacingExtra="5.0dip" />
+            <TextView android:textSize="@dimen/textSize14Sp" android:textColor="#ff8d7c60" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/chest_reward_hint" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dialogBtnHeight35dp">
+            <ImageView android:id="@id/btnSure" android:src="@drawable/btn_new_sure_selector" style="@style/dialogBtnStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0" />
+</LinearLayout>

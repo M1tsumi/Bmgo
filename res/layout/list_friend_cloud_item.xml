@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/list_item_selector" android:paddingLeft="@dimen/pdSize" android:paddingTop="@dimen/tpSize" android:paddingRight="@dimen/pdSize" android:paddingBottom="@dimen/tpSize" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0dip">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivIcon" android:src="@drawable/head_df" app:type="circle" style="@style/iconStyle" />
+                <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivIconBg" app:type="round" style="@style/iconBgStyle" />
+            </RelativeLayout>
+            <RelativeLayout android:visibility="gone" android:layout_width="35.0dip" android:layout_height="wrap_content" android:layout_marginLeft="-35.0dip" android:layout_marginTop="-20.0dip">
+                <ImageView android:id="@id/ivCrown" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/vip_crown" />
+                <ImageView android:id="@id/ivStar" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="2.0dip" android:src="@drawable/vip_special_effect_star" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_marginLeft="@dimen/marginSizeBig" android:layout_weight="1.0">
+                <ImageView android:id="@id/ivRock" android:visibility="visible" android:layout_width="@dimen/imageTextIcon16" android:layout_height="@dimen/imageTextIcon16" android:layout_marginRight="@dimen/marginSizeSmall" android:src="@drawable/rock" android:layout_centerVertical="true" />
+                <TextView android:id="@id/tvName" android:layout_marginRight="75.0dip" android:text="Autumn Maple's room" android:layout_toRightOf="@id/ivRock" android:layout_centerVertical="true" style="@style/userGameNameStyle" />
+                <ImageView android:id="@id/ivTag" android:visibility="visible" android:layout_width="34.0dip" android:layout_height="34.0dip" android:src="@drawable/icon_cloud" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+            <TextView android:textColor="@color/white" android:id="@id/tvId" android:background="@drawable/tv_user_id_bg" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:minWidth="65.0dip" android:text="ID:12378910" style="@style/userGameOtherInfoStyle" />
+            <ImageView android:id="@id/ivType" android:layout_width="12.0sp" android:layout_height="12.0sp" android:layout_marginRight="5.0dip" android:src="@drawable/type_survival_nor" />
+            <TextView android:id="@id/tvType" android:text="生存" style="@style/userGameOtherInfoStyle" />
+            <ImageView android:layout_width="12.0sp" android:layout_height="12.0sp" android:layout_marginRight="5.0dip" android:src="@drawable/num_icon" />
+            <TextView android:id="@id/tvNum" android:text="@string/cloudGuestNum" style="@style/userGameOtherInfoStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/infoLine" android:layout_width="fill_parent" android:layout_height="@dimen/lineHei" />
+</LinearLayout>

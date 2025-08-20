@@ -1,0 +1,132 @@
+[
+    {
+      "typeId": 83,
+      "name": "甘蔗",
+      "icon": "item_83"
+    },
+    {
+      "typeId": 86,
+      "name": "南瓜",
+      "icon": "item_86"
+    },
+    {
+      "typeId": 103,
+      "name": "西瓜",
+      "icon": "item_103"
+    },
+    {
+      "typeId": 92,
+      "name": "蛋糕",
+      "icon": "item_92"
+    },
+    {
+      "typeId": 141,
+      "name": "胡萝卜",
+      "icon": "item_141"
+    },
+    {
+      "typeId": 142,
+      "name": "马铃薯",
+      "icon": "item_142"
+    },
+    {
+      "typeId": 260,
+      "name": "苹果",
+      "icon": "item_260"
+    },
+    {
+      "typeId": 282,
+      "name": "蘑菇汤",
+      "icon": "item_282"
+    },
+    {
+      "typeId": 297,
+      "name": "面包",
+      "icon": "item_297"
+    },
+    {
+      "typeId": 319,
+      "name": "生猪排",
+      "icon": "item_319"
+    },
+    {
+      "typeId": 320,
+      "name": "熟猪排",
+      "icon": "item_320"
+    },
+    {
+      "typeId": 338,
+      "name": "甘蔗",
+      "icon": "item_338"
+    },
+    {
+      "typeId": 344,
+      "name": "蛋",
+      "icon": "item_344"
+    },
+    {
+      "typeId": 353,
+      "name": "糖",
+      "icon": "item_353"
+    },
+    {
+      "typeId": 354,
+      "name": "蛋糕",
+      "icon": "item_354"
+    },
+    {
+      "typeId": 360,
+      "name": "西瓜片",
+      "icon": "item_360"
+    },
+    {
+      "typeId": 363,
+      "name": "生牛肉",
+      "icon": "item_363"
+    },
+    {
+      "typeId": 364,
+      "name": "牛排",
+      "icon": "item_364"
+    },
+    {
+      "typeId": 365,
+      "name": "生鸡肉",
+      "icon": "item_365"
+    },
+    {
+      "typeId": 366,
+      "name": "熟鸡肉",
+      "icon": "item_366"
+    },
+    {
+      "typeId": 392,
+      "name": "土豆",
+      "icon": "item_392"
+    },
+    {
+      "typeId": 393,
+      "name": "烤土豆",
+      "icon": "item_393"
+    },
+    {
+      "typeId": 400,
+      "name": "南瓜派",
+      "icon": "item_400"
+    },
+    {
+      "typeId": 391,
+      "name": "胡萝卜",
+      "icon": "item_391"
+    },
+    {
+      "typeId": 457,
+      "name": "甜菜根",
+      "icon": "item_457"
+    },
+    {
+      "typeId": 459,
+      "name": "甜菜汤",
+      "icon": "item_459"
+    }
+  ]

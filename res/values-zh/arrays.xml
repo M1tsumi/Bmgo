@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="other_join_room_msg">
+        <item>进入游戏后人有可能会卡在虚空中，稍等一下即可正常游戏</item>
+        <item>登录后可以降低被踢概率，建议登录后游戏</item>
+        <item>房主的网络也会影响你的游戏延迟</item>
+        <item>创建房间成功要尽快进入游戏哦</item>
+        <item>游戏内游戏时间越长，获得的成长值越多</item>
+    </string-array>
+    <string-array name="ban_goods_names">
+        <item>喷溅型隐身药水</item>
+        <item>岩浆</item>
+        <item>水</item>
+        <item>打火石</item>
+        <item>隐身药水</item>
+        <item>蛋卵</item>
+        <item>发射器</item>
+        <item>船</item>
+    </string-array>
+    <string-array name="realms_type">
+        <item>饥饿游戏</item>
+    </string-array>
+</resources>

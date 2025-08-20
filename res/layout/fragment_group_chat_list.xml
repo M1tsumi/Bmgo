@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.sandboxol.refresh.view.RefreshLayout android:id="@id/refreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="54.0dip">
+            <android.support.v7.widget.RecyclerView android:id="@id/swipe_target" android:paddingTop="5.0dip" android:paddingBottom="15.0dip" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.sandboxol.refresh.view.RefreshLayout>
+        <com.sandboxol.refresh.view.PageLoadingView android:id="@id/plvLoading" android:layout_width="fill_parent" android:layout_height="fill_parent" app:refresh_button_text="@string/create_group_chat" />
+    </RelativeLayout>
+    <FrameLayout android:background="@drawable/bg_friend_button_bg" android:layout_width="fill_parent" android:layout_height="58.0dip" android:layout_marginLeft="-2.0dip" android:layout_marginRight="-2.0dip">
+        <Button android:id="@id/btnRecommend" android:layout_marginLeft="32.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="32.0dip" android:layout_marginBottom="9.0dip" android:text="@string/group_list_recommend" style="@style/newBigBtnStyle" />
+    </FrameLayout>
+</RelativeLayout>

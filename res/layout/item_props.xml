@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/bg_prop_item" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="10.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:ellipsize="middle" android:gravity="center" android:id="@id/tvPropsTitle" android:layout_width="fill_parent" android:layout_height="27.0dip" android:layout_marginTop="4.0dip" android:lines="1" />
+    <ImageView android:id="@id/ivPropsIcon" android:padding="10.0dip" android:layout_width="63.0dip" android:layout_height="64.0dip" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/text_main_content_color" android:id="@id/tvPropsDesc" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="12.0dip" android:maxLines="3" android:minLines="3" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/llPropsPrice" android:background="@drawable/bg_props_diamonds" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginTop="4.0dip">
+        <ImageView android:id="@id/ivPropsPayment" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_diamonds" />
+        <TextView android:textSize="10.0sp" android:textColor="@color/text_hint_content_color" android:gravity="center" android:id="@id/tvPropsPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" />
+    </LinearLayout>
+    <Button android:textSize="10.0sp" android:textColor="#ffae7c2d" android:gravity="center" android:id="@id/btnPropsBuy" android:background="@drawable/props_btn_selector" android:paddingBottom="2.0dip" android:layout_width="72.0dip" android:layout_height="24.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="14.0dip" android:text="@string/props_payment" android:lines="1" android:textAllCaps="false" />
+</LinearLayout>

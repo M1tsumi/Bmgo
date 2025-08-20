@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@style/AppTheme.Base">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:actionBarSize">@dimen/actionBarSize</item>
+        <item name="android:actionMenuTextColor">@color/text_color</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="elevation">0.0dip</item>
+        <item name="actionOverflowMenuStyle">@style/OverflowMenuStyle</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="navigationIcon">@drawable/back_selector</item>
+    </style>
+    <style name="DialogFullscreen" parent="@style/dialogStyle">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+    <style name="OverflowMenuStyle" parent="@style/Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="android:paddingRight">9.0dip</item>
+        <item name="android:maxWidth">100.0dip</item>
+        <item name="android:dropDownWidth">100.0dip</item>
+        <item name="android:dropDownHorizontalOffset">-9.0dip</item>
+        <item name="android:dropDownVerticalOffset">52.0dip</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverflowButtonStyle</item>
+        <item name="overlapAnchor">true</item>
+    </style>
+    <style name="dialogFullscreenNotTitle" parent="@style/Theme.AppCompat.DialogWhenLarge">
+        <item name="android:windowBackground">@color/dialog_shadow</item>
+        <item name="android:windowAnimationStyle">@style/actAnimation</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="dialogFullscreenStyle" parent="@style/Theme.AppCompat.DialogWhenLarge">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:actionBarSize">@dimen/actionBarSize</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="dialogMinWidth" parent="@style/dialogStyleMinWidth">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+    <style name="dialogStyle" parent="@style/Theme.AppCompat.DialogWhenLarge">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:windowBackground">@color/dialog_shadow</item>
+        <item name="android:windowAnimationStyle">@style/actAnimation</item>
+        <item name="android:actionBarSize">@dimen/actionBarSize</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="feedbackTheme" parent="@style/feedbackBaseTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+    <style name="guideStyle" parent="@style/dialogStyle">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:windowBackground">@color/dialog_shadow</item>
+        <item name="android:actionBarSize">@dimen/actionBarSize</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="mineCraftStyle" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+    <style name="selectDateStyle" parent="@android:style/Theme.Holo.Light.DialogWhenLarge">
+        <item name="android:windowBackground">@color/dialog_shadow</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+    <style name="startStyle" parent="@style/AppTheme">
+        <item name="android:windowBackground">@drawable/welcome</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+    <style name="DialogFullscreenLeft" parent="@style/dialogStyle">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+</resources>

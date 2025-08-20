@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:layout_width="300.0dip" style="@style/dialogSizeStyle">
+        <LinearLayout android:orientation="vertical" android:layout_marginBottom="@dimen/new_ui_margin" style="@style/dialogMsgStyle">
+            <TextView android:id="@id/tvTitle" android:visibility="visible" android:text="@string/partner_ring_box" style="@style/dialogTitleStyle" />
+            <View android:id="@id/vLine" android:background="@color/infoLine" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/lineHei" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="210.0dip">
+                <com.mcpeonline.multiplayer.view.MyGridView android:id="@id/gvRings" android:layout_width="wrap_content" android:layout_height="@dimen/gifts_height" android:layout_marginTop="9.0dip" android:numColumns="3" />
+                <com.sandboxol.refresh.view.PageLoadingView android:id="@id/plvLoading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" app:show_refresh_button="false" app:background_color="@color/transparent" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/btnSure" android:text="@string/partner_ring_equip" android:layout_weight="1.0" style="@style/newBigBtnStyle" />
+                <Button android:id="@id/btnCancel" android:text="@string/cancel" android:layout_weight="1.0" style="@style/newBigBtnStyle" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

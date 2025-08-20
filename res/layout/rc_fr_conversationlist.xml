@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rc_content" android:background="@color/allBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@color/text_hint_content_color" android:gravity="center_vertical" android:id="@id/rc_status_bar" android:paddingLeft="12.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="28.0dip" android:text="net error" android:drawableLeft="@drawable/rc_notification_network_available" android:drawablePadding="6.0dip" />
+    <com.mcpeonline.multiplayer.view.ConversationListView android:id="@id/rc_list" android:paddingBottom="13.0dip" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="-5.0dip" android:layout_below="@id/rc_status_bar" />
+</RelativeLayout>

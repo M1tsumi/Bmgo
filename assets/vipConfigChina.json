@@ -1,0 +1,27 @@
+{
+    "banner": [
+        {
+            "id": 1,
+            "introduction": "123",
+            "image": "http://static.sandboxol.com/sandbox/vipConfig/banner/banner_new_vip_zh.png"
+        }
+    ],
+    "simpleVipPrice": {
+        "1": {
+            "monthPrice": "￥6",
+            "yearPrice": "￥60"
+        },
+        "2": {
+            "monthPrice": "￥30",
+            "yearPrice": "￥300"
+        },
+        "3": {
+            "monthPrice": "￥100",
+            "yearPrice": "￥1000"
+        },
+        "4": {
+            "monthPrice": "￥300",
+            "yearPrice": "￥3000"
+        }
+    }
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/allBackgroundColor" android:paddingLeft="@dimen/space_8dp" android:paddingTop="4.0dip" android:paddingRight="@dimen/space_8dp" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/rc_time" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="23.0dip" android:layout_marginTop="12.0dip" style="@style/RCTheme.Notification" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/rl_left">
+            <io.rong.imkit.widget.AsyncImageView android:id="@id/rc_left" android:background="@android:color/transparent" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:layout_alignParentLeft="true" app:RCCornerRadius="0.0dip" app:RCShape="square" app:RCDefDrawable="@drawable/rc_default_portrait" />
+            <ImageView android:id="@id/rc_left_bg" android:background="@drawable/bg_circle_desc" android:layout_width="48.0dip" android:layout_height="50.0dip" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_left" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/iv_left_manager" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="2.0dip" android:layout_marginBottom="-5.0dip" android:src="@drawable/ic_manager_top" />
+            <ImageView android:id="@id/iv_left_vip" android:visibility="visible" android:layout_width="48.0dip" android:layout_height="20.0dip" android:layout_marginBottom="-5.0dip" android:src="@drawable/vip_mvp_up_crown" />
+        </RelativeLayout>
+        <ImageView android:id="@id/iv_left_manager_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="35.0dip" android:layout_marginTop="49.0dip" android:src="@drawable/ic_manager_icon" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/rl_right" android:layout_alignParentRight="true">
+            <io.rong.imkit.widget.AsyncImageView android:id="@id/rc_right" android:background="@android:color/transparent" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" app:RCCornerRadius="0.0dip" app:RCShape="square" app:RCDefDrawable="@drawable/rc_default_portrait" />
+            <ImageView android:id="@id/rc_right_bg" android:background="@drawable/bg_circle_desc" android:layout_width="48.0dip" android:layout_height="50.0dip" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_right" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/iv_right_manager" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="-5.0dip" android:src="@drawable/ic_manager_top" android:layout_alignParentRight="true" />
+            <ImageView android:id="@id/iv_right_vip" android:visibility="visible" android:layout_width="48.0dip" android:layout_height="20.0dip" android:layout_marginBottom="-5.0dip" android:src="@drawable/vip_vip_crown" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/iv_right_manager_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="49.0dip" android:src="@drawable/ic_manager_icon" android:layout_alignParentRight="true" />
+        <View android:id="@id/v_block" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="16.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="48.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="48.0dip" android:layout_below="@id/v_block">
+            <TextView android:gravity="center_vertical" android:id="@id/rc_title" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/RCTheme.Message.Username.TextView" />
+            <FrameLayout android:id="@id/fl_message_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip">
+                <LinearLayout android:orientation="horizontal" android:id="@id/rc_layout" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/rc_notification_bg" android:layout_gravity="center_vertical" android:id="@id/rc_sent_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="已发" />
+                    <ProgressBar android:layout_gravity="center_vertical" android:id="@id/rc_progress" android:layout_width="13.0dip" android:layout_height="13.0dip" android:layout_marginRight="11.0dip" android:indeterminateDrawable="@drawable/rc_progress_sending_style" style="?android:attr/progressBarStyle" />
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/rc_warning" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:src="@drawable/rc_ic_warning" />
+                    <ImageView android:layout_gravity="bottom" android:id="@id/rc_read_receipt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:src="@drawable/rc_read_receipt" />
+                    <io.rong.imkit.widget.ProviderContainerView android:layout_gravity="center" android:id="@id/rc_content" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

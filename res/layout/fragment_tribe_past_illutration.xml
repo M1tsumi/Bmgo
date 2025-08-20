@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:padding="@dimen/new_ui_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_one_grid_50" android:paddingLeft="18.0dip" android:paddingTop="20.0dip" android:paddingRight="18.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="7.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip">
+            <TextView android:text="@string/tribe_past_illustration" style="@style/tribe_estate_introduction_question_text_style" />
+            <TextView android:text="@string/tribe_past_illustration_hint" style="@style/tribe_estate_introduction_answer_text_style" />
+        </LinearLayout>
+        <View android:background="@color/line_bg" android:layout_width="fill_parent" android:layout_height="@dimen/lineH" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="14.0dip">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bg_fragment_territory_cost_description_title" android:paddingLeft="@dimen/new_ui_margin" android:paddingRight="@dimen/new_ui_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="22.0dip" android:layout_marginBottom="4.0dip">
+                <TextView android:layout_marginRight="@dimen/new_ui_margin" android:text="@string/tribe_contribution_value" style="@style/tribe_level_item_title_text" />
+                <TextView android:text="@string/tribe_growth" style="@style/tribe_level_item_title_text" />
+            </LinearLayout>
+            <LinearLayout style="@style/tribe_level_item_layout">
+                <TextView android:text="@string/contribution_level_1" style="@style/tribe_level_item_content_text" />
+                <TextView android:text="5" style="@style/tribe_level_item_content_text" />
+            </LinearLayout>
+            <LinearLayout style="@style/tribe_level_item_layout">
+                <TextView android:text="@string/contribution_level_2" style="@style/tribe_level_item_content_text" />
+                <TextView android:text="10" style="@style/tribe_level_item_content_text" />
+            </LinearLayout>
+            <LinearLayout style="@style/tribe_level_item_layout">
+                <TextView android:text="@string/contribution_level_3" style="@style/tribe_level_item_content_text" />
+                <TextView android:text="15" style="@style/tribe_level_item_content_text" />
+            </LinearLayout>
+            <LinearLayout style="@style/tribe_level_item_layout">
+                <TextView android:text="@string/contribution_level_4" style="@style/tribe_level_item_content_text" />
+                <TextView android:text="25" style="@style/tribe_level_item_content_text" />
+            </LinearLayout>
+            <LinearLayout style="@style/tribe_level_item_layout">
+                <TextView android:text="@string/contribution_level_5" style="@style/tribe_level_item_content_text" />
+                <TextView android:text="35" style="@style/tribe_level_item_content_text" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="sequentially"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:duration="75" android:pivotX="200.0" android:pivotY="250.0" android:valueFrom="-5" android:valueTo="5" android:valueType="floatType" android:propertyName="rotation" />
+    <objectAnimator android:duration="75" android:pivotX="200.0" android:pivotY="250.0" android:valueFrom="5" android:valueTo="-5" android:valueType="floatType" android:propertyName="rotation" />
+</set>

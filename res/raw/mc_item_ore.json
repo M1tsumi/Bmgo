@@ -1,0 +1,123 @@
+[
+	{
+      "typeId": 14,
+      "name": "金矿石",
+      "icon": "item_14"
+    },
+	{
+      "typeId": 15,
+      "name": "铜矿石",
+      "icon": "item_15"
+    },
+	{
+      "typeId": 16,
+      "name": "煤矿石",
+      "icon": "item_16"
+    },
+	{
+      "typeId": 21,
+      "name": "青金矿石",
+      "icon": "item_21"
+    },
+	{
+      "typeId": 56,
+      "name": "钻石矿石",
+      "icon": "item_56"
+    },
+	{
+      "typeId": 73,
+      "name": "红石矿石",
+      "icon": "item_73"
+    },
+	{
+      "typeId": 74,
+      "name": "发光的红石矿石",
+      "icon": "item_74"
+    },
+	{
+      "typeId": 82,
+      "name": "粘土块",
+      "icon": "item_82"
+    },
+	{
+      "typeId": 89,
+      "name": "萤石",
+      "icon": "item_89"
+    },
+	{
+      "typeId": 129,
+      "name": "绿宝矿",
+      "icon": "item_129"
+    },
+	{
+      "typeId": 133,
+      "name": "绿宝石块",
+      "icon": "item_133"
+    },
+	{
+      "typeId": 246,
+      "name": "发光的黑曜石",
+      "icon": "item_246"
+    },
+	{
+      "typeId": 247,
+      "name": "下界反应核",
+      "icon": "item_14"
+    },
+	{
+      "typeId": 173,
+      "name": "煤炭块",
+      "icon": "item_173"
+    },
+	{
+      "typeId": 263,
+      "name": "煤炭",
+      "icon": "item_263"
+    },
+	{
+      "typeId": 263,
+      "name": "木炭",
+      "icon": "item_263"
+    },
+	{
+      "typeId": 264,
+      "name": "钻石",
+      "icon": "item_264"
+    },
+	{
+      "typeId": 265,
+      "name": "铁锭",
+      "icon": "item_265"
+    },
+	{
+      "typeId": 266,
+      "name": "金锭",
+      "icon": "item_266"
+    },
+	{
+      "typeId": 318,
+      "name": "燧石",
+      "icon": "item_318"
+    },
+	{
+      "typeId": 331,
+      "name": "红石",
+      "icon": "item_331"
+    },
+	{
+      "typeId": 405,
+      "name": "地狱砖",
+      "icon": "item_405"
+    },
+	{
+      "typeId": 406,
+      "name": "地狱石英",
+      "icon": "item_406"
+    },
+	{
+      "typeId": 351,
+	  "subId": 15,
+      "name": "骨粉",
+      "icon": "item_351_15"
+    }
+  ]

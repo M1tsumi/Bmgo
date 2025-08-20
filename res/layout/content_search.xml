@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/allBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/flHistoryContainer" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/llTop" />
+    <LinearLayout android:orientation="vertical" android:id="@id/llTop" android:background="@drawable/bg_tribe_contribution_ranking_title" android:paddingTop="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <include layout="@layout/list_item_friend_with_button" />
+        <include layout="@layout/list_item_friend_with_join_button" />
+        <TextView android:textColor="@color/text_main_content_color" android:gravity="center_vertical" android:paddingLeft="28.0dip" android:layout_width="fill_parent" android:layout_height="32.0dip" android:text="@string/historyGame" />
+    </LinearLayout>
+    <View android:background="@drawable/bg_home_top_bar" android:layout_width="fill_parent" android:layout_height="17.0dip" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</RelativeLayout>

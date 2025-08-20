@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:paddingBottom="12.0dip" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <TextView android:textStyle="bold" android:textColor="@color/text_main_content_color" android:gravity="center" android:background="@drawable/bg_tribe_level" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/new_ui_margin" android:layout_marginTop="@dimen/space_8dp" android:layout_marginRight="@dimen/new_ui_margin" android:layout_marginBottom="@dimen/space_8dp" android:text="@string/honor_wall_week_title" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.mcpeonline.multiplayer.view.MyGridView android:id="@id/gvLastWeekHonor" android:paddingLeft="15.0dip" android:paddingTop="8.0dip" android:paddingRight="15.0dip" android:paddingBottom="15.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:columnWidth="10.0dip" android:numColumns="4" />
+                <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/text_main_content_color" android:gravity="center" android:id="@id/tvMsg" android:background="@drawable/bg_tribe_label_item" android:visibility="visible" android:layout_width="120.0dip" android:layout_height="28.0dip" android:layout_marginTop="28.0dip" android:layout_marginBottom="28.0dip" android:text="@string/not_get_honor" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <TextView android:textStyle="bold" android:textColor="@color/text_main_content_color" android:gravity="center" android:background="@drawable/bg_tribe_level" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/new_ui_margin" android:layout_marginTop="@dimen/space_8dp" android:layout_marginRight="@dimen/new_ui_margin" android:text="@string/honor_wall_cumulative_title" />
+            <com.mcpeonline.multiplayer.view.MyListView android:id="@id/lvCumulativeHonor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-5.5dip" android:listSelector="@android:color/transparent" android:dividerHeight="-5.5dip" />
+            <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/text_main_content_color" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tvNotGetHonor" android:background="@drawable/bg_tribe_label_item" android:visibility="visible" android:layout_width="120.0dip" android:layout_height="28.0dip" android:layout_marginTop="28.0dip" android:layout_marginBottom="28.0dip" android:text="@string/not_get_honor" />
+        </LinearLayout>
+    </ScrollView>
+    <com.sandboxol.refresh.view.PageLoadingView android:id="@id/plvLoading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

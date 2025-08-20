@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="10.0dip" />
+            <gradient android:startColor="@color/meInfoProgressbarColorBg" android:endColor="@color/meInfoProgressbarColorBg" android:angle="270.0" android:centerY="2.0" android:centerColor="@color/meInfoProgressbarColorBg" />
+            <stroke android:width="0.5dip" android:color="@color/meFragmentItemBgSideColorNor" android:dashWidth="0.0dip" android:dashGap="0.0dip" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="10.0dip" />
+                <gradient android:startColor="@color/progress_stamina_color" android:endColor="@color/progress_stamina_color" android:angle="270.0" android:centerY="2.0" android:centerColor="@color/progress_stamina_color" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

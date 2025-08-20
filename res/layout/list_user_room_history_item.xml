@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/llJoinGame" android:background="@drawable/list_item_selector" android:paddingLeft="@dimen/pdSize" android:paddingTop="@dimen/tpSize" android:paddingRight="@dimen/pdSize" android:paddingBottom="@dimen/tpSize" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0dip">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivIcon" android:src="@drawable/head_df" app:type="circle" style="@style/iconStyle" />
+                <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivIconBg" app:type="round" style="@style/iconBgStyle" />
+            </RelativeLayout>
+            <RelativeLayout android:visibility="gone" android:layout_width="35.0dip" android:layout_height="wrap_content" android:layout_marginLeft="-35.0dip" android:layout_marginTop="-20.0dip">
+                <ImageView android:id="@id/ivCrown" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/vip_crown" />
+                <ImageView android:id="@id/ivStar" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="2.0dip" android:src="@drawable/vip_special_effect_star" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_marginLeft="@dimen/marginSizeBig" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageView android:id="@id/ivRock" android:visibility="visible" android:layout_width="@dimen/imageTextIcon16" android:layout_height="@dimen/imageTextIcon16" android:layout_marginRight="@dimen/marginSizeSmall" android:src="@drawable/rock" />
+                        <TextView android:id="@id/tvName" android:text="Autumn Maple's room" android:layout_weight="1.0" style="@style/userGameNameStyle" />
+                        <ImageView android:layout_gravity="center" android:id="@id/ivVip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="40.0dip" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip">
+                        <ImageView android:id="@id/ivNetType" android:layout_width="@dimen/imageTextIcon12" android:layout_height="@dimen/imageTextIcon12" android:layout_marginRight="@dimen/meFragmentItemMLe" android:src="@drawable/net_wifi" />
+                        <TextView android:id="@id/tvNetType" android:layout_marginRight="@dimen/meFragmentItemMLe" android:text="4G" style="@style/userGameOtherStyle" />
+                        <TextView android:gravity="center_vertical" android:id="@id/tvPing" android:text="延迟:123" style="@style/userGameOtherStyle" />
+                    </LinearLayout>
+                </LinearLayout>
+                <Button android:id="@id/btnOther" android:visibility="visible" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/historyListItemBtnStyle" />
+                <ImageView android:id="@id/ivTag" android:visibility="gone" android:layout_width="34.0dip" android:layout_height="34.0dip" android:src="@drawable/btn_friend_online_info_selector" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <RelativeLayout android:gravity="center_vertical" android:id="@id/rlGamePB" android:visibility="gone" android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                    <com.mcpeonline.multiplayer.view.RoundProgressBar android:id="@id/pbProgress" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:roundColor="#ffeeeeee" app:roundProgressColor="@color/mainColor" app:roundWidth="2.0dip" app:textColor="#ff5e5e5e" app:max="6" app:textIsDisplayable="false" app:style="STROKE" />
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/mainColor" android:id="@id/tvServerOnlinePlayer" android:text="4" style="@style/userGameOtherStyle" />
+                        <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/mainColor" android:text="/" style="@style/userGameOtherStyle" />
+                        <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/mainColor" android:id="@id/tvServerMaxPlayer" android:text="6" style="@style/userGameOtherStyle" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <TextView android:id="@id/tvSplitLine" android:background="@color/infoLine" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llRoomInfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+            <TextView android:textColor="@color/white" android:id="@id/tvId" android:background="@drawable/tv_user_id_bg" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:minWidth="65.0dip" android:text="ID:12345678910" style="@style/userGameOtherInfoStyle" />
+            <ImageView android:id="@id/ivGameType" android:layout_width="12.0sp" android:layout_height="12.0sp" android:layout_marginRight="5.0dip" android:src="@drawable/type_survival_nor" />
+            <TextView android:id="@id/tvGameMode" android:text="生存" style="@style/userGameOtherInfoStyle" />
+            <ImageView android:layout_width="12.0sp" android:layout_height="12.0sp" android:layout_marginRight="5.0dip" android:src="@drawable/version_nor" />
+            <TextView android:id="@id/tvVersion" android:text="v 0.12.3" style="@style/userGameOtherInfoStyle" />
+            <ImageView android:layout_width="12.0sp" android:layout_height="12.0sp" android:layout_marginRight="5.0dip" android:src="@drawable/map" />
+            <TextView android:id="@id/tvMapSize" android:text="12.5 M" style="@style/userGameOtherInfoStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/infoLine" android:layout_width="fill_parent" android:layout_height="@dimen/lineHei" android:layout_alignParentBottom="true" />
+</RelativeLayout>

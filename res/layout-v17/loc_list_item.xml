@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@drawable/shape_item_nor" android:layout_width="fill_parent" android:layout_height="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/tvLocation" android:paddingLeft="10.0dip" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="center" />
+    <ImageView android:id="@id/ivSignal" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_centerInParent="true" />
+    <TextView android:id="@id/tvPing" android:paddingLeft="5.0dip" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="N/A" android:layout_toRightOf="@id/ivSignal" android:textAlignment="center" android:layout_toEndOf="@id/ivSignal" />
+    <ImageView android:id="@id/ivCheck" android:background="@drawable/loc_checked" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/bg_report" android:padding="20.0dip" android:layout_width="305.0dip" android:layout_height="154.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tvMsg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/float_kick_msg" android:layout_weight="1.0" android:lineSpacingExtra="8.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <Button android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/btnLater" android:background="@drawable/btn_click_selector" android:layout_width="@dimen/btnWidthLongSize" android:layout_height="@dimen/btnHeightSize" android:layout_marginRight="45.0dip" android:text="@string/lastTalk" />
+        <Button android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/btnCheckIt" android:background="@drawable/btn_click_selector" android:layout_width="@dimen/btnWidthLongSize" android:layout_height="@dimen/btnHeightSize" android:layout_marginLeft="5.0dip" android:text="@string/goToSee" />
+    </LinearLayout>
+</LinearLayout>

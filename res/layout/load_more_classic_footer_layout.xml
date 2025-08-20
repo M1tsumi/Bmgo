@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mcpeonline.multiplayer.view.ClassicLoadMoreFooterView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/lineView" android:background="@color/infoLine" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/load_more_footer_height_classic">
+        <ProgressBar android:id="@id/progressbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_toLeftOf="@id/tvLoadMore" android:layout_centerVertical="true" style="?android:attr/progressBarStyleSmallInverse" />
+        <ImageView android:id="@id/ivSuccess" android:background="@mipmap/load_more_done" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_toLeftOf="@id/tvLoadMore" android:layout_centerVertical="true" />
+        <TextView android:textColor="@color/mainColor" android:gravity="center" android:id="@id/tvLoadMore" android:layout_width="150.0dip" android:layout_height="wrap_content" android:text="LoadMore" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</com.mcpeonline.multiplayer.view.ClassicLoadMoreFooterView>

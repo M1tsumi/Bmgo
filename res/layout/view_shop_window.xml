@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="right" android:layout_width="50.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="#fffae7ca" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <View android:background="@color/line_bg" android:layout_width="fill_parent" android:layout_height="@dimen/lineHei" />
+        <RadioGroup android:orientation="vertical" android:id="@id/rgType" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@id/ivAll" android:background="@drawable/ic_shop_all" android:layout_width="50.0dip" android:layout_height="50.0dip" android:button="@null" />
+            <View android:background="@color/line_bg" android:layout_width="fill_parent" android:layout_height="@dimen/lineHei" />
+            <RadioButton android:id="@id/ivGold" android:background="@drawable/ic_shop_gold" android:layout_width="50.0dip" android:layout_height="50.0dip" android:button="@null" />
+            <View android:background="@color/line_bg" android:layout_width="fill_parent" android:layout_height="@dimen/lineHei" />
+            <RadioButton android:id="@id/ivDiamond" android:background="@drawable/ic_shop_diamond" android:layout_width="50.0dip" android:layout_height="50.0dip" android:button="@null" />
+            <View android:background="@color/line_bg" android:layout_width="fill_parent" android:layout_height="@dimen/lineHei" />
+        </RadioGroup>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/btn_item_selector" android:padding="@dimen/meFragmentBgSize" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0dip">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivIcon" android:src="@drawable/head_df" app:borderRadius="5.0dip" app:type="round" style="@style/iconStyle" />
+                <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivIconBg" app:borderRadius="5.0dip" app:type="round" style="@style/iconBgStyle" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_marginLeft="8.0dip" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/ivRock" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="@dimen/meFragmentItemMLe" android:src="@drawable/rock" />
+                        <TextView android:id="@id/tvName" android:text="Autumn Maple's room" style="@style/userRoomNameStyle" />
+                    </LinearLayout>
+                    <View android:layout_width="fill_parent" android:layout_height="8.0dip" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/ivNetType" android:layout_width="14.0dip" android:layout_height="12.0dip" android:layout_marginRight="@dimen/meFragmentItemMLe" android:src="@drawable/net_wifi" />
+                        <TextView android:id="@id/tvNetType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/meFragmentItemMLe" android:text="" style="@style/userRoomOtherStyle" />
+                        <TextView android:gravity="center_vertical" android:id="@id/tvPing" android:text="" style="@style/userRoomOtherStyle" />
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView android:id="@id/tvSplitLine" android:background="@color/infoLine" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llRoomInfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+            <TextView android:textColor="@color/text_color_green_select" android:id="@id/tvId" android:text="[]" style="@style/userRoomOtherInfoStyle" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/ivGameType" android:layout_width="12.0sp" android:layout_height="12.0sp" android:layout_marginRight="5.0dip" android:src="@drawable/type_survival_nor" />
+                <TextView android:id="@id/tvGameMode" android:text="" style="@style/userRoomOtherInfoStyle" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:layout_width="12.0sp" android:layout_height="12.0sp" android:layout_marginRight="5.0dip" android:src="@drawable/version_nor" />
+                <TextView android:id="@id/tvVersion" android:text="" style="@style/userRoomOtherInfoStyle" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:layout_width="12.0sp" android:layout_height="12.0sp" android:layout_marginRight="5.0dip" android:src="@drawable/map" />
+                <TextView android:id="@id/tvMapSize" android:text=" M" style="@style/userRoomOtherInfoStyle" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

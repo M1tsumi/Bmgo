@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/allBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_bottom_size" android:layout_marginBottom="4.0dip" />
+    <CheckBox android:textSize="@dimen/textSize14Sp" android:textColor="@color/text_hint_content_color" android:id="@id/cbIvCache" android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" android:button="@null" android:text="@string/clear_the_cache_for_iv" android:drawableRight="@drawable/cb_clear_cache_selector" style="@style/meFragmentItem" />
+    <CheckBox android:textSize="@dimen/textSize14Sp" android:textColor="@color/text_hint_content_color" android:id="@id/cbOtherCache" android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" android:button="@null" android:text="@string/clear_the_cache_for_other" android:drawableRight="@drawable/cb_clear_cache_selector" style="@style/meFragmentItem" />
+    <LinearLayout android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" android:visibility="visible" android:clickable="false" android:button="@null" android:drawableRight="@drawable/cb_clear_cache_selector" style="@style/meFragmentItem">
+        <TextView android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/tvAutoCleanCacheSize" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/auto_clean_cache_size" android:scrollHorizontally="true" android:singleLine="true" android:layout_weight="1.0" android:marqueeRepeatLimit="marquee_forever" style="@style/itemFirstLayerStyle" />
+        <CheckBox android:textSize="14.0sp" android:textColor="@color/textMainColor" android:gravity="center_vertical" android:id="@id/cbOpenCleanCache" android:background="@drawable/ic_can_add_friend" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" />
+    </LinearLayout>
+    <Button android:id="@id/btnSure" android:text="@string/sure_clear" style="@style/newBigBtnStyle" />
+</LinearLayout>

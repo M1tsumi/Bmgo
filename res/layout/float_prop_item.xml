@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/float_realms_props_item_border" android:layout_width="fill_parent" android:layout_height="65.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rlPropBg" android:background="@color/float_prop_normal_bg" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_margin="0.5dip">
+        <ImageView android:id="@id/ivRealmsPropImage" android:layout_width="fill_parent" android:layout_height="58.0dip" android:layout_margin="2.0dip" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/textSize16Sp" android:textColor="@color/btnRefusalNor" android:id="@id/tvRealmsPropNum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.5dip" android:text="3" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_bottom_size" android:layout_marginBottom="4.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/llAccountSetting" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/rlChangePassword" android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" android:visibility="visible" style="@style/meFragmentItem">
+            <TextView android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/changePassword" style="@style/itemFirstLayerStyle" />
+            <ImageView android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/arrowStyle" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rlAssociateEmail" android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" android:visibility="visible" style="@style/meFragmentItem">
+            <TextView android:id="@id/tvEmailTips" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/associateEmail" style="@style/itemFirstLayerStyle" />
+            <TextView android:textColor="@color/contextTextColorPre" android:gravity="right|center" android:id="@id/tvEmailAddress" android:layout_width="wrap_content" android:layout_marginRight="12.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/itemFirstLayerStyle" />
+            <ImageView android:id="@id/ivEmail" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/arrowStyle" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rlMobilePhone" android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" android:visibility="gone" style="@style/meFragmentItem">
+            <TextView android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/mobilePhone" style="@style/itemFirstLayerStyle" />
+            <ImageView android:id="@id/ivPhone" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/arrowStyle" />
+            <TextView android:textColor="@color/textViceColor" android:gravity="right|center" android:id="@id/tvPhoneNumber" android:visibility="gone" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/meFragmentItemText" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/llGameSetting" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ivHead">
+        <RelativeLayout android:id="@id/rlSwitchVersion" android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" style="@style/meFragmentItem">
+            <TextView android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/switchVersion" style="@style/itemFirstLayerStyle" />
+            <ImageView android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/arrowStyle" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rlSwitchLoc" android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" style="@style/meFragmentItem">
+            <TextView android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/gameSwitchLoc" style="@style/itemFirstLayerStyle" />
+            <TextView android:textColor="@color/textViceColor" android:id="@id/tvLocalName" android:layout_marginRight="18.0dip" android:text="华南" android:layout_alignRight="@id/ivGameSettingImg" style="@style/meFragmentTipItemText" />
+            <ImageView android:id="@id/ivGameSettingImg" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/arrowStyle" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/llPlatformSetting" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ivHead">
+        <RelativeLayout android:id="@id/rlNotifierPlus" android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" android:visibility="gone" style="@style/meFragmentItem">
+            <TextView android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/notifierPlus" style="@style/itemFirstLayerStyle" />
+            <ImageView android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/arrowStyle" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rlVersionUpdate" android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" style="@style/meFragmentItem">
+            <TextView android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/versionUpdate" style="@style/itemFirstLayerStyle" />
+            <ImageView android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/arrowStyle" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rlCommonProblems" android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" style="@style/meFragmentItem">
+            <TextView android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/commonProblems" style="@style/itemFirstLayerStyle" />
+            <ImageView android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/arrowStyle" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rlAboutMe" android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" style="@style/meFragmentItem">
+            <TextView android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/aboutMe" style="@style/itemFirstLayerStyle" />
+            <ImageView android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/arrowStyle" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rlFeedback" android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" style="@style/meFragmentItem">
+            <TextView android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/feedback" style="@style/itemFirstLayerStyle" />
+            <ImageView android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/arrowStyle" />
+        </RelativeLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/text_main_content_color" android:gravity="center" android:id="@id/tvMessage" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/new_ui_margin" android:text="@string/me_setting_problem_message" />
+</LinearLayout>

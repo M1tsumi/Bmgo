@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_new_dialog" android:padding="@dimen/new_ui_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_one_grid_50" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="96.0dip">
+            <RelativeLayout android:id="@id/rlPrivilege1" android:layout_marginRight="4.0dip" style="@style/vipPrivilegeItemStyle">
+                <ImageView android:src="@drawable/ic_vip_privilege_vip_logo" style="@style/vipPrivilegeItemImageStyle" />
+                <TextView android:text="@string/vip_privilege_vip_logo" style="@style/vipPrivilegeItemTextStyle" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rlPrivilege2" style="@style/vipPrivilegeItemStyle">
+                <ImageView android:src="@drawable/ic_vip_privilege_no_ad" style="@style/vipPrivilegeItemImageStyle" />
+                <TextView android:text="@string/vip_privilege_no_ad" style="@style/vipPrivilegeItemTextStyle" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="96.0dip">
+            <RelativeLayout android:id="@id/rlPrivilege3" android:layout_marginRight="4.0dip" style="@style/vipPrivilegeItemStyle">
+                <ImageView android:src="@drawable/ic_vip_privilege_anti_kick" style="@style/vipPrivilegeItemImageStyle" />
+                <TextView android:text="@string/vip_privilege_anti_kick" style="@style/vipPrivilegeItemTextStyle" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rlPrivilege4" style="@style/vipPrivilegeItemStyle">
+                <ImageView android:src="@drawable/ic_vip_privilege_group_member" style="@style/vipPrivilegeItemImageStyle" />
+                <TextView android:text="@string/vip_privilege_group_member" style="@style/vipPrivilegeItemTextStyle" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="96.0dip">
+            <RelativeLayout android:id="@id/rlPrivilege5" android:layout_marginRight="4.0dip" style="@style/vipPrivilegeItemStyle">
+                <ImageView android:src="@drawable/ic_vip_privilege_growth_value" style="@style/vipPrivilegeItemImageStyle" />
+                <TextView android:text="@string/vip_privilege_growth_value" style="@style/vipPrivilegeItemTextStyle" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rlPrivilege6" style="@style/vipPrivilegeItemStyle">
+                <ImageView android:src="@drawable/ic_vip_privilege_special_effects" style="@style/vipPrivilegeItemImageStyle" />
+                <TextView android:text="@string/vip_privilege_special_effects" style="@style/vipPrivilegeItemTextStyle" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="96.0dip">
+            <RelativeLayout android:layout_marginRight="4.0dip" style="@style/vipPrivilegeItemStyle">
+                <ImageView android:src="@drawable/ic_vip_privilege_room_top" style="@style/vipPrivilegeItemImageStyle" />
+                <TextView android:text="@string/vip_privilege_room_top" style="@style/vipPrivilegeItemTextStyle" />
+            </RelativeLayout>
+            <RelativeLayout style="@style/vipPrivilegeItemStyle">
+                <ImageView android:src="@drawable/ic_vip_privilege_vip_expression" style="@style/vipPrivilegeItemImageStyle" />
+                <TextView android:text="@string/vip_privilege_vip_expression" style="@style/vipPrivilegeItemTextStyle" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="96.0dip">
+            <RelativeLayout android:layout_marginRight="4.0dip" style="@style/vipPrivilegeItemStyle">
+                <ImageView android:src="@drawable/ic_vip_privilege_vip_personal_skin" style="@style/vipPrivilegeItemImageStyle" />
+                <TextView android:text="@string/vip_privilege_vip_personal_skin" style="@style/vipPrivilegeItemTextStyle" />
+            </RelativeLayout>
+            <RelativeLayout style="@style/vipPrivilegeItemStyle">
+                <ImageView android:src="@drawable/ic_vip_privilege_mini_game_occupation" style="@style/vipPrivilegeItemImageStyle" />
+                <TextView android:text="@string/vip_privilege_mini_game_occupation" style="@style/vipPrivilegeItemTextStyle" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="96.0dip">
+            <RelativeLayout android:id="@id/rlPrivilege7" android:layout_marginRight="4.0dip" style="@style/vipPrivilegeItemStyle">
+                <ImageView android:src="@drawable/ic_vip_privilege_survival_create_change" style="@style/vipPrivilegeItemImageStyle" />
+                <TextView android:text="@string/vip_privilege_survival_create_change" style="@style/vipPrivilegeItemTextStyle" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rlPrivilege8" style="@style/vipPrivilegeItemStyle">
+                <ImageView android:src="@drawable/ic_vip_privilege_buy_super_player_discount" style="@style/vipPrivilegeItemImageStyle" />
+                <TextView android:text="@string/vip_privilege_buy_super_player_discount" style="@style/vipPrivilegeItemTextStyle" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="96.0dip">
+            <RelativeLayout android:id="@id/rlPrivilege9" android:layout_marginRight="4.0dip" style="@style/vipPrivilegeItemStyle">
+                <ImageView android:src="@drawable/ic_vip_privilege_tribe_mark" style="@style/vipPrivilegeItemImageStyle" />
+                <TextView android:text="@string/vip_privilege_tribe_mark" style="@style/vipPrivilegeItemTextStyle" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rlPrivilege10" style="@style/vipPrivilegeItemStyle">
+                <ImageView android:src="@drawable/ic_vip_privilege_enchanting" style="@style/vipPrivilegeItemImageStyle" />
+                <TextView android:text="@string/vip_privilege_enchanting" style="@style/vipPrivilegeItemTextStyle" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="96.0dip">
+            <RelativeLayout android:id="@id/rlPrivilege11" android:layout_marginRight="4.0dip" style="@style/vipPrivilegeItemStyle">
+                <ImageView android:src="@drawable/ic_vip_privilege_room_member_top" style="@style/vipPrivilegeItemImageStyle" />
+                <TextView android:text="@string/vip_privilege_room_member_top" style="@style/vipPrivilegeItemTextStyle" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rlPrivilege12" style="@style/vipPrivilegeItemStyle">
+                <ImageView android:src="@drawable/ic_vip_privilege_game_growth_value" style="@style/vipPrivilegeItemImageStyle" />
+                <TextView android:text="@string/vip_privilege_game_growth_value" style="@style/vipPrivilegeItemTextStyle" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="96.0dip" android:weightSum="2.0">
+            <RelativeLayout android:visibility="gone" android:layout_marginRight="4.0dip" style="@style/vipPrivilegeItemStyle">
+                <ImageView android:src="@drawable/ic_vip_privilege_daily_gift" style="@style/vipPrivilegeItemImageStyle" />
+                <TextView android:text="@string/vip_privilege_daily_gift" style="@style/vipPrivilegeItemTextStyle" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rlMore" style="@style/vipPrivilegeItemStyle">
+                <ImageView android:src="@drawable/ic_vip_privilege_coming_soon" style="@style/vipPrivilegeItemImageStyle" />
+                <TextView android:text="@string/vip_privilege_coming_soon" style="@style/vipPrivilegeItemTextStyle" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

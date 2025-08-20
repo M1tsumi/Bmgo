@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:textSize="@dimen/textSize14Sp" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/accountTextColor" android:gravity="center" android:text="@string/reportTips" style="@style/FragmentLineTypeNew" />
+    <LinearLayout android:gravity="top" android:orientation="vertical" android:layout_height="225.0dip" style="@style/FragmentLineTypeNew">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+            <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/accountTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reportKickReason" />
+            <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/accountTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/surveyKickAns" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip">
+            <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/accountTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/surveyAdvice" />
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/accountTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/surveyAdviceOne" />
+                <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/accountTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/surveyAdviceTwo" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

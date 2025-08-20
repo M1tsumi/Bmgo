@@ -1,0 +1,27 @@
+{
+    "banner": [
+        {
+            "id": 1,
+            "introduction": "123",
+            "image": "http://static.sandboxol.com/sandbox/vipConfig/banner/banner_new_vip_en.png"
+        }
+    ],
+    "simpleVipPrice": {
+        "1": {
+            "monthPrice": "$1",
+            "yearPrice": "$10"
+        },
+        "2": {
+            "monthPrice": "$5",
+            "yearPrice": "$50"
+        },
+        "3": {
+            "monthPrice": "$20",
+            "yearPrice": "$200"
+        },
+        "4": {
+            "monthPrice": "$50",
+            "yearPrice": "$300"
+        }
+    }
+}

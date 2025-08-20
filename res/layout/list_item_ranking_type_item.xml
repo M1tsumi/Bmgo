@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivRankIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:src="@drawable/ic_new_ranking_selector" />
+    <TextView android:textColor="@drawable/color_new_ranking_title_selector" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/rbRealmsRankingByKill" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/kill_ranking" android:lines="1" style="@style/textView12spStyle" />
+</LinearLayout>

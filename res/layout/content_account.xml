@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/llTop" android:background="@drawable/bg_tribe_contribution_ranking_title" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/llContentAccountList" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/viewOverseasLogin" android:visibility="gone" layout="@layout/content_account_overseas_list" />
+            <include android:id="@id/viewChinaLogin" android:visibility="gone" layout="@layout/content_account_china_list" />
+        </RelativeLayout>
+        <include layout="@layout/content_register_list" />
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/llTop" android:overScrollMode="never">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/llCreateAnAccount" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <FrameLayout android:id="@id/registerFrameLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <FrameLayout android:id="@id/loginFrameLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <View android:background="@drawable/bg_home_top_bar" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_bottom_size" />
+</RelativeLayout>

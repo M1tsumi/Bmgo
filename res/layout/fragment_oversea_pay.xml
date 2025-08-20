@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="19.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" android:visibility="visible" style="@style/meFragmentItem">
+            <TextView android:textSize="@dimen/textSize14Sp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/pay_fragment_account" style="@style/itemFirstLayerStyle" />
+            <TextView android:id="@id/tvId" android:text="123123" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/payFragmentStyle" />
+        </RelativeLayout>
+        <RelativeLayout android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" android:visibility="visible" style="@style/meFragmentItem">
+            <TextView android:textSize="@dimen/textSize14Sp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/pay_fragment_target" style="@style/itemFirstLayerStyle" />
+            <TextView android:id="@id/tvTargetId" android:text="123123" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/payFragmentStyle" />
+        </RelativeLayout>
+        <RelativeLayout android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" android:visibility="visible" style="@style/meFragmentItem">
+            <TextView android:textSize="@dimen/textSize14Sp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/pay_fragment_good" style="@style/itemFirstLayerStyle" />
+            <TextView android:id="@id/tvName" android:text="VIP 1个月" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/payFragmentStyle" />
+        </RelativeLayout>
+        <RelativeLayout android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" android:visibility="visible" style="@style/meFragmentItem">
+            <TextView android:textSize="@dimen/textSize14Sp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/pay_fragment_money" style="@style/itemFirstLayerStyle" />
+            <TextView android:textColor="@color/pay_fragment_money_color" android:id="@id/tvPrice" android:text="￥6" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/payFragmentStyle" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/bg_user_info_honor_gift" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/new_ui_margin" android:layout_marginTop="@dimen/new_ui_margin" android:layout_marginRight="@dimen/new_ui_margin">
+            <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/user_info_fragment_title" android:gravity="center_vertical" android:background="@drawable/bg_user_info_honor_gift_title" android:paddingLeft="18.0dip" android:layout_width="fill_parent" android:layout_height="28.0dip" android:text="@string/pay_fragment_pay_method" style="@style/tv12spStyle" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llGooglePay" android:paddingLeft="18.0dip" android:layout_height="69.0dip" style="@style/selectVersionItemStyle">
+                <ImageView android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginRight="18.0dip" android:src="@drawable/ic_google_pay" />
+                <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/text_title_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/oversea_google_pay" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llMorePay" android:paddingLeft="18.0dip" android:visibility="gone" android:layout_height="69.0dip" style="@style/selectVersionItemStyle">
+                <ImageView android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginRight="18.0dip" android:src="@drawable/ic_more_pay" />
+                <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/text_title_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/oversea_more_pay" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

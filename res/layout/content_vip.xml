@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/allBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/llTop" android:paddingTop="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/content_vip_tabs" />
+        <TextView android:textSize="@dimen/textSize11Sp" android:textColor="@color/vip_title_color" android:gravity="center_vertical" android:id="@id/tvVipTitle" android:background="@drawable/bg_vip_title" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="@string/vip_title_text" />
+    </LinearLayout>
+    <android.support.v4.view.ViewPager android:id="@id/vpVip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/llTop" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="58.5dip" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_vip_bottom" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_alignParentBottom="true">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="23.0dip">
+                    <ImageView android:id="@id/ivVipLogo" android:layout_width="45.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_vip_page_buy_vip" />
+                    <TextView android:textSize="@dimen/textSize12Sp" android:textStyle="bold" android:textColor="@color/vip_price_text_color" android:ellipsize="end" android:id="@id/tvVipPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vip_price_text" android:lines="1" />
+                </LinearLayout>
+                <TextView android:textSize="@dimen/textSize10Sp" android:textColor="@color/vip_discount_text_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="2.0dip" android:text="@string/vip_discount_text" />
+            </LinearLayout>
+            <Button android:textSize="@dimen/textSize12Sp" android:textStyle="bold" android:textColor="@android:color/white" android:layout_gravity="center" android:id="@id/btnBuy" android:background="@drawable/btn_vip_buy_selector" android:layout_width="112.0dip" android:layout_height="30.0dip" android:layout_marginRight="26.0dip" android:text="@string/vipBuy" />
+        </LinearLayout>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_vip_hot" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

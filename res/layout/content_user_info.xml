@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_user_info_honor_gift" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/new_ui_margin" android:layout_marginTop="20.0dip" android:layout_marginRight="@dimen/new_ui_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:id="@id/llGameData" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/llIcon" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="70.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="4.0dip">
+            <View android:id="@id/vHonorBg" android:background="@drawable/bg_one_grid_75" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="-1.5dip" />
+            <View android:id="@id/vVipBg" android:background="@drawable/bg_one_grid_75" android:layout_width="64.0dip" android:layout_height="40.0dip" android:layout_marginRight="-1.5dip" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/bg_two_grid_75_nor" android:layout_width="fill_parent" android:layout_height="40.0dip">
+                <ImageView android:id="@id/ivSex" android:visibility="visible" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/sex_boy" />
+                <TextView android:textSize="@dimen/textSize14Sp" android:textStyle="bold" android:textColor="@color/text_title_color" android:ellipsize="end" android:gravity="center" android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="40.0dip" android:text="Game" android:maxLines="2" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/llCenter" android:layout_width="fill_parent" android:layout_height="@dimen/new_ui_double_line_height" android:layout_marginLeft="4.0dip" android:layout_marginTop="-1.0dip" android:layout_marginRight="4.0dip" android:layout_below="@id/llIcon">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/bg_one_grid_50" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                    <TextView android:textColor="@color/text_hint_content_color" android:id="@id/tvGrowthValue" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="70.0dip" android:text="@string/me_fragment_lv" style="@style/tv10spStyle" />
+                    <ImageView android:layout_gravity="center" android:id="@id/icVipUp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/vip_up" />
+                </LinearLayout>
+                <View android:background="@color/line_bg" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" />
+                <TextView android:textColor="@color/text_hint_content_color" android:id="@id/tvUserId" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginLeft="70.0dip" android:text="@string/userId" android:layout_weight="1.0" style="@style/tv10spStyle" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/llGotoTribeInfo" android:background="@drawable/bg_one_grid_50" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-1.0dip" android:layout_weight="1.0">
+                <ImageView android:id="@id/ivTribeLevel" android:layout_width="25.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_user_info_no_tribe" />
+                <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/text_hint_content_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tvTribeName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/no_tribe" android:singleLine="true" style="@style/userRoomOtherStyle" />
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:layout_width="@dimen/head_icon_border_size" android:layout_height="@dimen/head_icon_border_size" android:layout_marginTop="1.0dip">
+            <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivIcon" android:layout_width="@dimen/head_icon_size" android:layout_height="@dimen/head_icon_size" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/head_df" app:type="round" />
+            <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivIconBg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_head_border_default" app:type="round" />
+            <ImageView android:id="@id/ivManager" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="55.0dip" android:layout_marginTop="53.0dip" android:src="@drawable/ic_manager_icon" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="65.0dip">
+            <ImageView android:id="@id/ivHonor" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginRight="-10.0dip" android:src="@drawable/ic_default_honor" />
+            <ImageView android:id="@id/ivManagerIcon" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginRight="-10.0dip" android:src="@drawable/ic_manager_head_default" />
+            <ImageView android:id="@id/ivVip" android:layout_width="74.0dip" android:layout_height="50.0dip" android:src="@drawable/new_ic_mvp" />
+        </LinearLayout>
+        <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tvDetail" android:background="@drawable/bg_one_grid_50" android:paddingLeft="@dimen/pdSize" android:paddingTop="7.0dip" android:paddingRight="@dimen/pdSize" android:paddingBottom="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="-1.0dip" android:layout_marginRight="4.0dip" android:text="@string/meIntroduce" android:maxLines="2" android:singleLine="false" android:layout_below="@id/llCenter" style="@style/tv10spStyle" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/llPartner" android:background="@drawable/bg_two_grid_75_nor" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip">
+        <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginRight="10.0dip" android:text="@string/user_info_lovers" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/llHasPartner" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/ivPartnerSex" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sex_boy" />
+            <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/textMainColor" android:id="@id/tvPartnerName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="Steve" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/hintColor" android:id="@id/tvNoPartner" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/user_info_no_lover" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/llCheckIt" android:background="@drawable/btn_confession_selector" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="29.0dip" android:layout_marginRight="18.0dip">
+            <TextView android:textSize="@dimen/textSize11Sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/tvCheckIt" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/check_it_now" android:lines="1" android:drawableLeft="@drawable/ic_partner_confession" android:drawablePadding="2.0dip" android:lineSpacingExtra="0.0dip" android:textAllCaps="false" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="-1.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="@dimen/new_ui_margin">
+        <LinearLayout android:orientation="vertical" android:id="@id/llFocus" android:background="@drawable/bg_two_grid_75_selector" style="@style/userFriendInfo">
+            <TextView android:textColor="@color/text_hint_content_color" android:id="@id/tvFocus" android:layout_height="20.0dip" android:layout_marginTop="8.0dip" android:text="0" style="@style/tv14spStyle" />
+            <TextView android:textColor="@color/textAuxiliaryColor" android:gravity="top" android:layout_height="20.0dip" android:text="@string/focus" style="@style/tv10spStyle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/llFans" android:background="@drawable/bg_two_grid_75_selector" android:layout_marginLeft="-1.0dip" style="@style/userFriendInfo">
+            <TextView android:textColor="@color/text_hint_content_color" android:id="@id/tvFans" android:layout_height="20.0dip" android:layout_marginTop="8.0dip" android:text="0" style="@style/tv14spStyle" />
+            <TextView android:textColor="@color/textAuxiliaryColor" android:gravity="top" android:layout_height="20.0dip" android:text="@string/spFans" style="@style/tv10spStyle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/llMoment" android:background="@drawable/bg_two_grid_75_selector" android:layout_marginLeft="-1.0dip" style="@style/userFriendInfo">
+            <TextView android:textColor="@color/text_hint_content_color" android:id="@id/tvMoment" android:layout_height="20.0dip" android:layout_marginTop="8.0dip" android:text="0" style="@style/tv14spStyle" />
+            <TextView android:textColor="@color/textAuxiliaryColor" android:gravity="top" android:id="@id/tvNews" android:layout_height="20.0dip" android:text="@string/news" style="@style/tv10spStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

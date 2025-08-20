@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="@dimen/pdSize" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/rlTribeNotice" android:background="@drawable/bg_two_grid_50_nor" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip">
+        <EditText android:textSize="@dimen/textSize12Sp" android:textColor="@color/text_main_content_color" android:textColorHint="@color/userRoomOtherColor" android:gravity="start" android:id="@id/etIntroduce" android:background="@drawable/btn_item_nor_style" android:padding="@dimen/tpSize" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="18.0dip" android:layout_marginBottom="8.0dip" android:minHeight="100.0dip" android:hint="@string/maxLengthHint" android:maxLength="150" android:inputType="textMultiLine" style="@style/createRoomEtStyle" />
+    </RelativeLayout>
+    <Button android:id="@id/btnSure" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:text="@string/done" style="@style/newBigBtnStyle" />
+</LinearLayout>

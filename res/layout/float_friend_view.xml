@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="right" android:id="@id/rl_share_container" android:layout_width="@dimen/float_right_layout_width_4" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never">
+            <RadioGroup android:gravity="center" android:orientation="horizontal" android:id="@id/rgTab" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <RadioButton android:textColor="@color/float_share_tab_color" android:gravity="center" android:id="@id/rbInvite" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:checked="true" android:button="@null" android:text="@string/float_invite" android:layout_weight="1.0" />
+                <View android:background="@color/float_right_line_color" android:layout_width="0.30000007dip" android:layout_height="50.0dip" />
+                <RadioButton android:textColor="@color/float_share_tab_color" android:gravity="center" android:id="@id/rbRequest" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:checked="false" android:button="@null" android:text="@string/friendRequest" android:layout_weight="1.0" />
+            </RadioGroup>
+        </ScrollView>
+        <TextView android:background="@color/float_right_line_color" android:layout_width="fill_parent" android:layout_height="@dimen/float_tab_bottom_line_height" />
+        <fragment android:id="@id/flInvite" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" class="com.mcpeonline.multiplayer.fragment.FloatInviteFragment" />
+        <fragment android:id="@id/flRequest" android:tag="online_friend" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" class="com.mcpeonline.multiplayer.fragment.FloatRequestFragment" />
+        <TextView android:background="@color/float_right_line_color" android:layout_width="fill_parent" android:layout_height="@dimen/float_tab_bottom_line_height" />
+        <ScrollView android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never">
+            <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:id="@id/llGPlusShare" style="@style/floatShareItem">
+                    <ImageView android:id="@id/ivGPlusShare" android:layout_width="@dimen/shareIconSize" android:layout_height="@dimen/shareIconSize" android:src="@drawable/btn_gplus_selector" />
+                    <TextView android:text="@string/send_gplus_friends" style="@style/floatShare" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/llFacebook" style="@style/floatShareItem">
+                    <ImageView android:id="@id/ivFacebook" android:layout_width="@dimen/shareIconSize" android:layout_height="@dimen/shareIconSize" android:src="@drawable/btn_fb_selector" />
+                    <TextView android:text="@string/send_facebook_friends" style="@style/floatShare" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/llTwitter" style="@style/floatShareItem">
+                    <ImageView android:id="@id/ivTwitter" android:layout_width="@dimen/shareIconSize" android:layout_height="@dimen/shareIconSize" android:src="@drawable/btn_twitter_selector" />
+                    <TextView android:text="@string/send_twitter_friend" style="@style/floatShare" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

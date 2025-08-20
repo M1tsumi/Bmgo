@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/vTop" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="100.0dip" />
+    <ListView android:id="@id/lv" android:background="@drawable/bg_top_select_mode_or_version" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@color/infoLine" android:dividerHeight="0.5dip" android:overScrollMode="never" />
+    <View android:id="@id/vBottom" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

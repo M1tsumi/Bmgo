@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="39.0dip" android:layout_height="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/vProgress1" android:background="@drawable/bg_net_progress_green" android:layout_width="13.0dip" android:layout_height="6.0dip" />
+    <View android:id="@id/vProgress2" android:background="@drawable/bg_net_progress_green" android:layout_width="13.0dip" android:layout_height="6.0dip" />
+    <View android:id="@id/vProgress3" android:background="@drawable/bg_net_progress_green" android:layout_width="13.0dip" android:layout_height="6.0dip" />
+</LinearLayout>

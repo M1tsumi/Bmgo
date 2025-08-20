@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/meFragmentItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/tvName" android:layout_width="fill_parent" android:layout_height="@dimen/meFragmentItemHeight" android:layout_marginLeft="24.0dip" android:text="中国+86" style="@style/textView14spStyle" />
+</LinearLayout>

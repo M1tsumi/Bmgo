@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rlBg" android:background="#ff5186b4" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivBg" android:layout_width="fill_parent" android:layout_height="255.0dip" android:layout_marginTop="-38.0dip" android:scaleType="fitXY" />
+    <RelativeLayout android:orientation="vertical" android:paddingTop="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-20.0dip">
+        <RadioGroup android:orientation="horizontal" android:id="@id/rgRealmsRankingArea" android:background="@drawable/bg_new_ranking_radio" android:layout_width="fill_parent" android:layout_height="36.0dip">
+            <RadioButton android:textSize="12.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/rbRealmsRankingAreaLocal" android:background="@drawable/bg_new_ranking_radio_selector" android:paddingLeft="26.0dip" android:paddingRight="26.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginBottom="0.5dip" android:checked="true" android:button="@null" android:text="@string/local_ranking" android:drawableLeft="@drawable/ic_new_ranking_radio_local" android:layout_weight="1.0" />
+            <RadioButton android:textSize="12.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/rbRealmsRankingAreaGlobal" android:background="@drawable/bg_new_ranking_radio_selector" android:paddingLeft="40.0dip" android:paddingRight="26.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginBottom="0.5dip" android:button="@null" android:text="@string/global_ranking" android:drawableLeft="@drawable/ic_new_ranking_radio_world" android:layout_weight="1.0" />
+        </RadioGroup>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/linearLayout2" android:background="@drawable/bg_ranking_time" android:paddingLeft="@dimen/new_ui_margin" android:paddingRight="40.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/rgRealmsRankingArea">
+            <TextView android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/realms_last_time" android:shadowColor="@android:color/black" android:shadowDx="4.0" android:shadowDy="4.0" style="@style/tv12spStyle" />
+            <TextView android:textColor="@android:color/white" android:id="@id/tvRealmsRankingDays" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/realms_last_days" android:shadowColor="@android:color/black" android:shadowDx="4.0" android:shadowDy="4.0" style="@style/tv12spStyle" />
+            <TextView android:textColor="@android:color/white" android:id="@id/tvRealmsRankingHours" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/realms_last_hours" android:shadowColor="@android:color/black" android:shadowDx="4.0" android:shadowDy="4.0" style="@style/tv12spStyle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/bg_mini_game_detail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/new_ui_margin" android:layout_marginTop="180.5dip" android:layout_marginRight="@dimen/new_ui_margin">
+            <RadioGroup android:layout_gravity="center" android:orientation="horizontal" android:id="@id/rgRealmsRankingTime" android:background="@color/bg_new_tab_color" android:layout_width="fill_parent" android:layout_height="52.0dip">
+                <RadioButton android:textSize="@dimen/textSize14Sp" android:textColor="@color/btn_new_select_color" android:gravity="center" android:id="@id/rbRealmsRankingTimeWeek" android:background="@drawable/bg_radio_selector" android:paddingTop="10.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:checked="true" android:button="@null" android:text="@string/week_rank" android:shadowColor="@android:color/black" android:shadowDx="4.0" android:shadowDy="4.0" android:layout_weight="1.0" style="@style/tv12spStyle" />
+                <RadioButton android:textSize="@dimen/textSize14Sp" android:textColor="@color/btn_new_select_color" android:gravity="center" android:id="@id/rbRealmsRankingTimeMonth" android:background="@drawable/bg_radio_selector" android:paddingTop="10.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:button="@null" android:text="@string/month_rank" android:shadowColor="@android:color/black" android:shadowDx="4.0" android:shadowDy="4.0" android:layout_weight="1.0" />
+            </RadioGroup>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/llRankingTitle" android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip">
+                <TextView android:ellipsize="end" android:gravity="center" android:id="@id/textView2" android:layout_width="71.0dip" android:text="@string/ranking" android:maxLines="1" style="@style/textView10spStyle" />
+                <TextView android:ellipsize="end" android:gravity="center" android:id="@id/tvPlayer" android:layout_width="135.0dip" android:text="@string/player_name" android:maxLines="1" style="@style/textView10spStyle" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="100.0">
+                    <TextView android:ellipsize="end" android:gravity="center" android:id="@id/tvRealmsRankingKillsOrDeathTitle" android:layout_width="0.0dip" android:text="@string/kill_number" android:maxLines="1" android:layout_weight="57.0" style="@style/textView10spStyle" />
+                    <TextView android:ellipsize="end" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="43.0" />
+                </LinearLayout>
+            </LinearLayout>
+            <RelativeLayout android:background="@drawable/bg_new_ranking_recycler_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <android.support.v7.widget.RecyclerView android:id="@id/rvRealmsRankingList" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" />
+                <com.sandboxol.refresh.view.PageLoadingView android:id="@id/plvLoading" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <View android:background="@drawable/bg_new_ranking_recycler_view_border" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="72.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="-4.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip">
+                <LinearLayout android:orientation="vertical" android:background="@drawable/bg_two_grid_50_nor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_marginTop="4.0dip">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="65.0dip">
+                        <TextView android:textColor="@color/contextTextColorPre" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tvRealmsRankingMyName" android:layout_height="36.0dip" android:lines="1" style="@style/tv12spStyle" />
+                        <ImageView android:id="@id/ivRealmsRankingTypeIcon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="36.0dip" android:src="@drawable/ic_partner_level_heart" />
+                        <TextView android:textColor="@color/contextTextColorPre" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tvRealmsRankingOtherName" android:layout_height="36.0dip" android:lines="1" style="@style/tv12spStyle" />
+                    </LinearLayout>
+                    <View android:background="@color/line_bg" android:layout_width="fill_parent" android:layout_height="@dimen/lineH" android:layout_marginLeft="65.0dip" android:layout_marginRight="@dimen/new_ui_margin" />
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="27.5dip" android:layout_marginLeft="70.0dip">
+                        <TextView android:id="@id/tvRealmsRankingMyRank" android:layout_width="0.0dip" android:layout_weight="1.0" style="@style/textView10spStyle" />
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/tvRealmsRankingKillsOrDeath" android:layout_width="wrap_content" style="@style/textView10spStyle" />
+                            <TextView android:layout_width="wrap_content" android:text=":" style="@style/textView10spStyle" />
+                            <TextView android:id="@id/tvRealmsRankingMyKillNum" style="@style/textView10spStyle" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <include android:id="@id/iconLayout" layout="@layout/layout_head_icon" />
+            </RelativeLayout>
+        </LinearLayout>
+        <com.mcpeonline.multiplayer.view.SwitchRankingSubTitleView android:id="@id/svSwitchRankingSubTitleView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="163.0dip" android:layout_marginRight="24.0dip" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/rlRealmsRankingSelected" android:background="@drawable/bg_new_ranking_title" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="24.0dip" android:layout_marginTop="163.0dip" android:layout_marginRight="24.0dip" android:minHeight="32.5dip" android:layout_centerHorizontal="true">
+            <TextView android:textColor="@color/text_ranking_title_pre" android:ellipsize="end" android:id="@id/tvRealmsRankingSelected" android:layout_width="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/kill_ranking" style="@style/textView14spStyle" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arrow_bottom" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

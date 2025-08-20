@@ -1,0 +1,61 @@
+[{
+  "typeId": 10,
+  "name": "鸡",
+  "icon": "animal10"
+}, {
+  "typeId": 11,
+  "name": "牛",
+  "icon": "animal11"
+}, {
+  "typeId": 12,
+  "name": "猪",
+  "icon": "animal12"
+}, {
+  "typeId": 13,
+  "name": "羊",
+  "icon": "animal13"
+}, {
+  "typeId": 14,
+  "name": "狼",
+  "icon": "animal14"
+}, {
+  "typeId": 15,
+  "name": "村民",
+  "icon": "animal15"
+}, {
+  "typeId": 16,
+  "name": "哞菇",
+  "icon": "animal16"
+}, {
+  "typeId": 32,
+  "name": "僵尸",
+  "icon": "animal32"
+}, {
+  "typeId": 33,
+  "name": "爬行者",
+  "icon": "animal33"
+}, {
+  "typeId": 34,
+  "name": "骷髅",
+  "icon": "animal34"
+}, {
+  "typeId": 35,
+  "name": "蜘蛛",
+  "icon": "animal35"
+}, {
+  "typeId": 36,
+  "name": "僵尸猪人",
+  "icon": "animal36"
+}, {
+  "typeId": 37,
+  "name": "史莱姆",
+  "icon": "animal37"
+}, {
+  "typeId": 38,
+  "name": "末影人",
+  "icon": "animal38"
+}, {
+  "typeId": 39,
+  "name": "蠹虫",
+  "icon": "animal39"
+}]

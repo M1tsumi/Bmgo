@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="190.0dip" android:layout_height="78.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/rc_bg_post_cart" />
+            <RelativeLayout android:id="@id/rlIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+                <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivIcon" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:src="@drawable/head_df" app:type="round" />
+                <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivIconBg" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/ic_head_border_default" app:type="round" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="56.0dip" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/rlIcon">
+                <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tvUserName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="adsdasdas" android:singleLine="true" />
+                <TextView android:textSize="@dimen/textSize12Sp" android:textColor="#fffefefe" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tvUserId" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="adsdasdas" android:singleLine="true" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="13.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/me_info_fragment_gift" />
+            <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/text_main_content_color" android:id="@id/tvCharm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/ic_little_cup" />
+            <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/text_main_content_color" android:id="@id/tvHonor" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

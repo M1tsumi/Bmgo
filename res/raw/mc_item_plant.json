@@ -1,0 +1,89 @@
+[
+    {
+      "typeId": 6,
+      "name": "橡树树苗",
+      "icon": "item_6"
+    },
+    {
+      "typeId": 6,
+	  "subId": 2,
+      "name": "桦树树苗",
+      "icon": "item_6_2"
+    },
+    {
+      "typeId": 6,
+	  "subId": 1,
+      "name": "云杉树苗",
+      "icon": "item_6_1"
+    },
+    {
+      "typeId": 31,
+      "name": "枯死的灌木",
+      "icon": "item_31"
+    },
+    {
+      "typeId": 37,
+      "name": "蒲公英",
+      "icon": "item_37"
+    },
+    {
+      "typeId": 38,
+      "name": "青色花",
+      "icon": "item_38"
+    },
+    {
+      "typeId": 39,
+      "name": "棕色蘑菇",
+      "icon": "item_39"
+    },
+    {
+      "typeId": 40,
+      "name": "红色蘑菇",
+      "icon": "item_40"
+    },
+    {
+      "typeId": 81,
+      "name": "仙人掌",
+      "icon": "item_81"
+    },
+    {
+      "typeId": 104,
+      "name": "南瓜梗",
+      "icon": "item_104"
+    },
+    {
+      "typeId": 105,
+      "name": "南瓜梗",
+      "icon": "item_105"
+    },
+    {
+      "typeId": 141,
+      "name": "甜菜根",
+      "icon": "item_141"
+    },
+    {
+      "typeId": 295,
+      "name": "小麦种子",
+      "icon": "item_295"
+    },
+    {
+      "typeId": 296,
+      "name": "小麦",
+      "icon": "item_296"
+    },
+    {
+      "typeId": 361,
+      "name": "南瓜子",
+      "icon": "item_361"
+    },
+    {
+      "typeId": 362,
+      "name": "西瓜子",
+      "icon": "item_362"
+    },
+    {
+      "typeId": 458,
+      "name": "甜菜子",
+      "icon": "item_458"
+    }
+  ]

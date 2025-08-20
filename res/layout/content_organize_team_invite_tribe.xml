@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_one_grid_50" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_marginLeft="-0.5dip" android:layout_marginRight="-0.5dip" style="@style/meFragmentItem">
+            <CheckBox android:layout_gravity="center_vertical" android:id="@id/cbCheck" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:drawableLeft="@drawable/btn_organize_team_invite_check_selector" />
+            <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/text_hint_content_color" android:gravity="center_vertical" android:id="@id/tvTribeName" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:text="Steve" android:lines="1" android:layout_weight="3.0" />
+            <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/text_hint_content_color" android:gravity="right|center" android:id="@id/tvTribeLv" android:layout_width="0.0dip" android:layout_height="35.0dip" android:text="LV" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:id="@id/btnSendInviteTribe" android:layout_marginLeft="0.0dip" android:layout_marginTop="@dimen/new_ui_margin" android:layout_marginRight="0.0dip" android:text="@string/btn_organize_team_send_invite" style="@style/newBigBtnStyle" />
+</LinearLayout>

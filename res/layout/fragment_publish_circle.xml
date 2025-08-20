@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <RelativeLayout android:orientation="vertical" android:background="@drawable/bg_tribe_notice_edit_text" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="6.0dip">
+            <EditText android:textSize="15.0sp" android:textColor="@color/title_col" android:textColorHint="@color/userRoomOtherColor" android:gravity="top" android:id="@id/etCircleContent" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:hint="@string/friend_circle_news_content" android:minLines="7" android:lineSpacingExtra="2.0dip" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/etCircleContent">
+                <ImageView android:id="@id/ivEmoticon" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/rc_ic_smiley" />
+                <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/context_col" android:id="@id/tvCircleContentMax" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginRight="5.0dip" android:text="0/200" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <com.mcpeonline.multiplayer.view.EmotionView android:id="@id/evEmotion" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</LinearLayout>

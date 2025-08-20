@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="245.0dip">
+            <FrameLayout android:id="@id/flDressView" android:layout_width="fill_parent" android:layout_height="245.0dip" />
+            <ImageView android:id="@id/ivDefaultBg" android:background="@drawable/bg_dress" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <LinearLayout android:orientation="vertical" android:id="@id/llOrnaments" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/ivHead" android:background="@drawable/ic_dress_ornaments_head" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginTop="18.0dip" />
+                <ImageView android:id="@id/ivFace" android:background="@drawable/ic_dress_ornaments_face" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginTop="10.0dip" />
+                <ImageView android:id="@id/ivShoulder" android:background="@drawable/ic_dress_ornaments_shoulder" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginTop="10.0dip" />
+                <ImageView android:id="@id/ivBack" android:background="@drawable/ic_dress_ornaments_back" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginTop="10.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/llCloth" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip">
+                <ImageView android:id="@id/ivJacket" android:background="@drawable/ic_dress_cloth_jacket" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginTop="18.0dip" />
+                <ImageView android:id="@id/ivPants" android:background="@drawable/ic_dress_cloth_pants" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginTop="10.0dip" />
+                <ImageView android:id="@id/ivShoes" android:background="@drawable/ic_dress_cloth_shoes" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginTop="10.0dip" />
+            </LinearLayout>
+        </RelativeLayout>
+        <com.mcpeonline.multiplayer.view.DressRadioGroup android:id="@id/rgGameDress" android:layout_width="fill_parent" android:layout_height="50.0dip" app:isShowCurrent="true" app:isShowMoneyType="false" />
+        <android.support.v4.view.ViewPager android:id="@id/vpDress" android:paddingBottom="50.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <com.mcpeonline.multiplayer.view.DressLoadingView android:id="@id/dlvLoading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0" />
+    <LinearLayout style="@style/dialogSizeStyle">
+        <LinearLayout android:orientation="vertical" android:layout_marginBottom="12.0dip" style="@style/dialogMsgStyle">
+            <ProgressBar android:layout_gravity="center" android:id="@id/progressBar" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="60.0dip" android:maxHeight="60.0dip" android:indeterminateDrawable="@drawable/progress_large_loading" android:minWidth="40.0dip" android:minHeight="40.0dip" />
+            <TextView android:gravity="center" android:id="@id/tvMsg" android:text="@string/error_token" style="@style/dialogHasTitleMsgStyle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/llBtn" android:layout_width="fill_parent" android:layout_height="@dimen/dialogBtnHeight35dp" android:layout_marginTop="-12.0dip">
+            <ImageView android:id="@id/btnSure" android:src="@drawable/btn_new_sure_selector" android:text="@string/sure" style="@style/dialogBtnStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0" />
+</LinearLayout>

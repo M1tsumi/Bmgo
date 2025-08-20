@@ -1,0 +1,31 @@
+.class public final Ldt/b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Ldt/b$i;,
+        Ldt/b$h;,
+        Ldt/b$g;,
+        Ldt/b$f;,
+        Ldt/b$e;,
+        Ldt/b$d;,
+        Ldt/b$c;,
+        Ldt/b$b;,
+        Ldt/b$a;
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 9
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="18.0dip" android:paddingRight="20.0dip" android:layout_marginLeft="-0.5dip" android:layout_marginRight="-0.5dip" style="@style/meFragmentItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:layout_gravity="center_vertical" android:id="@id/cbCheck" android:background="@null" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:drawableLeft="@drawable/cb_clear_cache_selector" />
+    <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/text_hint_content_color" android:gravity="center_vertical" android:id="@id/tvName" android:layout_width="0.0dip" android:layout_height="35.0dip" android:layout_marginLeft="12.0dip" android:text="Steve" android:lines="1" android:layout_weight="3.0" />
+    <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/text_main_content_color" android:gravity="right|center" android:id="@id/tvLv" android:layout_width="0.0dip" android:layout_height="35.0dip" android:text="@string/me_fragment_lv" android:layout_weight="1.0" />
+</LinearLayout>

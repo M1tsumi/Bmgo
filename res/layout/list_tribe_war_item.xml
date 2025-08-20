@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bg_one_grid_50_25_selector" android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <ImageView android:id="@id/ivTribeWarIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_tribe_war" />
+        <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/text_hint_content_color" android:gravity="center_vertical" android:id="@id/tvTribeWarName" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:singleLine="true" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/text_main_content_color" android:gravity="right|center" android:id="@id/tvTribeWarNum" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <View android:background="@color/line_bg" android:layout_width="fill_parent" android:layout_height="@dimen/lineHei" />
+</LinearLayout>

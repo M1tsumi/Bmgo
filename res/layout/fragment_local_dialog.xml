@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:background="@color/dialog_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/dialog_bg_style" android:layout_width="@dimen/dialogWidth" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/textSize16Sp" android:textColor="@color/dialogTitleTextColor" android:gravity="center" android:paddingLeft="@dimen/meFragmentItemPdSize" android:paddingRight="@dimen/meFragmentItemPdSize" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/server_loc_title" />
+        <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/dialogMsgTextColor" android:paddingLeft="@dimen/meFragmentItemPdSize" android:paddingRight="@dimen/meFragmentItemPdSize" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sel_loc_text" android:lineSpacingExtra="@dimen/space_8dp" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/meFragmentItemPdSize" android:paddingRight="@dimen/meFragmentItemPdSize" android:layout_width="fill_parent" android:layout_height="35.0dip">
+            <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/dialogMsgTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/localDialogClick" />
+            <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/btnLocalNor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/localDialogClickMe" />
+            <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/dialogMsgTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/localDialogClickSwitch" />
+        </LinearLayout>
+        <View android:background="@color/infoLine" android:layout_width="fill_parent" android:layout_height="@dimen/lineHei" />
+        <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/dialogMsgTextColor" android:id="@id/tvMsg" android:paddingLeft="@dimen/meFragmentItemPdSize" android:paddingRight="@dimen/meFragmentItemPdSize" android:paddingBottom="@dimen/meFragmentItemPdSize" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/noDataDownRefresh" />
+        <com.sandboxol.refresh.view.RefreshLayout android:id="@id/refreshLayout" android:paddingLeft="@dimen/meFragmentItemPdSize" android:paddingRight="@dimen/meFragmentItemPdSize" android:layout_width="fill_parent" android:layout_height="350.0dip">
+            <ListView android:id="@id/swipe_target" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:dividerHeight="@dimen/meFragmentItemPdSize" android:fadeScrollbars="false" android:overScrollMode="never" />
+        </com.sandboxol.refresh.view.RefreshLayout>
+        <View android:background="@color/infoLine" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <Button android:textColor="@color/btnLocalNor" android:id="@id/btnSure" android:background="@drawable/btn_bottom_corner_selector" android:layout_width="fill_parent" android:layout_height="44.0dip" android:text="@string/sure" />
+    </LinearLayout>
+</RelativeLayout>

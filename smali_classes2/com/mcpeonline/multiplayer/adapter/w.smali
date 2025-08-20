@@ -1,0 +1,151 @@
+.class public Lcom/mcpeonline/multiplayer/adapter/w;
+.super Lcom/mcpeonline/multiplayer/adapter/j;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/mcpeonline/multiplayer/adapter/j",
+        "<",
+        "Lcom/mcpeonline/multiplayer/data/entity/FloatInvite;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field private a:Lcom/mcpeonline/minecraft/mcfloat/views/FloatChartView$b;
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;Ljava/util/List;I)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/content/Context;",
+            "Ljava/util/List",
+            "<",
+            "Lcom/mcpeonline/multiplayer/data/entity/FloatInvite;",
+            ">;I)V"
+        }
+    .end annotation
+
+    .prologue
+    .line 19
+    invoke-direct {p0, p1, p2, p3}, Lcom/mcpeonline/multiplayer/adapter/j;-><init>(Landroid/content/Context;Ljava/util/List;I)V
+
+    .line 20
+    return-void
+.end method
+
+.method static synthetic a(Lcom/mcpeonline/multiplayer/adapter/w;)Lcom/mcpeonline/minecraft/mcfloat/views/FloatChartView$b;
+    .locals 1
+
+    .prologue
+    .line 16
+    iget-object v0, p0, Lcom/mcpeonline/multiplayer/adapter/w;->a:Lcom/mcpeonline/minecraft/mcfloat/views/FloatChartView$b;
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public a(Lcom/mcpeonline/minecraft/mcfloat/views/FloatChartView$b;)V
+    .locals 0
+
+    .prologue
+    .line 22
+    iput-object p1, p0, Lcom/mcpeonline/multiplayer/adapter/w;->a:Lcom/mcpeonline/minecraft/mcfloat/views/FloatChartView$b;
+
+    .line 23
+    return-void
+.end method
+
+.method public a(Lcom/mcpeonline/multiplayer/adapter/bu;Lcom/mcpeonline/multiplayer/data/entity/FloatInvite;)V
+    .locals 4
+
+    .prologue
+    .line 27
+    const v0, 0x7f1102c6
+
+    invoke-virtual {p1, v0}, Lcom/mcpeonline/multiplayer/adapter/bu;->a(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/TextView;
+
+    .line 28
+    const v1, 0x7f1102c7
+
+    invoke-virtual {p1, v1}, Lcom/mcpeonline/multiplayer/adapter/bu;->a(I)Landroid/view/View;
+
+    move-result-object v1
+
+    check-cast v1, Landroid/widget/TextView;
+
+    .line 30
+    invoke-virtual {p2}, Lcom/mcpeonline/multiplayer/data/entity/FloatInvite;->getNickName()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 31
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v2, "ID:"
+
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    invoke-virtual {p2}, Lcom/mcpeonline/multiplayer/data/entity/FloatInvite;->getUserId()J
+
+    move-result-wide v2
+
+    invoke-virtual {v0, v2, v3}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 32
+    iget-object v0, p0, Lcom/mcpeonline/multiplayer/adapter/w;->a:Lcom/mcpeonline/minecraft/mcfloat/views/FloatChartView$b;
+
+    if-eqz v0, :cond_0
+
+    .line 33
+    invoke-virtual {p1}, Lcom/mcpeonline/multiplayer/adapter/bu;->a()Landroid/view/View;
+
+    move-result-object v0
+
+    new-instance v1, Lcom/mcpeonline/multiplayer/adapter/FloatChatInviteAdapter$1;
+
+    invoke-direct {v1, p0, p2}, Lcom/mcpeonline/multiplayer/adapter/FloatChatInviteAdapter$1;-><init>(Lcom/mcpeonline/multiplayer/adapter/w;Lcom/mcpeonline/multiplayer/data/entity/FloatInvite;)V
+
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    .line 40
+    :cond_0
+    return-void
+.end method
+
+.method public synthetic convert(Lcom/mcpeonline/multiplayer/adapter/bu;Ljava/lang/Object;)V
+    .locals 0
+
+    .prologue
+    .line 16
+    check-cast p2, Lcom/mcpeonline/multiplayer/data/entity/FloatInvite;
+
+    invoke-virtual {p0, p1, p2}, Lcom/mcpeonline/multiplayer/adapter/w;->a(Lcom/mcpeonline/multiplayer/adapter/bu;Lcom/mcpeonline/multiplayer/data/entity/FloatInvite;)V
+
+    return-void
+.end method

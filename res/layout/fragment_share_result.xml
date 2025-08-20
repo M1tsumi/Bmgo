@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:background="@color/dialog_shadow" android:padding="@dimen/meFragmentItemPdSize" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/btn_account_selector" android:padding="@dimen/meFragmentItemPdSize" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:layout_width="fill_parent" android:layout_height="66.0dip" android:text="@string/join_room" style="@style/invitationDialogTitle" />
+        <TextView android:background="@color/infoLine" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="70.0dip">
+            <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="32.0dip" android:text="@string/float_cmd_room_id" style="@style/mobileHistoryTextStyle" />
+            <TextView android:gravity="center_vertical" android:id="@id/tvRoomId" android:background="@drawable/btn_list_item_selector" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginLeft="3.0dip" android:minWidth="88.0dip" style="@style/mobileHistoryTextStyle" />
+        </LinearLayout>
+        <TextView android:background="@color/infoLine" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llUserInfo" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/vUserInfo" layout="@layout/share_result_layout" />
+        </LinearLayout>
+        <TextView android:textColor="@color/invitationNotRoom" android:gravity="center" android:id="@id/tvNotRoom" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="78.0dip" android:text="@string/room_not_exist" />
+        <TextView android:background="@color/infoLine" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <Button android:textColor="@color/white" android:id="@id/btnRefresh" android:background="@drawable/btn_join_game_selector" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_marginTop="20.0dip" android:text="@string/refresh" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/rlQuit" android:padding="@dimen/meFragmentItemPdSize" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/btnQuit" android:background="@drawable/user_info_dialog_quit_selector" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

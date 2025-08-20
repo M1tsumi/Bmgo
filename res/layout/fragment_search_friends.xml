@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="@dimen/new_ui_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_user_info_honor_gift" android:paddingBottom="@dimen/new_ui_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip">
+        <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/user_info_fragment_title" android:gravity="center_vertical" android:id="@id/tvTitle" android:background="@drawable/bg_user_info_honor_gift_title" android:paddingLeft="18.0dip" android:layout_width="fill_parent" android:layout_height="28.0dip" android:text="@string/vip_shop_open_renew_vip" />
+        <include layout="@layout/layout_search_friend_bar_with_button" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_user_info_honor_gift" android:paddingBottom="@dimen/new_ui_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip">
+        <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/user_info_fragment_title" android:gravity="center_vertical" android:background="@drawable/bg_user_info_honor_gift_title" android:paddingLeft="18.0dip" android:layout_width="fill_parent" android:layout_height="28.0dip" android:text="@string/friend" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.sandboxol.refresh.view.RefreshLayout android:id="@id/refreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ListView android:id="@id/swipe_target" android:paddingTop="7.0dip" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:divider="@null" />
+            </com.sandboxol.refresh.view.RefreshLayout>
+            <com.sandboxol.refresh.view.PageLoadingView android:id="@id/plvLoading" android:layout_width="fill_parent" android:layout_height="fill_parent" app:show_refresh_button="false" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

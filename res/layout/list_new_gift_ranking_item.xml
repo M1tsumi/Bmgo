@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_height="39.0dip" android:layout_marginBottom="10.0dip" style="@style/realmsRankingItemStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/ivRealmsRankingItemRank" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_realms_flower" android:layout_centerInParent="true" />
+        <TextView android:gravity="center" android:id="@id/tvRealmsRankingItemRank" android:layout_width="fill_parent" android:text="1" android:layout_centerInParent="true" style="@style/realmsRanking16spTextStyle" />
+    </RelativeLayout>
+    <TextView android:ellipsize="end" android:id="@id/tvRealmsRankingItemName" android:paddingLeft="20.0dip" android:text="Duang" android:lines="1" android:layout_weight="2.0" style="@style/realmsRanking16spTextStyle" />
+    <TextView android:gravity="center" android:id="@id/tvRealmsRankingItemLevel" android:text="3" android:layout_weight="1.5" style="@style/realmsRanking16spTextStyle" />
+    <TextView android:gravity="center" android:id="@id/tvRealmsRankingItemKillNum" android:text="69" android:layout_weight="1.2" style="@style/realmsRanking16spTextStyle" />
+</LinearLayout>

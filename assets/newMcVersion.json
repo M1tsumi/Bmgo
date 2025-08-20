@@ -1,0 +1,31 @@
+{
+    "response": [
+        {
+            "id": 9,
+            "name": "0.15.0",
+            "md5Value": "0b783a854474dfbb4005c8a83feabf59",
+            "fileName": "mcpe150",
+            "version": "0.15.0",
+            "url": "https://s3.amazonaws.com/sandboxol-region/001/mcpe150.zip"
+        }
+
+    ],
+    "meta": {
+        "code": 9,
+        "msg": "https://s3.amazonaws.com/sandboxol-region/001/mcpe150.zip"
+    },
+    "exactMatch": [
+        {
+            "id": 1,
+            "version": "0.13"
+        },
+        {
+            "id": 2,
+            "version": "0.14"
+        },
+		{
+            "id": 3,
+            "version": "0.15"
+        }
+    ]
+}

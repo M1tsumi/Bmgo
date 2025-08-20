@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/llAll" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/llTopLine" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/head_icon_border_size" android:layout_marginTop="5.0dip" android:layout_marginRight="12.0dip">
+        <View android:id="@id/vHonorBg" android:background="@drawable/bg_one_grid_75_100_selector" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="-1.5dip" />
+        <View android:id="@id/vVipBg" android:background="@drawable/bg_one_grid_75_100_selector" android:layout_width="64.0dip" android:layout_height="40.0dip" android:layout_marginRight="-1.5dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llTop" android:background="@drawable/bg_one_grid_75_100_selector" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/ivRock" android:visibility="gone" android:layout_width="@dimen/imageTextIcon16" android:layout_height="@dimen/imageTextIcon16" android:layout_marginRight="@dimen/marginSizeSmall" android:src="@drawable/rock" />
+            <TextView android:textSize="@dimen/textSize14Sp" android:textStyle="bold" android:textColor="@color/text_title_color" android:ellipsize="end" android:id="@id/tvName" android:text="同学" android:maxLines="2" style="@style/userRoomNameStyle" />
+            <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/userRoomOtherColor" android:id="@id/tvName2" style="@style/userRoomNameStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llCenter" android:background="@drawable/bg_one_grid_50_75_selector" android:layout_width="fill_parent" android:layout_height="34.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="-1.0dip" android:layout_marginRight="12.0dip" android:layout_below="@id/llTopLine">
+        <TextView android:id="@id/tvId" android:layout_width="0.0dip" android:layout_marginLeft="64.0dip" android:text="@string/userId" android:layout_weight="1.0" style="@style/tv10spStyle" />
+    </LinearLayout>
+    <include android:id="@id/userIconLayout" layout="@layout/layout_head_icon" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/llIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="71.0dip">
+        <ImageView android:id="@id/ivHonor" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginRight="-10.0dip" android:src="@drawable/ic_default_honor" />
+        <ImageView android:id="@id/ivVip" android:layout_width="74.0dip" android:layout_height="50.0dip" android:src="@drawable/new_ic_mvp" />
+    </LinearLayout>
+</RelativeLayout>

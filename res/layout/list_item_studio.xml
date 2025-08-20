@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:myApp="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/btn_item_selector_new" android:padding="@dimen/meFragmentItemPdSizeNew" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivIcon" android:layout_width="54.0dip" android:layout_height="54.0dip" android:layout_marginLeft="3.0dip" android:layout_marginTop="3.0dip" myApp:type="circle" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitStart" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="54.0dip" android:layout_marginLeft="10.0dip" android:layout_weight="1.0">
+                <TextView android:id="@id/tvName" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="轨迹工作室" android:layout_weight="3.0" style="@style/studioNameStyle" />
+                <TextView android:id="@id/tvSynopsis" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="hey 哥们等什么呢，你是想一辈子窝囊下去吗？还不快和我一起征服世界" android:layout_weight="5.0" style="@style/studioOtherStyle" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

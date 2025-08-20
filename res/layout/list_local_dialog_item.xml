@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:orientation="horizontal" android:paddingLeft="@dimen/new_ui_margin" android:paddingRight="@dimen/new_ui_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llSelect" android:background="@drawable/btn_local_selector" android:paddingLeft="@dimen/meFragmentItemPdSize" android:paddingRight="@dimen/meFragmentItemPdSize" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <TextView android:textColor="@color/text_title_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tvName" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="6.0dip" android:text="Name" android:lines="1" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.3">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:src="@drawable/ic_server_net" />
+            <com.mcpeonline.multiplayer.view.NetStatusProgress android:id="@id/nspNetStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" app:delay="39" />
+            <TextView android:id="@id/tvPing" android:layout_width="0.0dip" android:layout_marginLeft="8.0dip" android:text="Delay:39" android:layout_weight="1.0" style="@style/userGameOtherInfoStyle" />
+            <ImageView android:id="@id/ivLocalSure" android:layout_width="27.5dip" android:layout_height="19.5dip" android:layout_marginRight="16.0dip" android:src="@drawable/ic_new_choose_nor" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

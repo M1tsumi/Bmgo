@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/lvVipSkin" android:paddingLeft="@dimen/new_ui_margin" android:paddingTop="19.0dip" android:paddingRight="@dimen/new_ui_margin" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@color/transparent" android:dividerHeight="7.0dip" />
+    <com.sandboxol.refresh.view.PageLoadingView android:id="@id/plvLoading" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

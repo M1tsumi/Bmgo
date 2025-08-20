@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="355.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="85.0dip" android:layout_marginTop="10.0dip">
+        <RelativeLayout android:layout_width="@dimen/head_icon_border_size" android:layout_height="85.0dip">
+            <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivIcon" android:layout_width="@dimen/head_icon_size" android:layout_height="@dimen/head_icon_size" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/head_df" app:type="round" />
+            <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivIconBg" android:layout_width="@dimen/head_icon_border_size" android:layout_height="@dimen/head_icon_border_size" android:src="@drawable/ic_head_border_default" app:type="round" />
+            <TextView android:textColor="@color/partner_dialog_main_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/tvNickName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/ivRealmsRankingTypeIcon" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/ic_partner_level_heart" />
+        <RelativeLayout android:layout_width="@dimen/head_icon_border_size" android:layout_height="85.0dip">
+            <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivOtherIcon" android:layout_width="@dimen/head_icon_size" android:layout_height="@dimen/head_icon_size" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/head_df" app:type="round" />
+            <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivOtherIconBg" android:layout_width="@dimen/head_icon_border_size" android:layout_height="@dimen/head_icon_border_size" android:src="@drawable/ic_head_border_default" app:type="round" />
+            <TextView android:textColor="@color/partner_dialog_main_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/tvOtherNickName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="72.0dip" android:layout_marginTop="4.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:layout_marginTop="0.0dip" style="@style/partnerDialogStyle">
+                <TextView android:text="@string/partner_dialog_partner_time" style="@style/partnerDialogMainText" />
+                <TextView android:id="@id/tvPartnerTime" android:layout_marginLeft="4.0dip" android:text="@string/days" style="@style/partnerDialogDetailText" />
+            </LinearLayout>
+            <LinearLayout style="@style/partnerDialogStyle">
+                <TextView android:text="@string/partner_dialog_partner_intimacy" style="@style/partnerDialogMainText" />
+                <TextView android:id="@id/tvIntimacy" android:layout_marginLeft="4.0dip" android:text="998" style="@style/partnerDialogDetailText" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:background="@drawable/bg_one_grid_50" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_marginRight="4.0dip">
+            <ImageView android:id="@id/ivRing" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ic_partner_ring_default" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout style="@style/partnerDialogStyle">
+        <TextView android:text="@string/partner_dialog_partner_intimacy_level" style="@style/partnerDialogMainText" />
+        <com.mcpeonline.multiplayer.view.PartnerLevelView android:id="@id/plvLevel" android:layout_width="wrap_content" android:layout_height="fill_parent" app:level="2" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top" android:layout_height="wrap_content" android:minHeight="100.0dip" style="@style/partnerDialogStyle">
+        <TextView android:ellipsize="end" android:id="@id/tvDetails" android:text="@string/partner_dialog_partner_declaration" android:maxLines="10" style="@style/partnerDialogMainText" />
+    </LinearLayout>
+</LinearLayout>

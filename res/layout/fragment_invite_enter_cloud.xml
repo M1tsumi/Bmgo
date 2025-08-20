@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rlBg" android:background="@color/dialog_shadow" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/llContext" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="200.0dip" android:layout_alignParentBottom="true">
+        <TextView android:id="@id/tvTitle" android:padding="@dimen/pdSize" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/userInviteEnter" style="@style/textView14spStyle" />
+        <View android:background="@color/infoLine" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/list_friend_cloud_item" />
+        <LinearLayout android:orientation="horizontal" android:padding="@dimen/pdSize" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center" android:id="@id/btnCancel" android:background="@drawable/btn_refusal_selector" android:layout_marginLeft="0.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="15.0dip" android:text="@string/refusal" android:layout_weight="1.0" style="@style/newBigBtnStyle" />
+            <TextView android:gravity="center" android:id="@id/btnSure" android:layout_marginLeft="15.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="0.0dip" android:text="@string/enter" android:layout_weight="1.0" style="@style/newBigBtnStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:theme="@style/AppTheme.AppBarOverlay" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+        <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="@drawable/bg_top_bar" android:layout_width="fill_parent" android:layout_height="@dimen/actionBarSize" app:contentInsetStart="0.0dip" app:contentInsetEnd="0.0dip" app:contentInsetLeft="0.0dip" app:contentInsetRight="0.0dip" app:popupTheme="@style/AppTheme.PopupOverlay" app:navigationIcon="@null">
+            <ImageButton android:id="@id/ibBack" android:background="@null" android:paddingRight="8.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/back_selector" />
+            <com.mcpeonline.multiplayer.view.StrokeTextView android:layout_gravity="center" android:id="@id/tvTitle" android:paddingRight="5.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_marginRight="40.0dip" android:text="@string/vipZone" app:shadowColor="#ff8b7d69" app:shadowSize="10" style="@style/homeToolBarTextStyle" />
+            <ImageButton android:layout_gravity="right|center" android:id="@id/ibMore" android:background="@null" android:paddingLeft="0.0dip" android:paddingRight="8.0dip" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+            <Button android:id="@id/ibGive" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:text="@string/giving" style="@style/GreenButtonStyle" />
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <include layout="@layout/content_vip" />
+    <View android:background="@drawable/bg_home_top_bar" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_bottom_size" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.design.widget.TabLayout android:id="@id/tabs" android:background="@android:color/white" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="40.0dip" style="@style/tabLayoutStyle" />
+    <View android:background="@color/infoLine" android:layout_width="fill_parent" android:layout_height="@dimen/lineHei" />
+    <com.mcpeonline.multiplayer.view.BanSlideViewPager android:id="@id/resourcePager" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="never" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/llPartner" android:background="@drawable/bg_two_grid_75_selector" android:layout_width="fill_parent" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginRight="10.0dip" android:text="@string/user_info_lovers" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/llHasPartner" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/ivPartnerSex" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sex_boy" />
+        <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/textMainColor" android:id="@id/tvPartnerName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="Steve" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/hintColor" android:id="@id/tvNoPartner" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/user_info_no_lover" android:layout_weight="1.0" />
+    <ImageView android:layout_marginRight="15.0dip" style="@style/arrowStyle" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.sandboxol.refresh.view.PageLoadingView android:id="@id/plvLoading" android:layout_width="fill_parent" android:layout_height="fill_parent" app:refresh_button_text="@string/nowLogin" app:show_refresh_button="true" />
+    <TextView android:id="@id/tvGuestMsg" android:background="@drawable/btn_shape_fillet_bg" android:padding="@dimen/meFragmentItemPdSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/guestMsg" style="@style/guestMsg" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/llVipContainer" android:background="@drawable/bg_vip_special_effect" android:paddingLeft="8.0dip" android:paddingTop="3.0dip" android:paddingRight="8.0dip" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="120.0dip">
+        <ImageView android:id="@id/ivVipIcon" android:layout_width="47.0dip" android:layout_height="26.0dip" android:src="@drawable/vip_vip_up" />
+        <TextView android:textSize="@dimen/textSize16Sp" android:textColor="@color/white" android:id="@id/tvVipName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/floatVipIntoTheRoom" />
+    </LinearLayout>
+</FrameLayout>

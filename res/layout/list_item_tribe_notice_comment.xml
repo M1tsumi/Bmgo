@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/bg_one_grid_50" android:paddingLeft="@dimen/new_ui_margin" android:paddingRight="@dimen/new_ui_margin" android:layout_width="fill_parent" android:layout_height="66.0dip" android:layout_marginLeft="@dimen/new_ui_margin" android:layout_marginTop="3.0dip" android:layout_marginRight="@dimen/new_ui_margin" android:layout_marginBottom="3.0dip">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/llName" android:layout_width="wrap_content" android:layout_height="32.0dip">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/ic_tribe_comment" />
+            <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/text_hint_content_color" android:ellipsize="end" android:id="@id/tvUserName" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200.0dip" android:text="Steven：" android:lines="1" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/text_main_content_color" android:gravity="center" android:id="@id/tvCommentTime" android:layout_width="wrap_content" android:layout_height="32.0dip" android:text="2016.3.12" android:layout_alignParentRight="true" />
+        <View android:id="@id/line" android:background="@color/line_bg" android:layout_width="fill_parent" android:layout_height="@dimen/lineH" android:layout_below="@id/llName" />
+        <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/text_main_content_color" android:gravity="center_vertical" android:id="@id/tvCommentContent" android:layout_width="fill_parent" android:layout_height="31.5dip" android:layout_marginLeft="4.0dip" android:text="维护部落！！！！" android:layout_below="@id/line" />
+    </RelativeLayout>
+</LinearLayout>

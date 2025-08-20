@@ -1,0 +1,143 @@
+.class public abstract Lcom/sandboxol/mgs/connector/ConnectorGrpc$ConnectorImplBase;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lio/grpc/BindableService;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/sandboxol/mgs/connector/ConnectorGrpc;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x409
+    name = "ConnectorImplBase"
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 64
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bindService()Lio/grpc/ServerServiceDefinition;
+    .locals 4
+
+    .prologue
+    .line 84
+    invoke-static {}, Lcom/sandboxol/mgs/connector/ConnectorGrpc;->getServiceDescriptor()Lio/grpc/ServiceDescriptor;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lio/grpc/ServerServiceDefinition;->builder(Lio/grpc/ServiceDescriptor;)Lio/grpc/ServerServiceDefinition$Builder;
+
+    move-result-object v0
+
+    sget-object v1, Lcom/sandboxol/mgs/connector/ConnectorGrpc;->METHOD_QUEUE:Lio/grpc/MethodDescriptor;
+
+    new-instance v2, Lcom/sandboxol/mgs/connector/ConnectorGrpc$MethodHandlers;
+
+    const/4 v3, 0x0
+
+    invoke-direct {v2, p0, v3}, Lcom/sandboxol/mgs/connector/ConnectorGrpc$MethodHandlers;-><init>(Lcom/sandboxol/mgs/connector/ConnectorGrpc$ConnectorImplBase;I)V
+
+    .line 87
+    invoke-static {v2}, Lio/grpc/stub/ServerCalls;->asyncBidiStreamingCall(Lio/grpc/stub/ServerCalls$BidiStreamingMethod;)Lio/grpc/ServerCallHandler;
+
+    move-result-object v2
+
+    .line 85
+    invoke-virtual {v0, v1, v2}, Lio/grpc/ServerServiceDefinition$Builder;->addMethod(Lio/grpc/MethodDescriptor;Lio/grpc/ServerCallHandler;)Lio/grpc/ServerServiceDefinition$Builder;
+
+    move-result-object v0
+
+    sget-object v1, Lcom/sandboxol/mgs/connector/ConnectorGrpc;->METHOD_TEAM_QUEUE:Lio/grpc/MethodDescriptor;
+
+    new-instance v2, Lcom/sandboxol/mgs/connector/ConnectorGrpc$MethodHandlers;
+
+    const/4 v3, 0x1
+
+    invoke-direct {v2, p0, v3}, Lcom/sandboxol/mgs/connector/ConnectorGrpc$MethodHandlers;-><init>(Lcom/sandboxol/mgs/connector/ConnectorGrpc$ConnectorImplBase;I)V
+
+    .line 94
+    invoke-static {v2}, Lio/grpc/stub/ServerCalls;->asyncBidiStreamingCall(Lio/grpc/stub/ServerCalls$BidiStreamingMethod;)Lio/grpc/ServerCallHandler;
+
+    move-result-object v2
+
+    .line 92
+    invoke-virtual {v0, v1, v2}, Lio/grpc/ServerServiceDefinition$Builder;->addMethod(Lio/grpc/MethodDescriptor;Lio/grpc/ServerCallHandler;)Lio/grpc/ServerServiceDefinition$Builder;
+
+    move-result-object v0
+
+    .line 99
+    invoke-virtual {v0}, Lio/grpc/ServerServiceDefinition$Builder;->build()Lio/grpc/ServerServiceDefinition;
+
+    move-result-object v0
+
+    .line 84
+    return-object v0
+.end method
+
+.method public queue(Lio/grpc/stub/StreamObserver;)Lio/grpc/stub/StreamObserver;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lio/grpc/stub/StreamObserver",
+            "<",
+            "Lcom/sandboxol/mgs/connector/QueueResponse;",
+            ">;)",
+            "Lio/grpc/stub/StreamObserver",
+            "<",
+            "Lcom/sandboxol/mgs/connector/QueueRequest;",
+            ">;"
+        }
+    .end annotation
+
+    .prologue
+    .line 73
+    sget-object v0, Lcom/sandboxol/mgs/connector/ConnectorGrpc;->METHOD_QUEUE:Lio/grpc/MethodDescriptor;
+
+    invoke-static {v0, p1}, Lio/grpc/stub/ServerCalls;->asyncUnimplementedStreamingCall(Lio/grpc/MethodDescriptor;Lio/grpc/stub/StreamObserver;)Lio/grpc/stub/StreamObserver;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public teamQueue(Lio/grpc/stub/StreamObserver;)Lio/grpc/stub/StreamObserver;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lio/grpc/stub/StreamObserver",
+            "<",
+            "Lcom/sandboxol/mgs/connector/TeamQueueResponse;",
+            ">;)",
+            "Lio/grpc/stub/StreamObserver",
+            "<",
+            "Lcom/sandboxol/mgs/connector/TeamQueueRequest;",
+            ">;"
+        }
+    .end annotation
+
+    .prologue
+    .line 80
+    sget-object v0, Lcom/sandboxol/mgs/connector/ConnectorGrpc;->METHOD_TEAM_QUEUE:Lio/grpc/MethodDescriptor;
+
+    invoke-static {v0, p1}, Lio/grpc/stub/ServerCalls;->asyncUnimplementedStreamingCall(Lio/grpc/MethodDescriptor;Lio/grpc/stub/StreamObserver;)Lio/grpc/stub/StreamObserver;
+
+    move-result-object v0
+
+    return-object v0
+.end method

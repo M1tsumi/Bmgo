@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/llItem" android:visibility="visible" style="@style/meFragmentItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivDrawableLeft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pdSize" android:src="@drawable/new_ic_mail" />
+    <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/text_hint_content_color" android:id="@id/tvText" android:text="@string/meInbox" style="@style/meItemTextStyle" />
+    <ImageView android:id="@id/ivPoint" android:background="@drawable/ic_red_point" android:visibility="gone" android:layout_width="9.0dip" android:layout_height="9.0dip" android:layout_marginRight="@dimen/pdSize" />
+    <ImageView android:id="@id/ivArrow" android:visibility="visible" android:layout_marginRight="@dimen/pdSize" style="@style/arrowStyle" />
+</LinearLayout>

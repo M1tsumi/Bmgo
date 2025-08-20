@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/textMainColor" android:id="@id/tvName" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="My Cloud" android:layout_weight="1.0" style="@style/tv14spStyle" />
+    <TextView android:gravity="center_vertical" android:id="@id/tvId" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/userId" android:layout_weight="1.0" style="@style/tv10spStyle" />
+    <TextView android:id="@id/tvNum" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/cloudGuestNum" android:layout_weight="1.0" style="@style/tv10spStyle" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ImageView android:id="@id/ivGameType" android:layout_width="8.0dip" android:layout_height="8.0dip" android:src="@drawable/type_survival_nor" />
+        <TextView android:id="@id/tvGameType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/marginSizeSmall" android:text="@string/gameTypeSurvival" style="@style/tv10spStyle" />
+        <TextView android:id="@id/tvHostName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/hostName" style="@style/tv10spStyle" />
+    </LinearLayout>
+</LinearLayout>

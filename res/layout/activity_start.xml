@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivBg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    <FrameLayout android:id="@id/flYoudaoAd" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/rlVip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/ivBgVip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:textSize="@dimen/textSize14Sp" android:layout_gravity="right" android:id="@id/btnSkip" android:background="@drawable/btn_start_skip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:minWidth="50.0dip" android:text="@string/startSkip" android:textAllCaps="false" />
+            <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0">
+                <ImageButton android:id="@id/btnJumpVip" android:background="@color/transparent" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_jump_vip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="5.5" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:id="@id/llAccount" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip" android:layout_alignParentBottom="true">
+        <Button android:textSize="14.0sp" android:id="@id/btnRegister" android:background="@drawable/btn_register_selector" android:clickable="true" android:layout_width="100.0dip" android:layout_height="40.0dip" android:layout_marginRight="20.0dip" android:text="@string/register_btn" />
+        <Button android:textSize="14.0sp" android:id="@id/btnLogin" android:background="@drawable/btn_register_selector" android:clickable="true" android:layout_width="100.0dip" android:layout_height="40.0dip" android:layout_marginLeft="20.0dip" android:text="@string/login_btn" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/textSize12Sp" android:textStyle="bold" android:textColor="@color/invitationNotRoom" android:id="@id/tvLoadResProgress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/prepare_text" android:layout_alignParentRight="true" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="90.0dip" android:layout_height="wrap_content" android:minWidth="90.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <TextView android:gravity="center" android:id="@id/tvImportResource" android:background="@drawable/btn_top_corner_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="38.0dip" android:text="@string/importResource" style="@style/textView14spStyle" />
+        <View android:background="@color/infoLine" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <TextView android:gravity="center" android:id="@id/tvDeleteResource" android:background="@drawable/btn_list_item_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="38.0dip" android:text="@string/deleteResource" style="@style/textView14spStyle" />
+        <View android:background="@color/infoLine" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <TextView android:gravity="center" android:id="@id/tvMapMarket" android:background="@drawable/btn_list_item_selector" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="38.0dip" android:text="@string/mapMarket" style="@style/textView14spStyle" />
+        <View android:background="@color/infoLine" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <TextView android:gravity="center" android:id="@id/tvSkinMarket" android:background="@drawable/btn_bottom_corner_selector" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="38.0dip" android:text="@string/skinMarket" style="@style/textView14spStyle" />
+    </LinearLayout>
+</RelativeLayout>

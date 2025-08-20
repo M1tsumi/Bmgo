@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:focusable="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:focusable="true" android:focusableInTouchMode="true" style="@style/accountLLStyle">
+                <TextView android:minWidth="100.0dip" android:text="@string/cloudName" style="@style/updateViewStyle" />
+                <EditText android:id="@id/etCloudName" style="@style/createRoomEtStyle" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/llInviteCode" style="@style/accountLLStyle">
+                <RelativeLayout android:focusable="true" android:focusableInTouchMode="true" android:minWidth="100.0dip" style="@style/updateViewStyle">
+                    <TextView android:minWidth="0.0dip" android:text="@string/cloudCode" android:drawableRight="@drawable/star_icon" style="@style/updateViewStyle" />
+                </RelativeLayout>
+                <EditText android:id="@id/etCloudCode" android:maxLength="30" style="@style/createRoomInviteCodeEtStyle" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/llCloudType" android:clickable="true" style="@style/accountLLStyle">
+                <TextView android:minWidth="100.0dip" android:text="@string/cloudType" style="@style/updateViewStyle" />
+                <TextView android:id="@id/tvCloudType" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/meFragmentItemMLe" android:layout_weight="1.0" style="@style/updateViewContentStyle" />
+                <ImageView style="@style/arrowStyle" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/llCloudMap" android:clickable="true" style="@style/accountLLStyle">
+                <TextView android:minWidth="100.0dip" android:text="@string/cloudMap" style="@style/updateViewStyle" />
+                <TextView android:id="@id/tvCloudMap" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/meFragmentItemMLe" android:layout_weight="1.0" style="@style/updateViewContentStyle" />
+                <ImageView style="@style/arrowStyle" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/llCloudMaxPlayer" android:clickable="true" style="@style/accountLLStyle">
+                <TextView android:minWidth="100.0dip" android:text="@string/cloudPlayerNum" style="@style/updateViewStyle" />
+                <TextView android:id="@id/tvCloudMaxPlayer" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/meFragmentItemMLe" android:layout_weight="1.0" style="@style/updateViewContentStyle" />
+                <ImageView style="@style/arrowStyle" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/llCloudTime" android:clickable="true" style="@style/accountLLStyle">
+                <TextView android:minWidth="100.0dip" android:text="@string/cloudTime" style="@style/updateViewStyle" />
+                <TextView android:id="@id/tvCloudTime" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/meFragmentItemMLe" android:layout_weight="1.0" style="@style/updateViewContentStyle" />
+                <ImageView style="@style/arrowStyle" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/llCloudRenewalTime" android:visibility="gone" android:clickable="true" style="@style/accountLLStyle">
+                <TextView android:minWidth="100.0dip" android:text="@string/cloudRenewalTime" style="@style/updateViewStyle" />
+                <TextView android:id="@id/tvCloudRenewalTime" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/meFragmentItemMLe" android:layout_weight="1.0" style="@style/updateViewContentStyle" />
+                <ImageView style="@style/arrowStyle" />
+            </LinearLayout>
+            <TextView android:textColor="@color/textAuxiliaryColor" android:id="@id/tvMsg" android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/heightNum40" style="@style/tv14spStyle" />
+            <LinearLayout android:orientation="vertical" android:background="@drawable/me_item_selector" android:paddingLeft="@dimen/pdSize" android:paddingTop="@dimen/tpSize" android:paddingRight="@dimen/pdSize" android:paddingBottom="@dimen/tpSize" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/tvIntroduceTile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/serverIntroduce" style="@style/updateViewStyle" />
+                <EditText android:id="@id/etIntroduce" android:background="@drawable/cloud_item_bottom_bg_nor" android:padding="@dimen/tpSize" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:minHeight="80.0dip" android:hint="@string/inputCloudIntroduce" style="@style/serverIntroduceEtStyle" />
+            </LinearLayout>
+            <RelativeLayout android:id="@id/rlCover" android:background="@drawable/me_item_selector" android:paddingLeft="@dimen/pdSize" android:paddingTop="@dimen/tpSize" android:paddingRight="@dimen/pdSize" android:paddingBottom="@dimen/tpSize" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/tvServerCover" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/tpSize" android:text="@string/cloudCover" style="@style/updateViewStyle" />
+                <com.mcpeonline.multiplayer.view.MyGridView android:gravity="center" android:id="@id/gvList" android:layout_width="fill_parent" android:layout_height="wrap_content" android:horizontalSpacing="10.0dip" android:verticalSpacing="10.0dip" android:stretchMode="columnWidth" android:numColumns="3" android:layout_below="@id/tvServerCover" android:overScrollMode="never" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <Button android:id="@id/btnSure" android:layout_marginTop="@dimen/pdSize" android:text="@string/sure" style="@style/newBigBtnStyle" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="right" android:orientation="horizontal" android:id="@id/llWhatCloud" android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" android:clickable="true" android:layout_width="wrap_content" android:layout_height="40.0dip">
+        <ImageView android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@drawable/btn_what_growth_selector" />
+        <TextView android:textSize="@dimen/textSize14Sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/marginSizeSmall" android:text="@string/whatCloud" style="@style/updateViewStyle" />
+    </LinearLayout>
+</LinearLayout>

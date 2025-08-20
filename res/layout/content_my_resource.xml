@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/allBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.TabLayout android:id="@id/tabs" android:layout_width="fill_parent" android:layout_height="@dimen/newTabHeight" app:tabIndicatorHeight="0.0dip" app:tabBackground="@drawable/bg_new_tab_selector" app:tabTextColor="@color/btn_new_select_color" style="@style/tabLayoutStyle" />
+    <com.mcpeonline.multiplayer.view.BanSlideViewPager android:id="@id/resourcePager" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+</LinearLayout>

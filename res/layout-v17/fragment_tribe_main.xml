@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rlTribeMain" android:background="@color/allBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.sandboxol.refresh.view.RefreshLayout android:id="@id/refreshLayout" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="7.0dip">
+        <RelativeLayout android:id="@id/swipe_target" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="110.0dip">
+            <ImageView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="95.0dip" android:src="@drawable/bg_tribe_main" android:scaleType="fitXY" android:adjustViewBounds="true" />
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="13.0dip" android:layout_marginBottom="50.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+                <com.mcpeonline.multiplayer.view.TribeItemFlowLayout android:layout_gravity="right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="110.0dip" android:layout_marginRight="2.0dip">
+                    <RelativeLayout android:id="@id/llTribeWar" style="@style/tribe_item_bg_style">
+                        <ImageView android:src="@drawable/ic_tribe_war" style="@style/tribe_item_pic_style" />
+                        <com.mcpeonline.multiplayer.view.StrokeTextView android:textColor="@android:color/white" android:id="@id/tvTribeWar" android:text="@string/tribe_war" app:shadowColor="#ff56534b" app:shadowSize="4" style="@style/tribe_item_text_style" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/llTribeBulletin" style="@style/tribe_item_bg_style">
+                        <ImageView android:src="@drawable/ic_tribe_function_bulletin" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/tribe_item_pic_style" />
+                        <com.mcpeonline.multiplayer.view.StrokeTextView android:textColor="@android:color/white" android:id="@id/tvTribeBulletin" android:text="@string/tribe_bulletin" app:shadowColor="#ff56534b" app:shadowSize="4" style="@style/tribe_item_text_style" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/llTribeMember" style="@style/tribe_item_bg_style">
+                        <ImageView android:src="@drawable/ic_tribe_function_member" style="@style/tribe_item_pic_style" />
+                        <com.mcpeonline.multiplayer.view.StrokeTextView android:textColor="@android:color/white" android:id="@id/tvTribeMember" android:text="@string/tribe_member" app:shadowColor="#ff56534b" app:shadowSize="4" style="@style/tribe_item_text_style" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/llTribeChat" style="@style/tribe_item_bg_style">
+                        <ImageView android:src="@drawable/ic_tribe_function_chat" style="@style/tribe_item_pic_style" />
+                        <com.mcpeonline.multiplayer.view.StrokeTextView android:textColor="@android:color/white" android:id="@id/tvTribeChat" android:text="@string/tribe_chat" app:shadowColor="#ff56534b" app:shadowSize="4" style="@style/tribe_item_text_style" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/llTribeTerritory" android:visibility="gone" style="@style/tribe_item_bg_style">
+                        <ImageView android:src="@drawable/ic_tribe_function_territory" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/tribe_item_pic_style" />
+                        <com.mcpeonline.multiplayer.view.StrokeTextView android:textColor="@android:color/white" android:id="@id/tvTribeTerritory" android:text="@string/tribe_territory" app:shadowColor="#ff56534b" app:shadowSize="4" style="@style/tribe_item_text_style" />
+                    </RelativeLayout>
+                </com.mcpeonline.multiplayer.view.TribeItemFlowLayout>
+            </LinearLayout>
+            <RelativeLayout android:background="@drawable/bg_tribe_top_top" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:id="@id/includeTop" layout="@layout/content_tribe_top_item" />
+                <LinearLayout android:orientation="vertical" android:background="@drawable/bg_one_grid_50" android:paddingRight="120.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:layout_below="@id/includeTop">
+                    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="25.0dip">
+                        <TextView android:textColor="@color/context_col" android:id="@id/tvTribePatrimony" android:paddingLeft="@dimen/new_ui_margin" android:text="@string/tribe_patrimony" android:layout_centerVertical="true" style="@style/tv10spStyle" />
+                        <TextView android:textStyle="bold" android:textColor="@color/title_col" android:ellipsize="end" android:id="@id/tvTribeName" android:layout_width="wrap_content" android:maxLines="1" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/textView12spStyle" />
+                    </RelativeLayout>
+                    <View android:id="@id/vLine" android:background="#ffc1b497" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/lineHei" android:layout_marginLeft="@dimen/new_ui_margin" />
+                    <RelativeLayout android:id="@id/rlTribeCheckLevel" android:layout_width="fill_parent" android:layout_height="28.0dip">
+                        <TextView android:textColor="@color/context_col" android:id="@id/tvTribeLevel" android:text="LV:1" android:layout_toRightOf="@id/ivTribeLevel" android:layout_centerVertical="true" style="@style/tv10spStyle" />
+                        <ImageView android:id="@id/ivTribeLevel" android:layout_width="36.0dip" android:layout_height="27.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/tribe_level_1" android:layout_centerVertical="true" />
+                        <ImageView android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+            <LinearLayout android:gravity="right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+                <include layout="@layout/layout_tribe_head_icon" />
+            </LinearLayout>
+        </RelativeLayout>
+    </com.sandboxol.refresh.view.RefreshLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.mcpeonline.multiplayer.view.StrokeTextView android:textSize="@dimen/textSize10Sp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tvTribeLastTime" android:background="@drawable/bg_tribe_last_time_bg" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:visibility="gone" android:layout_marginBottom="2.0dip" android:text="@string/tribe_open_time" app:shadowColor="#ff56534b" app:shadowSize="4" style="@style/tribe_main_function_text" />
+        <RelativeLayout android:orientation="vertical" android:background="@drawable/bg_tribe_bottom_top" android:layout_width="fill_parent" android:layout_height="52.0dip">
+            <LinearLayout android:gravity="center" android:id="@id/llTribeOpenTerritory" android:background="@drawable/btn_big_button_green_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginLeft="32.0dip" android:layout_marginRight="32.0dip" android:layout_centerInParent="true">
+                <TextView android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/tvTribeOpenTerritoryText" android:text="@string/tribe_open_territory" style="@style/textView12spStyle" />
+            </LinearLayout>
+            <View android:background="@drawable/bg_tribe_bottom_bottom" android:layout_width="fill_parent" android:layout_height="16.0dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:background="@color/allBackgroundColor" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_two_grid_50_nor" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="@dimen/new_ui_margin" android:layout_marginTop="-1.0dip" android:layout_marginRight="@dimen/new_ui_margin">
+                <RelativeLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/rlTribeContribution" android:background="@drawable/bg_tribe_item_selector" android:layout_width="58.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-1.0dip" android:layout_marginBottom="-2.0dip">
+                    <TextView android:textColor="#ff6f441b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="33.0dip" android:text="@string/tribe_fragment_donate" android:layout_centerHorizontal="true" style="@style/tv10spStyle" />
+                    <ImageView android:gravity="center" android:layout_width="40.0dip" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip" android:src="@drawable/ic_tribe_donate" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="-1.0dip">
+                    <com.mcpeonline.multiplayer.view.MyGridView android:id="@id/gvMoneyRankingList" android:paddingLeft="10.0dip" android:paddingTop="2.0dip" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="35.0dip" android:listSelector="@color/transparent" android:columnWidth="@dimen/tribe_head_icon_border_size" android:numColumns="auto_fit" />
+                    <TextView android:id="@id/tvTribeMoneyRankingHint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tribe_no_people_contribution" android:layout_centerInParent="true" style="@style/tv10spStyle" />
+                    <View android:id="@id/llTribeContributionRanking" android:background="@drawable/list_item_white_selector" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="@dimen/new_ui_margin" android:src="@drawable/arrow_right" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_two_grid_50_nor" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="@dimen/new_ui_margin" android:layout_marginTop="-1.0dip" android:layout_marginRight="@dimen/new_ui_margin">
+                <RelativeLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/bg_tribe_item_selector" android:layout_width="58.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-1.0dip" android:layout_marginTop="-1.0dip" android:layout_marginBottom="-2.0dip">
+                    <TextView android:textColor="#ff6f441b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="33.0dip" android:text="@string/tribe_fragment_sign" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/tv10spStyle" />
+                    <ImageView android:gravity="center" android:id="@id/tvTribePast" android:layout_width="40.0dip" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip" android:src="@drawable/btn_friend_click" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="-1.0dip">
+                    <com.mcpeonline.multiplayer.view.MyGridView android:id="@id/gvPastMemberList" android:paddingLeft="10.0dip" android:paddingTop="2.0dip" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="35.0dip" android:listSelector="@color/transparent" android:columnWidth="@dimen/tribe_head_icon_border_size" android:numColumns="auto_fit" />
+                    <TextView android:id="@id/tvTribePastMemberHint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tribe_no_people_past" android:layout_centerInParent="true" style="@style/tv10spStyle" />
+                    <View android:id="@id/llTribePastMember" android:background="@drawable/list_item_white_selector" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="@dimen/new_ui_margin" android:src="@drawable/arrow_right" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

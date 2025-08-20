@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textColor="@color/text_color" android:id="@id/btnFocus" android:background="@drawable/spinner_selector" android:layout_width="fill_parent" android:layout_height="@dimen/dialogBtnHeight45dp" android:text="@string/addFocus" />
+    <View android:background="@color/infoLine" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <Button android:textColor="@color/text_color" android:id="@id/btnFriend" android:background="@drawable/spinner_selector" android:layout_width="fill_parent" android:layout_height="@dimen/dialogBtnHeight45dp" android:text="@string/addFriend" />
+    <View android:background="@color/infoLine" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <Button android:textColor="@color/text_color" android:id="@id/btnBlacklist" android:background="@drawable/spinner_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dialogBtnHeight45dp" android:text="@string/addBlacklist" />
+    <View android:background="@color/infoLine" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <Button android:textColor="@color/colorPrimary" android:id="@id/btnCancel" android:background="@drawable/spinner_selector" android:layout_width="fill_parent" android:layout_height="@dimen/dialogBtnHeight45dp" android:text="@string/cancel" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/list_user_room_item" />
+    <ImageView android:id="@id/ivHonor" android:visibility="gone" android:layout_width="44.0dip" android:layout_height="23.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/charm_ranking_first" />
+</RelativeLayout>

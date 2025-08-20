@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/llTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" />
+    <SeekBar android:id="@id/seekBar" android:paddingLeft="@dimen/floatPaddingLeft" android:paddingRight="@dimen/floatPaddingRight" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="5.0dip" android:indeterminate="false" android:progressDrawable="@drawable/seek_bar_float_value" android:minHeight="5.0dip" style="?android:attr/progressBarStyleHorizontal" />
+</LinearLayout>

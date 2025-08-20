@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup android:orientation="horizontal" android:id="@id/rgVipTitle" android:background="@color/vip_tab_background_color" android:layout_width="fill_parent" android:layout_height="36.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:id="@id/rbVip" android:background="@drawable/bg_vip_title_tab_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:checked="true" android:button="@null" android:drawableTop="@drawable/ic_vip_title_vip" android:layout_weight="1.0" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_vip_title_part_line" />
+    <RadioButton android:id="@id/rbVipUp" android:background="@drawable/bg_vip_title_tab_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:button="@null" android:drawableTop="@drawable/ic_vip_title_vip_up" android:layout_weight="1.0" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_vip_title_part_line" />
+    <RadioButton android:id="@id/rbMvp" android:background="@drawable/bg_vip_title_tab_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:button="@null" android:drawableTop="@drawable/ic_vip_title_mvp" android:layout_weight="1.0" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_vip_title_part_line" />
+    <RadioButton android:id="@id/rbMvpUp" android:background="@drawable/bg_vip_title_tab_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:button="@null" android:drawableTop="@drawable/ic_vip_title_mvp_up" android:layout_weight="1.0" />
+</RadioGroup>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="76.0dip" android:layout_marginBottom="-4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_two_grid_50_75_selector" android:layout_width="fill_parent" android:layout_height="66.0dip" android:layout_marginLeft="67.0dip" android:layout_marginRight="@dimen/new_ui_margin" android:layout_centerVertical="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/server_item_name_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tvGroupName" android:layout_width="wrap_content" android:layout_height="34.0dip" android:layout_marginLeft="28.0dip" android:layout_marginRight="56.0dip" android:text="MC战队" android:maxLines="1" />
+            <GridView android:id="@id/rvTeamLabel" android:background="@null" android:focusable="false" android:focusableInTouchMode="false" android:scrollbars="none" android:clickable="false" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="12.0dip" android:listSelector="@color/transparent" android:stretchMode="columnWidth" android:numColumns="4" />
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/layout_group_head_icon" />
+</RelativeLayout>

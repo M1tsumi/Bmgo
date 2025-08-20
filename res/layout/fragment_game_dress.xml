@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mcpeonline.multiplayer.view.BanSlideViewPager android:id="@id/vpGameDress" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/dialog_app_update_so" />
+</RelativeLayout>

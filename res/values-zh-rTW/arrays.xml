@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="other_join_room_msg">
+        <item>進入遊戲后人有可能會卡在虛空中，稍等一下即可進入遊戲</item>
+        <item>登錄賬號可降低被踢概率喲！</item>
+        <item>房主的網路也會影響你的遊戲延遲。</item>
+        <item>創建房間成功要盡快進入遊戲哦！</item>
+        <item>伺服器內遊戲時間越長，獲得EXP越多！</item>
+    </string-array>
+    <string-array name="ban_goods_names">
+        <item>噴濺型隱身藥水</item>
+        <item>岩漿</item>
+        <item>水</item>
+        <item>打火石</item>
+        <item>隱形藥水</item>
+        <item>生物蛋</item>
+        <item>投擲器</item>
+        <item>船</item>
+    </string-array>
+    <string-array name="realms_type">
+        <item>饑餓遊戲</item>
+    </string-array>
+</resources>

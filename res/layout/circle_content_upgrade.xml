@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:paddingLeft="44.0dip" android:paddingTop="3.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="@dimen/head_icon_border_size" android:layout_height="@dimen/head_icon_border_size">
+        <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivDescIcon" android:layout_width="@dimen/head_icon_size" android:layout_height="@dimen/head_icon_size" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/head_df" android:scaleType="centerCrop" app:type="round" />
+        <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivDescIconBg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_head_border_default" app:type="round" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/friend_circle_content_color" android:ellipsize="end" android:id="@id/tvContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="Congratulation! Upgrade to LV12!" />
+</LinearLayout>

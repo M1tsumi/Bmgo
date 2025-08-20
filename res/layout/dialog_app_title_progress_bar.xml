@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:background="@color/dialog_shadow" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0" />
+    <LinearLayout style="@style/dialogSizeStyle">
+        <TextView android:id="@id/tvMsg" android:text="@string/error_token" style="@style/dialogMsgStyle" />
+        <ProgressBar android:id="@id/progressBar" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip" android:layout_marginBottom="@dimen/meFragmentItemPdSize" android:maxHeight="12.0px" android:max="100" android:progress="0" android:progressDrawable="@drawable/progressbar_drawable" android:minHeight="12.0px" style="?android:attr/progressBarStyleHorizontal" />
+    </LinearLayout>
+    <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0" />
+</LinearLayout>

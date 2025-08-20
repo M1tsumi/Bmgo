@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_conversation_content_selector" android:layout_width="fill_parent" android:layout_height="66.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0sp" android:textColor="@color/conversation_title_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/rc_conversation_title" android:background="@drawable/bg_conversation_title" android:paddingLeft="34.0dip" android:paddingRight="85.0dip" android:layout_width="fill_parent" android:layout_height="31.5dip" android:layout_marginLeft="10.0dip" android:text="Player A" android:singleLine="true" android:layout_alignParentLeft="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="31.0dip" android:layout_marginLeft="44.0dip" android:layout_below="@id/rc_conversation_title">
+        <TextView android:textSize="11.0sp" android:textColor="@color/rc_message_user_name" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/rc_conversation_content" android:paddingRight="10.0dip" android:layout_width="0.0dip" android:layout_height="31.0dip" android:text="11" android:singleLine="true" android:layout_weight="1.0" />
+        <ImageView android:id="@id/rc_conversation_status" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rc_read_receipt" />
+        <TextView android:textSize="@dimen/rc_conversation_item_time_size" android:textColor="@color/rc_text_color_secondary" android:gravity="center_vertical" android:id="@id/rc_conversation_time" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="27.0dip" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:text="12:23" />
+    </LinearLayout>
+    <ImageView android:id="@id/rc_conversation_msg_block" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="31.5dip" android:layout_marginRight="14.0dip" android:src="@drawable/rc_ic_message_block" android:layout_alignParentRight="true" />
+</RelativeLayout>

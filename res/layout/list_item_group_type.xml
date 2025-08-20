@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/llGroupChatList" android:background="@drawable/list_item_selector" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:src="@drawable/ic_group" />
+        <TextView android:layout_gravity="center_vertical" android:text="@string/group_chat" style="@style/userRoomNameStyle" />
+    </LinearLayout>
+    <View android:background="@color/infoLine" android:layout_width="fill_parent" android:layout_height="@dimen/lineHei" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/tvInviteTribe" android:background="@drawable/float_item_transparent_selector" android:paddingLeft="@dimen/floatPaddingLeft" android:paddingRight="@dimen/floatPaddingRight" android:clickable="true" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/float_invite_tribe" />
+        <View android:background="@color/float_line_color" android:layout_width="fill_parent" android:layout_height="@dimen/lineHei" />
+        <CheckBox android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/cbInviteFriend" android:background="@null" android:paddingLeft="@dimen/floatPaddingLeft" android:paddingRight="@dimen/floatPaddingRight" android:layout_width="fill_parent" android:layout_height="50.0dip" android:button="@null" android:text="@string/float_invite_friends" android:drawableRight="@drawable/ic_player_arrow_selector" />
+        <View android:background="@color/float_line_color" android:layout_width="fill_parent" android:layout_height="@dimen/lineHei" />
+        <include android:id="@id/viewFriend" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/refresh_list_layout" />
+        <CheckBox android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/cbInviteGroup" android:background="@null" android:paddingLeft="@dimen/floatPaddingLeft" android:paddingRight="@dimen/floatPaddingRight" android:layout_width="fill_parent" android:layout_height="50.0dip" android:button="@null" android:text="@string/float_invite_group" android:drawableRight="@drawable/ic_player_arrow_selector" />
+        <View android:background="@color/float_line_color" android:layout_width="fill_parent" android:layout_height="@dimen/lineHei" />
+        <ListView android:id="@id/lvGroup" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:listSelector="@color/transparent" android:divider="@null" android:layout_weight="1.0" android:overScrollMode="never" />
+        <ListView android:id="@id/svNull" android:background="@null" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</FrameLayout>

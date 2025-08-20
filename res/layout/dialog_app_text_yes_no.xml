@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/llTopView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0" />
+    <LinearLayout style="@style/dialogSizeStyle">
+        <ImageView android:id="@id/ivVersionUrl" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="132.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:scaleType="centerCrop" />
+        <TextView android:textColor="@color/textMainColor" android:gravity="left|center" android:id="@id/tvMsg" style="@style/dialogMsgStyle" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dialogBtnHeight35dp">
+            <ImageView android:id="@id/btnCancel" android:src="@drawable/btn_new_cancel_selector" android:text="@string/cancel" style="@style/dialogBtnStyle" />
+            <ImageView android:id="@id/btnSure" android:src="@drawable/btn_new_sure_selector" android:text="@string/sure" style="@style/dialogBtnStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0" />
+</LinearLayout>

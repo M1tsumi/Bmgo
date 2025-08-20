@@ -1,0 +1,39 @@
+.class final Lcom/google/android/gms/games/n;
+.super Lcom/google/android/gms/games/b$e;
+
+
+# instance fields
+.field private synthetic a:Ljava/lang/String;
+
+
+# direct methods
+.method constructor <init>(Lcom/google/android/gms/common/api/GoogleApiClient;Ljava/lang/String;)V
+    .locals 1
+
+    iput-object p2, p0, Lcom/google/android/gms/games/n;->a:Ljava/lang/String;
+
+    const/4 v0, 0x0
+
+    invoke-direct {p0, p1, v0}, Lcom/google/android/gms/games/b$e;-><init>(Lcom/google/android/gms/common/api/GoogleApiClient;Lcom/google/android/gms/games/l;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method protected final synthetic a(Lcom/google/android/gms/common/api/Api$zzb;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
+
+    check-cast p1, Lcom/google/android/gms/games/internal/a;
+
+    iget-object v0, p0, Lcom/google/android/gms/games/n;->a:Ljava/lang/String;
+
+    invoke-virtual {p1, v0, p0}, Lcom/google/android/gms/games/internal/a;->a(Ljava/lang/String;Lcom/google/android/gms/internal/te;)V
+
+    return-void
+.end method

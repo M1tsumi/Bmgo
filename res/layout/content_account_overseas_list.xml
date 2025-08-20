@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/meFragmentItemPdSizeNew" android:paddingTop="@dimen/meFragmentItemPdSizeNew" android:paddingRight="@dimen/meFragmentItemPdSizeNew" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:id="@id/googlePlayLogin" android:background="@drawable/btn_google_play_selector_bg" android:layout_marginTop="4.0dip" style="@style/contentAccountType">
+        <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/account_activity_text" android:gravity="center" android:id="@id/tvGooglePlay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/loginWithGooglePlay" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:id="@id/googleLogin" android:background="@drawable/btn_google_selector_bg_new" android:layout_marginTop="4.0dip" style="@style/contentAccountType">
+        <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/account_activity_text" android:gravity="center" android:id="@id/tvGoogle" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/signUpWithGoogle" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:id="@id/facebookLogin" android:background="@drawable/btn_facebook_selector_bg_new" android:layout_marginTop="10.0dip" style="@style/contentAccountType">
+        <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/account_activity_text" android:gravity="center" android:id="@id/tvFacebook" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/signUpWithFacebook" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:id="@id/twitter_login_button" android:background="@drawable/btn_twitter_selector_bg_new" android:layout_marginTop="10.0dip" style="@style/contentAccountType">
+        <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/account_activity_text" android:gravity="center" android:id="@id/tvTwitter" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/signUpWithTwitter" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

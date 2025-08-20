@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="right" android:orientation="vertical" android:layout_width="@dimen/float_right_layout_width_4" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v4.widget.NestedScrollView android:id="@id/nsvFloatSetting" android:background="@drawable/float_bg_right" android:layout_width="250.0dip" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_share_container" android:layout_width="@dimen/float_right_layout_width_4" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/float_text_color" android:paddingLeft="@dimen/floatPaddingLeft" android:paddingRight="@dimen/floatPaddingRight" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:text="@string/float_cmd_js" />
+            <View android:background="@color/float_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="90.0dip">
+                <RadioGroup android:gravity="center" android:orientation="horizontal" android:id="@id/rgMode" android:layout_width="fill_parent" android:layout_height="@dimen/floatViewCommonHeight" android:layout_marginLeft="@dimen/floatPaddingLeft" android:layout_marginRight="@dimen/floatPaddingRight">
+                    <RadioButton android:textSize="12.0sp" android:id="@id/rbSurvival" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_marginRight="8.0dip" android:checked="true" android:text="@string/title_survival" android:drawableLeft="@drawable/float_config_survival" style="@style/pmConfigRadioButtonStyle" />
+                    <RadioButton android:textSize="12.0sp" android:id="@id/rbCreate" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_marginLeft="8.0dip" android:text="@string/title_create" android:drawableLeft="@drawable/float_config_create" style="@style/pmConfigRadioButtonStyle" />
+                </RadioGroup>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="30.0dip">
+                    <TextView android:textColor="@color/white" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:text="@string/float_embed_magic_switch_room_mode" />
+                    <ToggleButton android:id="@id/tbSwitchRoomMode" android:layout_marginLeft="15.0dip" style="@style/toggleButtonStyle" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:background="@color/float_right_line_color" android:layout_width="fill_parent" android:layout_height="@dimen/lineHei" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="@dimen/floatPaddingLeft" android:paddingRight="@dimen/floatPaddingRight" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/float_text_color" android:id="@id/tvMorning" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/floatGameSettingMorning" android:layout_weight="1.0" />
+                <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/float_text_color" android:gravity="center" android:id="@id/tvNoon" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/floatGameSettingNoon" android:layout_weight="1.0" />
+                <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/float_text_color" android:gravity="center" android:id="@id/tvSunset" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/floatGameSettingSunset" android:layout_weight="1.0" />
+                <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/float_text_color" android:gravity="right" android:id="@id/tvMidNight" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/floatGameSettingMidNight" android:layout_weight="1.0" />
+            </LinearLayout>
+            <com.mcpeonline.multiplayer.view.SubsectionSeekBar android:layout_gravity="center" android:id="@id/ssbChangeTime" android:paddingLeft="@dimen/floatPaddingLeft" android:paddingRight="@dimen/floatPaddingRight" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" app:maxProgress="100" app:progress="0" app:dots="4" app:thumb="@drawable/bg_subsection_thumb" app:unProgressLineColor="#ff32c7c0" app:unProgressCircleColor="#ffffffff" app:isDisplay="false" />
+            <View android:background="@color/float_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/float_text_color" android:gravity="center" android:id="@id/tvWeather" android:paddingLeft="@dimen/floatPaddingLeft" android:paddingTop="5.0dip" android:paddingRight="@dimen/floatPaddingRight" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/float_weather_close" />
+            <com.mcpeonline.multiplayer.view.SubsectionSeekBar android:layout_gravity="center" android:id="@id/ssbChangeWeather" android:paddingLeft="@dimen/floatPaddingLeft" android:paddingRight="@dimen/floatPaddingRight" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" app:maxProgress="100" app:progress="0" app:dots="4" app:thumb="@drawable/bg_subsection_thumb" app:unProgressLineColor="#ff32c7c0" app:unProgressCircleColor="#ffffffff" app:isDisplay="false" />
+            <View android:background="@color/float_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <include layout="@layout/float_setting_ban_goods_layout" />
+            <View android:background="@color/float_line_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="46.0dip">
+                <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/float_text_color" android:gravity="center_vertical" android:paddingRight="@dimen/floatPd" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="LockRoom" android:layout_weight="1.0" />
+                <ToggleButton android:id="@id/tbLockRoom" android:background="@drawable/float_right_toggle_button" android:layout_width="55.0dip" android:layout_height="25.0dip" android:textOn="" android:textOff="" />
+            </LinearLayout>
+            <View android:background="@color/float_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <LinearLayout style="@style/floatMapInfoSettingItem">
+                <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/float_text_color" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/banTnt" android:layout_weight="1.0" />
+                <ToggleButton android:id="@id/tbBanTnt" style="@style/toggleButtonStyle" />
+            </LinearLayout>
+            <View android:background="@color/float_right_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <LinearLayout style="@style/floatMapInfoSettingItem">
+                <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/float_text_color" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/banFire" android:layout_weight="1.0" />
+                <ToggleButton android:id="@id/tbBanFire" style="@style/toggleButtonStyle" />
+            </LinearLayout>
+            <View android:background="@color/float_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <LinearLayout style="@style/floatMapInfoSettingItem">
+                <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/float_text_color" android:gravity="center_vertical" android:paddingRight="@dimen/floatPd" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/float_right_nodrop_item" android:layout_weight="1.0" />
+                <ToggleButton android:id="@id/tbNoDrop" android:background="@drawable/float_right_toggle_button" android:layout_width="55.0dip" android:layout_height="25.0dip" android:textOn="" android:textOff="" />
+            </LinearLayout>
+            <View android:background="@color/float_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <LinearLayout style="@style/floatMapInfoSettingItem">
+                <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/float_text_color" android:gravity="center_vertical" android:paddingRight="@dimen/floatPd" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/floatRightNoPVPItem" android:layout_weight="1.0" />
+                <ToggleButton android:id="@id/tbNoPVP" android:background="@drawable/float_right_toggle_button" android:layout_width="55.0dip" android:layout_height="25.0dip" android:textOn="" android:textOff="" />
+            </LinearLayout>
+            <View android:background="@color/float_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <LinearLayout style="@style/floatMapInfoSettingItem">
+                <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/float_text_color" android:gravity="center_vertical" android:paddingRight="@dimen/floatPd" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/floatRightNoDestroyItem" android:layout_weight="1.0" />
+                <ToggleButton android:id="@id/tbNoDestroy" android:background="@drawable/float_right_toggle_button" android:layout_width="55.0dip" android:layout_height="25.0dip" android:textOn="" android:textOff="" />
+            </LinearLayout>
+            <View android:background="@color/float_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <LinearLayout android:visibility="gone" style="@style/floatMapInfoSettingItem">
+                <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/float_text_color" android:gravity="center_vertical" android:paddingRight="@dimen/floatPd" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/float_map_info_setting_no_add" android:layout_weight="1.0" />
+                <ToggleButton android:id="@id/tbNoAdd" android:background="@drawable/float_right_toggle_button" android:layout_width="55.0dip" android:layout_height="25.0dip" android:textOn="" android:textOff="" />
+            </LinearLayout>
+            <View android:background="@color/float_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</RelativeLayout>

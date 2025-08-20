@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="right" android:layout_width="@dimen/float_right_layout_width_4" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_goto_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textSize="14.0sp" android:textColor="@color/textColorWhite" android:id="@id/btnSetDelivery" android:background="@drawable/btn_float_add_friend_selector" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_margin="5.0dip" android:text="@string/setDelivery" android:layout_weight="1.0" />
+                <Button android:textSize="14.0sp" android:textColor="@color/textColorWhite" android:id="@id/btnKillMyself" android:background="@drawable/btn_float_add_friend_selector" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_margin="5.0dip" android:text="@string/backToRebirth" android:layout_weight="1.0" />
+                <Button android:textSize="14.0sp" android:textColor="@color/textColorWhite" android:id="@id/btnBackToRebirth" android:background="@drawable/btn_float_add_friend_selector" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_margin="5.0dip" android:text="@string/killMyself" android:layout_weight="1.0" />
+            </LinearLayout>
+            <View android:background="@color/float_line_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                    <Button android:textSize="14.0dip" android:textColor="@color/white" android:id="@id/btn_set_pos1" android:background="@drawable/btn_float_set_delivery_selector" android:layout_width="wrap_content" android:layout_height="@dimen/float_btn_height" android:layout_marginRight="9.0dip" android:text="@string/float_setting_goto" android:layout_weight="1.0" />
+                    <Button android:textSize="14.0dip" android:textColor="@color/white" android:id="@id/btn_goto_pos1" android:background="@drawable/btn_float_add_friend_selector" android:layout_width="wrap_content" android:layout_height="@dimen/float_btn_height" android:text="@string/float_tp" android:layout_weight="1.0" />
+                </LinearLayout>
+                <TextView android:textSize="12.0dip" android:textColor="@color/white" android:id="@id/txt_pos1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/float_not_setting_location" />
+            </LinearLayout>
+            <View android:background="@color/float_line_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                    <Button android:textSize="14.0dip" android:textColor="@color/white" android:id="@id/btn_set_pos2" android:background="@drawable/btn_float_set_delivery_selector" android:layout_width="wrap_content" android:layout_height="@dimen/float_btn_height" android:layout_marginRight="9.0dip" android:text="@string/float_setting_goto" android:layout_weight="1.0" />
+                    <Button android:textSize="14.0dip" android:textColor="@color/white" android:id="@id/btn_goto_pos2" android:background="@drawable/btn_float_add_friend_selector" android:layout_width="wrap_content" android:layout_height="@dimen/float_btn_height" android:text="@string/float_tp" android:layout_weight="1.0" />
+                </LinearLayout>
+                <TextView android:textSize="12.0dip" android:textColor="@color/white" android:id="@id/txt_pos2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/float_not_setting_location" />
+            </LinearLayout>
+            <View android:background="@color/float_line_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                    <Button android:textSize="14.0dip" android:textColor="@color/white" android:id="@id/btn_set_pos3" android:background="@drawable/btn_float_set_delivery_selector" android:layout_width="wrap_content" android:layout_height="@dimen/float_btn_height" android:layout_marginRight="9.0dip" android:text="@string/float_setting_goto" android:layout_weight="1.0" />
+                    <Button android:textSize="14.0dip" android:textColor="@color/white" android:id="@id/btn_goto_pos3" android:background="@drawable/btn_float_add_friend_selector" android:layout_width="wrap_content" android:layout_height="@dimen/float_btn_height" android:text="@string/float_tp" android:layout_weight="1.0" />
+                </LinearLayout>
+                <TextView android:textSize="12.0dip" android:textColor="@color/white" android:id="@id/txt_pos3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/float_not_setting_location" />
+            </LinearLayout>
+            <View android:background="@color/float_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="@dimen/textSize14Sp" android:textColor="#ff666666" android:gravity="center" android:layout_gravity="center" android:background="@drawable/float_share_view_round_edge" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="40.0dip" android:text="@string/deliveryComingSoon" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

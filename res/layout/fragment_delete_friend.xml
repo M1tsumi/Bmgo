@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.sandboxol.refresh.view.RefreshLayout android:id="@id/refreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/swipe_target" android:paddingTop="12.0dip" android:paddingBottom="50.0dip" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:overScrollMode="never" />
+    </com.sandboxol.refresh.view.RefreshLayout>
+    <com.sandboxol.refresh.view.PageLoadingView android:id="@id/plvLoading" android:layout_width="fill_parent" android:layout_height="fill_parent" app:show_refresh_button="false" />
+    <LinearLayout android:gravity="center" android:background="@drawable/bg_mini_game_start" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_alignParentBottom="true">
+        <Button android:textSize="@dimen/textSize14Sp" android:textColor="@color/text_button_color" android:id="@id/btnDeleteFriend" android:background="@drawable/btn_red_light_button_selector" android:layout_width="148.0dip" android:layout_height="35.0dip" android:text="@string/delete_friend" android:textAllCaps="false" />
+    </LinearLayout>
+</RelativeLayout>

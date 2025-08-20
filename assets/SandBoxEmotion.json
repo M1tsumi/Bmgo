@@ -1,0 +1,66 @@
+[
+	{
+		"code": 1,
+		"name": "blockman_amazing"
+	},
+	{
+		"code": 2,
+		"name": "blockman_angry"
+	},
+	{
+		"code": 3,
+		"name": "blockman_bye"
+	},
+	{
+		"code": 4,
+		"name": "blockman_cry"
+	},
+	{
+		"code": 5,
+		"name": "blockman_good"
+	},
+	{
+		"code": 6,
+		"name": "blockman_hi"
+	},
+	{
+		"code": 7,
+		"name": "blockman_like"
+	},
+	{
+		"code": 8,
+		"name": "blockman_sad"
+	},
+	{
+		"code": 9,
+		"name": "blockman_scold"
+	},
+	{
+		"code": 10,
+		"name": "blockman_slight"
+	},
+	{
+		"code": 11,
+		"name": "blockman_smile"
+	},
+	{
+		"code": 12,
+		"name": "blockman_smirk"
+	},
+	{
+		"code": 13,
+		"name": "blockman_sweat"
+	},
+	{
+		"code": 14,
+		"name": "blockman_drowsy"
+	},
+	{
+		"code": 15,
+		"name": "blockman_grimace"
+	},
+	{
+		"code": 16,
+		"name": "blockman_what"
+	}
+]

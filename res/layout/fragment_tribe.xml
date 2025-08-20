@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/allBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.sandboxol.refresh.view.RefreshLayout android:id="@id/refreshTribeList" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <android.support.v7.widget.RecyclerView android:id="@id/swipe_target" android:paddingBottom="15.0dip" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.sandboxol.refresh.view.RefreshLayout>
+        <include android:visibility="gone" layout="@layout/fragment_tribe_main" />
+    </RelativeLayout>
+    <View android:layout_width="fill_parent" android:layout_height="@dimen/gameModeTabHeight" />
+</LinearLayout>

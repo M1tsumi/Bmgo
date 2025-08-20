@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="other_join_room_msg">
+        <item>게임에 들어간 뒤 캐릭터가 허공에 걸릴 수도 있습니다. 잠시만 기다리시면 정상적으로 게임을 할 수 있습니다.</item>
+        <item>로그인 후에 강퇴당할 기률이 낮을 겁디나. 로그인 하시겠습니까?</item>
+        <item>방장의 인터넷 상태도 당신의 게임 렉에 대해 영향이 줄 수 있습니다.</item>
+        <item>방을 성공적으로 만든다면 최대한 빨리 게임을 하셔야 합니다.</item>
+    </string-array>
+    <string-array name="ban_goods_names">
+        <item>Splash Potion of Invisibility</item>
+        <item>용암</item>
+        <item>물</item>
+        <item>라이터</item>
+        <item>의 투명 포션</item>
+        <item>생성</item>
+        <item>점 적기</item>
+        <item>보트</item>
+    </string-array>
+    <string-array name="realms_type">
+        <item>헝거게임</item>
+    </string-array>
+</resources>

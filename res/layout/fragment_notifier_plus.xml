@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" android:clickable="false" style="@style/meFragmentItem">
+        <TextView android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/newMsgNotifierPlus" android:layout_alignParentLeft="true" style="@style/tv14spStyle" />
+        <Switch android:id="@id/sNewMsgNotifierPlus" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/switchStyle" />
+    </RelativeLayout>
+    <RelativeLayout android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" android:clickable="false" style="@style/meFragmentItem">
+        <TextView android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/newMsgRedPointPlus" android:layout_alignParentLeft="true" style="@style/tv14spStyle" />
+        <Switch android:id="@id/sNewMsgRedPointPlus" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/switchStyle" />
+    </RelativeLayout>
+    <RelativeLayout android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" android:clickable="false" style="@style/meFragmentItem">
+        <TextView android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/platformEventNotification" android:layout_alignParentLeft="true" style="@style/tv14spStyle" />
+        <Switch android:id="@id/sPlatformEventNotification" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/switchStyle" />
+    </RelativeLayout>
+    <RelativeLayout android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" android:clickable="false" style="@style/meFragmentItem">
+        <TextView android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/friendMsgNotification" android:layout_alignParentLeft="true" style="@style/tv14spStyle" />
+        <Switch android:id="@id/sFriendMsgNotification" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/switchStyle" />
+    </RelativeLayout>
+</LinearLayout>

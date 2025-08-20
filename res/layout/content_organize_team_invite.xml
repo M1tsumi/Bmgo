@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/allBackgroundColor" android:layout_width="fill_parent" android:layout_height="36.0dip">
+        <ImageView android:id="@id/ivBack" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/btn_back_brown_selector" />
+        <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/textMainColor" android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/inviteFriend" />
+    </RelativeLayout>
+    <RadioGroup android:gravity="center" android:orientation="horizontal" android:id="@id/rgFriendOrGroup" android:background="@color/bg_new_tab_color" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <RadioButton android:textSize="@dimen/textSize14Sp" android:textStyle="bold" android:textColor="@color/text_button_color" android:ellipsize="end" android:gravity="center" android:id="@id/rbFriend" android:background="@drawable/bg_radio_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:checked="true" android:button="@null" android:text="@string/friend" android:lines="1" android:layout_weight="1.0" />
+        <RadioButton android:textSize="@dimen/textSize14Sp" android:textStyle="bold" android:textColor="@color/text_button_color" android:ellipsize="end" android:gravity="center" android:id="@id/rbGroup" android:background="@drawable/bg_radio_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:button="@null" android:text="@string/btn_organize_team_team" android:lines="1" android:layout_weight="1.0" />
+        <RadioButton android:textSize="@dimen/textSize14Sp" android:textStyle="bold" android:textColor="@color/text_button_color" android:ellipsize="end" android:gravity="center" android:id="@id/rbTribe" android:background="@drawable/bg_radio_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:button="@null" android:text="@string/tribe" android:lines="1" android:layout_weight="1.0" />
+    </RadioGroup>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/teamInviteFriend" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/content_organize_team_invite_friend_list" />
+        <include android:id="@id/teamInviteGroup" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/content_organize_team_invite_group" />
+        <include android:id="@id/teamInviteTribe" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/content_organize_team_invite_tribe" />
+        <com.sandboxol.refresh.view.PageLoadingView android:id="@id/plvLoading" android:layout_width="fill_parent" android:layout_height="fill_parent" app:show_refresh_button="false" />
+    </RelativeLayout>
+</LinearLayout>

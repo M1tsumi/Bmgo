@@ -1,0 +1,252 @@
+[
+  {
+    "icon": "ic_arms_diamond_sword",
+    "id": 276,
+    "key": "diamond_sword"
+  },
+  {
+    "icon": "ic_arms_diamond_shovel",
+    "id": 277,
+    "key": "diamond_shovel"
+  },
+  {
+    "icon": "ic_arms_diamond_pickaxe",
+    "id": 278,
+    "key": "diamond_pickaxe"
+  },
+  {
+    "icon": "ic_arms_diamond_axe",
+    "id": 279,
+    "key": "diamond_axe"
+  },
+  {
+    "icon": "ic_arms_diamond_hoe",
+    "id": 293,
+    "key": "diamond_hoe"
+  },
+  {
+    "icon": "ic_arms_wooden_sword",
+    "id": 268,
+    "key": "wooden_sword"
+  },
+  {
+    "icon": "ic_arms_wooden_shovel",
+    "id": 269,
+    "key": "wooden_shovel"
+  },
+  {
+    "icon": "ic_arms_wooden_pickaxe",
+    "id": 270,
+    "key": "wooden_pickaxe"
+  },
+  {
+    "icon": "ic_arms_wooden_axe",
+    "id": 271,
+    "key": "wooden_axe"
+  },
+  {
+    "icon": "ic_arms_wooden_hoe",
+    "id": 290,
+    "key": "wooden_hoe"
+  },
+  {
+    "icon": "ic_arms_stone_sword",
+    "id": 272,
+    "key": "stone_sword"
+  },
+  {
+    "icon": "ic_arms_stone_shovel",
+    "id": 273,
+    "key": "stone_shovel"
+  },
+  {
+    "icon": "ic_arms_stone_pickaxe",
+    "id": 274,
+    "key": "stone_pickaxe"
+  },
+  {
+    "icon": "ic_arms_stone_axe",
+    "id": 275,
+    "key": "stone_axe"
+  },
+  {
+    "icon": "ic_arms_stone_hoe",
+    "id": 291,
+    "key": "stone_hoe"
+  },
+  {
+    "icon": "ic_arms_iron_sword",
+    "id": 267,
+    "key": "iron_sword"
+  },
+  {
+    "icon": "ic_arms_iron_shovel",
+    "id": 256,
+    "key": "iron_shovel"
+  },
+  {
+    "icon": "ic_arms_iron_pickaxe",
+    "id": 257,
+    "key": "iron_pickaxe"
+  },
+  {
+    "icon": "ic_arms_iron_axe",
+    "id": 258,
+    "key": "iron_axe"
+  },
+  {
+    "icon": "ic_arms_iron_hoe",
+    "id": 292,
+    "key": "iron_hoe"
+  },
+  {
+    "icon": "ic_arms_gold_sword",
+    "id": 283,
+    "key": "gold_sword"
+  },
+  {
+    "icon": "ic_arms_gold_shovel",
+    "id": 284,
+    "key": "gold_shovel"
+  },
+  {
+    "icon": "ic_arms_gold_pickaxe",
+    "id": 285,
+    "key": "gold_pickaxe"
+  },
+  {
+    "icon": "ic_arms_gold_axe",
+    "id": 286,
+    "key": "gold_axe"
+  },
+  {
+    "icon": "ic_arms_gold_hoe",
+    "id": 294,
+    "key": "gold_hoe"
+  },
+  {
+    "icon": "ic_arms_diamond_helmet",
+    "id": 310,
+    "key": "diamond_helmet"
+  },
+  {
+    "icon": "ic_arms_diamond_chestplate",
+    "id": 311,
+    "key": "diamond_chestplate"
+  },
+  {
+    "icon": "ic_arms_diamond_leggings",
+    "id": 312,
+    "key": "diamond_leggings"
+  },
+  {
+    "icon": "ic_arms_diamond_boots",
+    "id": 313,
+    "key": "diamond_boots"
+  },
+  {
+    "icon": "ic_arms_leather_cap",
+    "id": 298,
+    "key": "leather_cap"
+  },
+  {
+    "icon": "ic_arms_leather_tunic",
+    "id": 299,
+    "key": "leather_tunic"
+  },
+  {
+    "icon": "ic_arms_leather_pants",
+    "id": 300,
+    "key": "leather_pants"
+  },
+  {
+    "icon": "ic_arms_leather_boots",
+    "id": 301,
+    "key": "leather_boots"
+  },
+  {
+    "icon": "ic_arms_chain_helmet",
+    "id": 302,
+    "key": "chain_helmet"
+  },
+  {
+    "icon": "ic_arms_chain_chestplate",
+    "id": 303,
+    "key": "chain_chestplate"
+  },
+  {
+    "icon": "ic_arms_chain_leggings",
+    "id": 304,
+    "key": "chain_leggings"
+  },
+  {
+    "icon": "ic_arms_chain_boots",
+    "id": 305,
+    "key": "chain_boots"
+  },
+  {
+    "icon": "ic_arms_iron_helmet",
+    "id": 306,
+    "key": "iron_helmet"
+  },
+  {
+    "icon": "ic_arms_iron_chestplate",
+    "id": 307,
+    "key": "iron_chestplate"
+  },
+  {
+    "icon": "ic_arms_iron_leggings",
+    "id": 308,
+    "key": "iron_leggings"
+  },
+  {
+    "icon": "ic_arms_iron_boots",
+    "id": 309,
+    "key": "iron_boots"
+  },
+  {
+    "icon": "ic_arms_gold_helmet",
+    "id": 314,
+    "key": "gold_helmet"
+  },
+  {
+    "icon": "ic_arms_gold_chestplate",
+    "id": 315,
+    "key": "gold_chestplate"
+  },
+  {
+    "icon": "ic_arms_gold_leggings",
+    "id": 316,
+    "key": "gold_leggings"
+  },
+  {
+    "icon": "ic_arms_gold_boots",
+    "id": 317,
+    "key": "gold_boots"
+  },
+  {
+    "icon": "ic_arms_fishing_rod",
+    "id": 346,
+    "key": "fishing_rod"
+  },
+  {
+    "icon": "ic_arms_bow",
+    "id": 261,
+    "key": "bow"
+  },
+  {
+    "icon": "ic_arms_shears",
+    "id": 359,
+    "key": "shears"
+  },
+  {
+    "icon": "ic_arms_flint_and_steel",
+    "id": 259,
+    "key": "flint_and_steel"
+  },
+  {
+    "icon": "ic_arms_book",
+    "id": 340,
+    "key": "book"
+  }
+]

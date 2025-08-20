@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bg_tribe_contribution_ranking_title" android:layout_width="fill_parent" android:layout_height="34.0dip" android:layout_marginTop="7.0dip">
+            <TextView android:textSize="12.0sp" android:textColor="@color/text_main_content_color" android:paddingLeft="40.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/tribe_member" android:layout_weight="1.0" />
+        </LinearLayout>
+        <com.mcpeonline.multiplayer.view.datarv.DataRecyclerView android:id="@id/lvTribePastMember" android:paddingTop="7.0dip" android:paddingBottom="55.0dip" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0dip" />
+    </LinearLayout>
+    <com.sandboxol.refresh.view.PageLoadingView android:id="@id/plvLoading" android:layout_width="fill_parent" android:layout_height="fill_parent" app:show_refresh_button="false" />
+    <LinearLayout android:gravity="center" android:background="@drawable/bg_mini_game_start" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_alignParentBottom="true">
+        <Button android:textSize="@dimen/textSize14Sp" android:textColor="@color/text_button_color" android:id="@id/btnCheckIn" android:background="@drawable/btn_light_button_selector" android:layout_width="148.0dip" android:layout_height="35.0dip" android:text="@string/tribe_fragment_sign" android:textAllCaps="false" />
+    </LinearLayout>
+</RelativeLayout>

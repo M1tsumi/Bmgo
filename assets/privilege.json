@@ -1,0 +1,418 @@
+[
+  [
+    {
+      "id": 1,
+      "type": "vip_logo",
+      "power": 1,
+      "visibility": 1
+    },
+    {
+      "id": 2,
+      "type": "no_ad",
+      "power": 1,
+      "visibility": 1
+    },
+    {
+      "id": 3,
+      "type": "anti_kick",
+      "power": 1,
+      "visibility": 1
+    },
+    {
+      "id": 4,
+      "type": "group_member",
+      "power": 1,
+      "visibility": 1
+    },
+    {
+      "id": 5,
+      "type": "growth_value",
+      "power": 1,
+      "visibility": 1
+    },
+    {
+      "id": 6,
+      "type": "special_effects",
+      "power": 1,
+      "visibility": 1
+    },
+    {
+      "id": 7,
+      "type": "room_top",
+      "power": 1,
+      "visibility": 0
+    },
+    {
+      "id": 8,
+      "type": "vip_expression",
+      "power": 1,
+      "visibility": 1
+    },
+    {
+      "id": 9,
+      "type": "vip_personal_skin",
+      "power": 1,
+      "visibility": 1
+    },
+    {
+      "id": 10,
+      "type": "mini_game_occupation",
+      "power": 1,
+      "visibility": 0
+    },
+    {
+      "id": 11,
+      "type": "survival_create_change",
+      "power": 2,
+      "visibility": 1
+    },
+    {
+      "id": 12,
+      "type": "buy_super_player_discount",
+      "power": 2,
+      "visibility": 1
+    },
+    {
+      "id": 13,
+      "type": "tribe_mark",
+      "power": 2,
+      "visibility": 1
+    },
+    {
+      "id": 14,
+      "type": "room_member_top",
+      "power": 4,
+      "visibility": 1
+    },
+    {
+      "id": 15,
+      "type": "game_growth_value",
+      "power": 4,
+      "visibility": 1
+    },
+    {
+      "id": 16,
+      "type": "daily_gift",
+      "power": 4,
+      "visibility": 1
+    },
+    {
+      "id": 17,
+      "type": "coming_soon",
+      "power": 1,
+      "visibility": 1
+    }
+  ],
+  [
+    {
+      "id": 1,
+      "type": "vip_logo",
+      "power": 1,
+      "visibility": 1
+    },
+    {
+      "id": 2,
+      "type": "no_ad",
+      "power": 1,
+      "visibility": 1
+    },
+    {
+      "id": 3,
+      "type": "anti_kick",
+      "power": 1,
+      "visibility": 1
+    },
+    {
+      "id": 4,
+      "type": "group_member",
+      "power": 1,
+      "visibility": 1
+    },
+    {
+      "id": 5,
+      "type": "growth_value",
+      "power": 1,
+      "visibility": 1
+    },
+    {
+      "id": 6,
+      "type": "special_effects",
+      "power": 1,
+      "visibility": 1
+    },
+    {
+      "id": 7,
+      "type": "room_top",
+      "power": 1,
+      "visibility": 0
+    },
+    {
+      "id": 8,
+      "type": "vip_expression",
+      "power": 1,
+      "visibility": 1
+    },
+    {
+      "id": 9,
+      "type": "vip_personal_skin",
+      "power": 1,
+      "visibility": 1
+    },
+    {
+      "id": 10,
+      "type": "mini_game_occupation",
+      "power": 1,
+      "visibility": 0
+    },
+    {
+      "id": 11,
+      "type": "survival_create_change",
+      "power": 2,
+      "visibility": 1
+    },
+    {
+      "id": 12,
+      "type": "buy_super_player_discount",
+      "power": 2,
+      "visibility": 1
+    },
+    {
+      "id": 13,
+      "type": "tribe_mark",
+      "power": 2,
+      "visibility": 1
+    },
+    {
+      "id": 14,
+      "type": "room_member_top",
+      "power": 4,
+      "visibility": 1
+    },
+    {
+      "id": 15,
+      "type": "game_growth_value",
+      "power": 4,
+      "visibility": 1
+    },
+    {
+      "id": 16,
+      "type": "daily_gift",
+      "power": 4,
+      "visibility": 1
+    },
+    {
+      "id": 17,
+      "type": "coming_soon",
+      "power": 1,
+      "visibility": 1
+    }
+  ],
+  [
+    {
+      "id": 1,
+      "type": "vip_logo",
+      "power": 1,
+      "visibility": 1
+    },
+    {
+      "id": 2,
+      "type": "no_ad",
+      "power": 1,
+      "visibility": 1
+    },
+    {
+      "id": 3,
+      "type": "anti_kick",
+      "power": 1,
+      "visibility": 1
+    },
+    {
+      "id": 4,
+      "type": "group_member",
+      "power": 1,
+      "visibility": 1
+    },
+    {
+      "id": 5,
+      "type": "growth_value",
+      "power": 1,
+      "visibility": 1
+    },
+    {
+      "id": 6,
+      "type": "special_effects",
+      "power": 1,
+      "visibility": 1
+    },
+    {
+      "id": 7,
+      "type": "room_top",
+      "power": 1,
+      "visibility": 0
+    },
+    {
+      "id": 8,
+      "type": "vip_expression",
+      "power": 1,
+      "visibility": 1
+    },
+    {
+      "id": 9,
+      "type": "vip_personal_skin",
+      "power": 1,
+      "visibility": 1
+    },
+    {
+      "id": 10,
+      "type": "mini_game_occupation",
+      "power": 1,
+      "visibility": 0
+    },
+    {
+      "id": 11,
+      "type": "survival_create_change",
+      "power": 2,
+      "visibility": 1
+    },
+    {
+      "id": 12,
+      "type": "buy_super_player_discount",
+      "power": 2,
+      "visibility": 1
+    },
+    {
+      "id": 13,
+      "type": "tribe_mark",
+      "power": 2,
+      "visibility": 1
+    },
+    {
+      "id": 14,
+      "type": "room_member_top",
+      "power": 4,
+      "visibility": 1
+    },
+    {
+      "id": 15,
+      "type": "game_growth_value",
+      "power": 4,
+      "visibility": 1
+    },
+    {
+      "id": 16,
+      "type": "daily_gift",
+      "power": 4,
+      "visibility": 1
+    },
+    {
+      "id": 17,
+      "type": "coming_soon",
+      "power": 1,
+      "visibility": 1
+    }
+  ],
+  [
+    {
+      "id": 1,
+      "type": "vip_logo",
+      "power": 1,
+      "visibility": 1
+    },
+    {
+      "id": 2,
+      "type": "no_ad",
+      "power": 1,
+      "visibility": 1
+    },
+    {
+      "id": 3,
+      "type": "anti_kick",
+      "power": 1,
+      "visibility": 1
+    },
+    {
+      "id": 4,
+      "type": "group_member",
+      "power": 1,
+      "visibility": 1
+    },
+    {
+      "id": 5,
+      "type": "growth_value",
+      "power": 1,
+      "visibility": 1
+    },
+    {
+      "id": 6,
+      "type": "special_effects",
+      "power": 1,
+      "visibility": 1
+    },
+    {
+      "id": 7,
+      "type": "room_top",
+      "power": 1,
+      "visibility": 0
+    },
+    {
+      "id": 8,
+      "type": "vip_expression",
+      "power": 1,
+      "visibility": 1
+    },
+    {
+      "id": 9,
+      "type": "vip_personal_skin",
+      "power": 1,
+      "visibility": 1
+    },
+    {
+      "id": 10,
+      "type": "mini_game_occupation",
+      "power": 1,
+      "visibility": 0
+    },
+    {
+      "id": 11,
+      "type": "survival_create_change",
+      "power": 2,
+      "visibility": 1
+    },
+    {
+      "id": 12,
+      "type": "buy_super_player_discount",
+      "power": 2,
+      "visibility": 1
+    },
+    {
+      "id": 13,
+      "type": "tribe_mark",
+      "power": 2,
+      "visibility": 1
+    },
+    {
+      "id": 14,
+      "type": "room_member_top",
+      "power": 4,
+      "visibility": 1
+    },
+    {
+      "id": 15,
+      "type": "game_growth_value",
+      "power": 4,
+      "visibility": 1
+    },
+    {
+      "id": 16,
+      "type": "daily_gift",
+      "power": 4,
+      "visibility": 1
+    },
+    {
+      "id": 17,
+      "type": "coming_soon",
+      "power": 1,
+      "visibility": 1
+    }
+  ]
+]

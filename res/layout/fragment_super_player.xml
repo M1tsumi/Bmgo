@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:paddingTop="7.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/llBg" android:background="@drawable/new_super_gamer_bg" android:layout_width="fill_parent" android:layout_height="1270.0dip" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/llUserInfo" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/ivSuperPlayer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="67.0dip" android:src="@drawable/super_player_title" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="53.0dip">
+                <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivIcon" android:layout_width="62.0dip" android:layout_height="62.0dip" android:src="@drawable/head_df" android:layout_centerInParent="true" app:borderRadius="10.0dip" app:type="round" />
+                <ImageView android:paddingTop="2.0dip" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/bg_super_player_icon" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/textSize14Sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Steve" />
+            <TextView android:textSize="@dimen/textSize12Sp" android:textColor="#fff5dd8e" android:gravity="center" android:id="@id/tvGamerExpire" android:paddingLeft="40.0dip" android:paddingRight="40.0dip" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="@string/super_player_expire" android:lines="2" />
+            <Button android:textSize="@dimen/textSize14Sp" android:id="@id/btnGoto" android:background="@drawable/btn_super_player_selector" android:paddingBottom="3.0dip" android:layout_width="184.0dip" android:layout_height="40.0dip" android:text="@string/become_super_player" android:textAllCaps="false" />
+        </LinearLayout>
+        <ImageView android:paddingLeft="220.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="275.0dip" android:src="@drawable/ic_super_player_sale" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/textSize10Sp" android:textStyle="bold" android:textColor="#fffaff00" android:gravity="center" android:id="@id/tvDiscount" android:layout_width="70.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="195.0dip" android:minHeight="25.0dip" android:text="@string/super_player_discount" android:shadowColor="#ff47870b" android:shadowDx="0.0" android:shadowDy="-1.0" android:shadowRadius="1.0" android:rotation="40.0" />
+        <ImageView android:id="@id/ivCrown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="165.0dip" android:src="@drawable/ic_super_player_fist" />
+        <com.mcpeonline.multiplayer.view.StrokeTextView android:textSize="@dimen/textSize14Sp" android:textStyle="bold" android:textColor="#fffff000" android:id="@id/tvGameName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="105.0dip" android:text="@string/super_player_for_sky_wars" android:layout_centerHorizontal="true" app:shadowColor="#ff494900" app:shadowSize="10" />
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:src="@drawable/bg_super_player_star" android:layout_below="@id/llUserInfo" />
+        <RelativeLayout android:id="@id/rlContainer" android:layout_width="fill_parent" android:layout_height="900.0dip" android:layout_marginTop="20.0dip" android:layout_below="@id/llUserInfo" />
+        <ImageView android:id="@id/ivSuperPlayerPart5" android:paddingBottom="40.0dip" android:visibility="gone" android:layout_width="147.0dip" android:layout_height="256.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <com.mcpeonline.multiplayer.view.StrokeTextView android:textSize="@dimen/textSize14Sp" android:textStyle="bold" android:textColor="#ffdcd2cd" android:gravity="center_horizontal" android:id="@id/tvSuperPlayerPart5" android:paddingBottom="100.0dip" android:visibility="gone" android:layout_width="160.0dip" android:layout_height="wrap_content" android:text="@string/super_player_show" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:shadowColor="#ff7b5039" app:shadowSize="8" />
+        <LinearLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <Button android:textSize="@dimen/textSize14Sp" android:id="@id/btnGotoBottom" android:background="@drawable/btn_super_player_selector" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginBottom="45.0dip" android:text="@string/become_super_player" android:textAllCaps="false" />
+        </LinearLayout>
+        <include layout="@layout/content_super_player_item" />
+    </RelativeLayout>
+</ScrollView>

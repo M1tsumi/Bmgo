@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/llContentDress" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="#ffe8e3c6" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="230.0dip">
+        <FrameLayout android:id="@id/flDressView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/ivDefaultBg" android:background="@drawable/bg_dress" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/llGotoUpdate" android:background="@color/float_bg_color_item" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/update_so_open_after_update" />
+            <Button android:textSize="@dimen/textSize11Sp" android:id="@id/btnGotoUpdate" android:layout_width="96.0dip" android:layout_marginTop="8.0dip" android:text="@string/update_so_update" android:height="24.0dip" style="@style/newLightBtnStyle" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.mcpeonline.multiplayer.view.MyGridView android:id="@id/gvDress" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_12dp" android:listSelector="@color/transparent" android:numColumns="4" android:fadeScrollbars="false" />
+    </RelativeLayout>
+</LinearLayout>

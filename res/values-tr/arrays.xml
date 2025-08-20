@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="other_join_room_msg">
+        <item>Tips:Some players may freeze when entering the game. If it happens, please wait for the screen to get back to normal.</item>
+        <item>Tips:Login can reduce the possibility of being kicked out. Do you want to log in?</item>
+        <item>Tips:The Internet connection of the host may also cause lag on your side.</item>
+        <item>Tips:After you’ve created a server, please enter the game at once.</item>
+    </string-array>
+</resources>

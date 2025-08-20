@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rlPrivilege" style="@style/vipPrivilegeItemStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivPrivilege" android:src="@drawable/ic_vip_privilege_vip_logo" style="@style/vipPrivilegeItemImageStyle" />
+    <TextView android:id="@id/tvPrivilege" android:text="@string/vip_privilege_vip_logo" style="@style/vipPrivilegeItemTextStyle" />
+</RelativeLayout>

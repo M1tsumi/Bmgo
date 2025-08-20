@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/allBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/btn_item_selector" android:padding="@dimen/meFragmentItemPdSizeNew" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="10.0dip">
+                <LinearLayout android:id="@id/btnCartoon" style="@style/map_fragment_left">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <LinearLayout style="@style/map_fragment_textLine">
+                        <TextView android:text="@string/skin_cartoon" style="@style/map_fragment_textLine_name" />
+                        <ImageView style="@style/map_fragment_textLine_pic" />
+                        <TextView android:id="@id/tvCartoonNum" style="@style/map_fragment_textLine_num" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:id="@id/btnOriginal" style="@style/map_fragment_right">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <LinearLayout style="@style/map_fragment_textLine">
+                        <TextView android:text="@string/skin_original" style="@style/map_fragment_textLine_name" />
+                        <ImageView style="@style/map_fragment_textLine_pic" />
+                        <TextView android:id="@id/tvOriginalNum" style="@style/map_fragment_textLine_num" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="10.0dip">
+                <LinearLayout android:id="@id/btnGameRole" style="@style/map_fragment_left">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <LinearLayout style="@style/map_fragment_textLine">
+                        <TextView android:text="@string/skin_game_role" style="@style/map_fragment_textLine_name" />
+                        <ImageView style="@style/map_fragment_textLine_pic" />
+                        <TextView android:id="@id/tvGameRoleNum" style="@style/map_fragment_textLine_num" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:id="@id/btnSpoof" style="@style/map_fragment_right">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <LinearLayout style="@style/map_fragment_textLine">
+                        <TextView android:text="@string/skin_spoof" style="@style/map_fragment_textLine_name" />
+                        <ImageView style="@style/map_fragment_textLine_pic" />
+                        <TextView android:id="@id/tvSpoofNum" style="@style/map_fragment_textLine_num" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

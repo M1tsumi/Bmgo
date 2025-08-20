@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rlAdvert" android:layout_width="fill_parent" android:layout_height="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/flAdvertContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/ivAdvertDelete" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/msg_close_selector" android:layout_alignParentRight="true" />
+    <View android:id="@id/vTop" android:clickable="true" android:layout_width="fill_parent" android:layout_height="152.0dip" />
+    <View android:id="@id/vMiddle" android:clickable="true" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginRight="130.0dip" android:layout_below="@id/vTop" />
+    <View android:clickable="true" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="40.0dip" android:layout_below="@id/vTop" />
+</RelativeLayout>

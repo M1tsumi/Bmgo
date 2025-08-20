@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/llEnterMiniGame" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:orientation="horizontal" android:id="@id/vEnterMiniGame1" android:background="@color/dialog_shadow" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="20.0dip" />
+        <RelativeLayout android:id="@id/vEnterMiniGame2" android:background="@drawable/bg_guide_enter_game_border" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="200.0dip">
+            <ImageView android:id="@id/vEnterMiniGameHand" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="80.0dip" android:layout_marginRight="85.0dip" android:src="@drawable/guide_click_enter_game" android:layout_alignParentRight="true" />
+            <TextView android:textSize="18.0sp" android:textColor="@color/guide_text_color" android:gravity="right" android:paddingLeft="20.0dip" android:paddingTop="10.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tap_enter_mini_game_detail" android:layout_below="@id/vEnterMiniGameHand" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View android:orientation="horizontal" android:background="@color/dialog_shadow" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</RelativeLayout>

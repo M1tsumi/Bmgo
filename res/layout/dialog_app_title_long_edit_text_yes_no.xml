@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/llTopView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0" />
+    <LinearLayout style="@style/dialogSizeStyle">
+        <LinearLayout android:orientation="vertical" style="@style/dialogMsgStyle">
+            <TextView android:id="@id/tvTitle" android:visibility="visible" android:text="@string/tribe_notice_comment" style="@style/dialogTitleStyle" />
+            <View android:id="@id/vLine" android:background="@color/infoLine" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/lineHei" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" />
+            <RelativeLayout android:layout_height="wrap_content" android:layout_marginTop="@dimen/new_ui_margin" style="@style/meFragmentItemParent">
+                <EditText android:textSize="15.0sp" android:textColor="@color/title_col" android:textColorHint="@color/userRoomOtherColor" android:gravity="top" android:id="@id/etCommentContent" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:minLines="4" />
+                <TextView android:id="@id/tvCommentMax" android:layout_margin="4.0dip" android:text="0/20" android:layout_below="@id/etCommentContent" android:layout_alignParentRight="true" style="@style/tv10spStyle" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dialogBtnHeight35dp">
+            <ImageView android:id="@id/btnCancel" android:src="@drawable/btn_new_cancel_selector" android:text="@string/cancel" style="@style/dialogBtnStyle" />
+            <ImageView android:id="@id/btnSure" android:src="@drawable/btn_new_sure_selector" android:text="@string/sure" style="@style/dialogBtnStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0" />
+</LinearLayout>

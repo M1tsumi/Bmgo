@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/rlAll" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:id="@id/llContent" android:background="@drawable/bg_new_dialog" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/bg_one_grid_50" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <android.support.v7.widget.RecyclerView android:id="@id/lvTribeWall" android:layout_width="fill_parent" android:layout_height="0.0dip" android:divider="@color/infoLine" android:dividerHeight="@dimen/lineHei" android:layout_weight="1.0" android:overScrollMode="never" />
+        </LinearLayout>
+        <Button android:id="@id/btnCancel" android:layout_width="fill_parent" android:layout_marginLeft="0.0dip" android:layout_marginTop="@dimen/marginSizeSmall" android:layout_marginRight="0.0dip" android:text="@string/cancel" style="@style/newBigBtnStyle" />
+    </LinearLayout>
+</LinearLayout>

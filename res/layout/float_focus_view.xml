@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_focus_container" android:background="@drawable/float_bg_right" android:layout_width="@dimen/float_right_layout_width_2" android:layout_height="144.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+            <TextView android:textSize="14.0sp" android:textColor="#ffb8b8b8" android:gravity="center" android:id="@id/tvName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="Accadaf" />
+            <Button android:textColor="@color/white" android:layout_gravity="center" android:id="@id/btnAddFocus" android:background="@drawable/float_font_color_select" android:layout_width="106.0dip" android:layout_height="44.0dip" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip" android:text="@string/attention" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

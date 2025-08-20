@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/llContainer" android:background="@drawable/bg_one_grid_50" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="12.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="65.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/rc_conversation_item_name_size" android:textColor="@color/rc_text_color_primary" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tvNickName" android:layout_width="fill_parent" android:layout_height="33.0dip" android:text="Steven" android:lines="1" />
+            <View android:background="@color/line_bg" android:layout_width="fill_parent" android:layout_height="@dimen/lineH" />
+            <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/text_hint_content_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tvOtherHint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/add_a_friend" android:lines="1" />
+            <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/text_hint_content_color" android:ellipsize="end" android:id="@id/tvMsg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_friend_remarks" android:lines="1" />
+            <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/text_main_content_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tvTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2016-10-15" android:lines="1" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="82.0dip" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center" android:id="@id/tvAccept" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="2.0dip" android:text="@string/acceptAdd" style="@style/newLightBtnStyle" />
+                <TextView android:gravity="center" android:id="@id/tvRefuse" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="2.0dip" android:layout_marginBottom="10.0dip" android:text="@string/refuse" style="@style/newRedLightBtnStyle" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/textSize14Sp" android:textStyle="bold" android:textColor="@color/new_friend_accent_hint_text" android:id="@id/tvOwnHint" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:text="@string/accented" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <include layout="@layout/layout_head_icon" />
+</RelativeLayout>

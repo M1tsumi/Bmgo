@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/llContentGift" android:background="@drawable/bg_user_info_honor_gift" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/bg_user_info_honor_gift_title" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="28.0dip">
+            <TextView android:textColor="@color/user_info_fragment_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/me_info_flower" style="@style/meItemTextStyle" />
+            <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/user_info_fragment_popularity" android:id="@id/tvCharm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/new_ui_margin" android:text="@string/charm_value" />
+        </LinearLayout>
+        <android.support.v4.view.ViewPager android:id="@id/vpGift" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="180.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/llPoints" android:layout_width="fill_parent" android:layout_height="36.0dip" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:padding="@dimen/new_ui_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_one_grid_50" android:paddingLeft="18.0dip" android:paddingTop="20.0dip" android:paddingRight="18.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="7.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:text="由于近期有家长反映有孩子盗刷信用卡购买虚拟货币的行为，为此发表以下建议及声明：" style="@style/tribe_estate_introduction_question_text_style" />
+        </LinearLayout>
+        <View android:background="@color/line_bg" android:layout_width="fill_parent" android:layout_height="@dimen/lineH" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/new_ui_margin" android:layout_marginBottom="14.0dip">
+            <TextView android:text="建议：" style="@style/tribe_estate_introduction_question_text_style" />
+            <TextView android:text="1、请家长监管好自己的支付宝,微信和信用卡密码，防止您的孩子盗刷或者误刷" style="@style/tribe_estate_introduction_answer_text_style" />
+            <TextView android:text="2、关闭免密支付" style="@style/tribe_estate_introduction_answer_text_style" />
+        </LinearLayout>
+        <View android:background="@color/line_bg" android:layout_width="fill_parent" android:layout_height="@dimen/lineH" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/new_ui_margin" android:layout_marginBottom="14.0dip">
+            <TextView android:text="声明：" style="@style/tribe_estate_introduction_question_text_style" />
+            <TextView android:text="1、对于接收充值的公司来说，它收到的充值来源于一个账号为XXXX的支付宝/微信账户，即公司并不知晓且无法知晓充值行为来源于无民事行为能力人/限制民事行为能力人。" style="@style/tribe_estate_introduction_answer_text_style" />
+            <TextView android:text="2、验证手续齐全，足够证明充值行为系账户所有人所为。" style="@style/tribe_estate_introduction_answer_text_style" />
+            <TextView android:text="3、钻石与服务已经到账，即交易已经完成。" style="@style/tribe_estate_introduction_answer_text_style" />
+            <TextView android:text="4、钻石已花完，即本买卖合同本身不仅已经履行完毕，且标的物已经消灭。" style="@style/tribe_estate_introduction_answer_text_style" />
+        </LinearLayout>
+        <TextView android:text="综上所述：理性消费，恕不退款" style="@style/tribe_estate_introduction_answer_text_style" />
+    </LinearLayout>
+</LinearLayout>

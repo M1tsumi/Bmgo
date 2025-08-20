@@ -1,0 +1,97 @@
+[
+  {
+    "typeId": 348,
+    "name": "萤石粉",
+    "icon": "item_348"
+  },
+  {
+    "typeId": 351,
+    "subId": 0,
+    "name": "墨囊（染料）",
+    "icon": "item_351_0"
+  },
+  {
+    "typeId": 351,
+    "subId": 1,
+    "name": "玫瑰红（染料）",
+    "icon": "item_351_1"
+  },
+  {
+    "typeId": 351,
+    "subId": 2,
+    "name": "仙人掌绿（染料）",
+    "icon": "item_351_2"
+  },
+  {
+    "typeId": 351,
+    "subId": 3,
+    "name": "可可豆（染料）",
+    "icon": "item_351_3"
+  },
+  {
+    "typeId": 351,
+    "subId": 4,
+    "name": "金青石（染料）",
+    "icon": "item_351_0"
+  },
+  {
+    "typeId": 351,
+    "subId": 5,
+    "name": "紫色染料",
+    "icon": "item_351_5"
+  },
+  {
+    "typeId": 351,
+    "subId": 6,
+    "name": "青色燃料",
+    "icon": "item_351_6"
+  },
+  {
+    "typeId": 351,
+    "subId": 7,
+    "name": "淡灰色染料",
+    "icon": "item_351_7"
+  },
+  {
+    "typeId": 351,
+    "subId": 8,
+    "name": "灰色染料",
+    "icon": "item_351_8"
+  },
+  {
+    "typeId": 351,
+    "subId": 9,
+    "name": "粉红色染料",
+    "icon": "item_351_9"
+  },
+  {
+    "typeId": 351,
+    "subId": 10,
+    "name": "黄绿色染料",
+    "icon": "item_351_10"
+  },
+  {
+    "typeId": 351,
+    "subId": 11,
+    "name": "蒲公英黄（染料）",
+    "icon": "item_351_11"
+  },
+  {
+    "typeId": 351,
+    "subId": 12,
+    "name": "淡蓝色染料",
+    "icon": "item_351_12"
+  },
+  {
+    "typeId": 351,
+    "subId": 13,
+    "name": "品红色染料",
+    "icon": "item_351_13"
+  },
+  {
+    "typeId": 351,
+    "subId": 14,
+    "name": "橙色染料",
+    "icon": "item_351_14"
+  }
+]

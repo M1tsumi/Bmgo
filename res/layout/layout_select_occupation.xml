@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/textSize16Sp" android:textColor="@color/title_col" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="36.0dip" android:layout_marginTop="14.0dip" android:text="@string/class_occ" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip">
+        <ImageView android:id="@id/ivOccWarrior" android:src="@drawable/bg_occupation_selector" android:scaleType="fitXY" style="@style/occupation_bg_style" />
+        <ImageView android:id="@id/ivOccSwordsman" android:src="@drawable/bg_occupation_selector" android:scaleType="fitXY" style="@style/occupation_bg_style" />
+        <ImageView android:id="@id/ivOccTank" android:src="@drawable/bg_occupation_selector" android:scaleType="fitXY" style="@style/occupation_bg_style" />
+        <ImageView android:id="@id/ivOccArcher" android:src="@drawable/bg_occupation_selector" android:scaleType="fitXY" style="@style/occupation_bg_style" />
+        <ImageView android:id="@id/ivOccPriest" android:src="@drawable/bg_occupation_selector" android:scaleType="fitXY" style="@style/occupation_bg_style" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip">
+        <ImageView android:id="@id/ivOccAssassin" android:src="@drawable/bg_occupation_selector" android:scaleType="fitXY" style="@style/occupation_bg_style" />
+        <ImageView android:id="@id/ivOccBlackMagician" android:src="@drawable/bg_occupation_selector" android:scaleType="fitXY" style="@style/occupation_bg_style" />
+        <ImageView android:id="@id/ivOccBlackWarrior" android:src="@drawable/bg_occupation_selector" android:scaleType="fitXY" style="@style/occupation_bg_style" />
+        <ImageView android:id="@id/ivOccSuperArcher" android:src="@drawable/bg_occupation_selector" android:scaleType="fitXY" style="@style/occupation_bg_style" />
+        <ImageView android:id="@id/ivOccBombMan" android:src="@drawable/bg_occupation_selector" android:scaleType="fitXY" style="@style/occupation_bg_style" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/float_reward_background_out" android:layout_width="211.0dip" android:layout_height="wrap_content">
+        <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:text="@string/float_reward_title" android:shadowColor="#ff000000" android:shadowDx="3.0" android:shadowDy="3.0" android:shadowRadius="1.0" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/float_reward_background_in" android:paddingLeft="12.0dip" android:paddingTop="12.0dip" android:paddingRight="12.0dip" android:paddingBottom="5.0dip" android:layout_width="189.0dip" android:layout_height="wrap_content">
+            <TextView android:id="@id/tvKills" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/float_reward_kills" style="@style/float_reward_text_style" />
+            <TextView android:id="@id/tvExperience" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/float_reward_experience" style="@style/float_reward_text_style" />
+            <TextView android:id="@id/tvGold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/float_reward_gold" style="@style/float_reward_text_style" />
+            <TextView android:textSize="@dimen/textSize12Sp" android:textColor="#ff0f0f0f" android:layout_gravity="center" android:id="@id/tvStamina" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/float_reward_stamina" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="196.0dip" android:layout_height="wrap_content">
+            <Button android:textSize="@dimen/textSize12Sp" android:textColor="@color/white" android:id="@id/btnCancel" android:background="@drawable/float_reward_background_btn_selector" android:layout_width="0.0dip" android:layout_height="27.0dip" android:layout_margin="4.0dip" android:text="@string/next_time_shell" android:layout_weight="1.0" android:textAllCaps="false" />
+            <Button android:textSize="@dimen/textSize12Sp" android:textColor="@color/white" android:id="@id/btnSure" android:background="@drawable/float_reward_background_btn_selector" android:layout_width="0.0dip" android:layout_height="27.0dip" android:layout_margin="4.0dip" android:text="@string/share_to_circle" android:layout_weight="1.0" android:textAllCaps="false" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

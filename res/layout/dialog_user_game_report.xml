@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/llDialog" android:background="@color/dialog_shadow" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/svDialog" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/bg_mini_game_detail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="37.0dip">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/dialog_user_report_type_head" />
+                    <ImageView android:layout_gravity="top" android:id="@id/iv_ur_close" android:paddingLeft="10.0dip" android:paddingRight="4.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_clear_selector" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <include layout="@layout/report_view" />
+                <RelativeLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                    <FrameLayout android:id="@id/big_ad_container" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="297.5dip" android:layout_margin="4.0dip" />
+                    <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/accountTextColor" android:id="@id/tvAdIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:text="AD" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

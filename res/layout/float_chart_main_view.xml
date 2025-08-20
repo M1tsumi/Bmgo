@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/float_bg_right" android:layout_width="@dimen/float_right_layout_width_4" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/float_chart_list" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ScrollView android:id="@id/float_chart_title" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                    <Button android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/addnewchatbt" android:background="@drawable/btn_float_add_friend_selector" android:padding="10.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/floatNewChart" />
+                    <View android:layout_gravity="bottom" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                </LinearLayout>
+            </ScrollView>
+            <com.mcpeonline.minecraft.mcfloat.views.FloatChatListLayout android:id="@id/floatchatlistll" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/float_chart_title" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/float_chart_friends" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ScrollView android:id="@id/float_chart_title2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                        <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/floatfriendlist" android:layout_centerInParent="true" />
+                        <ImageView android:id="@id/float_chat_friend_back" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/float_chat_back" android:layout_centerVertical="true" />
+                        <View android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </ScrollView>
+            <com.mcpeonline.minecraft.mcfloat.views.FloatChartFriendLayout android:id="@id/floatfriendlistll" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/float_chart_title2" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/float_chart_singlechart" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ScrollView android:id="@id/float_chart_title3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                        <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/floatfriendlist" android:layout_centerInParent="true" />
+                        <ImageView android:id="@id/float_chat_single_back" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/float_chat_back" android:layout_centerVertical="true" />
+                        <View android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </ScrollView>
+            <com.mcpeonline.minecraft.mcfloat.views.FloatChatConversationLayout android:id="@id/floatchatll" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/float_chart_title3" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

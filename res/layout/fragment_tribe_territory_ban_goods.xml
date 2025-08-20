@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/allBackgroundColor" android:padding="@dimen/new_ui_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rlOpenOrCloseBanGoods" android:background="@drawable/bg_two_grid_50_nor" android:layout_width="fill_parent" android:layout_height="@dimen/itemHeight">
+        <TextView android:text="@string/tribe_ban_goods" style="@style/tribe_ban_goods_label" />
+        <ImageView android:id="@id/ivBanGoodArrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:src="@drawable/arrow_bottom" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/llBanGoods" android:background="@drawable/bg_one_grid_35" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip">
+        <com.mcpeonline.multiplayer.view.MyGridView android:id="@id/gvBanGoods" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:horizontalSpacing="3.0dip" android:verticalSpacing="10.0dip" android:numColumns="3" />
+    </LinearLayout>
+    <RelativeLayout android:background="@drawable/bg_two_grid_50_nor" android:layout_width="fill_parent" android:layout_height="@dimen/itemHeight" android:layout_marginTop="2.0dip">
+        <TextView android:text="@string/tribe_ban_boom" style="@style/tribe_ban_goods_label" />
+        <CheckBox android:id="@id/cbBanBoom" style="@style/tribe_ban_goods_checkbox" />
+    </RelativeLayout>
+    <RelativeLayout android:background="@drawable/bg_two_grid_50_nor" android:layout_width="fill_parent" android:layout_height="@dimen/itemHeight">
+        <TextView android:text="@string/tribe_ban_destroy_block" style="@style/tribe_ban_goods_label" />
+        <CheckBox android:id="@id/cbBanDestroyBlock" style="@style/tribe_ban_goods_checkbox" />
+    </RelativeLayout>
+    <TextView android:id="@id/tvTribeUpdateTerritory" android:layout_marginLeft="0.0dip" android:layout_marginTop="@dimen/new_ui_margin" android:layout_marginRight="0.0dip" android:text="@string/tribe_update_sure" style="@style/newBigBtnStyle" />
+</LinearLayout>

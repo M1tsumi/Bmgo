@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_new_dialog" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/btnNote" android:background="@drawable/bg_two_grid_50_selector" android:layout_height="@dimen/longClickEditBtnHeight" android:text="@string/add_remarks" style="@style/textView12spStyle" />
+        <Button android:id="@id/btnDeleteFriend" android:background="@drawable/bg_two_grid_50_selector" android:layout_height="@dimen/longClickEditBtnHeight" android:layout_marginTop="-1.0dip" android:text="@string/delete_friend" style="@style/textView12spStyle" />
+        <Button android:id="@id/btnBlacklist" android:background="@drawable/bg_two_grid_50_selector" android:layout_height="@dimen/longClickEditBtnHeight" android:layout_marginTop="-1.0dip" android:text="@string/add_to_black_list" style="@style/textView12spStyle" />
+        <Button android:id="@id/btnCancel" android:background="@drawable/bg_two_grid_50_selector" android:layout_height="@dimen/longClickEditBtnHeight" android:layout_marginTop="-1.0dip" android:text="@string/cancel" style="@style/textView12spStyle" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,947 @@
+[
+  {
+    "dbId": 1,
+    "groupId": 101,
+    "item": [
+      {
+        "dbId": 10101,
+        "groupId": 101,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.cult.1.png",
+        "id": "cup.cult.1",
+        "langMap": {
+          "zh_CN": {
+            "name": "第1名"
+          },
+          "en_US": {
+            "name": "1st"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10102,
+        "groupId": 101,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.cult.2.png",
+        "id": "cup.cult.2",
+        "langMap": {
+          "zh_CN": {
+            "name": "第2名"
+          },
+          "en_US": {
+            "name": "2nd"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10103,
+        "groupId": 101,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.cult.3.png",
+        "id": "cup.cult.3",
+        "langMap": {
+          "zh_CN": {
+            "name": "第3名"
+          },
+          "en_US": {
+            "name": "3rd"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10104,
+        "groupId": 101,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.cult.10.png",
+        "id": "cup.cult.10",
+        "langMap": {
+          "zh_CN": {
+            "name": "第4~10名"
+          },
+          "en_US": {
+            "name": "4th~10th"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10105,
+        "groupId": 101,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.cult.50.png",
+        "id": "cup.cult.50",
+        "langMap": {
+          "zh_CN": {
+            "name": "第11~50名"
+          },
+          "en_US": {
+            "name": "11th~50th"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10106,
+        "groupId": 101,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.cult.100.png",
+        "id": "cup.cult.100",
+        "langMap": {
+          "zh_CN": {
+            "name": "第51~100名"
+          },
+          "en_US": {
+            "name": "51st~100th"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      }
+    ],
+    "langMap": {
+      "zh_CN": {
+        "groupName": "魅力排行"
+      },
+      "en_US": {
+        "groupName": "Charm Ranking"
+      }
+    }
+  },
+  {
+    "dbId": 2,
+    "groupId": 102,
+    "item": [
+      {
+        "dbId": 10201,
+        "groupId": 102,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.clan.1.png",
+        "id": "cup.clan.1",
+        "langMap": {
+          "zh_CN": {
+            "name": "第1名"
+          },
+          "en_US": {
+            "name": "1st"
+          }
+        },
+        "num": 0,
+        "specialIcon": "http://static.sandboxol.com/sandbox/honor/cup.clan.1.q.png"
+      },
+      {
+        "dbId": 10202,
+        "groupId": 102,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.clan.2.png",
+        "id": "cup.clan.2",
+        "langMap": {
+          "zh_CN": {
+            "name": "第2名"
+          },
+          "en_US": {
+            "name": "2nd"
+          }
+        },
+        "num": 0,
+        "specialIcon": "http://static.sandboxol.com/sandbox/honor/cup.clan.2.q.png"
+      },
+      {
+        "dbId": 10203,
+        "groupId": 102,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.clan.3.png",
+        "id": "cup.clan.3",
+        "langMap": {
+          "zh_CN": {
+            "name": "第3名"
+          },
+          "en_US": {
+            "name": "3rd"
+          }
+        },
+        "num": 0,
+        "specialIcon": "http://static.sandboxol.com/sandbox/honor/cup.clan.3.q.png"
+      },
+      {
+        "dbId": 10204,
+        "groupId": 102,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.clan.10.png",
+        "id": "cup.clan.10",
+        "langMap": {
+          "zh_CN": {
+            "name": "第4~10名"
+          },
+          "en_US": {
+            "name": "4th~10th"
+          }
+        },
+        "num": 0,
+        "specialIcon": "http://static.sandboxol.com/sandbox/honor/cup.clan.10.q.png"
+      },
+      {
+        "dbId": 10205,
+        "groupId": 102,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.clan.50.png",
+        "id": "cup.clan.50",
+        "langMap": {
+          "zh_CN": {
+            "name": "第11~50名"
+          },
+          "en_US": {
+            "name": "11th~50th"
+          }
+        },
+        "num": 0,
+        "specialIcon": "http://static.sandboxol.com/sandbox/honor/cup.clan.50.q.png"
+      },
+      {
+        "dbId": 10206,
+        "groupId": 102,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.clan.100.png",
+        "id": "cup.clan.100",
+        "langMap": {
+          "zh_CN": {
+            "name": "第51~100名"
+          },
+          "en_US": {
+            "name": "51st~100th"
+          }
+        },
+        "num": 0,
+        "specialIcon": "http://static.sandboxol.com/sandbox/honor/cup.clan.100.q.png"
+      }
+    ],
+    "langMap": {
+      "zh_CN": {
+        "groupName": "部落排行榜"
+      },
+      "en_US": {
+        "groupName": "Clan Ranking"
+      }
+    }
+  },
+  {
+    "dbId": 3,
+    "groupId": 103,
+    "item": [
+      {
+        "dbId": 10301,
+        "groupId": 103,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.g1001.1.png",
+        "id": "cup.g1001.1",
+        "langMap": {
+          "zh_CN": {
+            "name": "第1名"
+          },
+          "en_US": {
+            "name": "1st"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10302,
+        "groupId": 103,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.g1001.2.png",
+        "id": "cup.g1001.2",
+        "langMap": {
+          "zh_CN": {
+            "name": "第2名"
+          },
+          "en_US": {
+            "name": "2nd"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10303,
+        "groupId": 103,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.g1001.3.png",
+        "id": "cup.g1001.3",
+        "langMap": {
+          "zh_CN": {
+            "name": "第3名"
+          },
+          "en_US": {
+            "name": "3rd"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10304,
+        "groupId": 103,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.g1001.10.png",
+        "id": "cup.g1001.10",
+        "langMap": {
+          "zh_CN": {
+            "name": "第4~10名"
+          },
+          "en_US": {
+            "name": "4th~10th"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10305,
+        "groupId": 103,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.g1001.50.png",
+        "id": "cup.g1001.50",
+        "langMap": {
+          "zh_CN": {
+            "name": "第11~50名"
+          },
+          "en_US": {
+            "name": "11th~50th"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10306,
+        "groupId": 103,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.g1001.100.png",
+        "id": "cup.g1001.100",
+        "langMap": {
+          "zh_CN": {
+            "name": "第51~100名"
+          },
+          "en_US": {
+            "name": "51st~100th"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      }
+    ],
+    "langMap": {
+      "zh_CN": {
+        "groupName": "饥饿游戏"
+      },
+      "en_US": {
+        "groupName": "SURVIVAL GAMES"
+      }
+    }
+  },
+  {
+    "dbId": 4,
+    "groupId": 104,
+    "item": [
+      {
+        "dbId": 10401,
+        "groupId": 104,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.g1002.1.png",
+        "id": "cup.g1002.1",
+        "langMap": {
+          "zh_CN": {
+            "name": "第1名"
+          },
+          "en_US": {
+            "name": "1st"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10402,
+        "groupId": 104,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.g1002.2.png",
+        "id": "cup.g1002.2",
+        "langMap": {
+          "zh_CN": {
+            "name": "第2名"
+          },
+          "en_US": {
+            "name": "2nd"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10403,
+        "groupId": 104,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.g1002.3.png",
+        "id": "cup.g1002.3",
+        "langMap": {
+          "zh_CN": {
+            "name": "第3名"
+          },
+          "en_US": {
+            "name": "3rd"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10404,
+        "groupId": 104,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.g1002.10.png",
+        "id": "cup.g1002.10",
+        "langMap": {
+          "zh_CN": {
+            "name": "第4~10名"
+          },
+          "en_US": {
+            "name": "4th~10th"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10405,
+        "groupId": 104,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.g1002.50.png",
+        "id": "cup.g1002.50",
+        "langMap": {
+          "zh_CN": {
+            "name": "第11~50名"
+          },
+          "en_US": {
+            "name": "11th~50th"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10406,
+        "groupId": 104,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.g1002.100.png",
+        "id": "cup.g1002.100",
+        "langMap": {
+          "zh_CN": {
+            "name": "第51~100名"
+          },
+          "en_US": {
+            "name": "51st~100th"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      }
+    ],
+    "langMap": {
+      "zh_CN": {
+        "groupName": "空岛战争"
+      },
+      "en_US": {
+        "groupName": "SKYWARS"
+      }
+    }
+  },
+  {
+    "dbId": 5,
+    "groupId": 105,
+    "item": [
+      {
+        "dbId": 10501,
+        "groupId": 105,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.g1003.1.png",
+        "id": "cup.g1003.1",
+        "langMap": {
+          "zh_CN": {
+            "name": "第1名"
+          },
+          "en_US": {
+            "name": "1st"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10502,
+        "groupId": 105,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.g1003.2.png",
+        "id": "cup.g1003.2",
+        "langMap": {
+          "zh_CN": {
+            "name": "第2名"
+          },
+          "en_US": {
+            "name": "2nd"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10503,
+        "groupId": 105,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.g1003.3.png",
+        "id": "cup.g1003.3",
+        "langMap": {
+          "zh_CN": {
+            "name": "第3名"
+          },
+          "en_US": {
+            "name": "3rd"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10504,
+        "groupId": 105,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.g1003.10.png",
+        "id": "cup.g1003.10",
+        "langMap": {
+          "zh_CN": {
+            "name": "第4~10名"
+          },
+          "en_US": {
+            "name": "4th~10th"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10505,
+        "groupId": 105,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.g1003.50.png",
+        "id": "cup.g1003.50",
+        "langMap": {
+          "zh_CN": {
+            "name": "第11~50名"
+          },
+          "en_US": {
+            "name": "11th~50th"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10506,
+        "groupId": 105,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.g1003.100.png",
+        "id": "cup.g1003.100",
+        "langMap": {
+          "zh_CN": {
+            "name": "第51~100名"
+          },
+          "en_US": {
+            "name": "51st~100th"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      }
+    ],
+    "langMap": {
+      "zh_CN": {
+        "groupName": "组队模式"
+      },
+      "en_US": {
+        "groupName": "TEAM"
+      }
+    }
+  },
+  {
+    "dbId": 6,
+    "groupId": 106,
+    "item": [
+      {
+        "dbId": 10601,
+        "groupId": 106,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.g1004.1.png",
+        "id": "cup.g1004.1",
+        "langMap": {
+          "zh_CN": {
+            "name": "第1名"
+          },
+          "en_US": {
+            "name": "1st"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10602,
+        "groupId": 106,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.g1004.2.png",
+        "id": "cup.g1004.2",
+        "langMap": {
+          "zh_CN": {
+            "name": "第2名"
+          },
+          "en_US": {
+            "name": "2nd"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10603,
+        "groupId": 106,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.g1004.3.png",
+        "id": "cup.g1004.3",
+        "langMap": {
+          "zh_CN": {
+            "name": "第3名"
+          },
+          "en_US": {
+            "name": "3rd"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10604,
+        "groupId": 106,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.g1004.10.png",
+        "id": "cup.g1004.10",
+        "langMap": {
+          "zh_CN": {
+            "name": "第4~10名"
+          },
+          "en_US": {
+            "name": "4th~10th"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10605,
+        "groupId": 106,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.g1004.50.png",
+        "id": "cup.g1004.50",
+        "langMap": {
+          "zh_CN": {
+            "name": "第11~50名"
+          },
+          "en_US": {
+            "name": "11th~50th"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10606,
+        "groupId": 106,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.g1004.100.png",
+        "id": "cup.g1004.100",
+        "langMap": {
+          "zh_CN": {
+            "name": "第51~100名"
+          },
+          "en_US": {
+            "name": "51st~100th"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      }
+    ],
+    "langMap": {
+      "zh_CN": {
+        "groupName": "建造战争"
+      },
+      "en_US": {
+        "groupName": "CREATIVE WAR"
+      }
+    }
+  },
+  {
+    "dbId": 7,
+    "groupId": 107,
+    "item": [
+      {
+        "dbId": 10701,
+        "groupId": 107,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.g1005.1.png",
+        "id": "cup.g1005.1",
+        "langMap": {
+          "zh_CN": {
+            "name": "第1名"
+          },
+          "en_US": {
+            "name": "1st"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10702,
+        "groupId": 107,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.g1005.2.png",
+        "id": "cup.g1005.2",
+        "langMap": {
+          "zh_CN": {
+            "name": "第2名"
+          },
+          "en_US": {
+            "name": "2nd"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10703,
+        "groupId": 107,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.g1005.3.png",
+        "id": "cup.g1005.3",
+        "langMap": {
+          "zh_CN": {
+            "name": "第3名"
+          },
+          "en_US": {
+            "name": "3rd"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10704,
+        "groupId": 107,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.g1005.10.png",
+        "id": "cup.g1005.10",
+        "langMap": {
+          "zh_CN": {
+            "name": "第4~10名"
+          },
+          "en_US": {
+            "name": "4th~10th"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10705,
+        "groupId": 107,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.g1005.50.png",
+        "id": "cup.g1005.50",
+        "langMap": {
+          "zh_CN": {
+            "name": "第11~50名"
+          },
+          "en_US": {
+            "name": "11th~50th"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10706,
+        "groupId": 107,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.g1005.100.png",
+        "id": "cup.g1005.100",
+        "langMap": {
+          "zh_CN": {
+            "name": "第51~100名"
+          },
+          "en_US": {
+            "name": "51st~100th"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      }
+    ],
+    "langMap": {
+      "zh_CN": {
+        "groupName": "部落战争"
+      },
+      "en_US": {
+        "groupName": "CLAN WAR"
+      }
+    }
+  },
+  {
+    "dbId": 8,
+    "groupId": 108,
+    "item": [
+      {
+        "dbId": 10801,
+        "groupId": 108,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.ordinary.201.png",
+        "id": "cup.ordinary.201",
+        "langMap": {
+          "zh_CN": {
+            "name": "在线2天"
+          },
+          "en_US": {
+            "name": "2 days online "
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10802,
+        "groupId": 108,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.ordinary.202.png",
+        "id": "cup.ordinary.202",
+        "langMap": {
+          "zh_CN": {
+            "name": "在线5天"
+          },
+          "en_US": {
+            "name": "5 days online"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10803,
+        "groupId": 108,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.ordinary.203.png",
+        "id": "cup.ordinary.203",
+        "langMap": {
+          "zh_CN": {
+            "name": "联机在线10分钟"
+          },
+          "en_US": {
+            "name": "10 minutes online"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10804,
+        "groupId": 108,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.ordinary.204.png",
+        "id": "cup.ordinary.204",
+        "langMap": {
+          "zh_CN": {
+            "name": "联机在线2小时"
+          },
+          "en_US": {
+            "name": "2 hours online"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10805,
+        "groupId": 108,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.ordinary.205.png",
+        "id": "cup.ordinary.205",
+        "langMap": {
+          "zh_CN": {
+            "name": "进行1次小游戏"
+          },
+          "en_US": {
+            "name": "played 1 times games"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10806,
+        "groupId": 108,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.ordinary.206.png",
+        "id": "cup.ordinary.206",
+        "langMap": {
+          "zh_CN": {
+            "name": "进行30次小游戏"
+          },
+          "en_US": {
+            "name": "played 30 times games"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10807,
+        "groupId": 108,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.ordinary.207.png",
+        "id": "cup.ordinary.207",
+        "langMap": {
+          "zh_CN": {
+            "name": "送礼1次"
+          },
+          "en_US": {
+            "name": "giving gifts 1 times"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10808,
+        "groupId": 108,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.ordinary.208.png",
+        "id": "cup.ordinary.208",
+        "langMap": {
+          "zh_CN": {
+            "name": "送礼60次"
+          },
+          "en_US": {
+            "name": "giving gifts 60 times"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10809,
+        "groupId": 108,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.ordinary.209.png",
+        "id": "cup.ordinary.209",
+        "langMap": {
+          "zh_CN": {
+            "name": "部落贡献值1000"
+          },
+          "en_US": {
+            "name": "1000 clan contribution"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      },
+      {
+        "dbId": 10810,
+        "groupId": 108,
+        "icon": "http://static.sandboxol.com/sandbox/honor/cup.ordinary.210.png",
+        "id": "cup.ordinary.210",
+        "langMap": {
+          "zh_CN": {
+            "name": "部落贡献值30000"
+          },
+          "en_US": {
+            "name": "30000 clan contribution"
+          }
+        },
+        "num": 0,
+        "specialIcon": ""
+      }
+    ],
+    "type": 1,
+    "langMap": {
+      "zh_CN": {
+        "groupName": "日常荣誉"
+      },
+      "en_US": {
+        "groupName": "Daily honors"
+      }
+    }
+  }
+]

@@ -1,0 +1,77 @@
+[
+    {
+      "typeId": 10,
+      "name": "鸡",
+      "icon": "item_10"
+    },
+    {
+      "typeId": 11,
+      "name": "牛",
+      "icon": "item_11"
+    },
+    {
+      "typeId": 12,
+      "name": "猪",
+      "icon": "item_12"
+    },
+    {
+      "typeId": 13,
+      "name": "羊",
+      "icon": "item_13"
+    },
+    {
+      "typeId": 32,
+      "name": "僵尸",
+      "icon": "item_32"
+    },
+    {
+      "typeId": 33,
+      "name": "爬行者",
+      "icon": "item_33"
+    },
+    {
+      "typeId": 34,
+      "name": "骷髅",
+      "icon": "item_34"
+    },
+    {
+      "typeId": 35,
+      "name": "蜘蛛",
+      "icon": "item_35"
+    },
+    {
+      "typeId": 36,
+      "name": "僵尸猪人",
+      "icon": "item_36"
+    },
+    {
+      "typeId": 14,
+      "name": "狼",
+      "icon": "item_14"
+    },
+    {
+      "typeId": 15,
+      "name": "村民",
+      "icon": "item_15"
+    },
+    {
+      "typeId": 16,
+      "name": "哞菇",
+      "icon": "item_16"
+    },
+    {
+      "typeId": 37,
+      "name": "史莱姆",
+      "icon": "item_37"
+    },
+    {
+      "typeId": 38,
+      "name": "末影人",
+      "icon": "item_38"
+    },
+    {
+      "typeId": 39,
+      "name": "蠹虫",
+      "icon": "item_39"
+    }
+]

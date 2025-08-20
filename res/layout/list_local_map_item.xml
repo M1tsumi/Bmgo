@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llSelect" android:background="@drawable/btn_item_selector_new" android:padding="@dimen/pdSize" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/cbCheck" android:visibility="gone" android:layout_marginRight="@dimen/tpSize" style="@style/ProtocolCheckBoxStyle" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/llOther" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:gravity="center_vertical" android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="70.0dip" android:text="你我他" style="@style/tv16spStyle" />
+            <TextView android:gravity="center_vertical" android:id="@id/tvSize" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="70.0dip" android:text="16sp" style="@style/tv14spStyle" />
+            <ProgressBar android:id="@id/pbBar" android:background="@drawable/progressbar_growth_value" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="5.0dip" android:layout_marginTop="@dimen/marginSizeSmall" android:max="100" android:progress="0" style="@style/StyleProgressBarMini" />
+        </LinearLayout>
+        <Button android:id="@id/btnOther" android:focusable="true" android:text="@string/use" android:layout_alignParentRight="true" android:layout_centerInParent="true" style="@style/smallBtnStyle" />
+    </RelativeLayout>
+</LinearLayout>

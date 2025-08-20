@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-7.0dip" android:layout_below="@id/llTop">
+        <com.sandboxol.refresh.view.RefreshLayout android:id="@id/refreshLayout" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ListView android:id="@id/swipe_target" android:paddingTop="7.0dip" android:paddingBottom="55.0dip" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:divider="@null" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        </com.sandboxol.refresh.view.RefreshLayout>
+        <LinearLayout android:gravity="center" android:background="@drawable/bg_mini_game_start" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_alignParentBottom="true">
+            <Button android:textSize="@dimen/textSize14Sp" android:textColor="@color/text_button_color" android:id="@id/btnInvite" android:background="@drawable/btn_light_button_selector" android:layout_width="150.0dip" android:layout_height="35.0dip" android:text="@string/invitation_friend" android:textAllCaps="false" />
+        </LinearLayout>
+        <com.sandboxol.refresh.view.PageLoadingView android:id="@id/plvLoading" android:layout_width="fill_parent" android:layout_height="fill_parent" app:show_refresh_button="false" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/llTop" android:background="@drawable/bg_tribe_contribution_ranking_title" android:paddingLeft="@dimen/new_ui_margin" android:paddingTop="7.0dip" android:paddingRight="@dimen/new_ui_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/text_main_content_color" android:gravity="center" android:id="@id/tvCreateTribe" android:background="@drawable/bg_one_grid_yellow" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="@dimen/new_ui_margin" android:text="@string/tribe_create_successful_invite_friend_join" android:lineSpacingExtra="4.0dip" />
+        <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/text_main_content_color" android:gravity="center_vertical" android:id="@id/textView7" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginLeft="16.0dip" android:text="@string/floatfriendlist" />
+    </LinearLayout>
+</RelativeLayout>

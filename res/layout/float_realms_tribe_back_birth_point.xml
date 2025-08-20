@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="right" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_share_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="@dimen/float_font_size" android:id="@id/btnBackBirthPoint" android:layout_marginLeft="@dimen/floatPaddingLeft" android:layout_marginTop="16.0dip" android:layout_marginRight="@dimen/floatPaddingRight" android:text="@string/float_territory_back_birth_point" style="@style/btnStyle" />
+        <TextView android:textSize="@dimen/textSize9Sp" android:textColor="@color/white" android:ellipsize="end" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/floatPaddingLeft" android:layout_marginRight="@dimen/floatPaddingRight" android:text="@string/float_territory_back_birth_point_explain" android:maxLines="3" android:lineSpacingExtra="2.0dip" />
+    </LinearLayout>
+</RelativeLayout>

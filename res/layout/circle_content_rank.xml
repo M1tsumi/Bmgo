@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="15.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="48.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+        <RelativeLayout android:layout_width="50.0dip" android:layout_height="50.0dip">
+            <View android:background="@drawable/bg_one_grid_75" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/ivDescImage" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/ic_default_honor" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip">
+            <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/friend_circle_content_color" android:ellipsize="end" android:id="@id/tvContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ranking NO.1" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+                <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/friend_circle_hint_color" android:id="@id/tvRankNum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NO.1" />
+                <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/friend_circle_hint_color" android:id="@id/tvScoreNum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="18.0dip" android:text="15" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/line_bg" android:layout_width="fill_parent" android:layout_height="@dimen/lineH" android:layout_marginLeft="27.0dip" android:layout_marginRight="27.0dip" />
+    <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/friend_circle_hint_color" android:gravity="center_vertical" android:id="@id/tvGoldNum" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="57.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="18.0dip" android:layout_marginBottom="2.0dip" android:text="300" android:drawableLeft="@drawable/ic_gold" android:drawablePadding="4.0dip" android:layout_toRightOf="@id/tvKillNum" />
+</LinearLayout>

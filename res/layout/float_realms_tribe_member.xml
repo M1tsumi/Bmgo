@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="right" android:id="@id/rl_share_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="16.0sp" android:textColor="@color/float_font_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tvPlayerNum" android:paddingLeft="@dimen/floatPaddingLeft" android:paddingRight="@dimen/floatPaddingRight" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/float_tribe_member" android:lines="1" />
+        <View android:background="@color/float_line_color" android:layout_width="fill_parent" android:layout_height="@dimen/lineHei" />
+        <com.sandboxol.refresh.view.RefreshLayout android:id="@id/refreshLayout" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ListView android:id="@id/swipe_target" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:overScrollMode="never" />
+        </com.sandboxol.refresh.view.RefreshLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/meFragmentItem">
+        <LinearLayout android:orientation="horizontal" android:background="@color/edit_text_search_bg_color" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/account_uid" />
+            <EditText android:id="@id/etAccount" android:hint="@string/account" android:imeOptions="actionNext" style="@style/accountAccountEditTextStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout style="@style/meFragmentItem">
+        <LinearLayout android:orientation="horizontal" android:background="@color/edit_text_search_bg_color" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/account_password" />
+            <EditText android:id="@id/etPassword" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/password" android:layout_weight="1.0" android:inputType="textPassword" android:imeOptions="actionNext" style="@style/accountEditTextPasswordStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout style="@style/meFragmentItem">
+        <LinearLayout android:orientation="horizontal" android:background="@color/edit_text_search_bg_color" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/account_password_again" />
+            <EditText android:id="@id/etConfirmPassword" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/confirmPassword" android:layout_weight="1.0" android:inputType="textPassword" android:imeOptions="actionNext" style="@style/accountEditTextPasswordStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:gravity="center" android:id="@id/btnGo" android:text="@string/next" style="@style/newBigBtnStyle" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/accountItemHeight" android:layout_marginLeft="@dimen/new_ui_margin" android:layout_marginRight="@dimen/new_ui_margin">
+        <CheckBox android:layout_gravity="top" android:id="@id/cbProtocol" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="8.0dip" style="@style/ProtocolCheckBoxStyle" />
+        <TextView android:textSize="@dimen/textSize14Sp" android:textColor="#ff968770" android:gravity="center_vertical" android:id="@id/tvProtocol" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/agreement" android:lineSpacingExtra="6.0dip" />
+    </LinearLayout>
+</LinearLayout>

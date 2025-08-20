@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/allBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_bottom_size" android:layout_marginBottom="4.0dip" />
+    <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/text_hint_content_color" android:paddingLeft="@dimen/space_12dp" android:paddingRight="@dimen/space_12dp" android:paddingBottom="@dimen/space_12dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/localShow" style="@style/meFragmentItemText" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.sandboxol.refresh.view.RefreshLayout android:id="@id/refreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:refresh_trigger_offset="48.0dip">
+            <ListView android:id="@id/swipe_target" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" android:overScrollMode="never" />
+        </com.sandboxol.refresh.view.RefreshLayout>
+        <TextView android:textSize="@dimen/textSize16Sp" android:gravity="center" android:id="@id/tvRefresh" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/noDataDownRefresh" />
+    </RelativeLayout>
+</LinearLayout>

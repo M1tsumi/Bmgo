@@ -1,0 +1,332 @@
+[
+  {
+    "id": 1,
+    "key": "warrior",
+    "superPlayer": 1,
+    "image": "http://static.sandboxol.com/sandbox/miniGame/occupation/ic_occ_warrior_all_v2.png",
+    "smallImage": "http://static.sandboxol.com/sandbox/miniGame/occupation/ic_occ_warrior_v2.png",
+    "langMap": {
+      "en_US": {
+        "name": "Golden Warrior",
+        "desc": "Golden Warrior has a a full suit of Chain Equipment and Diamond Axe improves Attack and Protection."
+      },
+      "es_ES": {
+        "name": "Soldados de oro",
+        "desc": "Soldado de oro, puedes conseguir un traje de oro y un hacha de diamante para subir la capacidad de defensa y ataque."
+      },
+      "ja_JP": {
+        "name": "ゴールド戦士",
+        "desc": "ゴールド戦士は、ゴールデン鎧一つとダイヤ斧一つをゲットする！攻撃と防御を改善！"
+      },
+      "ko_KR": {
+        "name": "황금전사",
+        "desc": "황금 전사는 황금 갑옷과 금강석도끼를 받을 수 있고 공격력과 방어력 상승!"
+      },
+      "pt_PT": {
+        "name": "gueirreiro de ouro",
+        "desc": "guerreiro de ouro，obte uma armadura de ouro com diamantes e um machado para melhorar o seu ataque e defesa！"
+      },
+      "ru_RU": {
+        "name": "золотой воин",
+        "desc": "золотой воин может получить пару золотых броня и алмазный топор, увеличить уровень атаки и самоохраны!"
+      },
+      "th_TH": {
+        "name": "золотой воин",
+        "desc": "золотой воин может получить пару золотых броня и алмазный топор, увеличить уровень атаки и самоохраны!"
+      },
+      "zn_TW": {
+        "name": "黃金戰士",
+        "desc": "黃金戰士，可獲得一副黃金甲和一把鑽石斧，提高自身攻擊和防禦！"
+      },
+      "zh_CN": {
+        "name": "黄金战士",
+        "desc": "黄金战士，可获得一副黄金甲和一把钻石斧，提高自身攻击和防御！"
+      }
+    }
+  },
+  {
+    "id": 2,
+    "key": "swordsman",
+    "superPlayer": 1,
+    "image": "http://static.sandboxol.com/sandbox/miniGame/occupation/ic_occ_swordsman_all_v2.png",
+    "smallImage": "http://static.sandboxol.com/sandbox/miniGame/occupation/ic_occ_swordsman_v2.png",
+    "langMap": {
+      "en_US": {
+        "name": "Swordsman",
+        "desc": "Swordsman has a full suit of Chain Equipment and a Stone Sword improves Protection in fight."
+      },
+      "es_ES": {
+        "name": "Espachines",
+        "desc": "Espadachín, puede conseguir un traje de hielo y una espalda de piedra. Mejor para la desensa y a combatir."
+      },
+      "ja_JP": {
+        "name": "剣士",
+        "desc": "剣士は、鉄製シャックル一つと剣一つをゲットする。防御を改善、戦おう！"
+      },
+      "ko_KR": {
+        "name": "검사",
+        "desc": "검사는 쇠사슬장비와 돌검를 받을 수 있고 방어력이 상승하며 전투능력도 업업업 !"
+      },
+      "pt_PT": {
+        "name": "esgrimista",
+        "desc": "esgrimista，obte um equipamento de cadeia e espada de pedra para melhorar a sua defesa e lutar melhor！"
+      },
+      "ru_RU": {
+        "name": "мечник",
+        "desc": "мечник можете получить пару оборудования цепи плюс каменный топор, увеличить уровень самоохраны, лучше битвы проводит!"
+      },
+      "th_TH": {
+        "name": "мечник",
+        "desc": "мечник можете получить пару оборудования цепи плюс каменный топор, увеличить уровень самоохраны, лучше битвы проводит!"
+      },
+      "zn_TW": {
+        "name": "劍士",
+        "desc": "劍士，可獲得一副鐵鏈裝備加一把石劍，提高自身防禦，更好戰鬥！"
+      },
+      "zh_CN": {
+        "name": "剑士",
+        "desc": "剑士，可获得一副铁链装备加一把石剑，提高自身防御，更好战斗！"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "key": "tank",
+    "superPlayer": 1,
+    "image": "http://static.sandboxol.com/sandbox/miniGame/occupation/ic_occ_tank_all_v2.png",
+    "smallImage": "http://static.sandboxol.com/sandbox/miniGame/occupation/ic_occ_tank_v2.png",
+    "langMap": {
+      "en_US": {
+        "name": "Tank",
+        "desc": "Tank has a Diamond Chestplate that improves Protection better."
+      },
+      "es_ES": {
+        "name": "Tanques",
+        "desc": "Tanque, puede conseguir un traje de diamente para la auto-defensa."
+      },
+      "ja_JP": {
+        "name": "タンク",
+        "desc": "タンクは、ダイヤ鎧一つを持ちます。他人からの攻撃を防御を改善！"
+      },
+      "ko_KR": {
+        "name": "탱크",
+        "desc": "탱크는 금강석갑옷을 받고 공격을 막하며 자신을 보호할 수 있다!"
+      },
+      "pt_PT": {
+        "name": "tanque",
+        "desc": "tanque，obete a armadura de diamante que resiste a ataques outros e aumenta a auto-protecção！"
+      },
+      "ru_RU": {
+        "name": "танк",
+        "desc": "танк может получить пару алмазных броня , увеличить уровень самоохраны!"
+      },
+      "th_TH": {
+        "name": "танк",
+        "desc": "танк может получить пару алмазных броня , увеличить уровень самоохраны!"
+      },
+      "zn_TW": {
+        "name": "坦克",
+        "desc": "坦克，可獲得一件鑽石甲抵禦別人攻擊，增強自身保護！"
+      },
+      "zh_CN": {
+        "name": "坦克",
+        "desc": "坦克，可获得一件钻石甲可抵御别人攻击，增强自身保护！"
+      }
+    }
+  },
+  {
+    "id": 4,
+    "key": "archer",
+    "superPlayer": 1,
+    "image": "http://static.sandboxol.com/sandbox/miniGame/occupation/ic_occ_archer_all_v2.png",
+    "smallImage": "http://static.sandboxol.com/sandbox/miniGame/occupation/ic_occ_archer_v2.png",
+    "langMap": {
+      "en_US": {
+        "name": "Archer",
+        "desc": "Archer has a Bow improves Attack Range."
+      },
+      "es_ES": {
+        "name": "Arqueros",
+        "desc": "Arquero, puede conseguir un arc. Se puede dañar a los enemigos a larga distancia."
+      },
+      "ja_JP": {
+        "name": "アーチャー",
+        "desc": "アーチャーは、弓矢一つとレザー鎧一つをゲットする。リモートショット効果が出る！"
+      },
+      "ko_KR": {
+        "name": "사수",
+        "desc": "사수는 궁전과 가죽 옷을 받을 수 있다. 장거리 사격이라서 살상력이 강하다 !"
+      },
+      "pt_PT": {
+        "name": "arqueiro",
+        "desc": "arqueiro，obete um arco e flecha com a letalidade gravação remota！"
+      },
+      "ru_RU": {
+        "name": "арчер",
+        "desc": "арчер может получить пару бантиков и оборудование повесить в теле, дистанционная съемка с большим истреблением"
+      },
+      "th_TH": {
+        "name": "арчер",
+        "desc": "арчер может получить пару бантиков и оборудование повесить в теле, дистанционная съемка с большим истреблением"
+      },
+      "zn_TW": {
+        "name": "弓箭手",
+        "desc": "弓箭手，可獲得一副弓箭，遠程設計殺傷力強！"
+      },
+      "zh_CN": {
+        "name": "弓箭手",
+        "desc": "射手，可获得一副弓箭，远程射击杀伤力大！"
+      }
+    }
+  },
+  {
+    "id": 5,
+    "key": "priest",
+    "superPlayer": 1,
+    "image": "http://static.sandboxol.com/sandbox/miniGame/occupation/ic_occ_priest_all_v2.png",
+    "smallImage": "http://static.sandboxol.com/sandbox/miniGame/occupation/ic_occ_priest_v2.png",
+    "langMap": {
+      "en_US": {
+        "name": "Priest",
+        "desc": "Priest comes with three Splash Potions of Healing, a Wooden Sword and a full suit of Leather Equipment protects and heals your team."
+      },
+      "es_ES": {
+        "name": "Sacerdotes",
+        "desc": "Sacerdote, puede conseguir tres sprays de recuperación, una espada de madera y un traje de cuero. Mejora la capacidad física del equipo."
+      },
+      "ja_JP": {
+        "name": "牧師",
+        "desc": "牧師は、スプラッシュ回復薬剤三つ、木剣一つとレザー鎧一つをゲットする。体力を素早く回復できる！"
+      },
+      "ko_KR": {
+        "name": "목사",
+        "desc": "목사는 회복포션3병, 목건과 가죽 옷을 받고 팀 멘버들의 체력을 회복할 수 있다!"
+      },
+      "pt_PT": {
+        "name": "sacerdote",
+        "desc": "ministro，obte três recuperação respingo, uma espada de madeira e um par de equipamentos de couro e adicionar a equipa física rapidamente！"
+      },
+      "ru_RU": {
+        "name": "священник",
+        "desc": "священник может получить 3 аэрозольные зелья для восстановления, деревянный меч и пару оборудования повесить в теле, быстро пополненить физическую энергию команды!"
+      },
+      "th_TH": {
+        "name": "священник",
+        "desc": "священник может получить 3 аэрозольные зелья для восстановления, деревянный меч и пару оборудования повесить в теле, быстро пополненить физическую энергию команды!"
+      },
+      "zn_TW": {
+        "name": "牧師",
+        "desc": "牧師，可獲得3個噴踐型回復藥劑、一把木劍和一副皮革裝備，快速補充隊伍體能！"
+      },
+      "zh_CN": {
+        "name": "牧师",
+        "desc": "牧师，可获得3个喷溅型恢复药剂、一把木剑和一副皮革装备，快速补充队伍体能！"
+      }
+    }
+  },
+  {
+    "id": 6,
+    "key": "assassin",
+    "superPlayer": 2,
+    "image": "http://static.sandboxol.com/sandbox/miniGame/occupation/ic_occ_assassin_all_v2.png",
+    "smallImage": "http://static.sandboxol.com/sandbox/miniGame/occupation/ic_occ_assassin_v2.png",
+    "langMap": {
+      "en_US": {
+        "name": "Assassin",
+        "desc": "High outbreak of melee occupation, can get a bottle of Potion of Invisibility，an enchanting sharp Wooden Sword !"
+      },
+      "ru_RU": {
+        " name": "киллер",
+        "desc": "профессия на близкие дистанции с сильной взрывной силой, может получить 1 зелье невидимости, деревянный меч с зачарованием “острота”Ⅰ！"
+      },
+      "zh_CN": {
+        "name": "刺客",
+        "desc": "高爆发的近战职业，可获得隐身药水一瓶，附魔锋利1的木剑一把！"
+      }
+    }
+  },
+  {
+    "id": 7,
+    "key": "black_magician",
+    "superPlayer": 2,
+    "image": "http://static.sandboxol.com/sandbox/miniGame/occupation/ic_occ_black_magician_all_v2.png",
+    "smallImage": "http://static.sandboxol.com/sandbox/miniGame/occupation/ic_occ_black_magician_v2.png",
+    "langMap": {
+      "en_US": {
+        "name": "Black Magician",
+        "desc": "Powerful AOE career，can be outstanding in teamwork, and can get 3 Splash Poisons, 1 set of leather equipment and a Wooden Sword !"
+      },
+      "ru_RU": {
+        " name": "черный волшебник",
+        "desc": "Могуцая AOE профессия, выдается командной координацией, может получить 3 взрывного зелья отправления, комплект кожаной брони и деревянный меч!"
+      },
+      "zh_CN": {
+        "name": "黑魔法师",
+        "desc": "强力的AOE职业，在团队配合中尤为突出，可获得3个喷溅型毒药，一套皮革装备和一把木剑！"
+      }
+    }
+  },
+  {
+    "id": 8,
+    "key": "black_warrior",
+    "superPlayer": 2,
+    "image": "http://static.sandboxol.com/sandbox/miniGame/occupation/ic_occ_black_warrior_all_v2.png",
+    "smallImage": "http://static.sandboxol.com/sandbox/miniGame/occupation/ic_occ_black_warrior_v2.png",
+    "langMap": {
+      "en_US": {
+        "name": "Black warrior",
+        "desc": "Cool Enchantment, can get a set of leather of enchantment protection 1,and a enchanting sharp Stone Ax !"
+      },
+      "ru_RU": {
+        " name": "воин в доспехах",
+        "desc": "прекрасный зачарованный комплект, может получить кожаную кирасу с зачарованием “защита”Ⅰи каменный топор с зачарованием “острота ”Ⅰ"
+      },
+      "zh_CN": {
+        "name": "魔甲战士",
+        "desc": "炫酷的附魔装，可获得一套附魔保护1的皮甲和一把附魔锋利1的石斧！"
+      }
+    }
+  },
+  {
+    "id": 9,
+    "key": "bomb_man",
+    "superPlayer": 2,
+    "image": "http://static.sandboxol.com/sandbox/miniGame/occupation/ic_occ_bomb_man_all_v2.png",
+    "smallImage": "http://static.sandboxol.com/sandbox/miniGame/occupation/ic_occ_bomb_man_v2.png",
+    "langMap": {
+      "en_US": {
+        "name": "Bomb Man",
+        "desc": "An expert of attacking, destroying the terrain, can get 3 TNT and a Flintstones !"
+      },
+      "ru_RU": {
+        " name": "бомбермэн",
+        "desc": "мастер по грифеству может получить 3 TNT и огниво!"
+      },
+      "zh_CN": {
+        "name": "炸弹人",
+        "desc": "偷袭、破坏地形的能手，可获得3个TNT和一个打火石！"
+      }
+    }
+  },
+  {
+    "id": 10,
+    "key": "super_archer",
+    "superPlayer": 2,
+    "image": "http://static.sandboxol.com/sandbox/miniGame/occupation/ic_occ_super_archer_all_v2.png",
+    "smallImage": "http://static.sandboxol.com/sandbox/miniGame/occupation/ic_occ_super_archer_v2.png",
+    "langMap": {
+      "en_US": {
+        "name": "Super Archer",
+        "desc": "An enhanced version of archer, become more lethal, and will get lighting effect when shooting enemies, and get a bow of enchanting rocket and 10 arrows!"
+      },
+      "ru_RU": {
+        " name": "мастер стрельбы",
+        "desc": "усиленная версия арчера имеет эффективную убойную силу , поджигающий эффект при стрельбе , и может получить стрелу с зачарованием “ горящая стрела” и 10 луков!"
+      },
+      "zh_CN": {
+        "name": "神箭手",
+        "desc": "弓箭手的强化版，更具杀伤力，射杀敌人时会获得点燃效果，可获得一把附魔火箭的弓和10支箭！"
+      }
+    }
+  }
+]

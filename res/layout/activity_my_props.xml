@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:background="@color/myTransparent" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:theme="@style/AppTheme.AppBarOverlay" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+        <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="@drawable/bg_top_bar" android:layout_width="fill_parent" android:layout_height="@dimen/actionBarSize" app:contentInsetStart="0.0dip" app:contentInsetEnd="0.0dip" app:contentInsetLeft="0.0dip" app:contentInsetRight="0.0dip" app:popupTheme="@style/AppTheme.PopupOverlay" app:navigationIcon="@null">
+            <ImageButton android:id="@id/ibBack" android:background="@null" android:paddingRight="8.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/back_selector" />
+            <com.mcpeonline.multiplayer.view.StrokeTextView android:layout_gravity="center" android:id="@id/tvTitle" android:paddingRight="5.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_marginRight="40.0dip" android:text="@string/props_my" app:shadowColor="#ff8b7d69" app:shadowSize="10" style="@style/homeToolBarTextStyle" />
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView android:background="@color/allBackgroundColor" android:paddingTop="17.0dip" android:paddingBottom="@dimen/space_12dp" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <FrameLayout android:background="@drawable/bg_new_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_12dp" android:layout_marginRight="@dimen/space_12dp" android:layout_marginBottom="@dimen/space_12dp">
+            <FrameLayout android:background="@drawable/bg_one_grid_50" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/space_12dp">
+                <com.mcpeonline.multiplayer.view.MyRecyclerView android:id="@id/rvMyProps" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+        </FrameLayout>
+    </ScrollView>
+    <com.sandboxol.refresh.view.PageLoadingView android:id="@id/plvLoading" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" app:show_refresh_button="false" />
+    <View android:background="@drawable/bg_home_top_bar" android:layout_width="fill_parent" android:layout_height="17.0dip" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</android.support.design.widget.CoordinatorLayout>

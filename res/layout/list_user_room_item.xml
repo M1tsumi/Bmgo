@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/vRoom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/llContent" android:background="@drawable/list_item_selector" android:paddingLeft="@dimen/pdSize" android:paddingTop="0.0dip" android:paddingRight="@dimen/pdSize" android:paddingBottom="@dimen/tpSize" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="60.0dip" android:layout_height="wrap_content">
+                <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivIcon" android:layout_marginTop="10.0dip" android:src="@drawable/head_df" app:type="circle" style="@style/iconStyle" />
+                <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivIconBg" android:layout_marginTop="10.0dip" app:type="round" style="@style/iconBgStyle" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_marginLeft="@dimen/marginSizeBig" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingRight="70.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageView android:id="@id/ivRock" android:visibility="visible" android:layout_width="@dimen/imageTextIcon16" android:layout_height="@dimen/imageTextIcon16" android:layout_marginRight="@dimen/marginSizeSmall" android:src="@drawable/rock" />
+                        <TextView android:id="@id/tvName" android:text="Autumn Maple's room" android:layout_weight="1.0" style="@style/userGameNameStyle" />
+                        <ImageView android:id="@id/ivVip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="3.0dip" android:src="@drawable/vip_mvp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+            <TextView android:textColor="@color/white" android:id="@id/tvUserId" android:background="@drawable/tv_user_id_bg" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:minWidth="65.0dip" android:text="ID:123456" style="@style/userGameOtherInfoStyle" />
+            <ImageView android:id="@id/ivGameMode" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/type_survival_nor" />
+            <TextView android:id="@id/tvGameMode" android:text="@string/title_survival" style="@style/userGameOtherInfoStyle" />
+            <ImageView android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/version_nor" />
+            <TextView android:id="@id/tvVersion" android:text="v 0.15.0" style="@style/userGameOtherInfoStyle" />
+            <ImageView android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/map" />
+            <TextView android:id="@id/tvMapSize" android:text="1.5 M" style="@style/userGameOtherInfoStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

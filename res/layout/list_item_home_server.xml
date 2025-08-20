@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/rlContent" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/llTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/head_icon_margin_left_size" android:layout_marginTop="5.0dip">
+        <View android:id="@id/vHonorBg" android:background="@drawable/bg_one_grid_100_75_selector" android:layout_width="40.0dip" android:layout_height="40.5dip" android:layout_marginRight="-0.5dip" />
+        <View android:id="@id/vVipBg" android:background="@drawable/bg_one_grid_100_75_selector" android:layout_width="64.0dip" android:layout_height="40.5dip" android:layout_marginRight="-0.5dip" />
+        <LinearLayout android:gravity="center_vertical" android:background="@drawable/bg_server_item_name" android:paddingLeft="@dimen/new_ui_margin" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <ImageView android:id="@id/ivRock" android:layout_width="16.0dip" android:layout_height="22.0dip" android:src="@drawable/rock" />
+            <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/server_item_name_color" android:ellipsize="end" android:gravity="left" android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="Game" android:maxLines="2" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_server_item_bottom_bg" android:layout_width="fill_parent" android:layout_height="50.5dip" android:layout_marginLeft="11.0dip" android:layout_marginTop="-0.5dip" android:layout_below="@id/llTitle">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="55.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="20.0dip" android:layout_weight="1.0">
+            <TextView android:id="@id/tvUserId" android:layout_marginLeft="1.0dip" android:text="ID:123456789" android:layout_weight="1.0" style="@style/userGameOtherInfoStyle" />
+            <ImageView android:id="@id/ivGameMode" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/ic_server_survival_green" />
+            <TextView android:textColor="@color/game_fragment_list_server_text_color" android:id="@id/tvGameMode" android:text="生存" style="@style/userGameOtherInfoStyle" />
+            <TextView android:textColor="@color/game_fragment_list_server_text_color" android:id="@id/tvMapSize" android:text="12.5 M" android:drawableLeft="@drawable/ic_server_map_size_green" style="@style/userGameOtherInfoStyle" />
+        </LinearLayout>
+        <View android:background="@color/line_bg" android:layout_width="fill_parent" android:layout_height="@dimen/lineH" android:layout_marginLeft="55.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/ic_server_net" />
+            <com.mcpeonline.multiplayer.view.NetStatusProgress android:id="@id/nspNetStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" app:delay="39" />
+            <TextView android:id="@id/tvVersion" android:layout_width="0.0dip" android:layout_marginLeft="12.0dip" android:text="V 0.12.3" android:layout_weight="1.0" style="@style/userGameOtherInfoStyle" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bg_server_item_num" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <TextView android:id="@id/tvPlayers" android:layout_marginLeft="20.0dip" android:layout_marginRight="7.0dip" android:text="5/7" style="@style/userGameOtherInfoStyle" />
+                <com.mcpeonline.multiplayer.view.PlayerNumberProgress android:orientation="vertical" android:id="@id/pnpPlayers" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" app:all_players="1" app:online_players="1" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/layout_head_icon" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="67.0dip">
+        <ImageView android:id="@id/ivHonor" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginRight="-10.0dip" android:src="@drawable/ic_default_honor" />
+        <ImageView android:id="@id/ivVip" android:layout_width="74.0dip" android:layout_height="50.0dip" android:src="@drawable/new_ic_mvp" />
+    </LinearLayout>
+</RelativeLayout>

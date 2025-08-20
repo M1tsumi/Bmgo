@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/allBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mcpeonline.multiplayer.view.BanSlideViewPager android:id="@id/rgPager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:background="@drawable/bg_home_top_bar" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_bottom_size" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llMsg" android:background="@drawable/bg_home_broadcast" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:focusable="false" android:focusableInTouchMode="false" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <ImageView android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/msg" />
+        <com.mcpeonline.multiplayer.view.MarqueeTextView android:textSize="14.0sp" android:textColor="@android:color/white" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/tvMsg" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="30.0dip" android:text="" android:scrollHorizontally="true" android:singleLine="true" android:layout_weight="1.0" android:marqueeRepeatLimit="marquee_forever" />
+        <Button android:id="@id/btnMsgClose" android:background="@drawable/msg_close_selector" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="12.0dip" android:layout_height="12.0dip" />
+    </LinearLayout>
+    <include android:layout_width="fill_parent" android:layout_height="@dimen/home_tab_size" android:layout_alignParentBottom="true" layout="@layout/home_tab_layout" />
+</RelativeLayout>

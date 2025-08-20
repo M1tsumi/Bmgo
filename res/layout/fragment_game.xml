@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="36.5dip" android:layout_marginBottom="46.0dip">
+        <com.sandboxol.refresh.view.RefreshLayout android:id="@id/refreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <android.support.v7.widget.RecyclerView android:id="@id/swipe_target" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-8.0dip" />
+        </com.sandboxol.refresh.view.RefreshLayout>
+        <com.sandboxol.refresh.view.PageLoadingView android:id="@id/plvLoading" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include layout="@layout/view_diamonds_box" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/gameModeTabHeight" android:layout_marginTop="2.0dip">
+        <View android:background="@color/allBackgroundColor" android:layout_width="20.0dip" android:layout_height="fill_parent" android:layout_marginTop="6.0dip" android:layout_marginBottom="2.0dip" android:layout_centerHorizontal="true" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/gameModeTabHeight">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/llGameMode" android:background="@drawable/bg_home_select_mode" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="-1.5dip" android:layout_weight="1.0">
+                <com.mcpeonline.multiplayer.view.StrokeTextView android:textSize="@dimen/textSize12Sp" android:textStyle="bold" android:textColor="@color/game_fragment_tab_text_color" android:id="@id/tvGameMode" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gameMode" app:shadowColor="#ff77aa3f" app:shadowSize="3" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="2.0dip" android:src="@drawable/ic_arrow_bottom" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/llGameVersion" android:background="@drawable/bg_home_select_version" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-1.5dip" android:layout_weight="1.0">
+                <com.mcpeonline.multiplayer.view.StrokeTextView android:textSize="@dimen/textSize12Sp" android:textStyle="bold" android:textColor="@color/game_fragment_tab_text_color" android:id="@id/tvGameVersion" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gameVersion" app:shadowColor="#ff77aa3f" app:shadowSize="3" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="2.0dip" android:src="@drawable/ic_arrow_bottom" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <com.mcpeonline.multiplayer.view.CreateOrQuickGameView android:id="@id/cqgPlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="46.0dip">
+        <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/tvTitle" android:background="@color/refresh_float_title_color" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="Title" android:shadowColor="@android:color/black" android:shadowDy="2.0" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

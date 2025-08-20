@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/meFragmentItemPdSizeNew" android:paddingTop="@dimen/meFragmentItemPdSizeNew" android:paddingRight="@dimen/meFragmentItemPdSizeNew" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:id="@id/qqLogin" android:background="@drawable/btn_qq_login_selector_bg" android:layout_marginTop="4.0dip" style="@style/contentAccountType">
+        <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/account_activity_text" android:gravity="center" android:id="@id/tvQQ" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/signUpWithQQ" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

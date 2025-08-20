@@ -1,0 +1,1562 @@
+{
+  "diamond_sword": [
+    {
+      "attr": "sharpness",
+      "id": 9,
+      "max": 5
+    },
+    {
+      "attr": "smite",
+      "id": 10,
+      "max": 5
+    },
+    {
+      "attr": "bane_of_arthropods",
+      "id": 11,
+      "max": 5
+    },
+    {
+      "attr": "knockback",
+      "id": 12,
+      "max": 2
+    },
+    {
+      "attr": "fire_aspect",
+      "id": 13,
+      "max": 2
+    },
+    {
+      "attr": "looting",
+      "id": 14,
+      "max": 3
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    }
+  ],
+  "diamond_shovel": [
+    {
+      "attr": "efficiency",
+      "id": 15,
+      "max": 5
+    },
+    {
+      "attr": "silk_touch",
+      "id": 16,
+      "max": 1
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    },
+    {
+      "attr": "fortune",
+      "id": 18,
+      "max": 3
+    }
+  ],
+  "diamond_pickaxe": [
+    {
+      "attr": "efficiency",
+      "id": 15,
+      "max": 5
+    },
+    {
+      "attr": "silk_touch",
+      "id": 16,
+      "max": 1
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    },
+    {
+      "attr": "fortune",
+      "id": 18,
+      "max": 3
+    }
+  ],
+  "diamond_axe": [
+    {
+      "attr": "sharpness",
+      "id": 9,
+      "max": 5
+    },
+    {
+      "attr": "smite",
+      "id": 10,
+      "max": 5
+    },
+    {
+      "attr": "bane_of_arthropods",
+      "id": 11,
+      "max": 5
+    },
+    {
+      "attr": "efficiency",
+      "id": 15,
+      "max": 5
+    },
+    {
+      "attr": "silk_touch",
+      "id": 16,
+      "max": 1
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    },
+    {
+      "attr": "fortune",
+      "id": 18,
+      "max": 3
+    }
+  ],
+  "diamond_hoe": [
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    }
+  ],
+  "wooden_sword": [
+    {
+      "attr": "sharpness",
+      "id": 9,
+      "max": 5
+    },
+    {
+      "attr": "smite",
+      "id": 10,
+      "max": 5
+    },
+    {
+      "attr": "bane_of_arthropods",
+      "id": 11,
+      "max": 5
+    },
+    {
+      "attr": "knockback",
+      "id": 12,
+      "max": 2
+    },
+    {
+      "attr": "fire_aspect",
+      "id": 13,
+      "max": 2
+    },
+    {
+      "attr": "looting",
+      "id": 14,
+      "max": 3
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    }
+  ],
+  "wooden_shovel": [
+    {
+      "attr": "efficiency",
+      "id": 15,
+      "max": 5
+    },
+    {
+      "attr": "silk_touch",
+      "id": 16,
+      "max": 1
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    },
+    {
+      "attr": "fortune",
+      "id": 18,
+      "max": 3
+    }
+  ],
+  "wooden_pickaxe": [
+    {
+      "attr": "efficiency",
+      "id": 15,
+      "max": 5
+    },
+    {
+      "attr": "silk_touch",
+      "id": 16,
+      "max": 1
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    },
+    {
+      "attr": "fortune",
+      "id": 18,
+      "max": 3
+    }
+  ],
+  "wooden_axe": [
+    {
+      "attr": "sharpness",
+      "id": 9,
+      "max": 5
+    },
+    {
+      "attr": "smite",
+      "id": 10,
+      "max": 5
+    },
+    {
+      "attr": "bane_of_arthropods",
+      "id": 11,
+      "max": 5
+    },
+    {
+      "attr": "efficiency",
+      "id": 15,
+      "max": 5
+    },
+    {
+      "attr": "silk_touch",
+      "id": 16,
+      "max": 1
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    },
+    {
+      "attr": "fortune",
+      "id": 18,
+      "max": 3
+    }
+  ],
+  "wooden_hoe": [
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    }
+  ],
+  "stone_sword": [
+    {
+      "attr": "sharpness",
+      "id": 9,
+      "max": 5
+    },
+    {
+      "attr": "smite",
+      "id": 10,
+      "max": 5
+    },
+    {
+      "attr": "bane_of_arthropods",
+      "id": 11,
+      "max": 5
+    },
+    {
+      "attr": "knockback",
+      "id": 12,
+      "max": 2
+    },
+    {
+      "attr": "fire_aspect",
+      "id": 13,
+      "max": 2
+    },
+    {
+      "attr": "looting",
+      "id": 14,
+      "max": 3
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    }
+  ],
+  "stone_shovel": [
+    {
+      "attr": "efficiency",
+      "id": 15,
+      "max": 5
+    },
+    {
+      "attr": "silk_touch",
+      "id": 16,
+      "max": 1
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    },
+    {
+      "attr": "fortune",
+      "id": 18,
+      "max": 3
+    }
+  ],
+  "stone_pickaxe": [
+    {
+      "attr": "efficiency",
+      "id": 15,
+      "max": 5
+    },
+    {
+      "attr": "silk_touch",
+      "id": 16,
+      "max": 1
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    },
+    {
+      "attr": "fortune",
+      "id": 18,
+      "max": 3
+    }
+  ],
+  "stone_axe": [
+    {
+      "attr": "sharpness",
+      "id": 9,
+      "max": 5
+    },
+    {
+      "attr": "smite",
+      "id": 10,
+      "max": 5
+    },
+    {
+      "attr": "bane_of_arthropods",
+      "id": 11,
+      "max": 5
+    },
+    {
+      "attr": "efficiency",
+      "id": 15,
+      "max": 5
+    },
+    {
+      "attr": "silk_touch",
+      "id": 16,
+      "max": 1
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    },
+    {
+      "attr": "fortune",
+      "id": 18,
+      "max": 3
+    }
+  ],
+  "stone_hoe": [
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    }
+  ],
+  "iron_sword": [
+    {
+      "attr": "sharpness",
+      "id": 9,
+      "max": 5
+    },
+    {
+      "attr": "smite",
+      "id": 10,
+      "max": 5
+    },
+    {
+      "attr": "bane_of_arthropods",
+      "id": 11,
+      "max": 5
+    },
+    {
+      "attr": "knockback",
+      "id": 12,
+      "max": 2
+    },
+    {
+      "attr": "fire_aspect",
+      "id": 13,
+      "max": 2
+    },
+    {
+      "attr": "looting",
+      "id": 14,
+      "max": 3
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    }
+  ],
+  "iron_shovel": [
+    {
+      "attr": "efficiency",
+      "id": 15,
+      "max": 5
+    },
+    {
+      "attr": "silk_touch",
+      "id": 16,
+      "max": 1
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    },
+    {
+      "attr": "fortune",
+      "id": 18,
+      "max": 3
+    }
+  ],
+  "iron_pickaxe": [
+    {
+      "attr": "efficiency",
+      "id": 15,
+      "max": 5
+    },
+    {
+      "attr": "silk_touch",
+      "id": 16,
+      "max": 1
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    },
+    {
+      "attr": "fortune",
+      "id": 18,
+      "max": 3
+    }
+  ],
+  "iron_axe": [
+    {
+      "attr": "sharpness",
+      "id": 9,
+      "max": 5
+    },
+    {
+      "attr": "smite",
+      "id": 10,
+      "max": 5
+    },
+    {
+      "attr": "bane_of_arthropods",
+      "id": 11,
+      "max": 5
+    },
+    {
+      "attr": "efficiency",
+      "id": 15,
+      "max": 5
+    },
+    {
+      "attr": "silk_touch",
+      "id": 16,
+      "max": 1
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    },
+    {
+      "attr": "fortune",
+      "id": 18,
+      "max": 3
+    }
+  ],
+  "iron_hoe": [
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    }
+  ],
+  "gold_sword": [
+    {
+      "attr": "sharpness",
+      "id": 9,
+      "max": 5
+    },
+    {
+      "attr": "smite",
+      "id": 10,
+      "max": 5
+    },
+    {
+      "attr": "bane_of_arthropods",
+      "id": 11,
+      "max": 5
+    },
+    {
+      "attr": "knockback",
+      "id": 12,
+      "max": 2
+    },
+    {
+      "attr": "fire_aspect",
+      "id": 13,
+      "max": 2
+    },
+    {
+      "attr": "looting",
+      "id": 14,
+      "max": 3
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    }
+  ],
+  "gold_shovel": [
+    {
+      "attr": "efficiency",
+      "id": 15,
+      "max": 5
+    },
+    {
+      "attr": "silk_touch",
+      "id": 16,
+      "max": 1
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    },
+    {
+      "attr": "fortune",
+      "id": 18,
+      "max": 3
+    }
+  ],
+  "gold_pickaxe": [
+    {
+      "attr": "efficiency",
+      "id": 15,
+      "max": 5
+    },
+    {
+      "attr": "silk_touch",
+      "id": 16,
+      "max": 1
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    },
+    {
+      "attr": "fortune",
+      "id": 18,
+      "max": 3
+    }
+  ],
+  "gold_axe": [
+    {
+      "attr": "sharpness",
+      "id": 9,
+      "max": 5
+    },
+    {
+      "attr": "smite",
+      "id": 10,
+      "max": 5
+    },
+    {
+      "attr": "bane_of_arthropods",
+      "id": 11,
+      "max": 5
+    },
+    {
+      "attr": "efficiency",
+      "id": 15,
+      "max": 5
+    },
+    {
+      "attr": "silk_touch",
+      "id": 16,
+      "max": 1
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    },
+    {
+      "attr": "fortune",
+      "id": 18,
+      "max": 3
+    }
+  ],
+  "gold_hoe": [
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    }
+  ],
+  "diamond_helmet": [
+    {
+      "attr": "protection",
+      "id": 0,
+      "max": 4
+    },
+    {
+      "attr": "fire_protection",
+      "id": 1,
+      "max": 4
+    },
+    {
+      "attr": "blast_protection",
+      "id": 3,
+      "max": 4
+    },
+    {
+      "attr": "projectile_protection",
+      "id": 4,
+      "max": 4
+    },
+    {
+      "attr": "thorns",
+      "id": 5,
+      "max": 3
+    },
+    {
+      "attr": "respiration",
+      "id": 6,
+      "max": 3
+    },
+    {
+      "attr": "aqua_affinity",
+      "id": 7,
+      "max": 1
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    }
+  ],
+  "diamond_chestplate": [
+    {
+      "attr": "protection",
+      "id": 0,
+      "max": 4
+    },
+    {
+      "attr": "fire_protection",
+      "id": 1,
+      "max": 4
+    },
+    {
+      "attr": "blast_protection",
+      "id": 3,
+      "max": 4
+    },
+    {
+      "attr": "projectile_protection",
+      "id": 4,
+      "max": 4
+    },
+    {
+      "attr": "thorns",
+      "id": 5,
+      "max": 3
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    }
+  ],
+  "diamond_leggings": [
+    {
+      "attr": "protection",
+      "id": 0,
+      "max": 4
+    },
+    {
+      "attr": "fire_protection",
+      "id": 1,
+      "max": 4
+    },
+    {
+      "attr": "blast_protection",
+      "id": 3,
+      "max": 4
+    },
+    {
+      "attr": "projectile_protection",
+      "id": 4,
+      "max": 4
+    },
+    {
+      "attr": "thorns",
+      "id": 5,
+      "max": 3
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    }
+  ],
+  "diamond_boots": [
+    {
+      "attr": "protection",
+      "id": 0,
+      "max": 4
+    },
+    {
+      "attr": "fire_protection",
+      "id": 1,
+      "max": 4
+    },
+    {
+      "attr": "feather_falling",
+      "id": 2,
+      "max": 4
+    },
+    {
+      "attr": "blast_protection",
+      "id": 3,
+      "max": 4
+    },
+    {
+      "attr": "projectile_protection",
+      "id": 4,
+      "max": 4
+    },
+    {
+      "attr": "thorns",
+      "id": 5,
+      "max": 3
+    },
+    {
+      "attr": "depth_strider",
+      "id": 8,
+      "max": 3
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    }
+  ],
+  "leather_cap": [
+    {
+      "attr": "protection",
+      "id": 0,
+      "max": 4
+    },
+    {
+      "attr": "fire_protection",
+      "id": 1,
+      "max": 4
+    },
+    {
+      "attr": "blast_protection",
+      "id": 3,
+      "max": 4
+    },
+    {
+      "attr": "projectile_protection",
+      "id": 4,
+      "max": 4
+    },
+    {
+      "attr": "thorns",
+      "id": 5,
+      "max": 3
+    },
+    {
+      "attr": "respiration",
+      "id": 6,
+      "max": 3
+    },
+    {
+      "attr": "aqua_affinity",
+      "id": 7,
+      "max": 1
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    }
+  ],
+  "leather_tunic": [
+    {
+      "attr": "protection",
+      "id": 0,
+      "max": 4
+    },
+    {
+      "attr": "fire_protection",
+      "id": 1,
+      "max": 4
+    },
+    {
+      "attr": "blast_protection",
+      "id": 3,
+      "max": 4
+    },
+    {
+      "attr": "projectile_protection",
+      "id": 4,
+      "max": 4
+    },
+    {
+      "attr": "thorns",
+      "id": 5,
+      "max": 3
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    }
+  ],
+  "leather_pants": [
+    {
+      "attr": "protection",
+      "id": 0,
+      "max": 4
+    },
+    {
+      "attr": "fire_protection",
+      "id": 1,
+      "max": 4
+    },
+    {
+      "attr": "blast_protection",
+      "id": 3,
+      "max": 4
+    },
+    {
+      "attr": "projectile_protection",
+      "id": 4,
+      "max": 4
+    },
+    {
+      "attr": "thorns",
+      "id": 5,
+      "max": 3
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    }
+  ],
+  "leather_boots": [
+    {
+      "attr": "protection",
+      "id": 0,
+      "max": 4
+    },
+    {
+      "attr": "fire_protection",
+      "id": 1,
+      "max": 4
+    },
+    {
+      "attr": "feather_falling",
+      "id": 2,
+      "max": 4
+    },
+    {
+      "attr": "blast_protection",
+      "id": 3,
+      "max": 4
+    },
+    {
+      "attr": "projectile_protection",
+      "id": 4,
+      "max": 4
+    },
+    {
+      "attr": "thorns",
+      "id": 5,
+      "max": 3
+    },
+    {
+      "attr": "depth_strider",
+      "id": 8,
+      "max": 3
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    }
+  ],
+  "chain_helmet": [
+    {
+      "attr": "protection",
+      "id": 0,
+      "max": 4
+    },
+    {
+      "attr": "fire_protection",
+      "id": 1,
+      "max": 4
+    },
+    {
+      "attr": "blast_protection",
+      "id": 3,
+      "max": 4
+    },
+    {
+      "attr": "projectile_protection",
+      "id": 4,
+      "max": 4
+    },
+    {
+      "attr": "thorns",
+      "id": 5,
+      "max": 3
+    },
+    {
+      "attr": "respiration",
+      "id": 6,
+      "max": 3
+    },
+    {
+      "attr": "aqua_affinity",
+      "id": 7,
+      "max": 1
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    }
+  ],
+  "chain_chestplate": [
+    {
+      "attr": "protection",
+      "id": 0,
+      "max": 4
+    },
+    {
+      "attr": "fire_protection",
+      "id": 1,
+      "max": 4
+    },
+    {
+      "attr": "blast_protection",
+      "id": 3,
+      "max": 4
+    },
+    {
+      "attr": "projectile_protection",
+      "id": 4,
+      "max": 4
+    },
+    {
+      "attr": "thorns",
+      "id": 5,
+      "max": 3
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    }
+  ],
+  "chain_leggings": [
+    {
+      "attr": "protection",
+      "id": 0,
+      "max": 4
+    },
+    {
+      "attr": "fire_protection",
+      "id": 1,
+      "max": 4
+    },
+    {
+      "attr": "blast_protection",
+      "id": 3,
+      "max": 4
+    },
+    {
+      "attr": "projectile_protection",
+      "id": 4,
+      "max": 4
+    },
+    {
+      "attr": "thorns",
+      "id": 5,
+      "max": 3
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    }
+  ],
+  "chain_boots": [
+    {
+      "attr": "protection",
+      "id": 0,
+      "max": 4
+    },
+    {
+      "attr": "fire_protection",
+      "id": 1,
+      "max": 4
+    },
+    {
+      "attr": "feather_falling",
+      "id": 2,
+      "max": 4
+    },
+    {
+      "attr": "blast_protection",
+      "id": 3,
+      "max": 4
+    },
+    {
+      "attr": "projectile_protection",
+      "id": 4,
+      "max": 4
+    },
+    {
+      "attr": "thorns",
+      "id": 5,
+      "max": 3
+    },
+    {
+      "attr": "depth_strider",
+      "id": 8,
+      "max": 3
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    }
+  ],
+  "iron_helmet": [
+    {
+      "attr": "protection",
+      "id": 0,
+      "max": 4
+    },
+    {
+      "attr": "fire_protection",
+      "id": 1,
+      "max": 4
+    },
+    {
+      "attr": "blast_protection",
+      "id": 3,
+      "max": 4
+    },
+    {
+      "attr": "projectile_protection",
+      "id": 4,
+      "max": 4
+    },
+    {
+      "attr": "thorns",
+      "id": 5,
+      "max": 3
+    },
+    {
+      "attr": "respiration",
+      "id": 6,
+      "max": 3
+    },
+    {
+      "attr": "aqua_affinity",
+      "id": 7,
+      "max": 1
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    }
+  ],
+  "iron_chestplate": [
+    {
+      "attr": "protection",
+      "id": 0,
+      "max": 4
+    },
+    {
+      "attr": "fire_protection",
+      "id": 1,
+      "max": 4
+    },
+    {
+      "attr": "blast_protection",
+      "id": 3,
+      "max": 4
+    },
+    {
+      "attr": "projectile_protection",
+      "id": 4,
+      "max": 4
+    },
+    {
+      "attr": "thorns",
+      "id": 5,
+      "max": 3
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    }
+  ],
+  "iron_leggings": [
+    {
+      "attr": "protection",
+      "id": 0,
+      "max": 4
+    },
+    {
+      "attr": "fire_protection",
+      "id": 1,
+      "max": 4
+    },
+    {
+      "attr": "blast_protection",
+      "id": 3,
+      "max": 4
+    },
+    {
+      "attr": "projectile_protection",
+      "id": 4,
+      "max": 4
+    },
+    {
+      "attr": "thorns",
+      "id": 5,
+      "max": 3
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    }
+  ],
+  "iron_boots": [
+    {
+      "attr": "protection",
+      "id": 0,
+      "max": 4
+    },
+    {
+      "attr": "fire_protection",
+      "id": 1,
+      "max": 4
+    },
+    {
+      "attr": "feather_falling",
+      "id": 2,
+      "max": 4
+    },
+    {
+      "attr": "blast_protection",
+      "id": 3,
+      "max": 4
+    },
+    {
+      "attr": "projectile_protection",
+      "id": 4,
+      "max": 4
+    },
+    {
+      "attr": "thorns",
+      "id": 5,
+      "max": 3
+    },
+    {
+      "attr": "depth_strider",
+      "id": 8,
+      "max": 3
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    }
+  ],
+  "gold_helmet": [
+    {
+      "attr": "protection",
+      "id": 0,
+      "max": 4
+    },
+    {
+      "attr": "fire_protection",
+      "id": 1,
+      "max": 4
+    },
+    {
+      "attr": "blast_protection",
+      "id": 3,
+      "max": 4
+    },
+    {
+      "attr": "projectile_protection",
+      "id": 4,
+      "max": 4
+    },
+    {
+      "attr": "thorns",
+      "id": 5,
+      "max": 3
+    },
+    {
+      "attr": "respiration",
+      "id": 6,
+      "max": 3
+    },
+    {
+      "attr": "aqua_affinity",
+      "id": 7,
+      "max": 1
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    }
+  ],
+  "gold_chestplate": [
+    {
+      "attr": "protection",
+      "id": 0,
+      "max": 4
+    },
+    {
+      "attr": "fire_protection",
+      "id": 1,
+      "max": 4
+    },
+    {
+      "attr": "blast_protection",
+      "id": 3,
+      "max": 4
+    },
+    {
+      "attr": "projectile_protection",
+      "id": 4,
+      "max": 4
+    },
+    {
+      "attr": "thorns",
+      "id": 5,
+      "max": 3
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    }
+  ],
+  "gold_leggings": [
+    {
+      "attr": "protection",
+      "id": 0,
+      "max": 4
+    },
+    {
+      "attr": "fire_protection",
+      "id": 1,
+      "max": 4
+    },
+    {
+      "attr": "blast_protection",
+      "id": 3,
+      "max": 4
+    },
+    {
+      "attr": "projectile_protection",
+      "id": 4,
+      "max": 4
+    },
+    {
+      "attr": "thorns",
+      "id": 5,
+      "max": 3
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    }
+  ],
+  "gold_boots": [
+    {
+      "attr": "protection",
+      "id": 0,
+      "max": 4
+    },
+    {
+      "attr": "fire_protection",
+      "id": 1,
+      "max": 4
+    },
+    {
+      "attr": "feather_falling",
+      "id": 2,
+      "max": 4
+    },
+    {
+      "attr": "blast_protection",
+      "id": 3,
+      "max": 4
+    },
+    {
+      "attr": "projectile_protection",
+      "id": 4,
+      "max": 4
+    },
+    {
+      "attr": "thorns",
+      "id": 5,
+      "max": 3
+    },
+    {
+      "attr": "depth_strider",
+      "id": 8,
+      "max": 3
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    }
+  ],
+  "fishing_rod": [
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    },
+    {
+      "attr": "luck_of_sea",
+      "id": 23,
+      "max": 3
+    },
+    {
+      "attr": "lure",
+      "id": 24,
+      "max": 3
+    }
+  ],
+  "bow": [
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    },
+    {
+      "attr": "power",
+      "id": 19,
+      "max": 5
+    },
+    {
+      "attr": "punch",
+      "id": 20,
+      "max": 2
+    },
+    {
+      "attr": "flame",
+      "id": 21,
+      "max": 1
+    },
+    {
+      "attr": "infinity",
+      "id": 22,
+      "max": 1
+    }
+  ],
+  "shears": [
+    {
+      "attr": "efficiency",
+      "id": 15,
+      "max": 5
+    },
+    {
+      "attr": "silk_touch",
+      "id": 16,
+      "max": 1
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    }
+  ],
+  "flint_and_steel": [
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    }
+  ],
+  "book": [
+    {
+      "attr": "protection",
+      "id": 0,
+      "max": 4
+    },
+    {
+      "attr": "fire_protection",
+      "id": 1,
+      "max": 4
+    },
+    {
+      "attr": "feather_falling",
+      "id": 2,
+      "max": 4
+    },
+    {
+      "attr": "blast_protection",
+      "id": 3,
+      "max": 4
+    },
+    {
+      "attr": "projectile_protection",
+      "id": 4,
+      "max": 4
+    },
+    {
+      "attr": "thorns",
+      "id": 5,
+      "max": 3
+    },
+    {
+      "attr": "respiration",
+      "id": 6,
+      "max": 3
+    },
+    {
+      "attr": "depth_strider",
+      "id": 8,
+      "max": 3
+    },
+    {
+      "attr": "aqua_affinity",
+      "id": 7,
+      "max": 1
+    },
+    {
+      "attr": "sharpness",
+      "id": 9,
+      "max": 5
+    },
+    {
+      "attr": "smite",
+      "id": 10,
+      "max": 5
+    },
+    {
+      "attr": "bane_of_arthropods",
+      "id": 11,
+      "max": 5
+    },
+    {
+      "attr": "knockback",
+      "id": 12,
+      "max": 2
+    },
+    {
+      "attr": "fire_aspect",
+      "id": 13,
+      "max": 2
+    },
+    {
+      "attr": "looting",
+      "id": 14,
+      "max": 3
+    },
+    {
+      "attr": "efficiency",
+      "id": 15,
+      "max": 5
+    },
+    {
+      "attr": "silk_touch",
+      "id": 16,
+      "max": 1
+    },
+    {
+      "attr": "unbreaking",
+      "id": 17,
+      "max": 3
+    },
+    {
+      "attr": "fortune",
+      "id": 18,
+      "max": 3
+    },
+    {
+      "attr": "power",
+      "id": 19,
+      "max": 5
+    },
+    {
+      "attr": "punch",
+      "id": 20,
+      "max": 2
+    },
+    {
+      "attr": "flame",
+      "id": 21,
+      "max": 1
+    },
+    {
+      "attr": "infinity",
+      "id": 22,
+      "max": 1
+    },
+    {
+      "attr": "luck_of_sea",
+      "id": 23,
+      "max": 3
+    },
+    {
+      "attr": "lure",
+      "id": 24,
+      "max": 3
+    }
+  ]
+}

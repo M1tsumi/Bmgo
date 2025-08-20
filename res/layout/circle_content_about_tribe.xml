@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="48.0dip" android:paddingTop="4.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="110.0dip" android:layout_height="110.0dip">
+        <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivDescImage" android:layout_width="94.0dip" android:layout_height="94.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="7.0dip" android:src="@drawable/ic_tribe_icon_default" android:scaleType="fitXY" app:borderRadius="12.0dip" app:type="round" />
+        <com.mcpeonline.multiplayer.view.RoundImageView android:background="@drawable/ic_tribe_head_border_default" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" app:type="round" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/friend_circle_content_color" android:ellipsize="end" android:id="@id/tvContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="Create Skywar Tribe!" />
+</LinearLayout>

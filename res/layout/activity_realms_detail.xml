@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:theme="@style/AppTheme.AppBarOverlay" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+        <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="@drawable/bg_top_bar" android:layout_width="fill_parent" android:layout_height="@dimen/actionBarSize" app:contentInsetStart="0.0dip" app:contentInsetEnd="0.0dip" app:contentInsetLeft="0.0dip" app:contentInsetRight="0.0dip" app:popupTheme="@style/AppTheme.PopupOverlay" app:navigationIcon="@null">
+            <ImageButton android:id="@id/ibBack" android:background="@null" android:paddingRight="8.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/back_selector" />
+            <com.mcpeonline.multiplayer.view.StrokeTextView android:layout_gravity="center" android:paddingRight="5.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_marginRight="40.0dip" android:text="@string/realms_detail" app:shadowColor="#ff8b7d69" app:shadowSize="10" style="@style/homeToolBarTextStyle" />
+            <ImageButton android:layout_gravity="right|center" android:id="@id/ibRealmsDetailShare" android:background="@null" android:paddingLeft="0.0dip" android:paddingRight="8.0dip" android:visibility="visible" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/btn_share_selector" />
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <RelativeLayout android:id="@id/rlTop" android:background="#ff5186b4" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <android.support.v4.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/layout_realms_detail_content" />
+        </android.support.v4.widget.NestedScrollView>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/bg_mini_game_start" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentBottom="true">
+            <Button android:gravity="center" android:id="@id/btnRealmsDetailFindGame" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="0.0dip" android:layout_height="45.0dip" android:layout_marginLeft="24.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="0.0dip" android:text="@string/find_game" android:layout_weight="1.0" android:textAllCaps="false" style="@style/newBigBtnStyle" />
+            <LinearLayout android:orientation="vertical" android:id="@id/llTeam" android:visibility="visible" android:layout_width="88.0dip" android:layout_height="45.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="0.0dip" style="@style/newBigBtnStyle">
+                <ImageView android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_realms_detail_organize_team_selector" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:background="@drawable/bg_home_top_bar" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_bottom_size" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@color/float_bg_color" android:layout_width="@dimen/float_right_layout_width_1" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+        <LinearLayout android:orientation="vertical" android:background="@color/float_bg_color_1" android:layout_width="@dimen/float_right_subtab_width" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:background="@color/float_bg_color_2" android:layout_width="fill_parent" android:layout_height="@dimen/float_tab_bottom_line_height" />
+                <TextView android:gravity="center" android:id="@id/txt_fangkuai" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/float_blocks" style="@style/float_font_style" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:background="@color/float_bg_color_2" android:layout_width="fill_parent" android:layout_height="@dimen/float_tab_bottom_line_height" />
+                <TextView android:gravity="center" android:id="@id/txt_kuanwu" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/float_mineral" style="@style/float_font_style" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:background="@color/float_bg_color_2" android:layout_width="fill_parent" android:layout_height="@dimen/float_tab_bottom_line_height" />
+                <TextView android:gravity="center" android:id="@id/txt_tools" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/float_tools" style="@style/float_font_style" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:background="@color/float_bg_color_2" android:layout_width="fill_parent" android:layout_height="@dimen/float_tab_bottom_line_height" />
+                <TextView android:gravity="center" android:id="@id/txt_food" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/float_food" style="@style/float_font_style" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:background="@color/float_bg_color_2" android:layout_width="fill_parent" android:layout_height="@dimen/float_tab_bottom_line_height" />
+                <TextView android:gravity="center" android:id="@id/txt_zhiwu" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/float_plant" style="@style/float_font_style" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:background="@color/float_bg_color_2" android:layout_width="fill_parent" android:layout_height="@dimen/float_tab_bottom_line_height" />
+                <TextView android:gravity="center" android:id="@id/txt_ranse" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/float_dye" style="@style/float_font_style" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:background="@color/float_bg_color_2" android:layout_width="fill_parent" android:layout_height="@dimen/float_tab_bottom_line_height" />
+                <TextView android:gravity="center" android:id="@id/txt_others" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/float_misc" android:layout_weight="1.0" style="@style/float_font_style" />
+                <TextView android:background="@color/float_bg_color_2" android:layout_width="fill_parent" android:layout_height="@dimen/float_tab_bottom_line_height" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_goods_container" android:background="@drawable/float_bg_right" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/float_search_box" android:layout_width="fill_parent" android:layout_height="@dimen/float_right_row_height" android:layout_marginLeft="10.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="3.0dip">
+                <EditText android:textSize="12.0dip" android:textColor="@color/float_font_color" android:textColorHint="#ff868686" android:gravity="center_vertical" android:id="@id/edit_search" android:background="@null" android:layout_width="127.0dip" android:layout_height="30.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:hint="不想找，自己搜" />
+                <ImageButton android:id="@id/btn_img_search" android:background="@drawable/float_search_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <GridView android:id="@id/grid_view_items" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@null" android:horizontalSpacing="1.0dip" android:verticalSpacing="1.0dip" android:stretchMode="columnWidth" android:numColumns="3" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/float_right_row_height">
+                <SeekBar android:id="@id/sb_items" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:maxWidth="3.0dip" android:maxHeight="3.0dip" android:max="64" android:progress="1" android:indeterminate="false" android:layout_weight="5.0" />
+                <TextView android:textColor="@color/white" android:id="@id/txt_item_number" android:layout_width="25.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="1" />
+                <Button android:textColor="@color/white" android:id="@id/btn_add_item" android:background="@drawable/float_font_color_select" android:layout_width="40.0dip" android:layout_height="35.0dip" android:layout_marginLeft="5.0dip" android:text="@string/float_add" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

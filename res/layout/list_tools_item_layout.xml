@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/llSelect" android:paddingLeft="@dimen/meFragmentItemPdSizeNew" android:paddingTop="@dimen/meFragmentItemPdSizeNew" android:paddingRight="@dimen/meFragmentItemPdSizeNew" android:paddingBottom="5.0dip" android:clickable="false" android:layout_height="75.0dip" style="@style/meFragmentItem"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivIcon" android:visibility="gone" android:layout_width="45.0dip" android:layout_height="45.0dip" android:src="@drawable/head_df" app:borderRadius="2.0dip" app:type="round" style="@style/iconStyle" />
+    <CheckBox android:id="@id/cbCheck" android:layout_marginRight="@dimen/meFragmentItemMLe" android:layout_marginBottom="5.0dip" style="@style/ProtocolCheckBoxStyle" />
+    <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/llOther" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+            <TextView android:gravity="center_vertical" android:id="@id/tvSkinTitle" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginRight="60.0dip" android:text="你我他" android:layout_weight="10.0" style="@style/textView12spStyle" />
+            <TextView android:textColor="@color/hintColor" android:gravity="center_vertical" android:id="@id/tvSkinSize" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="2.0" style="@style/tv10spStyle" />
+            <ProgressBar android:id="@id/pb_progressbar" android:background="@drawable/shape_progressbar_bg" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="5.0dip" android:max="100" android:progress="50" android:layout_weight="1.0" style="@style/StyleProgressBarMini" />
+        </LinearLayout>
+    </RelativeLayout>
+    <CheckBox android:textSize="@dimen/textSize12Sp" android:textColor="@color/btn_new_select_color" android:gravity="center" android:id="@id/cbOther" android:background="@drawable/btn_small_button_selector" android:focusable="true" android:layout_width="wrap_content" android:layout_height="33.0dip" android:layout_marginBottom="5.0dip" android:button="@null" android:minWidth="60.0dip" android:text="@string/use" style="@style/toolsBtnStyle" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_vertical" android:paddingLeft="@dimen/floatPaddingLeft" android:paddingRight="@dimen/floatPaddingRight" android:layout_width="fill_parent" android:layout_height="@dimen/floatViewCommonHeight" android:text="@string/floatMarriage" style="@style/floatTextViewParentStyle" />
+    <View android:background="@color/float_right_line_color" android:layout_width="fill_parent" android:layout_height="@dimen/lineHei" />
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/floatPaddingLeft" android:paddingRight="@dimen/floatPaddingRight" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <LinearLayout android:gravity="center_vertical" android:background="@drawable/btn_item_corners_nor" android:paddingLeft="10.0dip" android:paddingTop="2.0dip" android:paddingRight="2.0dip" android:paddingBottom="2.0dip" android:layout_width="0.0dip" android:layout_height="30.0dip" android:layout_weight="1.0">
+            <EditText android:textSize="@dimen/textSize14Sp" android:gravity="center_vertical" android:id="@id/etNickName" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" style="@style/accountEditTextStyle" />
+            <CheckBox android:id="@id/cbUser" android:background="@drawable/float_marriage_arrow_selector" android:clickable="true" android:layout_width="27.0dip" android:layout_height="27.0dip" android:button="@null" />
+        </LinearLayout>
+        <ImageButton android:id="@id/ibSearch" android:background="@drawable/btn_click_selector" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="15.0dip" android:src="@drawable/btn_search_selector" />
+    </LinearLayout>
+    <ListView android:id="@id/lv" android:background="@drawable/float_marriage_list_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/floatPaddingLeft" android:layout_marginRight="57.0dip" android:divider="@color/white" android:dividerHeight="@dimen/lineHei" />
+    <Button android:textSize="@dimen/textSize16Sp" android:textColor="@color/white" android:id="@id/btnPropose" android:background="@drawable/btn_click_selector" android:layout_width="fill_parent" android:layout_height="@dimen/btnHeightBigSize" android:layout_marginLeft="@dimen/floatPaddingLeft" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/floatPaddingRight" android:text="@string/floatPropose" />
+</LinearLayout>

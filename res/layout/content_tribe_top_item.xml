@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="42.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rlRanking" android:background="@drawable/bg_rank_top" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="7.0">
+        <ImageView android:id="@id/ivRank" android:layout_width="42.0dip" android:layout_height="42.0dip" android:layout_marginLeft="11.0dip" android:layout_marginTop="1.0dip" android:src="@drawable/new_ic_rank_nor" />
+        <TextView android:textSize="@dimen/textSize14Sp" android:id="@id/tvRankingList" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:text="@string/tribe_page_tribe_ranking" android:layout_toRightOf="@id/ivRank" android:layout_centerVertical="true" />
+        <ImageView android:layout_marginRight="50.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/arrowStyle" />
+    </RelativeLayout>
+    <View android:background="@drawable/bg_rank_top_right" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="-50.0dip" android:layout_weight="3.0" />
+</LinearLayout>

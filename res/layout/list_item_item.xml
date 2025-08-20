@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/float_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img_animal" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="10.0dip" android:scaleType="fitXY" android:layout_alignParentLeft="false" android:layout_alignParentRight="false" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/float_right_font_size_very_small" android:textColor="@color/float_font_color" android:id="@id/txt_animal_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="" android:singleLine="true" android:layout_below="@id/img_animal" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/item_checked" android:background="@drawable/float_item_selected_icon" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="15.0dip" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

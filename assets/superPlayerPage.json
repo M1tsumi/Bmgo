@@ -1,0 +1,1002 @@
+﻿{
+  "g1001": {
+    "en_US": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "Tank, Swordsman, Priest, Archer and Golden Warrior, pick your own role and enjoy the game!",
+        "secondText": "Show your superiority as a Super Player !",
+        "thirdText": "Possible to find hidden Diamond Swords in the chests !",
+        "forthText": "Less waiting time to load the game !"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "Tank, Swordsman, Priest, Archer and Golden Warrior, pick your own role and enjoy the game!",
+        "secondText": "Get double gold !",
+        "thirdText": "Possible to find hidden Diamond Swords in the chests !",
+        "forthText": "Show your superiority as a Super Player+ !"
+      }
+    ],
+    "zh_CN": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "坦克，剑士，牧师，弓箭手，黄金战士，五大职业，任你选！",
+        "secondText": "游戏内展示超级玩家尊贵身份！",
+        "thirdText": "可在宝箱中找到隐藏着的钻石宝剑！",
+        "forthText": "优先排队，更快进入游戏！"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "坦克，剑士，牧师，弓箭，黄金战士，黑魔法师，刺客，魔甲战士，炸弹人，神箭手十大职业任你选！",
+        "secondText": "双倍金币奖励！",
+        "thirdText": "可在宝箱中找到隐藏着的钻石宝剑！",
+        "forthText": "游戏内展示超级玩家+尊贵身份！"
+      }
+    ],
+    "zh_TW": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "坦克，劍士，牧師，弓箭手，黃金戰士，五大職業，任妳選！",
+        "secondText": "遊戲內展示超級玩家尊貴身份！",
+        "thirdText": "可在寶箱中找到隱藏著的鉆石寶劍！",
+        "forthText": "優先排隊，更快進入遊戲！"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "坦克，劍士，牧師，弓箭手，黃金戰士，五大職業，任妳選！",
+        "secondText": "雙倍金幣獎勵！",
+        "thirdText": "可在寶箱中找到隱藏著的鉆石寶劍！",
+        "forthText": "遊戲內展示超級玩家+尊貴身份！"
+      }
+    ],
+    "zh_HK": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "坦克，劍士，牧師，弓箭手，黃金戰士，五大職業，任妳選！",
+        "secondText": "遊戲內展示超級玩家尊貴身份！",
+        "thirdText": "可在寶箱中找到隱藏著的鉆石寶劍！",
+        "forthText": "優先排隊，更快進入遊戲！"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "坦克，劍士，牧師，弓箭手，黃金戰士，五大職業，任妳選！",
+        "secondText": "雙倍金幣獎勵！",
+        "thirdText": "可在寶箱中找到隱藏著的鉆石寶劍！",
+        "forthText": "遊戲內展示超級玩家+尊貴身份！"
+      }
+    ],
+    "ja_JP": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "タンク、剣士、ゴールド戦士、牧師、アーチャー、ゴールド戦士、お好きな職業をお選びください！",
+        "secondText": "スーパープレーヤーとして気高い姿を表す!",
+        "thirdText": "チェストの中、隠れたダイヤソードを探し出す!",
+        "forthText": "他人より早くゲームを始める!"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "Tank, Swordsman, Priest, Archer and Golden Warrior, pick your own role and enjoy the game!",
+        "secondText": "Get double gold !",
+        "thirdText": "Possible to find hidden Diamond Swords in the chests !",
+        "forthText": "Show your superiority as a Super Player+ !"
+      }
+    ],
+    "ko_KR": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "직업  다섯 가지가  있고 탱크，검사，목사，사수，황금 전사 를 마음대로 선택하세요!",
+        "secondText": "영광스러운 슈퍼 플레이어 신분을 보여주세요!",
+        "thirdText": "상자에서 숨어진 다이아몬드 검을 찾을 수 있음!",
+        "forthText": "게임 로딩 걸리는 시간 감소!"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "Tank, Swordsman, Priest, Archer and Golden Warrior, pick your own role and enjoy the game!",
+        "secondText": "Get double gold !",
+        "thirdText": "Possible to find hidden Diamond Swords in the chests !",
+        "forthText": "Show your superiority as a Super Player+ !"
+      }
+    ],
+    "ru_RU": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "Вы можете выбрать любую из 5 профессии:  золотой воин, танк, мечник, арчер, священник！",
+        "secondText": "Покажите ваше превосходство как супер игрок!",
+        "thirdText": "Возможно найти скрытый меч из бриллианта от грудя!",
+        "forthText": "Загружать игру с меньшем временем ожидания!"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "Tank, Swordsman, Priest, Archer and Golden Warrior, pick your own role and enjoy the game!",
+        "secondText": "Get double gold !",
+        "thirdText": "Possible to find hidden Diamond Swords in the chests !",
+        "forthText": "Show your superiority as a Super Player+ !"
+      }
+    ],
+    "es_ES": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "Tanques, espadachines， sacerdotes, arqueros, soldados del oro, ¡elige tu ocupación como quieras!",
+        "secondText": "Muestra una identidad distinguida de super jugador en el juego. ",
+        "thirdText": "Puede encontrar una espalda de diamante escondida en baúl.",
+        "forthText": "Prioridad de colas, un acceso más rápido al juego."
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "Tank, Swordsman, Priest, Archer and Golden Warrior, pick your own role and enjoy the game!",
+        "secondText": "Get double gold !",
+        "thirdText": "Possible to find hidden Diamond Swords in the chests !",
+        "forthText": "Show your superiority as a Super Player+ !"
+      }
+    ],
+    "pt_BR": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "Tanques, espadachins, padre, arqueiro, ouro guerreiro, cinco profissionais, escolha！",
+        "secondText": "Mostrar o estado de super jogador no jogo！",
+        "thirdText": "pode encontrar a espada diamante escondido na caixa！",
+        "forthText": "Enfileiramento de prioridade, mais rápido para o jogo！"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "Tanques, espadachins, padre, arqueiro, ouro guerreiro, cinco profissionais, escolha！",
+        "secondText": "Mostrar o estado de super jogador no jogo！",
+        "thirdText": "pode encontrar a espada diamante escondido na caixa！",
+        "forthText": "Enfileiramento de prioridade, mais rápido para o jogo！"
+      }
+    ],
+    "th_TH": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "รถถัง，นักดาบ，บาทหลวง，นักยิงธนู，นักต่อสู้ยอดเยี่ยม，มีทั้ง5อาชีพ，แล้วแต่คุณชอบ！",
+        "secondText": "แสดงฐานะมีเกียรติของผู้เล่นพิเศษในเกม",
+        "thirdText": "หาเจอดาบวิเศษเพชรลับในกล่องสมบัติได้ฃ！",
+        "forthText": "ได้รับสิทธิพิเศษเข้าแถว เข้าร่วมเกมเร็วกว่าขึ้น"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "Tank, Swordsman, Priest, Archer and Golden Warrior, pick your own role and enjoy the game!",
+        "secondText": "Get double gold !",
+        "thirdText": "Possible to find hidden Diamond Swords in the chests !",
+        "forthText": "Show your superiority as a Super Player+ !"
+      }
+    ]
+  },
+  "g1002": {
+    "en_US": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_draft.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "Tank, Swordsman, Priest, Archer and Golden Warrior, pick your own role and enjoy the game!",
+        "secondText": "Show your superiority as a Super Player !",
+        "thirdText": "Possible to find hidden Diamond Pickaxe in the chests !",
+        "forthText": "Less waiting time to load the game !"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_draft.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "Tank, Swordsman, Priest, Archer and Golden Warrior, pick your own role and enjoy the game!",
+        "secondText": "Get double gold !",
+        "thirdText": "Possible to find hidden Diamond Pickaxe in the chests !",
+        "forthText": "Show your superiority as a Super Player+ !"
+      }
+    ],
+    "zh_CN": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_draft.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "坦克，剑士，牧师，弓箭手，黄金战士，五大职业，任你选！",
+        "secondText": "游戏内展示超级玩家尊贵身份！",
+        "thirdText": "可以在箱子里找到隐藏的钻石镐！",
+        "forthText": "优先排队，更快进入游戏！"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_draft.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "坦克，剑士，牧师，弓箭手，黄金战士，五大职业，任你选！",
+        "secondText": "双倍金币奖励！",
+        "thirdText": "可以在箱子里找到隐藏的钻石镐！",
+        "forthText": "游戏内展示超级玩家+尊贵身份！"
+      }
+    ],
+    "zh_TW": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_draft.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "坦克，剑士，牧师，弓箭手，黄金战士，五大职业，任你选！",
+        "secondText": "游戏内展示超级玩家尊贵身份！",
+        "thirdText": "可以在箱子裏找到隱藏的鉆石鎬！",
+        "forthText": "优先排队，更快进入游戏！"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_draft.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "坦克，剑士，牧师，弓箭手，黄金战士，五大职业，任你选！",
+        "secondText": "雙倍金幣獎勵！",
+        "thirdText": "可以在箱子裏找到隱藏的鉆石鎬！",
+        "forthText": "遊戲內展示超級玩家+尊貴身份！"
+      }
+    ],
+    "zh_HK": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_draft.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "坦克，劍士，牧師，弓箭手，黃金戰士，五大職業，任妳選！",
+        "secondText": "遊戲內展示超級玩家尊貴身份！",
+        "thirdText": "可以在箱子裏找到隱藏的鉆石鎬！",
+        "forthText": "優先排隊，更快進入遊戲！"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_draft.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "坦克，劍士，牧師，弓箭手，黃金戰士，五大職業，任妳選！",
+        "secondText": "雙倍金幣獎勵！",
+        "thirdText": "可以在箱子裏找到隱藏的鉆石鎬！",
+        "forthText": "遊戲內展示超級玩家+尊貴身份！"
+      }
+    ],
+    "ja_JP": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_draft.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "タンク、剣士、ゴールド戦士、牧師、アーチャー、ゴールド戦士、お好きな職業をお選びください！",
+        "secondText": "スーパープレーヤーとして気高い姿を表す!",
+        "thirdText": "箱の中に隠しダイヤつるはしを探すのができます。",
+        "forthText": "他人より早くゲームを始める!"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_draft.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "Tank, Swordsman, Priest, Archer and Golden Warrior, pick your own role and enjoy the game!",
+        "secondText": "Get double gold !",
+        "thirdText": "Possible to find hidden Diamond Swords in the chests !",
+        "forthText": "Show your superiority as a Super Player+ !"
+      }
+    ],
+    "pt_BR": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_draft.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "Tanques, espadachins, padre, arqueiro, ouro guerreiro, cinco profissionais, escolha！",
+        "secondText": "Mostrar o estado de super jogador no jogo！",
+        "thirdText": "pode encontrar a picaretas de diamantes escondida na caixa",
+        "forthText": "Enfileiramento de prioridade, mais rápido para o jogo！"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_draft.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "Tank, Swordsman, Priest, Archer and Golden Warrior, pick your own role and enjoy the game!",
+        "secondText": "Get double gold !",
+        "thirdText": "Possible to find hidden Diamond Swords in the chests !",
+        "forthText": "Show your superiority as a Super Player+ !"
+      }
+    ],
+    "th_TH": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_draft.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "รถถัง，นักดาบ，บาทหลวง，นักยิงธนู，นักต่อสู้ยอดเยี่ยม，มีทั้ง5อาชีพ，แล้วแต่คุณชอบ！",
+        "secondText": "แสดงฐานะมีเกียรติของผู้เล่นพิเศษในเกม",
+        "thirdText": "หาเจออีเต้อเพชรได้ในกล่องได้ฃ！",
+        "forthText": "ได้รับสิทธิพิเศษเข้าแถว เข้าร่วมเกมเร็วกว่าขึ้น"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_draft.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "Tank, Swordsman, Priest, Archer and Golden Warrior, pick your own role and enjoy the game!",
+        "secondText": "Get double gold !",
+        "thirdText": "Possible to find hidden Diamond Swords in the chests !",
+        "forthText": "Show your superiority as a Super Player+ !"
+      }
+    ]
+  },
+  "g1003": {
+    "en_US": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "Tank, Swordsman, Priest, Archer and Golden Warrior, pick your own role and enjoy the game!",
+        "secondText": "Show your superiority as a Super Player !",
+        "thirdText": "Possible to find hidden Diamond Swords in the chests !",
+        "forthText": "Less waiting time to load the game !"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "Tank, Swordsman, Priest, Archer and Golden Warrior, pick your own role and enjoy the game!",
+        "secondText": "Get double gold !",
+        "thirdText": "Possible to find hidden Diamond Swords in the chests !",
+        "forthText": "Show your superiority as a Super Player+ !"
+      }
+    ],
+    "zh_CN": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "坦克，剑士，牧师，弓箭手，黄金战士，五大职业，任你选！",
+        "secondText": "游戏内展示超级玩家尊贵身份！",
+        "thirdText": "可在宝箱中找到隐藏着的钻石宝剑！",
+        "forthText": "优先排队，更快进入游戏！"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "坦克，剑士，牧师，弓箭，黄金战士，黑魔法师，刺客，魔甲战士，炸弹人，神箭手十大职业任你选！",
+        "secondText": "双倍金币奖励！",
+        "thirdText": "可在宝箱中找到隐藏着的钻石宝剑！",
+        "forthText": "游戏内展示超级玩家+尊贵身份！"
+      }
+    ],
+    "zh_TW": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "坦克，劍士，牧師，弓箭手，黃金戰士，五大職業，任妳選！",
+        "secondText": "遊戲內展示超級玩家尊貴身份！",
+        "thirdText": "可在寶箱中找到隱藏著的鉆石寶劍！",
+        "forthText": "優先排隊，更快進入遊戲！"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "坦克，劍士，牧師，弓箭手，黃金戰士，五大職業，任妳選！",
+        "secondText": "雙倍金幣獎勵！",
+        "thirdText": "可在寶箱中找到隱藏著的鉆石寶劍！",
+        "forthText": "遊戲內展示超級玩家+尊貴身份！"
+      }
+    ],
+    "zh_HK": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "坦克，劍士，牧師，弓箭手，黃金戰士，五大職業，任妳選！",
+        "secondText": "遊戲內展示超級玩家尊貴身份！",
+        "thirdText": "可在寶箱中找到隱藏著的鉆石寶劍！",
+        "forthText": "優先排隊，更快進入遊戲！"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "坦克，劍士，牧師，弓箭手，黃金戰士，五大職業，任妳選！",
+        "secondText": "雙倍金幣獎勵！",
+        "thirdText": "可在寶箱中找到隱藏著的鉆石寶劍！",
+        "forthText": "遊戲內展示超級玩家+尊貴身份！"
+      }
+    ],
+    "ja_JP": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "タンク、剣士、ゴールド戦士、牧師、アーチャー、ゴールド戦士、お好きな職業をお選びください！",
+        "secondText": "スーパープレーヤーとして気高い姿を表す!",
+        "thirdText": "チェストの中、隠れたダイヤソードを探し出す!",
+        "forthText": "他人より早くゲームを始める!"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "Tank, Swordsman, Priest, Archer and Golden Warrior, pick your own role and enjoy the game!",
+        "secondText": "Get double gold !",
+        "thirdText": "Possible to find hidden Diamond Swords in the chests !",
+        "forthText": "Show your superiority as a Super Player+ !"
+      }
+    ],
+    "ko_KR": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "직업  다섯 가지가  있고 탱크，검사，목사，사수，황금 전사 를 마음대로 선택하세요!",
+        "secondText": "영광스러운 슈퍼 플레이어 신분을 보여주세요!",
+        "thirdText": "상자에서 숨어진 다이아몬드 검을 찾을 수 있음!",
+        "forthText": "게임 로딩 걸리는 시간 감소!"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "Tank, Swordsman, Priest, Archer and Golden Warrior, pick your own role and enjoy the game!",
+        "secondText": "Get double gold !",
+        "thirdText": "Possible to find hidden Diamond Swords in the chests !",
+        "forthText": "Show your superiority as a Super Player+ !"
+      }
+    ],
+    "ru_RU": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "Вы можете выбрать любую из 5 профессии:  золотой воин, танк, мечник, арчер, священник！",
+        "secondText": "Покажите ваше превосходство как супер игрок!",
+        "thirdText": "Возможно найти скрытый меч из бриллианта от грудя!",
+        "forthText": "Загружать игру с меньшем временем ожидания!"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "Tank, Swordsman, Priest, Archer and Golden Warrior, pick your own role and enjoy the game!",
+        "secondText": "Get double gold !",
+        "thirdText": "Possible to find hidden Diamond Swords in the chests !",
+        "forthText": "Show your superiority as a Super Player+ !"
+      }
+    ],
+    "es_ES": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "Tanques, espadachines， sacerdotes, arqueros, soldados del oro, ¡elige tu ocupación como quieras!",
+        "secondText": "Muestra una identidad distinguida de super jugador en el juego. ",
+        "thirdText": "Puede encontrar una espalda de diamante escondida en baúl.",
+        "forthText": "Prioridad de colas, un acceso más rápido al juego."
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "Tank, Swordsman, Priest, Archer and Golden Warrior, pick your own role and enjoy the game!",
+        "secondText": "Get double gold !",
+        "thirdText": "Possible to find hidden Diamond Swords in the chests !",
+        "forthText": "Show your superiority as a Super Player+ !"
+      }
+    ],
+    "pt_BR": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "Tanques, espadachins, padre, arqueiro, ouro guerreiro, cinco profissionais, escolha！",
+        "secondText": "Mostrar o estado de super jogador no jogo！",
+        "thirdText": "pode encontrar a espada diamante escondido na caixa！",
+        "forthText": "Enfileiramento de prioridade, mais rápido para o jogo！"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "Tank, Swordsman, Priest, Archer and Golden Warrior, pick your own role and enjoy the game!",
+        "secondText": "Get double gold !",
+        "thirdText": "Possible to find hidden Diamond Swords in the chests !",
+        "forthText": "Show your superiority as a Super Player+ !"
+      }
+    ],
+    "th_TH": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "รถถัง，นักดาบ，บาทหลวง，นักยิงธนู，นักต่อสู้ยอดเยี่ยม，มีทั้ง5อาชีพ，แล้วแต่คุณชอบ！",
+        "secondText": "แสดงฐานะมีเกียรติของผู้เล่นพิเศษในเกม",
+        "thirdText": "หาเจอดาบวิเศษเพชรลับในกล่องสมบัติได้ฃ！",
+        "forthText": "ได้รับสิทธิพิเศษเข้าแถว เข้าร่วมเกมเร็วกว่าขึ้น"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "Tank, Swordsman, Priest, Archer and Golden Warrior, pick your own role and enjoy the game!",
+        "secondText": "Get double gold !",
+        "thirdText": "Possible to find hidden Diamond Swords in the chests !",
+        "forthText": "Show your superiority as a Super Player+ !"
+      }
+    ]
+  },
+  "g1004": {
+    "en_US": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_score.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_add_score.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "You can rate for yourself",
+        "secondText": "Show your superiority as a Super Player !",
+        "thirdText": "LEGENDARY can make more commends!",
+        "forthText": "Less waiting time to load the game !"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_score.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_add_score.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "You can rate for yourself",
+        "secondText": "Get double gold !",
+        "thirdText": "LEGENDARY can make more commends!",
+        "forthText": "Show your superiority as a Super Player+ !"
+      }
+    ],
+    "zh_CN": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_score.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_add_score.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "可以给自己评分",
+        "secondText": "游戏内展示超级玩家尊贵身份！",
+        "thirdText": "增多评价LEGENDRY的权限！",
+        "forthText": "优先排队，更快进入游戏！"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_score.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_add_score.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "可以给自己评分",
+        "secondText": "双倍金币奖励！",
+        "thirdText": "增多评价LEGENDRY的权限！",
+        "forthText": "游戏内展示超级玩家+尊贵身份！"
+      }
+    ],
+    "zh_TW": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_score.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_add_score.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "可以給自己評分",
+        "secondText": "遊戲內展示超級玩家尊貴身份！",
+        "thirdText": "增多評價LEGENDRY的權限！",
+        "forthText": "優先排隊，更快進入遊戲！"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_score.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_add_score.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "可以給自己評分",
+        "secondText": "雙倍金幣獎勵！",
+        "thirdText": "增多評價LEGENDRY的權限！",
+        "forthText": "遊戲內展示超級玩家+尊貴身份！"
+      }
+    ],
+    "zh_HK": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_score.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_add_score.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "可以給自己評分",
+        "secondText": "遊戲內展示超級玩家尊貴身份！",
+        "thirdText": "增多評價LEGENDRY的權限！",
+        "forthText": "優先排隊，更快進入遊戲！"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_score.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_add_score.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "可以給自己評分",
+        "secondText": "雙倍金幣獎勵！",
+        "thirdText": "增多評價LEGENDRY的權限！",
+        "forthText": "遊戲內展示超級玩家+尊貴身份！"
+      }
+    ],
+    "ja_JP": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_score.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_add_score.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "自己評価することができます",
+        "secondText": "スーパープレーヤーとして気高い姿を表す!",
+        "thirdText": "スーパープレイヤーが評価権限増加！",
+        "forthText": "他人より早くゲームを始める!"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_score.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_add_score.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "Tank, Swordsman, Priest, Archer and Golden Warrior, pick your own role and enjoy the game!",
+        "secondText": "Get double gold !",
+        "thirdText": "Possible to find hidden Diamond Swords in the chests !",
+        "forthText": "Show your superiority as a Super Player+ !"
+      }
+    ],
+    "ko_KR": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_score.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_add_score.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "자신에게 점수를 매길 수 있음",
+        "secondText": "영광스러운 슈퍼 플레이어 신분을 보여주세요!",
+        "thirdText": "LEGENDRY를 평가하는 권력 추가",
+        "forthText": "게임 로딩 걸리는 시간 감소!"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_score.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_add_score.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "Tank, Swordsman, Priest, Archer and Golden Warrior, pick your own role and enjoy the game!",
+        "secondText": "Get double gold !",
+        "thirdText": "Possible to find hidden Diamond Swords in the chests !",
+        "forthText": "Show your superiority as a Super Player+ !"
+      }
+    ],
+    "ru_RU": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_score.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_add_score.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "вы можете поставлять оценку сами",
+        "secondText": "Покажите ваше превосходство как супер игрок!",
+        "thirdText": "ЛЕГЕНДАРНЫИ мождет поставлять больше оценки！",
+        "forthText": "Загружать игру с меньшем временем ожидания!"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_score.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_add_score.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "Tank, Swordsman, Priest, Archer and Golden Warrior, pick your own role and enjoy the game!",
+        "secondText": "Get double gold !",
+        "thirdText": "Possible to find hidden Diamond Swords in the chests !",
+        "forthText": "Show your superiority as a Super Player+ !"
+      }
+    ],
+    "es_ES": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_score.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_add_score.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "Valuación de sí mismo",
+        "secondText": "Muestra una identidad distinguida de super jugador en el juego. ",
+        "thirdText": "Aumentar autoridad de comentar LEGENDRY",
+        "forthText": "Prioridad de colas, un acceso más rápido al juego."
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_score.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_add_score.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "Tank, Swordsman, Priest, Archer and Golden Warrior, pick your own role and enjoy the game!",
+        "secondText": "Get double gold !",
+        "thirdText": "Possible to find hidden Diamond Swords in the chests !",
+        "forthText": "Show your superiority as a Super Player+ !"
+      }
+    ]
+  },
+  "g1005": {
+    "en_US": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "Tank, Swordsman, Priest, Archer and Golden Warrior, pick your own role and enjoy the game!",
+        "secondText": "Show your superiority as a Super Player !",
+        "thirdText": "Possible to find hidden Diamond Swords in the chests !",
+        "forthText": "Less waiting time to load the game !"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "Tank, Swordsman, Priest, Archer and Golden Warrior, pick your own role and enjoy the game!",
+        "secondText": "Get double gold !",
+        "thirdText": "Possible to find hidden Diamond Swords in the chests !",
+        "forthText": "Show your superiority as a Super Player+ !"
+      }
+    ],
+    "zh_CN": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "坦克，剑士，牧师，弓箭手，黄金战士，五大职业，任你选！",
+        "secondText": "游戏内展示超级玩家尊贵身份！",
+        "thirdText": "可在宝箱中找到隐藏着的钻石宝剑！",
+        "forthText": "优先排队，更快进入游戏！"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "坦克，剑士，牧师，弓箭，黄金战士，黑魔法师，刺客，魔甲战士，炸弹人，神箭手十大职业任你选！",
+        "secondText": "双倍金币奖励！",
+        "thirdText": "可在宝箱中找到隐藏着的钻石宝剑！",
+        "forthText": "游戏内展示超级玩家+尊贵身份！"
+      }
+    ],
+    "zh_TW": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "坦克，劍士，牧師，弓箭手，黃金戰士，五大職業，任妳選！",
+        "secondText": "遊戲內展示超級玩家尊貴身份！",
+        "thirdText": "可在寶箱中找到隱藏著的鉆石寶劍！",
+        "forthText": "優先排隊，更快進入遊戲！"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "坦克，劍士，牧師，弓箭手，黃金戰士，五大職業，任妳選！",
+        "secondText": "雙倍金幣獎勵！",
+        "thirdText": "可在寶箱中找到隱藏著的鉆石寶劍！",
+        "forthText": "遊戲內展示超級玩家+尊貴身份！"
+      }
+    ],
+    "zh_HK": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "坦克，劍士，牧師，弓箭手，黃金戰士，五大職業，任妳選！",
+        "secondText": "遊戲內展示超級玩家尊貴身份！",
+        "thirdText": "可在寶箱中找到隱藏著的鉆石寶劍！",
+        "forthText": "優先排隊，更快進入遊戲！"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "坦克，劍士，牧師，弓箭手，黃金戰士，五大職業，任妳選！",
+        "secondText": "雙倍金幣獎勵！",
+        "thirdText": "可在寶箱中找到隱藏著的鉆石寶劍！",
+        "forthText": "遊戲內展示超級玩家+尊貴身份！"
+      }
+    ],
+    "ja_JP": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "タンク、剣士、ゴールド戦士、牧師、アーチャー、ゴールド戦士、お好きな職業をお選びください！",
+        "secondText": "スーパープレーヤーとして気高い姿を表す!",
+        "thirdText": "チェストの中、隠れたダイヤソードを探し出す!",
+        "forthText": "他人より早くゲームを始める!"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "Tank, Swordsman, Priest, Archer and Golden Warrior, pick your own role and enjoy the game!",
+        "secondText": "Get double gold !",
+        "thirdText": "Possible to find hidden Diamond Swords in the chests !",
+        "forthText": "Show your superiority as a Super Player+ !"
+      }
+    ],
+    "ko_KR": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "직업  다섯 가지가  있고 탱크，검사，목사，사수，황금 전사 를 마음대로 선택하세요!",
+        "secondText": "영광스러운 슈퍼 플레이어 신분을 보여주세요!",
+        "thirdText": "상자에서 숨어진 다이아몬드 검을 찾을 수 있음!",
+        "forthText": "게임 로딩 걸리는 시간 감소!"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "Tank, Swordsman, Priest, Archer and Golden Warrior, pick your own role and enjoy the game!",
+        "secondText": "Get double gold !",
+        "thirdText": "Possible to find hidden Diamond Swords in the chests !",
+        "forthText": "Show your superiority as a Super Player+ !"
+      }
+    ],
+    "ru_RU": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "Вы можете выбрать любую из 5 профессии:  золотой воин, танк, мечник, арчер, священник！",
+        "secondText": "Покажите ваше превосходство как супер игрок!",
+        "thirdText": "Возможно найти скрытый меч из бриллианта от грудя!",
+        "forthText": "Загружать игру с меньшем временем ожидания!"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "Tank, Swordsman, Priest, Archer and Golden Warrior, pick your own role and enjoy the game!",
+        "secondText": "Get double gold !",
+        "thirdText": "Possible to find hidden Diamond Swords in the chests !",
+        "forthText": "Show your superiority as a Super Player+ !"
+      }
+    ],
+    "es_ES": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "Tanques, espadachines， sacerdotes, arqueros, soldados del oro, ¡elige tu ocupación como quieras!",
+        "secondText": "Muestra una identidad distinguida de super jugador en el juego. ",
+        "thirdText": "Puede encontrar una espalda de diamante escondida en baúl.",
+        "forthText": "Prioridad de colas, un acceso más rápido al juego."
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "Tank, Swordsman, Priest, Archer and Golden Warrior, pick your own role and enjoy the game!",
+        "secondText": "Get double gold !",
+        "thirdText": "Possible to find hidden Diamond Swords in the chests !",
+        "forthText": "Show your superiority as a Super Player+ !"
+      }
+    ],
+    "pt_BR": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "Tanques, espadachins, padre, arqueiro, ouro guerreiro, cinco profissionais, escolha！",
+        "secondText": "Mostrar o estado de super jogador no jogo！",
+        "thirdText": "pode encontrar a espada diamante escondido na caixa！",
+        "forthText": "Enfileiramento de prioridade, mais rápido para o jogo！"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "Tank, Swordsman, Priest, Archer and Golden Warrior, pick your own role and enjoy the game!",
+        "secondText": "Get double gold !",
+        "thirdText": "Possible to find hidden Diamond Swords in the chests !",
+        "forthText": "Show your superiority as a Super Player+ !"
+      }
+    ],
+    "th_TH": [
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_name.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_enter.png",
+        "firstText": "รถถัง，นักดาบ，บาทหลวง，นักยิงธนู，นักต่อสู้ยอดเยี่ยม，มีทั้ง5อาชีพ，แล้วแต่คุณชอบ！",
+        "secondText": "แสดงฐานะมีเกียรติของผู้เล่นพิเศษในเกม",
+        "thirdText": "หาเจอดาบวิเศษเพชรลับในกล่องสมบัติได้ฃ！",
+        "forthText": "ได้รับสิทธิพิเศษเข้าแถว เข้าร่วมเกมเร็วกว่าขึ้น"
+      },
+      {
+        "firstPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_work.png",
+        "secondPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_money.png",
+        "thirdPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_sword.png",
+        "forthPic": "http://static.sandboxol.com/sandbox/config/android/image/superPlayer/super_player_up_name.png",
+        "firstText": "Tank, Swordsman, Priest, Archer and Golden Warrior, pick your own role and enjoy the game!",
+        "secondText": "Get double gold !",
+        "thirdText": "Possible to find hidden Diamond Swords in the chests !",
+        "forthText": "Show your superiority as a Super Player+ !"
+      }
+    ]
+  }
+}

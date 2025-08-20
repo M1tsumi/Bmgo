@@ -1,0 +1,69 @@
+.class public Lcom/tendcloud/tenddata/b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field final synthetic a:Lcom/talkingdata/sdk/TDAntiCheatingService;
+
+
+# direct methods
+.method public constructor <init>(Lcom/talkingdata/sdk/TDAntiCheatingService;)V
+    .locals 0
+
+    .prologue
+    .line 95
+    iput-object p1, p0, Lcom/tendcloud/tenddata/b;->a:Lcom/talkingdata/sdk/TDAntiCheatingService;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 4
+
+    .prologue
+    .line 99
+    :try_start_0
+    new-instance v0, Lcom/tendcloud/tenddata/hh;
+
+    invoke-direct {v0}, Lcom/tendcloud/tenddata/hh;-><init>()V
+
+    .line 100
+    iget-object v1, v0, Lcom/tendcloud/tenddata/hh;->m:Ljava/util/Map;
+
+    const-string v2, "eventType"
+
+    const/16 v3, 0xc
+
+    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v3
+
+    invoke-interface {v1, v2, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 101
+    invoke-static {}, Lcom/tendcloud/tenddata/er;->a()Lcom/tendcloud/tenddata/er;
+
+    move-result-object v1
+
+    invoke-virtual {v1, v0}, Lcom/tendcloud/tenddata/er;->post(Ljava/lang/Object;)V
+    :try_end_0
+    .catch Ljava/lang/Throwable; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 105
+    :goto_0
+    return-void
+
+    .line 102
+    :catch_0
+    move-exception v0
+
+    goto :goto_0
+.end method

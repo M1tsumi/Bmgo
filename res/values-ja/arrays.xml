@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="other_join_room_msg">
+        <item>サーバーに入った後一時的に空中でフリーズした場合、少し時間を置けば回復できます。</item>
+        <item>ログインするとキックアウトされづらくなります。ログインしますか。</item>
+        <item>サーバー主のネット環境もラグを引き起こす恐れがあります。</item>
+        <item>サーバーを立てた後はすぐにゲームをスタートしてね。</item>
+        <item>ゲーム時間が延びると、経験値も増えます。</item>
+    </string-array>
+    <string-array name="ban_goods_names">
+        <item>Splash Potion of Invisibility</item>
+        <item>溶岩</item>
+        <item>水</item>
+        <item>火打ち石と打ち金</item>
+        <item>不可視ポーション</item>
+        <item>生物出現</item>
+        <item>ドロッパー</item>
+        <item>ボート</item>
+    </string-array>
+    <string-array name="realms_type">
+        <item>飢餓ゲーム</item>
+    </string-array>
+</resources>

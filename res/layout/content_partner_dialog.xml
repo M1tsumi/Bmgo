@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="300.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_marginTop="10.0dip" style="@style/partnerDialogStyle">
+        <TextView android:text="@string/user_info_lovers" style="@style/partnerDialogMainText" />
+        <ImageView android:id="@id/ivPartnerSex" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sex_boy" />
+        <TextView android:id="@id/tvNickName" android:layout_marginLeft="4.0dip" android:text="Steve" style="@style/partnerDialogDetailText" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="72.0dip" android:layout_marginTop="4.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:layout_marginTop="0.0dip" style="@style/partnerDialogStyle">
+                <TextView android:text="@string/partner_dialog_partner_time" style="@style/partnerDialogMainText" />
+                <TextView android:id="@id/tvPartnerTime" android:layout_marginLeft="4.0dip" android:text="@string/days" style="@style/partnerDialogDetailText" />
+            </LinearLayout>
+            <LinearLayout style="@style/partnerDialogStyle">
+                <TextView android:text="@string/partner_dialog_partner_intimacy" style="@style/partnerDialogMainText" />
+                <TextView android:id="@id/tvIntimacy" android:layout_marginLeft="4.0dip" android:text="998" style="@style/partnerDialogDetailText" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:background="@drawable/bg_one_grid_50" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_marginRight="4.0dip">
+            <ImageView android:id="@id/ivRing" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ic_partner_ring_default" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout style="@style/partnerDialogStyle">
+        <TextView android:text="@string/partner_dialog_partner_intimacy_level" style="@style/partnerDialogMainText" />
+        <com.mcpeonline.multiplayer.view.PartnerLevelView android:id="@id/plvLevel" android:layout_width="wrap_content" android:layout_height="fill_parent" app:level="2" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top" android:layout_height="wrap_content" android:minHeight="100.0dip" style="@style/partnerDialogStyle">
+        <TextView android:ellipsize="end" android:id="@id/tvDetails" android:text="@string/partner_dialog_partner_declaration" android:lines="10" style="@style/partnerDialogMainText" />
+    </LinearLayout>
+</LinearLayout>

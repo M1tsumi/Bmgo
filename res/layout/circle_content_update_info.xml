@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="48.0dip" android:paddingTop="8.0dip" android:paddingRight="36.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/friend_circle_time_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/circle_update_info" />
+    <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/friend_circle_content_color" android:ellipsize="end" android:id="@id/tvContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="Lorem ipsum dolor sit amet, consectetor adipising edit. Aenean euismod bibendum. Proin gravida dolor s." />
+</LinearLayout>

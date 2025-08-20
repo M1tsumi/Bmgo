@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/llPubAdvertContent" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/textSize12Sp" android:textColor="#ffbdbdbd" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="15.0dip" android:layout_marginLeft="3.0dip" android:text="AD" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/llPubAdvertDownload" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginRight="25.0dip" android:layout_alignParentRight="true">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_gg_download" />
+            <TextView android:textSize="@dimen/textSize14Sp" android:textColor="#ff009d94" android:id="@id/tvPubAdvertCta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Download" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="8.0dip">
+                <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/rivPubAdvertIcon" android:background="@drawable/broadcast_world_msg" android:layout_width="42.0dip" android:layout_height="42.0dip" android:layout_marginLeft="25.0dip" app:borderRadius="10.0dip" app:type="round" />
+                <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/accountTextColor" android:ellipsize="end" android:id="@id/tvPubAdvertTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:maxWidth="150.0dip" android:text="部落冲突:皇室战争" android:lines="1" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/userRoomOtherColor" android:ellipsize="end" android:id="@id/tvPubAdvertDesc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="Failure is probably the fortification in your pole. It is li a peek your wallet as the thief, when you are thinking how to spend several hard-won lepta" />
+            <ImageView android:id="@id/ivPubAdvertBanner" android:background="#fff0f0f0" android:layout_width="fill_parent" android:layout_height="180.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="10.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

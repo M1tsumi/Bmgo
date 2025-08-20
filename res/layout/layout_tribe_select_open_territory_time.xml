@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_one_grid_35" android:layout_height="wrap_content" style="@style/all_item_style">
+        <TextView android:textSize="@dimen/textSize12Sp" android:gravity="center" android:layout_height="@dimen/itemHeight" android:layout_marginLeft="6.0dip" android:text="@string/tribe_open_territory_time" style="@style/all_item_text_style" />
+        <com.mcpeonline.multiplayer.view.MyGridView android:id="@id/gvTimesList" android:paddingBottom="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:verticalSpacing="12.0dip" android:numColumns="3" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_one_grid_50" android:layout_marginTop="2.0dip" style="@style/all_item_style">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:src="@drawable/ic_tribe_territory_ticket" />
+        <TextView android:id="@id/tvOpenTerritoryMoney" android:text="@string/tribe_territory_ticket_num" style="@style/all_item_text_style" />
+    </LinearLayout>
+</LinearLayout>

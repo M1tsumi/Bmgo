@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="other_join_room_msg">
+        <item>Depois de entrar no jogo, é possível que trave ou fique a tela preta, por favor espere por alguns minutos</item>
+        <item>A chance de ser expulso é baixa depois de criar uma conta, aconselhamos que faça o login antes de jogar.</item>
+        <item>A conexão de Internet do dono também influencia no seu ping</item>
+        <item>Por favor entre no jogo assim que possível depois de criar o servidor</item>
+        <item>Pode ganhar mais XP se ficar no jogo por mais tempo</item>
+    </string-array>
+    <string-array name="ban_goods_names">
+        <item>Porção Arremesável</item>
+        <item>Lava</item>
+        <item>Água</item>
+        <item>Isqueiro</item>
+        <item>Pote</item>
+        <item>Ovo</item>
+        <item>Dropper</item>
+        <item>Barco</item>
+    </string-array>
+    <string-array name="realms_type">
+        <item>hunger game</item>
+    </string-array>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0" />
+        <LinearLayout android:orientation="vertical" style="@style/dialogSizeStyle">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_marginLeft="85.0dip" style="@style/dialogMsgStyle">
+                    <TextView android:id="@id/tvOccupationName" android:visibility="visible" android:text="战士来了" style="@style/dialogTitleStyle" />
+                    <View android:id="@id/vLine" android:background="@color/infoLine" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/lineHei" />
+                    <TextView android:id="@id/tvOccupationDesc" android:text="战士战士很牛逼，很啊很牛逼，哦嘞嘞~~~战士战士很牛逼，很啊很牛逼，哦嘞嘞~~~" style="@style/dialogHasTitleMsgStyle" />
+                </LinearLayout>
+                <ImageView android:id="@id/btnOccupationConfirm" android:layout_width="fill_parent" android:layout_marginLeft="85.0dip" android:src="@drawable/btn_new_sure_selector" style="@style/dialogBtnStyle" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="3.0" />
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="-40.0dip" android:layout_weight="14.0">
+            <ImageView android:id="@id/ivOccupationImage" android:layout_width="140.0dip" android:layout_height="200.0dip" android:src="@drawable/bg_mini_game_super_player_default" android:scaleType="fitXY" />
+        </FrameLayout>
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="3.0" />
+    </LinearLayout>
+</RelativeLayout>

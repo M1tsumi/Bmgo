@@ -1,0 +1,57 @@
+{
+  "poster": {
+    "id": 1,
+    "isOpen": true,
+    "time": 1,
+    "url": "http://static.sandboxol.com/sandbox/screen/screen-new-ui.png"
+  },
+  "notice": {
+    "sendTime": 1495506000000,
+    "startTime": 1495506000000,
+    "stopTime": 1495678800000,
+    "title": "Notification",
+    "langMap": {
+      "en_US": "Dear users: We have supported Minecraft 1.1.0.9 to join Survival game,Team,Skywars,Build Batle and Clan War.Please update Blockman Multiplayer for MCPE to the latest version 4.10.6 in Google play.Thank you.",
+      "zh_CN": "亲爱的用户：我们已经支持Minecraft 1.1.0.9 加入饥饿游戏、组队、空岛战争、建造战争和部落战争。请在Google play更新Blockman Multiplayer for MCPE至最新版本4.10.6。谢谢。",
+      "zh_TW": "親愛的用戶：我們已經支持Minecraft 1.1.0.9 加入飢餓遊戲、組隊、空島戰爭、建造戰爭和部落戰爭。請在Google play更新Blockman Multiplayer for MCPE至最新版本4.10.6。謝謝。",
+      "ko_KR": "안녕하세요.마인크래프트 1.1.0.9가 서바이벌게임,Team,Skywars,Clan War에 참여할수 있게되였습니다. Blockman Multiplayer for MCPE 의 최신버전인4.10.6을 구글플레어에서 업데이트 해주시길 바랍니다. 감사합니다",
+      "ja_JP": "We have supported Minecraft 1.1.0.9 to join Survival game,Team,Skywars,Build Batle and Clan War.Please update Blockman Multiplayer for MCPE to the latest version 4.10.6 in Google play.Thank you."
+    },
+    "msg": "Dear users: We have supported Minecraft 1.1.0.9 to join Survival game,Team,Skywars,Build Batle and Clan War.Please update Blockman Multiplayer for MCPE to the latest version 4.10.6 in Google play.Thank you."
+  },
+  "supportFloatWindowGameVersions": [
+    "0.13",
+    "0.14",
+    "0.15",
+    "0.16",
+    "0.17",
+    "1.0",
+    "1.1"
+  ],
+  "playIntroduceUrl": "http://ols.sandboxol.com/introduce/introduce.html",
+  "videoAdTimes": 5,
+  "isShow3thAd": true,
+  "isShow12thAd": false,
+  "openDiamondBox": false,
+  "isStatisticsAPI": true,
+  "isOpenAntiCheating": true,
+  "antiCheatingLimitTime": 2000,
+  "isShowAllHonorWall": true,
+  "isOpenEmergenciesMechanism": false,
+  "activitiesConfig": {
+    "Notes": "versionSwitch:all-0; free-1; pro-2   isLogin: true-visitor; false-login",
+    "activityId": 3,
+    "distance": 10000,
+    "isLogin": false,
+    "versionSwitch": 1,
+    "level": 6,
+    "url": "",
+    "country": [],
+    "unShowCountry": []
+  },
+  "payMethods": [
+    "ali",
+    "wx"
+  ],
+  "isShowAd":true
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:orientation="vertical" android:background="@color/allBackgroundColor" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:theme="@style/AppTheme.AppBarOverlay" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+        <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="@drawable/bg_top_bar" android:layout_width="fill_parent" android:layout_height="@dimen/actionBarSize" app:popupTheme="@style/AppTheme.PopupOverlay" app:navigationIcon="@null">
+            <Button android:textColor="@color/btn_account_toolbar_color_selector" android:gravity="left|center" android:layout_gravity="left" android:id="@id/btnCancel" android:background="@null" android:visibility="gone" android:layout_width="?actionBarSize" android:layout_height="fill_parent" android:text="@string/cancel" />
+            <TextView android:layout_gravity="center" android:id="@id/tvTitle" android:layout_width="wrap_content" android:text="@string/register" android:layout_centerInParent="true" style="@style/homeToolBarTextStyle" />
+            <CheckBox android:textSize="@dimen/textSize14Sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="right|center" android:layout_gravity="right" android:id="@id/cbAccount" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="12.0dip" android:button="@null" android:text="@string/login" />
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <include layout="@layout/content_account" />
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="56.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/tvTitle" android:background="#ffff6a52" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="Title" />
+            <com.sandboxol.refresh.view.RefreshLayout android:id="@id/refreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <android.support.v7.widget.RecyclerView android:id="@id/swipe_target" android:paddingTop="3.0dip" android:paddingBottom="13.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </com.sandboxol.refresh.view.RefreshLayout>
+        </LinearLayout>
+        <com.sandboxol.refresh.view.PageLoadingView android:id="@id/plvLoading" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/llWentToPublishNews" android:background="@drawable/bg_friend_button_bg" android:layout_width="fill_parent" android:layout_height="58.0dip" android:layout_marginLeft="-2.0dip" android:layout_marginRight="-2.0dip">
+        <Button android:id="@id/tvMyNews" android:layout_marginLeft="32.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="32.0dip" android:layout_marginBottom="9.0dip" android:text="@string/circle_my_new" style="@style/newBigBtnStyle" />
+    </LinearLayout>
+    <ImageView android:id="@id/ivCircleNews" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:src="@drawable/btn_new_circle_comment" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <FrameLayout android:id="@id/flInputBarContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

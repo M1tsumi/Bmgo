@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="right" android:id="@id/ui_container" android:layout_width="@dimen/float_right_layout_width_4" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_share_container" android:layout_width="@dimen/float_right_layout_width_4" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/llLockRoom" android:paddingLeft="@dimen/floatPaddingLeft" android:paddingRight="@dimen/floatPaddingRight" android:layout_width="fill_parent" android:layout_height="46.0dip">
+                <TextView android:textSize="@dimen/float_font_size" android:textColor="@color/float_text_color" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/lock_room" android:layout_weight="1.0" />
+                <ToggleButton android:id="@id/tbLockRoom" style="@style/toggleButtonStyle" />
+            </LinearLayout>
+            <View android:id="@id/lineLock" android:background="@color/float_right_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/floatPaddingLeft" android:paddingRight="@dimen/floatPaddingRight" android:layout_width="fill_parent" android:layout_height="46.0dip">
+                <TextView android:textSize="@dimen/float_font_size" android:textColor="@color/float_text_color" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/closeVoice" android:layout_weight="1.0" />
+                <ToggleButton android:id="@id/tbVoiceSwitch" style="@style/toggleButtonStyle" />
+            </LinearLayout>
+            <View android:background="@color/float_right_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/floatPaddingLeft" android:paddingRight="@dimen/floatPaddingRight" android:layout_width="fill_parent" android:layout_height="46.0dip">
+                <TextView android:textSize="@dimen/float_font_size" android:textColor="@color/float_text_color" android:gravity="center_vertical" android:id="@id/textView" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/closeVoiceIcon" android:layout_weight="1.0" />
+                <ToggleButton android:id="@id/tbVoiceIconSwitch" style="@style/toggleButtonStyle" />
+            </LinearLayout>
+            <View android:background="@color/float_right_line_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <LinearLayout android:visibility="gone" style="@style/floatMapInfoSettingItem">
+                <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/float_text_color" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/float_ban_horn" android:layout_weight="1.0" />
+                <ToggleButton android:id="@id/tbBanHorn" style="@style/toggleButtonStyle" />
+            </LinearLayout>
+            <View android:background="@color/float_right_line_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <LinearLayout android:id="@id/llCloseVip" android:visibility="visible" style="@style/floatMapInfoSettingItem">
+                <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/float_text_color" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/float_ban_vip" android:layout_weight="1.0" />
+                <ToggleButton android:id="@id/tbCloseVip" style="@style/toggleButtonStyle" />
+            </LinearLayout>
+            <View android:id="@id/lineCloseVip" android:background="@color/float_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/floatPaddingLeft" android:paddingTop="@dimen/floatPaddingRight" android:paddingRight="@dimen/floatPaddingRight" android:paddingBottom="@dimen/floatPaddingRight" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/float_font_size" android:textColor="@color/float_text_color" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="@string/voiceVolume" />
+                <SeekBar android:id="@id/sbVolume" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxHeight="5.0dip" android:progressDrawable="@drawable/seek_bar_float_value" android:minHeight="5.0dip" android:thumb="@drawable/seek_bar_float_selector" android:thumbOffset="0.0dip" style="?android:attr/progressBarStyleHorizontal" />
+            </LinearLayout>
+            <View android:background="@color/float_right_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

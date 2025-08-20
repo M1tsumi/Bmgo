@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/llSearchFriendResult" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/llSearchBar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sandboxol.refresh.view.RefreshLayout android:id="@id/refreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v7.widget.RecyclerView android:id="@id/swipe_target" android:paddingTop="12.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.sandboxol.refresh.view.RefreshLayout>
+</LinearLayout>

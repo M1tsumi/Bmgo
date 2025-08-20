@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.view.ViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip" />
+    <LinearLayout android:gravity="right|center" android:orientation="horizontal" android:id="@id/dotLayout" android:background="@drawable/bg_vip_banner_bg" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="28.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="5.0dip" android:layout_alignParentBottom="true">
+        <View android:id="@id/v_dot1" android:background="@drawable/ic_vip_current_page_pre" android:layout_width="8.0dip" android:layout_height="8.0dip" />
+        <View android:id="@id/v_dot2" android:background="@drawable/ic_vip_current_page_nor" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginLeft="5.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tvBanner" android:paddingLeft="20.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="40.0dip" android:layout_marginBottom="@dimen/new_ui_margin" android:text="@string/vip_banner_text" android:lines="1" android:layout_alignParentBottom="true" />
+    <View android:background="@drawable/bg_vip_banner_pic_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

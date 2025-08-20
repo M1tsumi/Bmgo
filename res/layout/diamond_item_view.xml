@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="103.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivHot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:src="@drawable/ic_diamonds_hot" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/conversation_title_color" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/diamond_item_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" />
+        <TextView android:textSize="10.0sp" android:textColor="#ffff7c2c" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/diamond_item_gift" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/diamond_item_pic" android:layout_width="wrap_content" android:layout_height="0.0dip" android:src="@drawable/diamond_icon_0" android:layout_weight="1.0" />
+        <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="bottom" android:id="@id/diamond_item_money" android:layout_width="fill_parent" android:layout_height="24.0dip" />
+    </LinearLayout>
+</RelativeLayout>

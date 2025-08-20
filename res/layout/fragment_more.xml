@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/allBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:paddingBottom="@dimen/tpSize" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/tpSize" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/account_operation_layout" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="-1.0dip" android:layout_marginRight="12.0dip">
+                <LinearLayout android:orientation="vertical" android:id="@id/llFocus" android:background="@drawable/bg_two_grid_75_selector" style="@style/userFriendInfo">
+                    <TextView android:textColor="@color/text_hint_content_color" android:id="@id/tvFocus" android:layout_height="20.0dip" android:layout_marginTop="8.0dip" android:text="1920" style="@style/tv14spStyle" />
+                    <TextView android:textColor="@color/textAuxiliaryColor" android:gravity="top" android:layout_height="20.0dip" android:text="@string/focus" style="@style/tv10spStyle" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/llFans" android:background="@drawable/bg_two_grid_75_selector" android:layout_marginLeft="-1.0dip" style="@style/userFriendInfo">
+                    <TextView android:textColor="@color/text_hint_content_color" android:id="@id/tvFans" android:layout_height="20.0dip" android:layout_marginTop="8.0dip" android:text="50" style="@style/tv14spStyle" />
+                    <TextView android:textColor="@color/textAuxiliaryColor" android:gravity="top" android:layout_height="20.0dip" android:text="@string/spFans" style="@style/tv10spStyle" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/llFriend" android:background="@drawable/bg_two_grid_75_selector" android:layout_marginLeft="-1.0dip" style="@style/userFriendInfo">
+                    <TextView android:textColor="@color/text_hint_content_color" android:id="@id/tvFriend" android:layout_height="20.0dip" android:layout_marginTop="8.0dip" android:text="50" style="@style/tv14spStyle" />
+                    <TextView android:textColor="@color/textAuxiliaryColor" android:gravity="top" android:layout_height="20.0dip" android:text="@string/friend" style="@style/tv10spStyle" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@id/rlMyMsg" android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" android:visibility="gone" style="@style/meFragmentItem">
+                <ImageView android:layout_width="@dimen/imageTextIcon24" android:layout_height="@dimen/imageTextIcon24" android:src="@drawable/me_msg" />
+                <TextView android:text="@string/meInbox" style="@style/meItemTextStyle" />
+                <RelativeLayout android:layout_width="12.0dip" android:layout_height="12.0dip">
+                    <ImageView android:id="@id/ivNewMsg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_red_point" android:layout_centerInParent="true" style="@style/arrowStyle" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="@dimen/lineHei" android:layout_marginTop="@dimen/tpSize" />
+            <LinearLayout android:id="@id/rlEveryDayTask" android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" android:visibility="gone" style="@style/meFragmentItem">
+                <ImageView android:layout_width="@dimen/imageTextIcon24" android:layout_height="@dimen/imageTextIcon24" android:src="@drawable/me_task" />
+                <TextView android:text="@string/everyDayTask" style="@style/meItemTextStyle" />
+                <ImageView style="@style/arrowStyle" />
+            </LinearLayout>
+            <View android:background="@color/infoLine" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/lineHei" android:layout_marginTop="@dimen/tpSize" />
+            <LinearLayout android:id="@id/rlCloudServer" android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" android:visibility="gone" style="@style/meFragmentItem">
+                <ImageView android:layout_width="@dimen/imageTextIcon24" android:layout_height="@dimen/imageTextIcon24" android:src="@drawable/me_cloud" />
+                <TextView android:text="@string/myCloud" style="@style/meItemTextStyle" />
+                <ImageView style="@style/arrowStyle" />
+            </LinearLayout>
+            <com.mcpeonline.multiplayer.view.MeItemView android:id="@id/rlMyResource" android:layout_width="fill_parent" android:layout_height="wrap_content" app:background="@drawable/bg_two_grid_75_100_selector" app:drawableLeft="@drawable/new_ic_resource" app:text="@string/myResource" />
+            <LinearLayout android:id="@id/rlGameSetting" android:background="@drawable/bg_two_grid_green_selector" android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" android:visibility="visible" style="@style/meFragmentItem">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/new_me_switch_version" />
+                <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/text_hint_content_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gameSetting" style="@style/meItemTextStyle" />
+                <TextView android:gravity="right|center" android:id="@id/tvGameSettingTip" android:text="@string/gameSetting" style="@style/meItemTextStyleNew" />
+                <ImageView style="@style/arrowStyle" />
+            </LinearLayout>
+            <com.mcpeonline.multiplayer.view.MeItemView android:id="@id/rlSwitchVersion" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" app:drawableLeft="@drawable/me_switch_version" app:point="false" app:text="@string/switchVersion" />
+            <LinearLayout android:id="@id/rlChangePassword" android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" android:visibility="gone" style="@style/meFragmentItem">
+                <ImageView android:layout_width="@dimen/imageTextIcon24" android:layout_height="@dimen/imageTextIcon24" android:src="@drawable/me_account" />
+                <TextView android:text="@string/changePassword" style="@style/meItemTextStyle" />
+                <ImageView style="@style/arrowStyle" />
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="@dimen/lineHei" android:layout_marginTop="@dimen/tpSize" />
+            <com.mcpeonline.multiplayer.view.MeItemView android:id="@id/rlAccountSetting" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:background="@drawable/bg_two_grid_75_100_selector" app:drawableLeft="@drawable/new_ic_setting" app:point="false" app:text="@string/accountSetting" />
+            <com.mcpeonline.multiplayer.view.MeItemView android:id="@id/rlPlatformSet" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" app:drawableLeft="@drawable/new_ic_question" app:point="false" app:text="@string/me_fragment_help" />
+            <LinearLayout android:id="@id/rlFeedback" android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" android:visibility="gone" style="@style/meFragmentItem">
+                <ImageView android:layout_width="@dimen/imageTextIcon24" android:layout_height="@dimen/imageTextIcon24" android:src="@drawable/me_feedback" />
+                <TextView android:text="@string/feedback" style="@style/meItemTextStyle" />
+                <ImageView style="@style/arrowStyle" />
+            </LinearLayout>
+            <View android:background="@color/infoLine" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/lineHei" android:layout_marginTop="@dimen/tpSize" />
+            <LinearLayout android:id="@id/rlVersionUpdate" android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" android:visibility="gone" style="@style/meFragmentItem">
+                <ImageView android:layout_width="@dimen/imageTextIcon24" android:layout_height="@dimen/imageTextIcon24" android:src="@drawable/me_update" />
+                <TextView android:text="@string/versionUpdate" style="@style/meItemTextStyle" />
+                <ImageView style="@style/arrowStyle" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/rlThankList" android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" android:visibility="gone" style="@style/meFragmentItem">
+                <ImageView android:layout_width="@dimen/imageTextIcon24" android:layout_height="@dimen/imageTextIcon24" android:src="@drawable/me_thank_list" />
+                <TextView android:text="@string/thanksList" style="@style/meItemTextStyle" />
+                <ImageView style="@style/arrowStyle" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/rlCommonProblems" android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" android:visibility="gone" style="@style/meFragmentItem">
+                <ImageView android:layout_width="@dimen/imageTextIcon24" android:layout_height="@dimen/imageTextIcon24" android:src="@drawable/me_question" />
+                <TextView android:text="@string/commonProblems" style="@style/meItemTextStyle" />
+                <ImageView style="@style/arrowStyle" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/rlAboutMe" android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" android:visibility="gone" style="@style/meFragmentItem">
+                <ImageView android:layout_width="@dimen/imageTextIcon24" android:layout_height="@dimen/imageTextIcon24" android:src="@drawable/me_about" />
+                <TextView android:text="@string/aboutMe" style="@style/meItemTextStyle" />
+                <ImageView style="@style/arrowStyle" />
+            </LinearLayout>
+            <View android:background="@color/infoLine" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/lineHei" android:layout_marginTop="@dimen/tpSize" />
+            <LinearLayout android:id="@id/rlLogout" android:paddingLeft="@dimen/pdSize" android:paddingRight="@dimen/pdSize" android:visibility="gone" style="@style/meFragmentItem">
+                <ImageView android:layout_width="@dimen/imageTextIcon24" android:layout_height="@dimen/imageTextIcon24" android:src="@drawable/me_logout" />
+                <TextView android:text="@string/logout" style="@style/meItemTextStyle" />
+                <ImageView style="@style/arrowStyle" />
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="@dimen/home_tab_size" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

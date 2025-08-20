@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="42.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:background="@drawable/bg_one_grid_50" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/new_ui_margin" android:layout_marginRight="@dimen/new_ui_margin">
+        <TextView android:textStyle="bold" android:textColor="@color/text_hint_content_color" android:id="@id/tvContributorName" android:layout_width="wrap_content" android:layout_marginLeft="18.0dip" android:text="Player" style="@style/textView12spStyle" />
+        <TextView android:textColor="@color/text_hint_content_color" android:layout_width="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/tribe_contributor" style="@style/textView10spStyle" />
+        <ImageView android:layout_gravity="center" android:id="@id/ivContributorType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pdSize" android:layout_marginRight="@dimen/new_ui_margin" android:src="@drawable/ic_gold" />
+        <TextView android:textColor="@color/text_hint_content_color" android:id="@id/tvContributedGold" android:layout_width="wrap_content" android:text="14564652" style="@style/textView10spStyle" />
+        <TextView android:textColor="@color/text_main_content_color" android:gravity="right" android:layout_gravity="center" android:id="@id/tvContributedTime" android:layout_width="fill_parent" android:layout_marginRight="15.0dip" android:text="2015-12-12" style="@style/textView10spStyle" />
+    </LinearLayout>
+</LinearLayout>

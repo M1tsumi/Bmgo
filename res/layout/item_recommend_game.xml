@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/llItem" android:background="@drawable/bg_new_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_one_grid_75" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="8.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/ivIcon" android:layout_width="43.0dip" android:layout_height="43.0dip" />
+            <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/text_title_color" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="Title" android:layout_toRightOf="@id/ivIcon" />
+            <TextView android:textSize="@dimen/textSize11Sp" android:textColor="@color/dialogMsgTextColor" android:ellipsize="end" android:id="@id/tvSubtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="3.0dip" android:text="subTitle" android:lines="1" android:layout_toRightOf="@id/ivIcon" android:layout_below="@id/tvTitle" />
+            <TextView android:textSize="@dimen/textSize11Sp" android:textColor="@color/dialogMsgTextColor" android:id="@id/tvDownloadNum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="download num" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/ivPic" android:layout_width="fill_parent" android:layout_height="160.0dip" android:layout_marginTop="5.0dip" android:scaleType="fitXY" />
+        <RelativeLayout android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="5.0dip">
+            <ProgressBar android:id="@id/pbDownloadValue" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="45.0dip" android:max="100" android:progress="0" android:progressDrawable="@drawable/progressbar_recommend_game_value" android:minHeight="30.0dip" style="?android:attr/progressBarStyleHorizontal" />
+            <TextView android:textSize="@dimen/textSize14Sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/tvDownload" android:paddingLeft="@dimen/meFragmentItemPdSize" android:paddingRight="@dimen/meFragmentItemPdSize" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="@string/downloadNow" style="@style/switchTextView16spStyle" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

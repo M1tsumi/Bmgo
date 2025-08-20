@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <CheckBox android:textSize="@dimen/float_font_size" android:textColor="@color/float_font_color" android:gravity="center_vertical" android:id="@id/cbNickName" android:background="@null" android:paddingLeft="@dimen/floatPaddingLeft" android:paddingRight="@dimen/floatPaddingRight" android:focusable="true" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="50.0dip" android:button="@null" android:text="@string/use_failure" android:drawableRight="@drawable/ic_player_arrow_selector" />
+        <TextView android:textSize="@dimen/float_font_size" android:textColor="@color/float_font_color" android:gravity="center_vertical" android:id="@id/tvName" android:paddingLeft="@dimen/floatPaddingLeft" android:paddingRight="@dimen/floatPaddingRight" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/use_failure" android:singleLine="true" />
+    </RelativeLayout>
+    <View android:background="@color/float_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/llBtn" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <LinearLayout android:orientation="horizontal" android:background="@color/bg_player_list" android:layout_width="fill_parent" android:layout_height="49.5dip">
+            <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/player_list_text_color" android:gravity="center" android:id="@id/btnAddFriend" android:background="@drawable/bg_player_list_btn_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/addFriend" android:layout_weight="1.0" />
+            <TextView android:id="@id/tv1VLine" android:background="@color/float_line_color" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" />
+            <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/player_list_text_color" android:gravity="center" android:id="@id/btnOther" android:background="@drawable/bg_player_list_btn_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/addFocus" android:layout_weight="1.0" />
+        </LinearLayout>
+        <View android:background="@color/float_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    </LinearLayout>
+</LinearLayout>

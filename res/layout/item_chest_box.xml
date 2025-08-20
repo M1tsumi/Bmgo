@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@drawable/bg_new_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/new_ui_margin" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/new_ui_margin" android:layout_marginBottom="8.0dip">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/bg_one_grid_50" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/new_ui_margin">
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/bg_chest_box" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="12.0dip">
+                <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/text_hint_content_color" android:layout_gravity="center_horizontal" android:id="@id/tvChestName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/new_ui_margin" android:layout_marginBottom="6.0dip" android:text="@string/silver_box" />
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/ivChestIcon" android:layout_width="89.0dip" android:layout_height="89.0dip" android:layout_marginBottom="6.0dip" android:src="@drawable/ic_silver_box" />
+            </LinearLayout>
+            <View android:background="@color/line_bg" android:layout_width="fill_parent" android:layout_height="@dimen/lineH" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="14.0dip" />
+            <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/text_hint_content_color" android:id="@id/tvChestDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="银宝箱可能开出以下物品（必出金币+随机一个其他物品）：" android:lineSpacingExtra="5.0dip" />
+            <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/text_main_content_color" android:id="@id/tvChestItems" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="20.0dip" android:text="Gold*2000,Gold*2000,Gold*2000,Gold*2000" android:lineSpacingExtra="5.0dip" />
+            <View android:background="@color/line_bg" android:layout_width="fill_parent" android:layout_height="@dimen/lineH" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/rlOpenChest" android:background="@drawable/btn_big_button_selector" android:padding="2.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="8.0dip">
+        <TextView android:textSize="@dimen/textSize14Sp" android:textStyle="bold" android:textColor="@color/text_button_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/open_chest" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/text_button_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="(" />
+        <ImageView android:id="@id/ivPayType" android:background="@drawable/ic_diamonds" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginLeft="1.0dip" />
+        <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/text_button_color" android:id="@id/tvPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:text="1000" />
+        <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/text_button_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:text=")" />
+    </LinearLayout>
+</LinearLayout>

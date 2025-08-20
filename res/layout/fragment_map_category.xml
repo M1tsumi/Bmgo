@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/allBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/btn_item_selector" android:padding="@dimen/meFragmentItemPdSizeNew" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="10.0dip">
+                <LinearLayout android:id="@id/btnParkour" style="@style/map_fragment_left">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <LinearLayout style="@style/map_fragment_textLine">
+                        <TextView android:text="@string/map_parkour" style="@style/map_fragment_textLine_name" />
+                        <ImageView style="@style/map_fragment_textLine_pic" />
+                        <TextView android:id="@id/tvParkourNum" style="@style/map_fragment_textLine_num" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:id="@id/btnBuilding" style="@style/map_fragment_right">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <LinearLayout style="@style/map_fragment_textLine">
+                        <TextView android:text="@string/map_building" style="@style/map_fragment_textLine_name" />
+                        <ImageView style="@style/map_fragment_textLine_pic" />
+                        <TextView android:id="@id/tvBuildingNum" style="@style/map_fragment_textLine_num" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="10.0dip">
+                <LinearLayout android:id="@id/btnPass" style="@style/map_fragment_left">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <LinearLayout style="@style/map_fragment_textLine">
+                        <TextView android:text="@string/map_pass" style="@style/map_fragment_textLine_name" />
+                        <ImageView style="@style/map_fragment_textLine_pic" />
+                        <TextView android:id="@id/tvPassNum" style="@style/map_fragment_textLine_num" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:id="@id/btnSurvival" style="@style/map_fragment_right">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <LinearLayout style="@style/map_fragment_textLine">
+                        <TextView android:text="@string/map_survival" style="@style/map_fragment_textLine_name" />
+                        <ImageView style="@style/map_fragment_textLine_pic" />
+                        <TextView android:id="@id/tvSurvivalNum" style="@style/map_fragment_textLine_num" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="10.0dip">
+                <LinearLayout android:id="@id/btnDecode" style="@style/map_fragment_left">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <LinearLayout style="@style/map_fragment_textLine">
+                        <TextView android:text="@string/map_decode" style="@style/map_fragment_textLine_name" />
+                        <ImageView style="@style/map_fragment_textLine_pic" />
+                        <TextView android:id="@id/tvDecodeNum" style="@style/map_fragment_textLine_num" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:id="@id/btnPVP" style="@style/map_fragment_right">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <LinearLayout style="@style/map_fragment_textLine">
+                        <TextView android:text="@string/map_pvp" style="@style/map_fragment_textLine_name" />
+                        <ImageView style="@style/map_fragment_textLine_pic" />
+                        <TextView android:id="@id/tvPVPNum" style="@style/map_fragment_textLine_num" /> />
+</LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="10.0dip">
+                <LinearLayout android:id="@id/btnSynthesize" style="@style/map_fragment_left">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <LinearLayout style="@style/map_fragment_textLine">
+                        <TextView android:text="@string/map_synthesize" style="@style/map_fragment_textLine_name" />
+                        <ImageView style="@style/map_fragment_textLine_pic" />
+                        <TextView android:id="@id/tvSynthesizeNum" style="@style/map_fragment_textLine_num" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:visibility="invisible" style="@style/map_fragment_right">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <LinearLayout style="@style/map_fragment_textLine">
+                        <TextView android:text="@string/map_survival" style="@style/map_fragment_textLine_name" />
+                        <ImageView style="@style/map_fragment_textLine_pic" />
+                        <TextView style="@style/map_fragment_textLine_num" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

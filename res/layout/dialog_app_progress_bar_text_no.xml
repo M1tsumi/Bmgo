@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0" />
+    <LinearLayout style="@style/dialogSizeStyle">
+        <LinearLayout android:orientation="vertical" style="@style/dialogMsgStyle">
+            <ProgressBar android:id="@id/progressBar" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="35.0dip" android:layout_marginRight="15.0dip" android:maxHeight="12.0px" android:max="100" android:progress="0" android:progressDrawable="@drawable/progressbar_drawable" android:minHeight="12.0px" style="?android:attr/progressBarStyleHorizontal" />
+            <TextView android:gravity="center" android:id="@id/tvMsg" android:layout_marginTop="3.0dip" android:layout_marginBottom="15.0dip" android:minHeight="0.0dip" style="@style/dialogHasTitleMsgStyle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/llBtnSure" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/btnCancel" android:layout_width="fill_parent" android:src="@drawable/btn_new_cancel_selector" style="@style/dialogBtnStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0" />
+</LinearLayout>

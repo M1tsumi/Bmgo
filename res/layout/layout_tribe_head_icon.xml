@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="110.0dip" android:layout_height="110.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivTribeIcon" android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="9.0dip" android:src="@drawable/ic_tribe_icon_default" app:type="round" />
+    <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivIconBg" android:background="@drawable/ic_tribe_head_border_default" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" app:type="round" />
+    <ImageView android:id="@id/ivTribeVip" android:layout_width="24.5dip" android:layout_height="24.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="-1.0dip" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/llLocalVersion" android:paddingLeft="@dimen/pdSize" android:paddingTop="@dimen/new_ui_margin" android:paddingRight="@dimen/pdSize" android:layout_height="80.0dip" style="@style/selectVersionItemStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/switch_version_text_color" android:id="@id/tvTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="0.13 正式版(支持踢人)" style="@style/tv12spStyle" />
+    <RelativeLayout android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip">
+        <ProgressBar android:id="@id/pbDownloadValue" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="22.0dip" android:max="105" android:progress="40" android:progressDrawable="@drawable/progressbar_switch_version_value" android:minHeight="30.0dip" style="?android:attr/progressBarStyleHorizontal" />
+        <TextView android:textSize="@dimen/textSize14Sp" android:textStyle="bold" android:textColor="@color/switch_version_button_text_color" android:gravity="center" android:id="@id/tvProgressSize" android:paddingLeft="@dimen/meFragmentItemPdSize" android:paddingRight="@dimen/meFragmentItemPdSize" android:layout_width="fill_parent" android:layout_height="22.0dip" android:text="0%" style="@style/switchTextView16spStyle" />
+        <TextView android:textSize="@dimen/textSize12Sp" android:textStyle="bold" android:textColor="@color/switch_version_button_text_color_selector" android:gravity="center" android:id="@id/tvState" android:background="@drawable/props_btn_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="@string/downloadNow" />
+    </RelativeLayout>
+</LinearLayout>

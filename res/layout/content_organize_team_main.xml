@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_one_grid_50" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="50.0dip">
+        <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/allBackgroundColor" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="36.0dip">
+            <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/textMainColor" android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/organize_team_team" />
+        </RelativeLayout>
+        <include android:id="@id/includeTopButton" layout="@layout/view_organize_team_top_btn" />
+        <ListView android:id="@id/lvMyTeam" android:paddingTop="7.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:divider="@null" android:overScrollMode="never" />
+        <ListView android:id="@id/lvLocalRegionTeam" android:paddingTop="7.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:divider="@null" android:overScrollMode="never" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/llButtonList" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:id="@id/btnCreateTeam" android:visibility="visible" android:layout_marginLeft="0.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="0.0dip" android:text="@string/organize_team_create_team" style="@style/newBigBtnStyle" />
+        <include android:id="@id/includeBottom" android:visibility="gone" layout="@layout/view_organize_team_bottom_btn" />
+    </LinearLayout>
+    <Button android:id="@id/btnChange" android:visibility="visible" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:text="@string/organize_team_change_team" android:layout_alignParentBottom="true" style="@style/newBigBtnStyle" />
+</RelativeLayout>

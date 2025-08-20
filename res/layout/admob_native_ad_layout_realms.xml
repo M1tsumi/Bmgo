@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.ads.formats.NativeAppInstallAdView android:id="@id/adRealmsAdvert" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/new_ui_margin" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/new_ui_margin">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="152.0dip">
+            <ImageView android:id="@id/ivAdvertMain" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="13.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="13.0dip" android:layout_marginBottom="6.0dip" android:src="@drawable/bg_mini_game_introduction_default" android:scaleType="fitXY" />
+            <View android:background="@drawable/realms_shadow_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_marginTop="8.0dip" android:src="@drawable/ic_game_ad_icon" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="vertical" android:background="@drawable/bg_realms_item_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="-1.5dip" android:layout_marginRight="8.0dip">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llTitle" android:paddingLeft="70.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/textSize12Sp" android:textStyle="bold" android:textColor="@color/text_hint_content_color" android:gravity="center_vertical" android:id="@id/tvAdvertName" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_marginLeft="9.0dip" android:text="Ice World" android:layout_weight="1.0" />
+                <com.mcpeonline.multiplayer.view.StrokeTextView android:textSize="@dimen/textSize14Sp" android:textStyle="bold" android:textColor="#ff1eff00" android:gravity="center_vertical" android:id="@id/btnAdvertDownload" android:background="@drawable/bg_realms_item_title_right" android:paddingLeft="35.0dip" android:paddingRight="18.0dip" android:layout_width="wrap_content" android:layout_height="40.0dip" android:text="@string/downLoad" android:drawableLeft="@drawable/ic_realms_ad_download_icon" android:drawablePadding="3.0dip" app:shadowColor="#ff0c6b11" app:shadowSize="8" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/context_col" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tvAdvertContent" android:background="@drawable/bg_realms_ad_text" android:paddingLeft="82.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="Hunger Game" android:lines="2" android:layout_below="@id/llTitle" />
+            <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivAdvertIcon" android:background="@drawable/broadcast_world_msg" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="20.0dip" android:layout_centerVertical="true" app:borderRadius="4.0dip" app:type="round" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.google.android.gms.ads.formats.NativeAppInstallAdView>

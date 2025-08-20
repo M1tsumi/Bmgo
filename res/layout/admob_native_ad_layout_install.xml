@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.ads.formats.NativeAppInstallAdView android:id="@id/admob_native_install_adview" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/allBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <RelativeLayout android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <ImageView android:id="@id/big_iv_icon" android:background="#ffcccccc" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/ic_ad_icon_default" android:scaleType="centerCrop" />
+            <LinearLayout android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/big_btn_install" android:layout_toRightOf="@id/big_iv_icon" android:layout_centerVertical="true">
+                <TextView android:textSize="16.0sp" android:textColor="@color/Text_black" android:id="@id/big_main_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="FaceBook" android:singleLine="true" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/Text_black" android:id="@id/big_sub_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="Social App Total 23MB" android:singleLine="true" />
+            </LinearLayout>
+            <Button android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/big_btn_install" android:background="@drawable/admob_ad_button_bg" android:layout_width="70.0dip" android:layout_height="32.0dip" android:text="Go" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/iv_main" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="180.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/default_bg" android:scaleType="fitXY" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/Text_black" android:ellipsize="end" android:id="@id/text_body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="6.0dip" android:lines="2" />
+    </LinearLayout>
+</com.google.android.gms.ads.formats.NativeAppInstallAdView>

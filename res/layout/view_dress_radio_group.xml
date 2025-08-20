@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <ImageView android:id="@id/ivCurrent" android:visibility="gone" android:layout_width="70.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_dress_current_selector" />
+        <CheckBox android:id="@id/cbShowAll" android:background="@drawable/ic_clothes_show_all_selector" android:layout_width="50.0dip" android:layout_height="fill_parent" android:button="@null" />
+        <View android:background="@color/line_bg" android:layout_width="@dimen/lineHei" android:layout_height="fill_parent" />
+        <HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RadioGroup android:orientation="horizontal" android:id="@id/rgDress" android:paddingRight="50.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <RadioButton android:id="@id/rbCloth" android:background="@drawable/ic_dress_cloth_selector" style="@style/DressRadioButtonStyle" />
+                <View android:background="@color/line_bg" android:layout_width="@dimen/lineHei" android:layout_height="fill_parent" />
+                <RadioButton android:id="@id/rbHair" android:background="@drawable/ic_dress_hair_selector" style="@style/DressRadioButtonStyle" />
+                <View android:background="@color/line_bg" android:layout_width="@dimen/lineHei" android:layout_height="fill_parent" />
+                <RadioButton android:id="@id/rbOrnaments" android:background="@drawable/ic_dress_ornaments_selector" style="@style/DressRadioButtonStyle" />
+                <View android:background="@color/line_bg" android:layout_width="@dimen/lineHei" android:layout_height="fill_parent" />
+                <RadioButton android:id="@id/rbEmoticon" android:background="@drawable/ic_dress_emoticon_selector" style="@style/DressRadioButtonStyle" />
+                <View android:background="@color/line_bg" android:layout_width="@dimen/lineHei" android:layout_height="fill_parent" />
+                <RadioButton android:id="@id/rbAction" android:background="@drawable/ic_dress_action_selector" style="@style/DressRadioButtonStyle" />
+                <View android:background="@color/line_bg" android:layout_width="@dimen/lineHei" android:layout_height="fill_parent" />
+                <RadioButton android:id="@id/rbHeight" android:background="@drawable/ic_dress_height_selector" style="@style/DressRadioButtonStyle" />
+                <View android:background="@color/line_bg" android:layout_width="@dimen/lineHei" android:layout_height="fill_parent" />
+                <RadioButton android:id="@id/rbColor" android:background="@drawable/ic_dress_color_selector" style="@style/DressRadioButtonStyle" />
+                <View android:background="@color/line_bg" android:layout_width="@dimen/lineHei" android:layout_height="fill_parent" />
+            </RadioGroup>
+        </HorizontalScrollView>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/rlMoneyType" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_alignParentRight="true">
+        <ImageView android:id="@id/ivMoney" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_shop_all" />
+        <CheckBox android:layout_gravity="center" android:id="@id/cbMoney" android:background="@drawable/ic_cb_category_arrow_selector" android:clickable="false" android:layout_width="7.0dip" android:layout_height="5.0dip" android:layout_marginRight="6.0dip" android:button="@null" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/line_bg" android:layout_width="@dimen/lineHei" android:layout_height="50.0dip" android:layout_toLeftOf="@id/rlMoneyType" />
+</RelativeLayout>

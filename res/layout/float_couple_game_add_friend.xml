@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/float_reward_background_out" android:layout_width="262.0dip" android:layout_height="wrap_content">
+        <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:text="@string/friendRequest" android:shadowColor="#ff000000" android:shadowDx="3.0" android:shadowDy="3.0" android:shadowRadius="1.0" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/float_reward_background_in" android:paddingLeft="12.0dip" android:paddingTop="12.0dip" android:paddingRight="12.0dip" android:paddingBottom="5.0dip" android:layout_width="240.0dip" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="@dimen/head_icon_border_size" android:layout_height="@dimen/head_icon_border_size">
+                <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivIcon" android:layout_width="@dimen/head_icon_size" android:layout_height="@dimen/head_icon_size" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/head_df" app:type="round" />
+                <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivIconBg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_head_border_default" app:type="round" />
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@android:color/white" android:id="@id/tvNickName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Steve" />
+            <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/float_couple_game_add_friend" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="247.0dip" android:layout_height="wrap_content">
+            <Button android:textSize="@dimen/textSize12Sp" android:textColor="@color/white" android:id="@id/btnReject" android:background="@drawable/float_reward_background_btn_selector" android:layout_width="0.0dip" android:layout_height="32.0dip" android:layout_margin="4.0dip" android:text="@string/refuse" android:layout_weight="1.0" android:textAllCaps="false" />
+            <Button android:textSize="@dimen/textSize12Sp" android:textColor="@color/white" android:id="@id/btnAgree" android:background="@drawable/float_reward_background_btn_selector" android:layout_width="0.0dip" android:layout_height="32.0dip" android:layout_margin="4.0dip" android:text="@string/agree_add_friend" android:layout_weight="1.0" android:textAllCaps="false" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

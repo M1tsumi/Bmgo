@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0" />
+    <LinearLayout style="@style/dialogSizeStyle">
+        <LinearLayout android:orientation="vertical" style="@style/dialogMsgStyle">
+            <TextView android:id="@id/tvTitle" android:visibility="visible" android:text="@string/partner_confession_to_him" style="@style/dialogTitleStyle" />
+            <View android:id="@id/vLine" android:background="@color/infoLine" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/lineHei" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" />
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/ic_talk" />
+                <EditText android:textSize="@dimen/textSize12Sp" android:gravity="top" android:id="@id/etMsg" android:background="@drawable/btn_item_selector" android:paddingLeft="@dimen/marginSizeSmall" android:paddingTop="2.0dip" android:paddingRight="@dimen/marginSizeSmall" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginBottom="6.0dip" android:minHeight="30.0dip" android:hint="@string/partner_confession_send_to_him" android:minLines="3" android:singleLine="false" android:maxLength="400" style="@style/createRoomEtStyle" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dialogBtnHeight35dp">
+            <ImageView android:id="@id/btnCancel" android:src="@drawable/btn_new_cancel_selector" style="@style/dialogBtnStyle" />
+            <ImageView android:id="@id/btnSure" android:src="@drawable/btn_new_sure_selector" style="@style/dialogBtnStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0" />
+</LinearLayout>

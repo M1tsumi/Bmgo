@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:background="@drawable/float_bg" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="128.0dip" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="15.0dip" android:paddingTop="6.0dip" android:paddingRight="15.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="34.0dip" android:layout_height="34.0dip" android:src="@mipmap/ic_launcher" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/float_font_main_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/meFragmentItemMLe" android:text="@string/floatAppName" android:lineSpacingExtra="6.0dip" />
+                </LinearLayout>
+                <TextView android:textColor="@color/float_font_main_color" android:id="@id/tvIdAndPing" android:layout_marginTop="6.0dip" android:checked="false" android:text="@string/cloudIdAndPing" style="@style/float_cmd_ping" />
+            </LinearLayout>
+            <TextView android:background="@color/float_right_line_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/float_tab_bottom_line_height" />
+            <RadioGroup android:orientation="vertical" android:id="@id/rgMain" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RadioButton android:id="@id/rbGuest" android:visibility="visible" android:checked="false" android:text="@string/float_cmd_kick" android:drawableLeft="@drawable/float_rb_guest" style="@style/float_cmd_button" />
+                <TextView android:background="@color/float_right_line_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/float_tab_bottom_line_height" />
+                <RadioButton android:id="@id/rbFriend" android:checked="false" android:text="@string/friend" android:drawableLeft="@drawable/float_rb_friend" style="@style/float_cmd_button" />
+                <TextView android:background="@color/float_right_line_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/float_tab_bottom_line_height" />
+                <RadioButton android:id="@id/rbVoice" android:visibility="gone" android:checked="false" android:text="@string/voiceSetting" android:drawableLeft="@drawable/float_rb_voice" style="@style/float_cmd_button" />
+                <TextView android:background="@color/float_right_line_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/float_tab_bottom_line_height" />
+                <RadioButton android:id="@id/rbConfig" android:visibility="visible" android:checked="false" android:text="@string/float_cmd_js" android:drawableLeft="@drawable/float_rb_setting" style="@style/float_cmd_button" />
+                <TextView android:background="@color/float_right_line_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/float_tab_bottom_line_height" />
+                <RadioButton android:id="@id/rbEmbedMagic" android:visibility="visible" android:checked="false" android:text="附魔" android:drawableLeft="@drawable/float_rb_setting" style="@style/float_cmd_button" />
+                <TextView android:background="@color/float_right_line_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/float_tab_bottom_line_height" />
+                <RadioButton android:id="@id/rbBackup" android:visibility="gone" android:checked="false" android:text="@string/floatBackupMap" android:drawableLeft="@drawable/float_rb_backup" style="@style/float_cmd_button" />
+                <TextView android:background="@color/float_right_line_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/float_tab_bottom_line_height" />
+                <RadioButton android:id="@id/rbMarriage" android:visibility="gone" android:checked="false" android:text="@string/floatMarriage" android:drawableLeft="@drawable/float_rb_marriage" style="@style/float_cmd_button" />
+                <TextView android:background="@color/float_right_line_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/float_tab_bottom_line_height" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:id="@id/hide" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <FrameLayout android:background="@drawable/float_bg" android:layout_width="250.0dip" android:layout_height="fill_parent">
+        <include android:id="@id/rightViewFriend" android:visibility="gone" layout="@layout/float_friend_view" />
+        <include android:id="@id/rightViewVoice" android:visibility="gone" layout="@layout/float_voice_view" />
+        <include android:id="@id/rightViewPlayers" android:visibility="gone" layout="@layout/pm_float_players_list_layout" />
+        <include android:id="@id/rightViewConfig" android:visibility="gone" layout="@layout/pm_float_config_layout" />
+        <include android:id="@id/rightViewEmbedMagic" android:visibility="gone" layout="@layout/pm_float_embed_magic_layout" />
+        <include android:id="@id/rightViewBackupMap" android:visibility="gone" layout="@layout/pm_float_backup_map_layout" />
+        <include android:id="@id/rightViewMarriage" android:visibility="gone" layout="@layout/pm_float_marriage_layout" />
+    </FrameLayout>
+</LinearLayout>

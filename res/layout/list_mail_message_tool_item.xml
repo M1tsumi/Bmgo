@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="55.0dip" android:layout_height="51.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@drawable/bg_one_grid_50" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/ivMailMessageToolImage" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/icon_loading_2" />
+        <com.mcpeonline.multiplayer.view.StrokeTextView android:textColor="#ffffffff" android:id="@id/tvMailMessageToolNum" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:text="3" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" app:shadowColor="#ff494534" app:shadowSize="5" />
+    </RelativeLayout>
+    <CheckBox android:id="@id/cbMailMessageToolState1" android:background="@drawable/cb_mail_message_tool_bg" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="1.0dip" android:layout_marginTop="1.0dip" android:button="@null" />
+    <CheckBox android:id="@id/cbMailMessageToolState2" android:layout_width="27.5dip" android:layout_height="19.5dip" android:layout_marginLeft="27.0dip" android:button="@null" android:src="@drawable/ic_new_choose_nor" android:drawableRight="@drawable/cb_clear_cache_selector" />
+</RelativeLayout>

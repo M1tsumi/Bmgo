@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.design.widget.TabLayout android:id="@id/tlTribeTerritoryManager" android:layout_width="fill_parent" android:layout_height="@dimen/newTabHeight" style="@style/tabLayoutStyle" />
+        <android.support.v4.view.ViewPager android:id="@id/vpTribeTerritoryManager" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    </LinearLayout>
+    <com.sandboxol.refresh.view.PageLoadingView android:id="@id/plvLoading" android:layout_width="fill_parent" android:layout_height="fill_parent" app:show_refresh_button="false" />
+</RelativeLayout>

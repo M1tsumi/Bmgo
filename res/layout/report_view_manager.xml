@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/viewReportMain" android:visibility="visible" layout="@layout/view_report_main" />
+    <include android:id="@id/viewReportGrowth" android:visibility="gone" layout="@layout/view_report_growth" />
+    <include android:id="@id/viewReportQuestion" android:visibility="gone" layout="@layout/view_report_question" />
+    <include android:id="@id/viewReportTips" android:visibility="gone" layout="@layout/view_report_tips" />
+    <include android:id="@id/viewReportHost" android:visibility="gone" layout="@layout/view_report_host" />
+</LinearLayout>

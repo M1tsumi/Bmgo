@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/lvGroupMemberList" android:paddingTop="12.0dip" android:paddingBottom="55.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:overScrollMode="never" />
+    <LinearLayout android:gravity="center" android:id="@id/llDeleteMember" android:background="@drawable/bg_mini_game_start" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_alignParentBottom="true">
+        <Button android:textSize="@dimen/textSize14Sp" android:textColor="@color/text_button_color" android:id="@id/btnDeleteMember" android:background="@drawable/btn_red_light_button_selector" android:layout_width="148.0dip" android:layout_height="35.0dip" android:text="@string/delete_friend" android:textAllCaps="false" />
+    </LinearLayout>
+</RelativeLayout>

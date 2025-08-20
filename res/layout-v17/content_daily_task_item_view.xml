@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/llContainer" android:background="@drawable/bg_one_grid_50_25_selector" android:paddingLeft="@dimen/new_ui_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/new_ui_margin" android:layout_marginRight="@dimen/new_ui_margin" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+        <TextView android:id="@id/tvSignIn" android:layout_marginLeft="6.0dip" android:text="@string/everyDaySignIn" style="@style/everyDayTaskNameStyle" />
+        <View android:background="@color/line_bg" android:layout_width="fill_parent" android:layout_height="@dimen/lineH" android:layout_marginRight="100.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="24.0dip">
+            <ImageView android:id="@id/ivHeart" android:background="@drawable/task_heart_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+            <TextView android:id="@id/tvGrowthValueAdd" android:text="@string/tribe_growth" style="@style/everyDayTaskGrowthValueAddStyle" />
+            <TextView android:textSize="@dimen/textSize12Sp" android:textColor="#ff4ebc2f" android:id="@id/tvValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/daily_task_item_value" />
+            <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/minorColor" android:id="@id/tvVipValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/daily_task_item_vip_value" />
+            <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/minorColor" android:id="@id/tvVipUpValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/daily_task_item_mvp_value" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:id="@id/btnSignIn" android:layout_height="25.0dip" android:layout_marginRight="22.0dip" android:text="@string/day_sign_in" android:layout_alignParentRight="true" android:layout_centerInParent="true" style="@style/newLightBtnStyle" />
+    <ImageView android:id="@id/ivReceivePre" android:background="@drawable/receive_sign_in_pre" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="40.0dip" android:scaleType="centerCrop" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+</RelativeLayout>

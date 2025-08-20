@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/chat_bottom_ll" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true">
+        <RelativeLayout android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <ImageView android:id="@id/voice_keyboard_swich" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/float_chat_voice" android:layout_centerVertical="true" />
+            <RelativeLayout android:id="@id/float_chat_keyboard_rl" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_toRightOf="@id/voice_keyboard_swich" android:layout_centerVertical="true">
+                <Button android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/chat_send" android:background="@drawable/btn_float_add_friend_selector" android:layout_width="45.0dip" android:layout_height="fill_parent" android:text="@string/rc_input_send" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <EditText android:id="@id/chat_et" android:background="@drawable/btn_float_chat_edit_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@id/chat_send" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/float_chat_voice_rl" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_toRightOf="@id/voice_keyboard_swich" android:layout_centerVertical="true">
+                <Button android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/chat_voice" android:background="@drawable/btn_float_chat_voice_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/rc_input_voice" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <android.support.v7.widget.RecyclerView android:id="@id/my_chart_rv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/chat_bottom_ll" />
+</RelativeLayout>

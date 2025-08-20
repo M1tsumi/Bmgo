@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="12.0dip">
+        <RelativeLayout android:background="@drawable/bg_two_grid_50_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="34.0dip" android:layout_marginTop="43.0dip">
+            <com.mcpeonline.multiplayer.view.circle.CircleContentView android:id="@id/ccvContentView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/friend_circle_time_color" android:ellipsize="end" android:id="@id/tvTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginTop="4.0dip" android:text="today" android:lines="1" android:layout_below="@id/ccvContentView" />
+            <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/red" android:id="@id/tvDelete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="4.0dip" android:text="@string/delete" android:layout_toRightOf="@id/tvTime" android:layout_below="@id/ccvContentView" />
+            <RadioButton android:textColor="@color/friend_circle_good_num_color" android:gravity="center_vertical" android:id="@id/rbAddGood" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-6.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" android:button="@drawable/ic_circle_good_selector" android:text="1" android:layout_below="@id/ccvContentView" android:layout_alignParentRight="true" />
+            <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/circle_add_good_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tvGoods" android:background="@drawable/bg_circle_add_good" android:paddingLeft="@dimen/new_ui_margin" android:layout_width="fill_parent" android:layout_height="28.0dip" android:layout_marginLeft="46.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="6.0dip" android:text="11111" android:lines="1" android:drawableLeft="@drawable/ic_circle_good_nor" android:drawablePadding="4.0dip" android:layout_below="@id/rbAddGood" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center_vertical" android:background="@drawable/bg_one_grid_75" android:paddingLeft="28.0dip" android:layout_width="fill_parent" android:layout_height="33.0dip" android:layout_marginLeft="44.0dip" android:layout_marginTop="10.5dip">
+            <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/friend_circle_title_color" android:ellipsize="end" android:id="@id/tvUsername" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:text="Allex" android:lines="1" />
+        </RelativeLayout>
+        <include layout="@layout/layout_head_icon" />
+    </RelativeLayout>
+</LinearLayout>

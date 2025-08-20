@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:background="@color/allBackgroundColor" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:theme="@style/AppTheme.AppBarOverlay" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+        <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="@drawable/bg_top_bar" android:layout_width="fill_parent" android:layout_height="@dimen/actionBarSize" app:contentInsetStart="0.0dip" app:contentInsetEnd="0.0dip" app:contentInsetLeft="0.0dip" app:contentInsetRight="0.0dip" app:popupTheme="@style/AppTheme.PopupOverlay" app:navigationIcon="@null">
+            <ImageButton android:id="@id/ibBack" android:background="@null" android:paddingRight="8.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/back_selector" />
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="35.0dip">
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:background="@color/edit_text_search_bg_color" android:padding="@dimen/lineH" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="24.0dip" android:minHeight="30.0dip" android:layout_weight="1.0">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/ic_search" />
+                    <EditText android:textColor="@color/context_col" android:textColorHint="#ff96948b" android:ellipsize="end" android:id="@id/etSearch" android:background="@color/edit_text_search_bg_color" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="30.0dip" android:hint="@string/input_room_id" android:lines="1" style="@style/tv10spStyle" />
+                </LinearLayout>
+                <Button android:id="@id/btnSure" android:layout_height="30.0dip" android:text="@string/search" style="@style/newLightBtnStyle" />
+            </LinearLayout>
+            <ImageButton android:layout_gravity="right|center" android:id="@id/ibMore" android:background="@null" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/btn_search_selector" />
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <include layout="@layout/content_search" />
+</android.support.design.widget.CoordinatorLayout>

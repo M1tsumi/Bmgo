@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_head_icon" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="-6.0dip" android:layout_marginRight="5.0dip">
+        <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/textMainColor" android:gravity="center_vertical" android:id="@id/tvUserName" android:background="@drawable/bg_two_grid_75_nor" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="31.0dip" android:text="Player" />
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_one_grid_50" android:layout_width="fill_parent" android:layout_height="30.0dip">
+            <TextView android:textSize="@dimen/textSize11Sp" android:textColor="@color/text_hint_content_color" android:gravity="center_vertical" android:id="@id/tvId" android:paddingLeft="16.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="-1.0dip" android:text="@string/diamond_account" android:layout_weight="1.0" />
+            <Button android:id="@id/btnGiving" android:visibility="gone" android:layout_width="64.0dip" android:layout_height="26.0dip" android:layout_marginRight="6.0dip" android:text="@string/giving" style="@style/newLightBtnStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

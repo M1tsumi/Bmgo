@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_animal_container" android:background="@drawable/float_bg_right" android:layout_width="@dimen/float_right_layout_width_1" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+        <GridView android:id="@id/grid_view_objects" android:layout_width="wrap_content" android:layout_height="wrap_content" android:listSelector="@null" android:horizontalSpacing="1.0dip" android:verticalSpacing="1.0dip" android:numColumns="4" android:choiceMode="multipleChoice" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/float_right_row_height_1">
+            <SeekBar android:id="@id/seekBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:maxWidth="3.0dip" android:maxHeight="3.0dip" android:max="64" android:progress="1" android:indeterminate="false" android:layout_weight="5.0" />
+            <TextView android:textColor="@color/white" android:id="@id/txt_number" android:layout_width="25.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="1" />
+            <Button android:textColor="@color/white" android:id="@id/btn_add" android:background="@drawable/float_font_color_select" android:layout_width="40.0dip" android:layout_height="35.0dip" android:layout_marginLeft="5.0dip" android:text="@string/float_add" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

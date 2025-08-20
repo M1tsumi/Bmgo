@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/spinner_selector" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:gravity="center" android:id="@id/cbMapName" android:background="@drawable/list_item_selector" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/meFragmentItemHeight" android:button="@null" android:text="World" android:drawableRight="@drawable/cb_delete_friend" style="@style/tv16spStyle" />
+    <View android:background="@color/infoLine" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</LinearLayout>

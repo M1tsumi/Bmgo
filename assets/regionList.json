@@ -1,0 +1,82 @@
+{
+  "regionList": [
+    {
+      "id": 1002,
+      "ip": "hall2.sandboxol.com",
+      "name": "North America",
+      "hallCreator": "http://hall2.sandboxol.com:9121/",
+      "hallEnter": "http://hall2.sandboxol.com:9122/",
+      "hallQuerier": "http://hall2.sandboxol.com:9123/",
+      "bulletin": "bulletin2.sandboxol.com:9511",
+      "mgsqueue": "queue1.mgs.sandboxol.com:9612",
+      "mgsteam": "queue1.mgs.sandboxol.com:9210",
+      "msgOrganizeTeam": "queue1.mgs.sandboxol.com:9921",
+      "msgBlockManOrganizeTeam" : "queue.bmg.sandboxol.com:9921"
+    },
+    {
+      "id": 1003,
+      "ip": "hall3.sandboxol.com",
+      "name": "Europe",
+      "hallCreator": "http://hall3.sandboxol.com:9121/",
+      "hallEnter": "http://hall3.sandboxol.com:9122/",
+      "hallQuerier": "http://hall3.sandboxol.com:9123/",
+      "bulletin": "bulletin3.sandboxol.com:9511",
+      "mgsqueue": "queue2.mgs.sandboxol.com:9612",
+      "mgsteam": "queue2.mgs.sandboxol.com:9210",
+      "msgOrganizeTeam": "queue2.mgs.sandboxol.com:9921",
+      "msgBlockManOrganizeTeam" : "queue.bmg.sandboxol.com:9921"
+    },
+    {
+      "id": 1005,
+      "ip": "hall5.sandboxol.com",
+      "name": "South America",
+      "hallCreator": "http://hall5.sandboxol.com:9121/",
+      "hallEnter": "http://hall5.sandboxol.com:9122/",
+      "hallQuerier": "http://hall5.sandboxol.com:9123/",
+      "bulletin": "bulletin5.sandboxol.com:9511",
+      "mgsqueue": "queue1.mgs.sandboxol.com:9612",
+      "mgsteam": "queue1.mgs.sandboxol.com:9210",
+      "msgOrganizeTeam": "queue1.mgs.sandboxol.com:9921",
+      "msgBlockManOrganizeTeam" : "queue.bmg.sandboxol.com:9921"
+    },
+    {
+      "id": 1006,
+      "ip": "hall6.sandboxol.com",
+      "name": "Korea",
+      "hallCreator": "http://hall6.sandboxol.com:9121/",
+      "hallEnter": "http://hall6.sandboxol.com:9122/",
+      "hallQuerier": "http://hall6.sandboxol.com:9123/",
+      "bulletin": "bulletin6.sandboxol.com:9511",
+      "mgsqueue": "queue3.mgs.sandboxol.com:9612",
+      "mgsteam": "queue3.mgs.sandboxol.com:9210",
+      "msgOrganizeTeam": "queue3.mgs.sandboxol.com:9921",
+      "msgBlockManOrganizeTeam" : "queue.bmg.sandboxol.com:9921"
+    },
+    {
+      "id": 1007,
+      "ip": "hall7.sandboxol.com",
+      "name": "Japan",
+      "hallCreator": "http://hall7.sandboxol.com:9121/",
+      "hallEnter": "http://hall7.sandboxol.com:9122/",
+      "hallQuerier": "http://hall7.sandboxol.com:9123/",
+      "bulletin": "bulletin7.sandboxol.com:9511",
+      "mgsqueue": "queue3.mgs.sandboxol.com:9612",
+      "mgsteam": "queue3.mgs.sandboxol.com:9210",
+      "msgOrganizeTeam": "queue3.mgs.sandboxol.com:9921",
+      "msgBlockManOrganizeTeam" : "queue.bmg.sandboxol.com:9921"
+    },
+    {
+      "id": 100701,
+      "ip": "hall7.sandboxol.com",
+      "name": "Southeast Asia",
+      "hallCreator": "http://hall7.sandboxol.com:9121/",
+      "hallEnter": "http://hall7.sandboxol.com:9122/",
+      "hallQuerier": "http://hall7.sandboxol.com:9123/",
+      "bulletin": "bulletin7.sandboxol.com:9511",
+      "mgsqueue": "queue3.mgs.sandboxol.com:9612",
+      "mgsteam": "queue3.mgs.sandboxol.com:9210",
+      "msgOrganizeTeam": "queue3.mgs.sandboxol.com:9921",
+      "msgBlockManOrganizeTeam" : "queue.bmg.sandboxol.com:9921"
+    }
+  ]
+}

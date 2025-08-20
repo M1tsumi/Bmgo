@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="other_join_room_msg">
+        <item>เข้าเกมแล้วบางคนอาจจะติดในพื้นว่าง รอสักครู่จะเข้าเกม</item>
+        <item>เย้าสู่บัญชีจะลดอัตราถูกเตะออกนะคะ！</item>
+        <item>เน็ตของเจ้าของห้องก็มีอิทธพลต่อการดีเลย์เกมของคุณ</item>
+        <item>สร้างห้องเสร็จต้องเข้าเกมเร็วๆ นะ！</item>
+        <item>เล่นเกมในเซิร์ฟเวอร์เวลายิ่งนาน ได้ค่าเติบโตยิ่งเยอะ！</item>
+    </string-array>
+    <string-array name="ban_goods_names">
+        <item>Splash Potion of Invisibility</item>
+        <item>หินหนืด</item>
+        <item>น้ำ</item>
+        <item>หินทนไฟ</item>
+        <item>น้ำยาที่ซ่อนตัว</item>
+        <item>ไข่</item>
+        <item>เครื่องยิงคลื่นวิทยุ</item>
+        <item>เรือ</item>
+    </string-array>
+    <string-array name="realms_type">
+        <item>เกมความหิวโหย</item>
+    </string-array>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="50" android:drawable="@drawable/btn_create_game_01" />
+    <item android:duration="50" android:drawable="@drawable/btn_create_game_02" />
+    <item android:duration="50" android:drawable="@drawable/btn_create_game_03" />
+    <item android:duration="50" android:drawable="@drawable/btn_create_game_04" />
+    <item android:duration="49" android:drawable="@drawable/btn_create_game_05" />
+    <item android:duration="1" android:drawable="@drawable/btn_create_game" />
+</animation-list>

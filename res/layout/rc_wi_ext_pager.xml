@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/rc_normal_bg" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <io.rong.imkit.widget.RCViewFlow android:id="@id/rc_flow" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:RCSideBuffer="1" />
+    <io.rong.imkit.widget.RCCircleFlowIndicator android:layout_gravity="center|bottom" android:id="@id/rc_indicator" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" app:RCRadius="6.0dip" app:RCInactiveType="RCFill" />
+</LinearLayout>

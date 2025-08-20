@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/flAll" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/float_bg" android:padding="12.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/dialogSizeStyle">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="40.0dip">
+            <TextView android:text="@string/float_build_settlement_ranking" android:layout_weight="0.5" style="@style/float_build_settlement_text_view_style" />
+            <TextView android:text="@string/float_build_settlement_nick_name" android:layout_weight="1.5" style="@style/float_build_settlement_text_view_style" />
+            <TextView android:text="@string/tribe" android:layout_weight="2.0" style="@style/float_build_settlement_text_view_style" />
+            <TextView android:text="KILL/DIE" style="@style/float_build_settlement_text_view_style" />
+            <TextView android:text="@string/tribe_war_capture_flag_num" style="@style/float_build_settlement_text_view_style" />
+            <TextView android:text="@string/tribe_war_win_or_lose" style="@style/float_build_settlement_text_view_style" />
+            <TextView android:text="@string/tribe_war_integral" android:layout_weight="2.0" style="@style/float_build_settlement_text_view_style" />
+        </LinearLayout>
+        <ListView android:id="@id/lv" android:background="@null" android:layout_width="fill_parent" android:layout_height="120.0dip" android:listSelector="@android:color/transparent" android:divider="@null" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="#ff23f70e" android:gravity="center" android:layout_width="0.0dip" android:layout_height="40.0dip" android:text="@string/float_build_settlement_my_rank" android:layout_weight="1.0" />
+            <TextView android:layout_weight="8.0" style="@style/float_build_settlement_text_view_style" />
+        </LinearLayout>
+        <include layout="@layout/list_controller_tribe_war_settlement_item" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/textSize14Sp" android:textColor="#ff23f70e" android:ellipsize="end" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tribe_war_exp" android:singleLine="true" />
+            <TextView android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/tvExp" android:paddingLeft="15.0dip" android:layout_weight="1.0" style="@style/float_build_settlement_text_view_style" />
+            <TextView android:textSize="@dimen/textSize14Sp" android:textColor="#ff23f70e" android:ellipsize="end" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gold" android:singleLine="true" />
+            <TextView android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/tvGold" android:paddingLeft="15.0dip" android:layout_weight="1.0" style="@style/float_build_settlement_text_view_style" />
+            <TextView android:textSize="12.0sp" android:textColor="#fff52b24" android:id="@id/tvStamina" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:text="@string/float_reward_stamina" android:layout_weight="2.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip">
+            <Button android:textSize="@dimen/textSize14Sp" android:textColor="@color/white" android:id="@id/btnCancel" android:background="@drawable/float_reward_background_btn_selector" android:layout_width="0.0dip" android:layout_height="27.0dip" android:layout_marginRight="12.0dip" android:text="@string/next_time_shell" android:layout_weight="1.0" />
+            <Button android:textSize="@dimen/textSize14Sp" android:textColor="@color/white" android:id="@id/btnSure" android:background="@drawable/float_reward_background_btn_selector" android:layout_width="0.0dip" android:layout_height="27.0dip" android:layout_marginLeft="12.0dip" android:text="@string/share_to_circle" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

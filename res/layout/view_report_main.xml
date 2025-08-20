@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/accountTextColor" android:gravity="center" android:layout_width="fill_parent" android:layout_height="36.0dip" android:text="@string/reportMainQue" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/llGameCrash" style="@style/meFragmentItem">
+        <TextView android:text="@string/reportGameCrash" android:layout_weight="1.0" style="@style/meItemTextStyle" />
+        <CheckBox android:id="@id/cbGameCrash" android:clickable="false" style="@style/ProtocolCheckBoxStyle" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/llSthComeUp" style="@style/meFragmentItem">
+        <TextView android:text="@string/reportSthComeUp" android:layout_weight="1.0" style="@style/meItemTextStyle" />
+        <CheckBox android:id="@id/cbSthComeUp" android:clickable="false" style="@style/ProtocolCheckBoxStyle" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/llWedge" style="@style/meFragmentItem">
+        <TextView android:text="@string/reportWedge" android:layout_weight="1.0" style="@style/meItemTextStyle" />
+        <CheckBox android:id="@id/cbWedge" android:clickable="false" style="@style/ProtocolCheckBoxStyle" />
+    </LinearLayout>
+    <Button android:id="@id/btnSubmit" android:layout_marginTop="@dimen/new_ui_margin" android:text="@string/reportNext" android:textAllCaps="false" style="@style/newBigBtnStyle" />
+</LinearLayout>

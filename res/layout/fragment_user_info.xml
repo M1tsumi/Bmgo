@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rlBg" android:background="@color/allBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mcpeonline.multiplayer.view.MyScrollView android:id="@id/msvScroll" android:focusable="false" android:focusableInTouchMode="false" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/ivVipBg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+            <LinearLayout android:orientation="vertical" android:paddingTop="55.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include layout="@layout/content_user_info" />
+                <include layout="@layout/content_user_info_radio_group" />
+                <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_12dp" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/space_12dp" layout="@layout/content_user_info_dress" />
+                <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_12dp" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/space_12dp" layout="@layout/content_honor" />
+                <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/new_ui_margin" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/new_ui_margin" layout="@layout/content_gift" />
+                <LinearLayout android:orientation="vertical" android:background="@drawable/user_info_layout_centre_bg" android:paddingTop="@dimen/pdSize" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="105.0dip">
+                    <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/averageCreateRoomTime" style="@style/tv14spStyle" />
+                    <TextView android:gravity="center" android:id="@id/tvGameTimeAvg" android:paddingTop="@dimen/tpSize" android:paddingBottom="@dimen/tpSize" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/minutes" style="@style/tv16spStyle" />
+                    <TextView android:gravity="center" android:id="@id/tvMoreThan" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/moreThan" style="@style/tv14spStyle" />
+                </LinearLayout>
+                <View android:layout_width="wrap_content" android:layout_height="55.0dip" />
+            </LinearLayout>
+            <ImageView android:id="@id/ivVipBgUp" android:background="@drawable/iv_vip_skin_mvp_up" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" />
+        </RelativeLayout>
+    </com.mcpeonline.multiplayer.view.MyScrollView>
+    <RelativeLayout android:id="@id/rlBottomButton" android:background="@drawable/bg_user_info_bottom_bar" android:layout_width="fill_parent" android:layout_height="@dimen/ad_margin" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:id="@id/llAddFriend" android:background="@drawable/bg_user_info_add_friend" style="@style/user_info_fragment_bottom_button">
+                <ImageView android:id="@id/ivAddFriend" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/ic_user_info_add_friend_selector" />
+                <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/text_button_color" android:id="@id/tvAddFriend" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/addFriend" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/llAddFocus" android:background="@drawable/bg_user_info_add_follow" style="@style/user_info_fragment_bottom_button">
+                <ImageView android:id="@id/ivAddFocus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_user_info_follow_selector" />
+                <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/text_button_color" android:id="@id/tvAddFocus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/addFocus" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/llGift" android:background="@drawable/bg_user_info_add_gift" style="@style/user_info_fragment_bottom_button">
+                <ImageView android:id="@id/ivGift" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_user_info_gift" />
+                <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/text_button_color" android:id="@id/tvGift" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/give_gift" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View style="@style/user_info_fragment_bottom_button" />
+            <View android:background="@drawable/bg_user_info_bottom_bar_line" android:layout_width="11.0dip" android:layout_height="fill_parent" />
+            <View style="@style/user_info_fragment_bottom_button" />
+            <View android:background="@drawable/bg_user_info_bottom_bar_line" android:layout_width="11.0dip" android:layout_height="fill_parent" />
+            <View style="@style/user_info_fragment_bottom_button" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.sandboxol.refresh.view.PageLoadingView android:id="@id/plvLoading" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:refresh_button_text="@string/refresh" app:show_refresh_button="true" />
+</RelativeLayout>

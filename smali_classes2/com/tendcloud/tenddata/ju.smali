@@ -1,0 +1,93 @@
+.class public final Lcom/tendcloud/tenddata/ju;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field static final a:I = 0x0
+
+.field static final b:I = 0x1
+
+.field static final c:I = 0x2
+
+.field static final d:I = 0x3
+
+.field static final e:I = 0x4
+
+.field static final f:I = 0x5
+
+.field static final g:I = 0x3
+
+.field static final h:I = 0x7
+
+.field public static final i:[B
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .prologue
+    .line 68
+    const/4 v0, 0x0
+
+    new-array v0, v0, [B
+
+    sput-object v0, Lcom/tendcloud/tenddata/ju;->i:[B
+
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 46
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method static a(I)I
+    .locals 1
+
+    .prologue
+    .line 57
+    and-int/lit8 v0, p0, 0x7
+
+    return v0
+.end method
+
+.method static a(II)I
+    .locals 1
+
+    .prologue
+    .line 65
+    shl-int/lit8 v0, p0, 0x3
+
+    or-int/2addr v0, p1
+
+    return v0
+.end method
+
+.method public static a(Lcom/tendcloud/tenddata/ji;I)Z
+    .locals 1
+
+    .prologue
+    .line 80
+    invoke-virtual {p0, p1}, Lcom/tendcloud/tenddata/ji;->a(I)Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static b(I)I
+    .locals 1
+
+    .prologue
+    .line 61
+    ushr-int/lit8 v0, p0, 0x3
+
+    return v0
+.end method

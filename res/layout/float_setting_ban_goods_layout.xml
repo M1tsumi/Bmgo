@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llPlayerInfo" android:paddingLeft="@dimen/floatPaddingLeft" android:paddingRight="@dimen/floatPaddingRight" android:layout_width="fill_parent" android:layout_height="46.0dip">
+        <TextView android:textSize="@dimen/float_font_size" android:textColor="@color/float_text_color" android:gravity="center_vertical" android:id="@id/tvBanUseGoodsNum" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/ban_goods_num" android:singleLine="true" android:layout_weight="1.0" />
+        <ImageView android:id="@id/ivBanUseGoodsArrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_player_arrow_normal" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/llBanUseGoods" android:paddingLeft="@dimen/floatPaddingLeft" android:paddingRight="@dimen/floatPaddingRight" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@color/float_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <GridView android:id="@id/gvBanUseGoods" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="124.0dip" android:listSelector="@color/transparent" android:horizontalSpacing="0.0dip" android:verticalSpacing="0.0dip" android:numColumns="4" />
+    </LinearLayout>
+</merge>

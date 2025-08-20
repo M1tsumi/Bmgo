@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rlTribeBulletin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/appbar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_one_grid_dark_yellow" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="@dimen/new_ui_margin" android:layout_marginTop="@dimen/new_ui_margin" android:layout_marginRight="@dimen/new_ui_margin" android:layout_below="@id/appbar">
+        <LinearLayout android:orientation="horizontal" android:padding="20.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="4.0">
+            <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/text_hint_content_color" android:id="@id/tvTribeBulletin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/tribe_conversation_bulletin" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="top" android:id="@id/ivCloseTribeBulletin" android:paddingLeft="@dimen/new_ui_margin" android:paddingTop="8.0dip" android:paddingRight="@dimen/new_ui_margin" android:paddingBottom="@dimen/new_ui_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_clear_selector" android:layout_alignParentRight="true" />
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rlContainer" android:background="@drawable/rc_ic_invite_left_bg" android:layout_width="200.0dip" android:layout_height="88.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/ivTitleImage" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/rc_bg_invite_card" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="56.0dip" android:layout_marginLeft="28.0dip">
+                    <TextView android:textSize="@dimen/textSize14Sp" android:textStyle="bold" android:textColor="#fff0cfba" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tvInviteContent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/chat_invite_online_msg" android:singleLine="true" />
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                        <ImageView android:id="@id/ivRock" android:visibility="visible" android:layout_width="12.0sp" android:layout_height="12.0sp" android:layout_marginRight="@dimen/marginSizeSmall" android:src="@drawable/rock" />
+                        <TextView android:textSize="@dimen/textSize12Sp" android:textColor="#ffdec2b1" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tvId" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="1234567" android:singleLine="true" android:drawableLeft="@drawable/icon_chat_invite_online_game_id" android:drawablePadding="5.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="13.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/ivGameType" android:layout_width="10.0dip" android:layout_height="10.0dip" android:src="@drawable/type_survival_nor" />
+                <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/text_main_content_color" android:id="@id/tvGameMode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" />
+                <ImageView android:id="@id/ivVersion" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/version_nor" />
+                <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/text_main_content_color" android:id="@id/tvVersion" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:id="@id/ivMap" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/ic_server_map_size_green" />
+                <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/text_main_content_color" android:id="@id/tvMapSize" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:gravity="center" android:id="@id/vOffline" android:background="@drawable/bg_rc_ic_invite_offine" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+</RelativeLayout>

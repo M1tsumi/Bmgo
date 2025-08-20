@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="right" android:id="@id/rl_share_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="18.0dip" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true">
+        <TextView android:textSize="@dimen/textSize16Sp" android:textColor="@color/float_font_color" android:gravity="center" android:paddingTop="13.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/float_tab_prop" />
+        <GridView android:id="@id/gvPropsList" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:listSelector="@color/transparent" android:horizontalSpacing="7.5dip" android:verticalSpacing="7.5dip" android:numColumns="3" android:layout_weight="1.0" android:overScrollMode="never" />
+        <ScrollView android:background="@drawable/float_realms_props_item_border" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_marginTop="7.5dip">
+            <TextView android:textColor="@color/btnRefusalNor" android:id="@id/tvPropDesc" android:padding="7.5dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="4.0dip" />
+        </ScrollView>
+        <Button android:textSize="14.0sp" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/btnPropUse" android:background="@drawable/btn_click_selector" android:layout_width="105.0dip" android:layout_height="@dimen/btnHeightSize" android:layout_marginTop="12.0dip" android:layout_marginBottom="16.0dip" android:text="@string/props_use" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/tvQuit" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="vertical" android:id="@id/llContext" android:background="@color/sexSelectBg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:textColor="@color/mainColor" android:gravity="right|center" android:id="@id/btnSure" android:background="@drawable/btn_sex_sure_selector" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="44.0dip" android:text="@string/sure" />
+            <View android:background="@color/infoLine" android:layout_width="fill_parent" android:layout_height="@dimen/lineHei" />
+            <com.mcpeonline.multiplayer.view.WheelView android:layout_gravity="center" android:id="@id/dpSelectSex" android:background="@null" android:layout_width="fill_parent" android:layout_height="132.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

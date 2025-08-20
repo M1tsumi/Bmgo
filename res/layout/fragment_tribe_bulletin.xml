@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/llTop" android:background="@drawable/bg_tribe_contribution_ranking_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <RelativeLayout android:orientation="vertical" android:id="@id/rlTribeNotice" android:background="@drawable/bg_two_grid_50_nor" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/new_ui_margin" android:layout_marginTop="19.0dip" android:layout_marginRight="@dimen/new_ui_margin">
+            <RelativeLayout android:id="@id/rlTribeNoticeText" android:background="@color/meFragmentItemBgContextColorNor" android:layout_width="fill_parent" android:layout_height="138.0dip" android:layout_marginLeft="18.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="18.0dip" android:layout_marginBottom="8.0dip">
+                <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/text_main_content_color" android:textColorHint="@color/userRoomOtherColor" android:gravity="top" android:id="@id/tvTribeNotice" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:hint="@string/tribe_no_notice" android:minLines="6" />
+                <EditText android:textSize="@dimen/textSize12Sp" android:textColor="@color/text_main_content_color" android:textColorHint="@color/userRoomOtherColor" android:gravity="top" android:id="@id/etTribeNotice" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:hint="@string/tribe_no_notice" android:minLines="6" />
+                <TextView android:textSize="@dimen/textSize12Sp" android:textColor="@color/text_main_content_color" android:id="@id/tvTribeNoticeMax" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:text="0/200" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <Button android:id="@id/btnTribeWentLeaveMessage" android:layout_width="130.0dip" android:layout_height="26.0dip" android:layout_marginTop="@dimen/new_ui_margin" android:layout_marginBottom="@dimen/new_ui_margin" android:text="@string/leave_message" style="@style/newLightBtnStyle" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/lineH" android:layout_below="@id/llTop">
+        <android.support.v7.widget.RecyclerView android:id="@id/rvTribeNoticeList" android:paddingTop="7.0dip" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.sandboxol.refresh.view.PageLoadingView android:id="@id/plvLoading" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+</RelativeLayout>

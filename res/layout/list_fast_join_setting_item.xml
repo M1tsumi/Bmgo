@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/btn_item_selector" android:paddingLeft="@dimen/meFragmentItemPdSize" android:paddingRight="@dimen/meFragmentItemPdSize" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:gravity="center_vertical" android:id="@id/tvTitle" android:padding="@dimen/meFragmentItemPdSize" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="关注优先" />
+    <TextView android:background="@color/colorPrimary1" android:layout_width="fill_parent" android:layout_height="0.30000007dip" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/contextTextColor" android:gravity="center_vertical" android:id="@id/tvDetails" android:padding="@dimen/meFragmentItemPdSize" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="45.0dip" android:lineSpacingExtra="8.0dip" />
+</LinearLayout>

@@ -1,0 +1,821 @@
+[
+  {
+    "mapId": "m0",
+    "type": "g1001",
+    "minNum": 15,
+    "typeName": "PVP",
+    "defaultMcVersion": "1.1.0.9",
+    "icon": "http://static.sandboxol.com/sandbox/config/android/image/m1_hunger_game_icon.png",
+    "gameMode": 1,
+    "isShowRankList": true,
+    "isShowCultivate": true,
+    "isShowSuperPlayer": true,
+    "isStartBlockManOverseas": true,
+    "isShowJob": true,
+    "unShowRegion": [],
+    "descIcons": [
+      "http://static.sandboxol.com/sandbox/config/android/image/m0_hunger_game_icon1.jpg",
+      "http://static.sandboxol.com/sandbox/config/android/image/m0_hunger_game_icon2.jpg",
+      "http://static.sandboxol.com/sandbox/config/android/image/m0_hunger_game_icon3.jpg"
+    ],
+    "rewardIcon": "http://static.sandboxol.com/sandbox/config/android/image/realm_reward_survival.png",
+    "appVersionCode": 475,
+    "versions": [
+      "0.15.0",
+      "0.15.1",
+      "0.15.2",
+      "0.15.3",
+      "0.15.4",
+      "0.15.6",
+      "0.15.7",
+      "0.15.8",
+      "0.15.9",
+      "0.15.10",
+      "0.16.0",
+      "0.16.1",
+      "0.16.2"
+    ],
+    "props": [
+      "props.g1001.chest_detector",
+      "props.g1001.advanced_head_start_scroll",
+      "props.g1001.head_start_scroll",
+      "props.g1001.yinshen_fuzhou_gold",
+      "props.g1001.yinshen_fuzhou",
+      "props.g1001.potion_of_leaping",
+      "props.g1001.potion_of_healing",
+      "props.g1001.feixing_pifeng",
+      "props.g1001.feixing_pifeng_gold",
+      "props.g1001.xian_dou"
+    ],
+    "langs": [
+      {
+        "lang": "en_US",
+        "gameName": "SURVIVAL GAMES",
+        "desc": "This is a game like movie < The Hunger Game>. Each player spawns on its own pedestal and the aim is to be the last player. It supports the most 24 players at the same time. For your survival, kill players using weapons and to be the last winner."
+      },
+      {
+        "lang": "zh_TW",
+        "gameName": "飢餓遊戲",
+        "desc": "這是一款跟電影《飢餓遊戲》相似的手機遊戲。每一位玩家在基石重生，并目標成為最後的玩家。同一時間最多支持24位玩家。為了生存下去，用武器把其他玩家殺光成為最後的勝者。"
+      },
+      {
+        "lang": "zh_HK",
+        "gameName": "飢餓遊戲",
+        "desc": "這是一款跟電影《飢餓遊戲》相似的手機遊戲。每一位玩家在基石重生，并目標成為最後的玩家。同一時間最多支持24位玩家。為了生存下去，用武器把其他玩家殺光成為最後的勝者。"
+      },
+      {
+        "lang": "zh_CN",
+        "gameName": "饥饿游戏",
+        "desc": "这是一款跟电影《饥饿游戏》相似的手机游戏。每一位玩家在基石重生，并目标成为最后的玩家。同一时间最多支持24位玩家。为了生存下去，用武器把其他玩家杀光成为最后的胜者。"
+      },
+      {
+        "lang": "ja_JP",
+        "gameName": "SURVIVAL GAMES",
+        "desc": " 映画「ハンガー・ゲーム」とよく似あうスマホゲームです。すべてのプレイヤーは台石でリスポーン、目標は最後のプレイヤーになる。同時に２４人のプレイヤーは限界です。生き残るために、武器を使って、敵を殺す、そして最後の勝者になる。"
+      },
+      {
+        "lang": "ko_KR",
+        "gameName": "SURVIVAL GAMES",
+        "desc": "이것은 영화 헝거게임과 비슷한 모바일 게임입니다. 유저들은 초석에서 다시 태어났고 승리를 향하여 게임을 합니다. 이 게임은 최대 24명의 유저들으로 진해할 수 있습니다. 생존을 위해서 무기를 사용해 다른 유저들을 죽이면 최종의 승자가 될 것입니다."
+      },
+      {
+        "lang": "ru_RU",
+        "gameName": "SURVIVAL GAMES",
+        "desc": "Эта игра похожа на фильм 《Голодные Игры》. Каждый игрок нерестится на свой пьедестал и его целью является то, что стать последним остальным игроком. Игра поддержит максимум 24 игрока в одно время. За ваше выживание, убите игроков оружиями и станете последним остальным игроком."
+      },
+      {
+        "lang": "th_TH",
+        "gameName": "SURVIVAL GAMES",
+        "desc": "เกมนี้เป็นเกมที่เหมือนหนัง<เกมล่าเกมฮังเกอร์เกมส์> เป้าหมายของผู้เล่นทุกท่านก็เป็นผู้รอดชีวิต เกมนี้สามารถเล่นได้ 24 คนในเวลาเดียวกัน เพื่อการอยู่รอด ยกอาวุธขึ้นและสู้กับผู้เล่นอื่น แล้วในสุดท้ายกลายเป็นผู้รอดชิวิตเถอะ"
+      },
+      {
+        "lang": "pt_BR",
+        "gameName": "SURVIVAL GAMES",
+        "desc": "Informações do jogo: Isso é um jogo parecido como o filme “The Hunger Games”, o objetivo de cada jogador é sobrevivente final. O jogo suporta até 24 pessoas ao mesmo tempo. Para sobreviver, pegue suas armas e combata contra outros jogadores, se tornando o último sobrevivente!"
+      }
+    ],
+    "bgColor": "#896753",
+    "introductionCount": 3,
+    "isShowIniOS": true,
+    "showRewardType": [
+      "Kill",
+      "EXP",
+      "Gold",
+      "Stamina"
+    ]
+  },
+  {
+    "mapId": "m0",
+    "type": "g1003",
+    "minNum": 8,
+    "typeName": "PVP",
+    "defaultMcVersion": "1.1.0.9",
+    "icon": "http://static.sandboxol.com/sandbox/config/android/image/m1_hunger_game_for_team_icon.png",
+    "gameMode": 2,
+    "isShowRankList": true,
+    "isShowCultivate": true,
+    "isShowSuperPlayer": true,
+    "isStartBlockManOverseas": true,
+    "isShowJob": true,
+    "unShowRegion": [],
+    "descIcons": [
+      "http://static.sandboxol.com/sandbox/config/android/image/m0_hunger_game_icon1.jpg",
+      "http://static.sandboxol.com/sandbox/config/android/image/m0_hunger_game_icon2.jpg",
+      "http://static.sandboxol.com/sandbox/config/android/image/m0_hunger_game_icon3.jpg"
+    ],
+    "rewardIcon": "http://static.sandboxol.com/sandbox/config/android/image/realm_reward_team.png",
+    "appVersionCode": 475,
+    "versions": [
+      "0.15.0",
+      "0.15.1",
+      "0.15.2",
+      "0.15.3",
+      "0.15.4",
+      "0.15.6",
+      "0.15.7",
+      "0.15.8",
+      "0.15.9",
+      "0.15.10",
+      "0.16.0",
+      "0.16.1",
+      "0.16.2"
+    ],
+    "props": [
+      "props.g1001.chest_detector",
+      "props.g1001.hei_mofazhen",
+      "props.g1001.advanced_head_start_scroll",
+      "props.g1001.head_start_scroll",
+      "props.g1001.bai_mofazhen",
+      "props.g1001.yinshen_fuzhou_gold",
+      "props.g1001.yinshen_fuzhou",
+      "props.g1001.potion_of_leaping",
+      "props.g1001.potion_of_healing",
+      "props.g1001.feixing_pifeng",
+      "props.g1001.feixing_pifeng_gold",
+      "props.g1001.xian_dou"
+    ],
+    "langs": [
+      {
+        "lang": "en_US",
+        "gameName": "SURVIVAL Games TEAM",
+        "desc": "Team is a part of Hunger Games version，it is the same as Hunger Games， which support 24 players to join the game. The difference is, player can team up with their friends or strangers, so as to get the victory through the cooperation with the team members."
+      },
+      {
+        "lang": "zh_TW",
+        "gameName": "饑餓遊戲組隊模式",
+        "desc": "Team是饑餓遊戲的組隊版本，同饑餓遊戲一樣，最多支持24個玩家進行遊戲。與饑餓遊戲不同的是，玩家可以與自己的好友或者陌生人組隊，並且通過與隊友配合，最終獲得團體的勝利。"
+      },
+      {
+        "lang": "zh_HK",
+        "gameName": "饑餓遊戲組隊模式",
+        "desc": "Team是饑餓遊戲的組隊版本，同饑餓遊戲一樣，最多支持24個玩家進行遊戲。與饑餓遊戲不同的是，玩家可以與自己的好友或者陌生人組隊，並且通過與隊友配合，最終獲得團體的勝利。"
+      },
+      {
+        "lang": "zh_CN",
+        "gameName": "饥饿游戏组队模式",
+        "desc": "Team是饥饿游戏的组队版本，同饥饿游戏一样，最多支持24个玩家进行游戏。与饥饿游戏不同的是，玩家可以与自己的好友或者陌生人组队，并且通过与队友配合，最终获得团体的胜利。"
+      },
+      {
+        "lang": "ko_KR",
+        "gameName": "TEAM",
+        "desc": "팀(Team)은 헝거게임의 팀을 만들수 있는 버전입니다. 헝거게임과 같이 최대 24명의 유저들으로 진행할 수 있습니다. 팀의 특별한 것은 유저들은 친구나 다른 유저들과 팀을 짤 수 있으며, 멤버들과 맞추어 승리할수 있습니다."
+      },
+      {
+        "lang": "ja_JP",
+        "gameName": "TEAM",
+        "desc": "チームは飢餓ゲームです。飢餓ゲームと同じ、同じ時間に最も24人を制限します。違うのは、プレーヤーはフレンドと知っていないひとと一緒に遊びます。メンバーと協力して、チームの勝利を得ます。"
+      }
+    ],
+    "bgColor": "#542a1c",
+    "introductionCount": 3,
+    "isShowIniOS": true,
+    "showRewardType": [
+      "Kill",
+      "EXP",
+      "Gold",
+      "Stamina"
+    ]
+  },
+  {
+    "mapId": "m0",
+    "type": "g1002",
+    "minNum": 8,
+    "typeName": "PVP",
+    "defaultMcVersion": "1.1.0.9",
+    "icon": "http://static.sandboxol.com/sandbox/config/android/image/m1_sky_wars_icon.png",
+    "gameMode": 1,
+    "isShowRankList": true,
+    "isShowCultivate": true,
+    "isShowSuperPlayer": true,
+    "isStartBlockManOverseas": true,
+    "isShowJob": true,
+    "unShowRegion": [],
+    "descIcons": [
+      "http://static.sandboxol.com/sandbox/config/android/image/m0_sky_wars_icon_desc_1.png",
+      "http://static.sandboxol.com/sandbox/config/android/image/m0_sky_wars_icon_desc_2.png",
+      "http://static.sandboxol.com/sandbox/config/android/image/m0_sky_wars_icon_desc_3.png"
+    ],
+    "rewardIcon": "http://static.sandboxol.com/sandbox/config/android/image/realm_reward_skywar.png",
+    "appVersionCode": 475,
+    "versions": [
+      "0.15.0",
+      "0.15.1",
+      "0.15.2",
+      "0.15.3",
+      "0.15.4",
+      "0.15.6",
+      "0.15.7",
+      "0.15.8",
+      "0.15.9",
+      "0.15.10",
+      "0.16.0",
+      "0.16.1",
+      "0.16.2"
+    ],
+    "props": [
+      "props.g1001.chuansong_men",
+      "props.g1001.yinshen_fuzhou_gold",
+      "props.g1001.yinshen_fuzhou",
+      "props.g1001.potion_of_leaping",
+      "props.g1001.potion_of_healing",
+      "props.g1001.mo_fang",
+      "props.g1001.judu_jian",
+      "props.g1001.feixing_pifeng",
+      "props.g1001.feixing_pifeng_gold",
+      "props.g1001.xian_dou"
+    ],
+    "langs": [
+      {
+        "lang": "en_US",
+        "gameName": "SKYWARS",
+        "desc": "Skywar is one of the most popular game in Minecraft Pocket Edition. 8 players will fall and land on their own island. It is important to search chests on your island and gather resources from anywhere. Creating a bridge to the center island also help you gather many riches. Remember, the goal of Skywars is to be the last man standing, so fight others player to win in game!"
+      },
+      {
+        "lang": "zh_TW",
+        "gameName": "空島戰爭",
+        "desc": "空島戰爭是壹款十分受歡迎的Minecraft小遊戲，8位玩家出生在各自的小空島上，通過島嶼上的箱子得到方塊和裝備，搭橋到中間的主島上得到更多資源，同時殺光所有玩家成為最終的勝利者！"
+      },
+      {
+        "lang": "zh_HK",
+        "gameName": "空島戰爭",
+        "desc": "空島戰爭是壹款十分受歡迎的Minecraft小遊戲，8位玩家出生在各自的小空島上，通過島嶼上的箱子得到方塊和裝備，搭橋到中間的主島上得到更多資源，同時殺光所有玩家成為最終的勝利者！"
+      },
+      {
+        "lang": "zh_CN",
+        "gameName": "空岛战争",
+        "desc": "空岛战争是一款十分受欢迎的Minecraft小游戏，8位玩家出生在各自的小空岛上，通过岛屿上的箱子得到方块和装备，搭桥到中间的主岛上得到更多资源，同时杀光所有玩家成为最终的胜利者！"
+      },
+      {
+        "lang": "ko_KR",
+        "gameName": "SKYWARS",
+        "desc": "스카이워즈(Skywars)는 마인크래프트중에서 인기가 많은 한 미니게임입니다. 8명의 유저들은 각자의 하늘섬에서 태어났고 섬에 있는 박스를 통해 블럭과 장비를 획득합니다. 유저들은 다리를 놓고 중간에 있는 매인섬에 가게 되면 더 많은 자원을 얻을 수 있습니다. 모든 유저들을 죽이면 최종의 승자가 됩니다."
+      },
+      {
+        "lang": "ja_JP",
+        "gameName": "空岛戦",
+        "desc": "空岛戦争は大人気なマインクラフトゲームです。８人は自分の小空島に生まれています。島においたボックスを通じてブロックや装備を得ます。橋を作って主の島へ行ってもっとリソースを得ます。更にプレーヤーを全部殺してから勝ちます。"
+      }
+    ],
+    "bgColor": "#99976e",
+    "introductionCount": 3,
+    "isShowIniOS": true,
+    "showRewardType": [
+      "Kill",
+      "EXP",
+      "Gold",
+      "Stamina"
+    ]
+  },
+  {
+    "mapId": "m0",
+    "type": "g1004",
+    "minNum": 8,
+    "typeName": "Creative",
+    "defaultMcVersion": "1.1.0.9",
+    "icon": "http://static.sandboxol.com/sandbox/config/android/image/m1_build_battle_for_christmas_icon.png",
+    "gameMode": 1,
+    "isShowRankList": true,
+    "isShowCultivate": false,
+    "isShowSuperPlayer": true,
+    "isShowJob": false,
+    "unShowRegion": [],
+    "descIcons": [
+      "http://static.sandboxol.com/sandbox/config/android/image/m0_build_battle_for_christmas_icon1.png",
+      "http://static.sandboxol.com/sandbox/config/android/image/m0_build_battle_for_christmas_icon2.png",
+      "http://static.sandboxol.com/sandbox/config/android/image/m0_build_battle_for_christmas_icon3.png"
+    ],
+    "rewardIcon": "http://static.sandboxol.com/sandbox/config/android/image/realm_reward_buildwar.png",
+    "appVersionCode": 475,
+    "versions": [
+      "0.15.0",
+      "0.15.1",
+      "0.15.2",
+      "0.15.3",
+      "0.15.4",
+      "0.15.6",
+      "0.15.7",
+      "0.15.8",
+      "0.15.9",
+      "0.15.10",
+      "0.16.0",
+      "0.16.1",
+      "0.16.2"
+    ],
+    "props": [],
+    "langs": [
+      {
+        "lang": "en_US",
+        "gameName": "BUILD BATTLE",
+        "desc": "Build battle is a popular leisure game of MC, players can build their construction of corresponding theme with their imagination and construction techniques, within the specified time ranges. There are maximum 16 players can participate in the competition, the player who get the highest rating, given by the other players is the winner!"
+      },
+      {
+        "lang": "zh_HK",
+        "gameName": "建築戰爭",
+        "desc": "建築戰爭是MC中壹款廣受玩家歡迎的休閑遊戲，玩家通過發揮自己的想象力和建築技巧，在指定的時間和範圍內，建造出相應主題的建築。最多16位玩家參與比賽，最終相互評分決出勝者！"
+      },
+      {
+        "lang": "zh_TW",
+        "gameName": "建築戰爭",
+        "desc": "建築戰爭是MC中壹款廣受玩家歡迎的休閑遊戲，玩家通過發揮自己的想象力和建築技巧，在指定的時間和範圍內，建造出相應主題的建築。最多16位玩家參與比賽，最終相互評分決出勝者！"
+      },
+      {
+        "lang": "zh_CN",
+        "gameName": "建造战争",
+        "desc": "建筑战争是MC中一款广受玩家欢迎的休闲游戏，玩家通过发挥自己的想象力和建筑技巧，在指定的时间和范围内，建造出相应主题的建筑。最多16位玩家参与比赛，最终相互评分决出胜者！"
+      },
+      {
+        "lang": "ja_JP",
+        "gameName": "建築戦争",
+        "desc": "建築戦争とは、MCで人気があるカジュアル・ゲームであり、指定された時間で、プレイヤーは自分の想像力と建築技術を通じ、対応するテーマの建築を作るということである。最大 16 人の参加者が最後に相互の評価により、勝者を決める! "
+      },
+      {
+        "lang": "ko_KR",
+        "gameName": "Build Battle",
+        "desc": "Build Battle는 마인크래프트에 인기 있는 미니게임 중 하나입니다.플레이어분들이 뛰어난 상사력과 건축 기교를 활용하여 저정된 공간과 시간 안에 주제와 맞는 건축물을 건축해야 합니다.풀레이어 최대 16명이 동시에 게임을 참가하고 마지막에 서로 점수를 매겨 우승자를 결정합니다."
+      },
+      {
+        "lang": "ru_RU",
+        "gameName": "Билд Батл",
+        "desc": "Билд Батл―популярная развлеченная игра Майнкрафт. Игроки могут строить постройки со своей фантазией и строительной техникой, в пределах указанных диапазонов и времени. Максимум 16 игроков могут участвовать в соревновании. Игрок, кто получил самую высокую оценку, приведенна другими игроками, будет становиться победителем!"
+      },
+      {
+        "lang": "es_ES",
+        "gameName": "Build Battle",
+        "desc": "Build Battle es juego muy popular entre los juegdores de Minecraft. Usando la imginación y técnica de construción, los jugadores pueden constuir edificios que corresponden a algún tema. A lo más 16 jugadores pueden participar en el juego y al final los jugadores se cualifica entre sí para decidir un ganador."
+      }
+    ],
+    "bgColor": "#7e7856",
+    "introductionCount": 4,
+    "isShowIniOS": true,
+    "showRewardType": [
+      "Kill",
+      "EXP",
+      "Gold",
+      "Stamina"
+    ]
+  },
+  {
+    "mapId": "m0",
+    "type": "g1005",
+    "minNum": 0,
+    "typeName": "PVP",
+    "defaultMcVersion": "1.1.0.9",
+    "icon": "http://static.sandboxol.com/sandbox/config/android/image/m1_clan_war_icon.png",
+    "gameMode": 3,
+    "isShowRankList": true,
+    "isShowCultivate": true,
+    "isShowSuperPlayer": true,
+    "isStartBlockManOverseas": true,
+    "isShowJob": true,
+    "unShowRegion": [],
+    "descIcons": [
+      "http://static.sandboxol.com/sandbox/config/android/image/m0_clan_war_icon1.png",
+      "http://static.sandboxol.com/sandbox/config/android/image/m0_clan_war_icon2.png",
+      "http://static.sandboxol.com/sandbox/config/android/image/m0_clan_war_icon3.png"
+    ],
+    "rewardIcon": "http://static.sandboxol.com/sandbox/config/android/image/realm_reward_clanwar.png",
+    "appVersionCode": 570,
+    "props": [
+      "props.g1001.yinshen_fuzhou_gold",
+      "props.g1001.yinshen_fuzhou",
+      "props.g1001.potion_of_leaping",
+      "props.g1001.potion_of_healing",
+      "props.g1001.mo_fang",
+      "props.g1001.judu_jian",
+      "props.g1001.feixing_pifeng",
+      "props.g1001.feixing_pifeng_gold"
+    ],
+    "langs": [
+      {
+        "lang": "en_US",
+        "gameName": "CLANWAR",
+        "desc": "Clanwar is divided into 2 camps, red and blue,and support 40 players to play the game at the same time.Clan members will be assigned to the same camp.The camp will get scores by PVP and capture the special block from other camp.The camp that gets more scores will win the match and members will win more honor for clan."
+      },
+      {
+        "lang": "zh_TW",
+        "gameName": "部落戰爭",
+        "desc": "部落戰爭分為紅藍兩個陣營，同一部落的成員會被分配到一個陣營，遊戲最大支持40人同時遊戲。遊戲持續時間10分鐘，通過夺取对方特定方块和PVP獲得分數，分數多的陣營可以獲得勝利，同時也能為自己部落獲得更多榮譽。"
+      },
+      {
+        "lang": "zh_HK",
+        "gameName": "部落戰爭",
+        "desc": "部落戰爭分為紅藍兩個陣營，同一部落的成員會被分配到一個陣營，遊戲最大支持40人同時遊戲。遊戲持續時間10分鐘，通過夺取对方特定方块和PVP獲得分數，分數多的陣營可以獲得勝利，同時也能為自己部落獲得更多榮譽。"
+      },
+      {
+        "lang": "zh_CN",
+        "gameName": "部落战争",
+        "desc": "部落戰爭分為紅藍兩個陣營，同一部落的成員會被分配到一個陣營，遊戲最大支持40人同時遊戲。遊戲持續時間10分鐘，通過夺取对方特定方块和PVP獲得分數，分數多的陣營可以獲得勝利，同時也能為自己部落獲得更多榮譽。"
+      },
+      {
+        "lang": "ja_JP",
+        "gameName": "CLANWAR",
+        "desc": "部族戦争は赤いや青い二つに分けられます。同じ部族のメンバーは一つの陣営になります。同じ時間に最も４０人を制限します。ゲーム時間は十分に続けています。相手の特定なブロックとPVPを奪ってポイントを得ます。ポイントが高い方は勝ちます。更に、自分の部族に最も栄養を得ます。"
+      },
+      {
+        "lang": "ko_KR",
+        "gameName": "CLANWAR",
+        "desc": "클랜워즈는 빨간과 파란 진영이 나누어서 합니다. 같은 클랜의 멤버들은 같은 진영에 배치하겠습니다. 이 게임은 최대40명의 유저들으로 진행할 수 있습니다. 지속 시간은 10분입니다. 유저들은 상대방의 PVP와 특정된 블럭들 빼앗기를 통해 점수를 딸 수 있습니다. 점수가 많은 진영은 승리이며, 소속 클랜도 영예를 지니겠습니다."
+      },
+      {
+        "lang": "ru_RU",
+        "gameName": "CLANWAR",
+        "desc": "Clanwar is divided into 2 camps, red and blue,and support 40 players to play the game at the same time.Clan members will be assigned to the same camp.The camp will get scores by PVP and capture the special block from other camp.The camp that gets more scores will win the match and members will win more honor for clan."
+      },
+      {
+        "lang": "th_TH",
+        "gameName": "CLANWAR",
+        "desc": "Clanwar is divided into 2 camps, red and blue,and support 40 players to play the game at the same time.Clan members will be assigned to the same camp.The camp will get scores by PVP and capture the special block from other camp.The camp that gets more scores will win the match and members will win more honor for clan."
+      },
+      {
+        "lang": "pt_BR",
+        "gameName": "CLANWAR",
+        "desc": "Clanwar is divided into 2 camps, red and blue,and support 40 players to play the game at the same time.Clan members will be assigned to the same camp.The camp will get scores by PVP and capture the special block from other camp.The camp that gets more scores will win the match and members will win more honor for clan."
+      }
+    ],
+    "bgColor": "#6a6459",
+    "introductionCount": 3,
+    "isShowIniOS": true,
+    "showRewardType": [
+      "Kill",
+      "EXP",
+      "Gold",
+      "Stamina"
+    ]
+  },
+  {
+    "mapId": "m0",
+    "type": "g1007",
+    "minNum": 24,
+    "typeName": "TNT",
+    "defaultMcVersion": "1.1.0.9",
+    "icon": "http://static.sandboxol.com/sandbox/config/android/image/m1_bow_spleef_icon.png",
+    "gameMode": 1,
+    "isShowRankList": true,
+    "isShowCultivate": false,
+    "isShowSuperPlayer": true,
+    "isStartBlockManOverseas": true,
+    "isShowJob": false,
+    "unShowRegion": [],
+    "descIcons": [
+      "http://static.sandboxol.com/sandbox/config/android/image/m0_bow_spleef_icon1.png",
+      "http://static.sandboxol.com/sandbox/config/android/image/m0_bow_spleef_icon2.png",
+      "http://static.sandboxol.com/sandbox/config/android/image/m0_bow_spleef_icon3.png"
+    ],
+    "rewardIcon": "http://static.sandboxol.com/sandbox/config/android/image/realm_reward_tnt.png",
+    "appVersionCode": 475,
+    "versions": [
+      "0.15.0",
+      "0.15.1",
+      "0.15.2",
+      "0.15.3",
+      "0.15.4",
+      "0.15.6",
+      "0.15.7",
+      "0.15.8",
+      "0.15.9",
+      "0.15.10",
+      "0.16.0",
+      "0.16.1",
+      "0.16.2"
+    ],
+    "props": [
+      "props.g1001.yinshen_fuzhou_gold",
+      "props.g1001.yinshen_fuzhou",
+      "props.g1001.potion_of_leaping",
+      "props.g1001.min_jie_yao_shui"
+    ],
+    "langs": [
+      {
+        "lang": "en_US",
+        "gameName": "Bow Spleef",
+        "desc": "Bow Spleef is a popular TNT game in  Minecraft.It support 12 players at the same time.Players will be sent to the room consisting of TNT and the aim is to be the last player by using fire arrows to fire TNT to make other players fall or killed"
+      },
+      {
+        "lang": "zh_TW",
+        "gameName": "掘一死戰",
+        "desc": "弓箭版掘一死戰是一款很受歡迎的minecraft TNT小遊戲，12位玩家同時被傳送到由TNT組成的房間中，玩家通過射擊火矢箭點燃TNT讓其他玩家掉落或者被殺，最後一名存活的玩家將為勝利者！"
+      },
+      {
+        "lang": "zh_HK",
+        "gameName": "掘一死戰",
+        "desc": "弓箭版掘一死戰是一款很受歡迎的minecraft TNT小遊戲，12位玩家同時被傳送到由TNT組成的房間中，玩家通過射擊火矢箭點燃TNT讓其他玩家掉落或者被殺，最後一名存活的玩家將為勝利者！"
+      },
+      {
+        "lang": "zh_CN",
+        "gameName": "掘一死战",
+        "desc": "弓箭版掘一死战是一款很受欢迎的minecraft TNT小游戏，12位玩家同时被传送到由TNT组成的房间中，玩家通过射击火矢箭点燃TNT让其他玩家掉落或者被杀，最后一名存活的玩家将为胜利者！"
+      },
+      {
+        "lang": "ja_JP",
+        "gameName": "Bow Spleef",
+        "desc": "Bow Spleefはマインクラフトに大人気な一つのゲームです。12人は一緒にTNTからなるルームに送られます。矢で射撃してTNTを点火します、他のプレーヤーをルームにアウトさせる、最後まで生きるプレーヤーは勝者になります"
+      },
+      {
+        "lang": "ko_KR",
+        "gameName": "Bow Spleef",
+        "desc": "활버전의 스플리프는 유행하는 마인크래프트 TNT미니게임 입니다. 12명의 유저들은 동시에 TNT로 구성된 방으로 전송됩니다. 플레어는 불꽃화살로 TNT를 점화하여 다른 유저들을 탈락시키거나 사살할수 있습니다.마지막 생존한 단 한명은 최후의 승자가 될수있습니다."
+      },
+      {
+        "lang": "ru_RU",
+        "gameName": "Bow Spleef",
+        "desc": "Bow Spleef is a popular TNT game in  Minecraft.It support 12 players at the same time.Players will be sent to the room consisting of TNT and the aim is to be the last player by using fire arrows to fire TNT to make other players fall or killed"
+      },
+      {
+        "lang": "th_TH",
+        "gameName": "Bow Spleef",
+        "desc": "Bow Spleef is a popular TNT game in  Minecraft.It support 12 players at the same time.Players will be sent to the room consisting of TNT and the aim is to be the last player by using fire arrows to fire TNT to make other players fall or killed"
+      },
+      {
+        "lang": "pt_BR",
+        "gameName": "Bow Spleef",
+        "desc": "Bow Spleef is a popular TNT game in  Minecraft.It support 12 players at the same time.Players will be sent to the room consisting of TNT and the aim is to be the last player by using fire arrows to fire TNT to make other players fall or killed"
+      }
+    ],
+    "bgColor": "#65452f",
+    "introductionCount": 3,
+    "isShowIniOS": true,
+    "showRewardType": [
+      "EXP",
+      "Gold",
+      "Stamina"
+    ]
+  },
+  {
+    "mapId": "m0",
+    "type": "g1008",
+    "minNum": 16,
+    "typeName": "PVP",
+    "defaultMcVersion": "1.1.0.9",
+    "icon": "http://static.sandboxol.com/sandbox/config/android/image/m1_bed_wars_icon.png",
+    "gameMode": 2,
+    "isShowRankList": true,
+    "isShowCultivate": true,
+    "isShowSuperPlayer": true,
+    "isStartBlockManOverseas": true,
+    "isShowJob": true,
+    "unShowRegion": [
+      "1002",
+      "1003",
+      "1005",
+      "1007",
+      "1006",
+      "100701"
+    ],
+    "descIcons": [
+      "http://static.sandboxol.com/sandbox/config/android/image/m0_bed_wars_icon1.png",
+      "http://static.sandboxol.com/sandbox/config/android/image/m0_bed_wars_icon2.png",
+      "http://static.sandboxol.com/sandbox/config/android/image/m0_bed_wars_icon3.png"
+    ],
+    "rewardIcon": "http://static.sandboxol.com/sandbox/config/android/image/realm_reward_survival.png",
+    "appVersionCode": 475,
+    "props": [
+      "props.g1001.chest_detector",
+      "props.g1001.hei_mofazhen",
+      "props.g1001.advanced_head_start_scroll",
+      "props.g1001.head_start_scroll",
+      "props.g1001.bai_mofazhen",
+      "props.g1001.yinshen_fuzhou_gold",
+      "props.g1001.yinshen_fuzhou",
+      "props.g1001.potion_of_leaping",
+      "props.g1001.potion_of_healing",
+      "props.g1001.feixing_pifeng",
+      "props.g1001.feixing_pifeng_gold",
+      "props.g1001.xian_dou",
+      "props.g1001.gold.item.7",
+      "props.g1001.diamond.item.3"
+    ],
+    "langs": [
+      {
+        "lang": "en_US",
+        "gameName": "BED WARS",
+        "desc": "Bed wars is one of the popular Minecraft mini game. It support 16 players to play together. Players can team up with friends or strangers. Through protect your team’s bed and kill enemy to get final victory."
+      },
+      {
+        "lang": "zh_TW",
+        "gameName": "起床戰爭",
+        "desc": "起床戰爭是一款十分受歡迎的minecraft小遊戲，支持16個玩家一起遊戲，玩家可以與自己的好友或者陌生人組隊，通過和隊友的配合保護自己隊伍的床並且殺掉他隊伍之間來取得最終的勝利。"
+      },
+      {
+        "lang": "zh_HK",
+        "gameName": "起床戰爭",
+        "desc": "起床戰爭是一款十分受歡迎的minecraft小遊戲，支持16個玩家一起遊戲，玩家可以與自己的好友或者陌生人組隊，通過和隊友的配合保護自己隊伍的床並且殺掉他隊伍之間來取得最終的勝利。"
+      },
+      {
+        "lang": "zh_CN",
+        "gameName": "起床战争",
+        "desc": "起床战争是一款十分受欢迎的minecraft小游戏，支持16个玩家一起游戏，玩家可以与自己的好友或者陌生人组队，通过和队友的配合保护自己队伍的床并且杀掉他队伍之间来取得最终的胜利。"
+      },
+      {
+        "lang": "ja_JP",
+        "gameName": "BED WARS",
+        "desc": "起床戦争は大人気なマインクラフトゲームです。１６人が一緒に遊ぶことができる。プレーヤーはフレンドと知っていない人と一チームになってメンバーと協力を通じて自分のチームを保護します。そして、他のチームを殺して最後の勝利を得ます。"
+      },
+      {
+        "lang": "ko_KR",
+        "gameName": "BED WARS",
+        "desc": "베드워(bedwar)는 마인크래프트중에서 인기가 많은 한 미니게임입니다. 최대 16명의 유저들으로 진행할 수 있습니다. 유저들은 친구나 다른 유저들과 팀을 짤 수 있으며, 멤버들과 맞추어 다른 팀을 죽이면 승리입니다."
+      }
+    ],
+    "bgColor": "#694533",
+    "isShowIniOS": true,
+    "showRewardType": [
+      "Kill",
+      "EXP",
+      "Gold",
+      "Stamina"
+    ]
+  },
+  {
+    "mapId": "m0",
+    "type": "g1009",
+    "minNum": 16,
+    "typeName": "Role play&PVP",
+    "defaultMcVersion": "1.1.0.9",
+    "icon": "http://static.sandboxol.com/sandbox/config/android/image/m1_murder_mystery_icon.png",
+    "gameMode": 1,
+    "isShowRankList": true,
+    "isShowCultivate": false,
+    "isShowSuperPlayer": true,
+    "isStartBlockManOverseas": true,
+    "isShowJob": false,
+    "unShowRegion": [
+      "1002",
+      "1003",
+      "1005",
+      "1007",
+      "1006",
+      "100701"
+    ],
+    "descIcons": [
+      "http://static.sandboxol.com/sandbox/config/android/image/m0_murder_mystery_icon1.png",
+      "http://static.sandboxol.com/sandbox/config/android/image/m0_murder_mystery_icon2.png",
+      "http://static.sandboxol.com/sandbox/config/android/image/m0_murder_mystery_icon3.png"
+    ],
+    "rewardIcon": "http://static.sandboxol.com/sandbox/config/android/image/realm_reward_murdur.png",
+    "appVersionCode": 475,
+    "props": [
+      "props.g1001.min_jie_yao_shui",
+      "props.g1001.yinshen_fuzhou_gold",
+      "props.g1001.yinshen_fuzhou",
+      "props.g1001.potion_of_leaping"
+    ],
+    "langs": [
+      {
+        "lang": "en_US",
+        "gameName": "Murder mystery",
+        "desc": "Murder Mystery is a maximum of 12 players role play mini-game. Each player will be given the following identity: Murderer, Sheriff, and Civilian. Sheriff's duty is to protect all Civilian and find the Murderers. SuperPlay allows choosing the identity."
+      },
+      {
+        "lang": "zh_TW",
+        "gameName": "神秘殺手",
+        "desc": "神秘殺手是一款角色扮演類遊戲，支持12個玩家，遊戲隨機分配：殺手，警詧和平民三種角色，警詧保護平民並且要找到殺手殺死他，平民將會獲勝，殺手殺掉所有人將會獲勝，超級玩家可以選擇自己要扮演的角色哦。"
+      },
+      {
+        "lang": "zh_CN",
+        "gameName": "神秘杀手",
+        "desc": "神秘杀手是一款角色扮演类游戏，支持12个玩家，游戏随机分配：杀手，警察和平民三种角色，警察保护平民并且要找到杀手杀死他，平民将会获胜，杀手杀掉所有人将会获胜，超级玩家可以选择自己要扮演的角色哦！"
+      },
+      {
+        "lang": "zh_HK",
+        "gameName": "神秘殺手",
+        "desc": "神秘殺手是一款角色扮演類遊戲，支持12個玩家，遊戲隨機分配：殺手，警詧和平民三種角色，警詧保護平民並且要找到殺手殺死他，平民將會獲勝，殺手殺掉所有人將會獲勝，超級玩家可以選擇自己要扮演的角色哦。"
+      },
+      {
+        "lang": "ko_KR",
+        "gameName": "Murder mystery",
+        "desc": "신비한 킬러는 12명의 유저들으로 진행할 수 있는 한 롤플레잉 게임입니다. 게임은 렌덤으로 킬러, 경찰, 평민 (일반인) 이 세가지 역할을 유저들에게 맡겠습니다. 경찰은 평민들을 보호하면서 킬러를 찾고 죽여야 승리입니다. 반대로 킬러는 모든 역할을 죽이면 승리입니다. 슈퍼 유저들은 원하는 역할을 선택할 수 있습니다."
+      },
+      {
+        "lang": "ja_JP",
+        "gameName": "Murder mystery",
+        "desc": "神秘y的なエラーはキャラ演じるゲームです。１６人が一緒に遊ぶことができる。勝てに分配：キラー、警察、庶民の役を分けます。警察は庶民を保護してキラーを見つけて殺します。庶民は勝ちます。キラーは全部のを殺してから勝ちます。スーパープレーヤーは自分がなりたいキャラに選ぶことができる。"
+      }
+    ],
+    "bgColor": "#a47b53",
+    "introductionCount": 3,
+    "isShowIniOS": false,
+    "showRewardType": [
+      "EXP",
+      "Gold",
+      "Stamina"
+    ]
+  },
+  {
+    "mapId": "m0",
+    "type": "g1010",
+    "minNum": 8,
+    "typeName": "RUN",
+    "defaultMcVersion": "1.1.0.9",
+    "icon": "http://static.sandboxol.com/sandbox/config/android/image/m1_tnt_run_icon.png",
+    "gameMode": 1,
+    "isShowRankList": true,
+    "isShowCultivate": false,
+    "isShowSuperPlayer": true,
+    "isStartBlockManOverseas": true,
+    "isShowJob": false,
+    "unShowRegion": [],
+    "descIcons": [
+      "http://static.sandboxol.com/sandbox/config/android/image/m0_tnt_run_icon1.png",
+      "http://static.sandboxol.com/sandbox/config/android/image/m0_tnt_run_icon2.png",
+      "http://static.sandboxol.com/sandbox/config/android/image/m0_tnt_run_icon3.png"
+    ],
+    "rewardIcon": "http://static.sandboxol.com/sandbox/config/android/image/realm_reward_survival.png",
+    "appVersionCode": 406,
+    "props": [],
+    "langs": [
+      {
+        "lang": "en_US",
+        "gameName": "TNTRun",
+        "desc": "After the game begins, the square at your feet will collapse and run quickly to create the longest record of survival! Watch out for TNT from the sky!!"
+      },
+      {
+        "lang": "zh_TW",
+        "gameName": "TNT跑酷",
+        "desc": "遊戲開始後，妳腳下的方塊會壹直坍塌，快點跑起來，創造存活時間最長的記錄吧！ 註意從天而降的TNT！！"
+      },
+      {
+        "lang": "zh_CN",
+        "gameName": "TNT跑酷",
+        "desc": "游戏开始后，你脚下的方块会一直坍塌，快点跑起来，创造存活时间最长的记录吧！ 注意从天而降的TNT！！"
+      }
+    ],
+    "bgColor": "#985e36",
+    "isShowIniOS": true,
+    "showRewardType": [
+      "Time",
+      "EXP",
+      "Gold",
+      "Stamina"
+    ]
+  },
+  {
+    "mapId": "m0",
+    "type": "g1011",
+    "minNum": 8,
+    "typeName": "pvp",
+    "defaultMcVersion": "1.1.0.9",
+    "icon": "http://static.sandboxol.com/sandbox/config/android/image/m1_Snowball_Battle_icon.png",
+    "gameMode": 2,
+    "isShowRankList": true,
+    "isShowCultivate": false,
+    "isShowSuperPlayer": true,
+    "isStartBlockManOverseas": true,
+    "isShowJob": false,
+    "unShowRegion": [],
+    "descIcons": [
+      "http://static.sandboxol.com/sandbox/config/android/image/m0_Snowball_Battle_icon1.png",
+      "http://static.sandboxol.com/sandbox/config/android/image/m0_Snowball_Battle_icon2.png",
+      "http://static.sandboxol.com/sandbox/config/android/image/m0_Snowball_Battle_icon3.png"
+    ],
+    "rewardIcon": "http://static.sandboxol.com/sandbox/config/android/image/realm_reward_survival.png",
+    "appVersionCode": 406,
+    "props": [
+      "props.g1001.snow.block",
+      "props.g1001.snowball"
+    ],
+    "langs": [
+      {
+        "lang": "en_US",
+        "gameName": "Snowball Battle",
+        "desc": "Throwing the snowball and TNT to attack others players and island.The blocks will disappear when the snowball and TNT hit them.The team that make all the opposing players to fall from the island will be the winner."
+      },
+      {
+        "lang": "zh_TW",
+        "gameName": "雪球大作战",
+        "desc": "拿起雪球和TNT去攻击对方的岛屿，雪球碰到方块后，方块会消失掉，攻击对方岛屿，让对方全部掉下去，则可以获得胜利！"
+      },
+      {
+        "lang": "zh_CN",
+        "gameName": "雪球大作战",
+        "desc": "拿起雪球和TNT去攻击对方的岛屿，雪球碰到方块后，方块会消失掉，攻击对方岛屿，让对方全部掉下去，则可以获得胜利！！"
+      }
+    ],
+    "bgColor": "#335b85",
+    "isShowIniOS": true,
+    "showRewardType": [
+      "EXP",
+      "Gold",
+      "Stamina"
+    ]
+  }
+]

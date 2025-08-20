@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/allBackgroundColor" android:padding="@dimen/new_ui_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_marginTop="7.0dip" style="@style/accountLLStyle">
+        <TextView android:text="@string/roomName" style="@style/updateViewStyle" />
+        <EditText android:id="@id/etRoomName" style="@style/createRoomEtStyle" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/llMaxPlayer" android:clickable="true" style="@style/accountLLStyle">
+        <TextView android:text="@string/maxPlayer" style="@style/updateViewStyle" />
+        <TextView android:id="@id/tvMaxPlayer" style="@style/updateViewContentStyle" />
+        <ImageView style="@style/arrowStyle" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/llRoomType" android:clickable="true" style="@style/accountLLStyle">
+        <TextView android:text="@string/roomMode" style="@style/updateViewStyle" />
+        <TextView android:id="@id/tvRoomType" style="@style/updateViewContentStyle" />
+        <ImageView style="@style/arrowStyle" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/llRoomMap" android:clickable="true" style="@style/accountLLStyle">
+        <TextView android:text="@string/roomMap" style="@style/updateViewStyle" />
+        <TextView android:id="@id/tvRoomMap" style="@style/updateViewContentStyle" />
+        <ImageView style="@style/arrowStyle" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/llRoomMode" android:clickable="true" style="@style/accountLLStyle">
+        <TextView android:text="@string/create_room_game_mode" style="@style/updateViewStyle" />
+        <TextView android:id="@id/tvRoomMode" style="@style/updateViewContentStyle" />
+        <ImageView style="@style/arrowStyle" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/llJoinPermission" android:clickable="true" style="@style/accountLLStyle">
+        <TextView android:text="@string/joinPermission" style="@style/updateViewStyle" />
+        <TextView android:textSize="@dimen/textSize14Sp" android:id="@id/tvJoinPermission" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/textViewStyle" />
+        <ImageView style="@style/arrowStyle" />
+    </LinearLayout>
+    <LinearLayout android:clickable="false" style="@style/accountLLStyle">
+        <TextView android:text="@string/roomPassword" style="@style/updateViewStyle" />
+        <EditText android:id="@id/etRoomPassword" android:background="@null" android:inputType="textPassword" style="@style/accountEditTextStyle" />
+    </LinearLayout>
+    <Button android:id="@id/btnSure" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:text="@string/create" style="@style/newBigBtnStyle" />
+</LinearLayout>

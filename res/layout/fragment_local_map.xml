@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llOperationType" android:layout_width="fill_parent" android:layout_height="30.0dip">
+        <Button android:id="@id/btnCancel" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/meFragmentItemPdSizeNew" android:text="@string/cancel" android:layout_weight="1.0" style="@style/textViewStyle" />
+        <Button android:gravity="right|center" android:id="@id/btnSelectAll" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="@dimen/meFragmentItemPdSizeNew" android:text="@string/selectAll" android:layout_weight="1.0" style="@style/textViewStyle" />
+    </LinearLayout>
+    <com.sandboxol.refresh.view.RefreshLayout android:id="@id/refreshLayout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <android.support.v7.widget.RecyclerView android:id="@id/swipe_target" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.sandboxol.refresh.view.RefreshLayout>
+    <Button android:id="@id/btnSure" android:visibility="gone" android:layout_marginTop="@dimen/tpSize" android:layout_marginBottom="@dimen/tpSize" android:text="@string/delete" style="@style/newBigBtnStyle" />
+</LinearLayout>

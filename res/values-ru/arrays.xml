@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="other_join_room_msg">
+        <item>Иногда после входа в игру вы останавливаетесь в пустате. Подождите немножко и все будет нормально.</item>
+        <item>После логин вас меньше выгоняют. Советуем вам зайти в приложение сначала, потом в игру.</item>
+        <item>Скорее зайдете в созданный вам сервер.</item>
+        <item>Данный сервер доступен только известным аккаунтам. Логин сейчас?</item>
+        <item>Чем дольше остаться в игре, тем больше баллов роста.</item>
+    </string-array>
+    <string-array name="ban_goods_names">
+        <item>Splash Potion of Invisibility</item>
+        <item>Магма</item>
+        <item>Вода</item>
+        <item>Огневик</item>
+        <item>Контактная микстура</item>
+        <item>Живое существо</item>
+        <item>Бросатель</item>
+        <item>Лодка</item>
+    </string-array>
+    <string-array name="realms_type">
+        <item>Голодные игры</item>
+    </string-array>
+</resources>

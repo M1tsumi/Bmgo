@@ -1,0 +1,138 @@
+.class final Lbe/b;
+.super Landroid/os/AsyncTask;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Landroid/os/AsyncTask",
+        "<",
+        "Ljava/lang/Void;",
+        "Ljava/lang/Void;",
+        "Ljava/lang/Integer;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field private synthetic a:Landroid/content/Context;
+
+.field private synthetic b:Lbe/a$a;
+
+
+# direct methods
+.method constructor <init>(Landroid/content/Context;Lbe/a$a;)V
+    .locals 0
+
+    iput-object p1, p0, Lbe/b;->a:Landroid/content/Context;
+
+    iput-object p2, p0, Lbe/b;->b:Lbe/a$a;
+
+    invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
+
+    return-void
+.end method
+
+.method private final varargs a([Ljava/lang/Void;)Ljava/lang/Integer;
+    .locals 1
+
+    :try_start_0
+    iget-object v0, p0, Lbe/b;->a:Landroid/content/Context;
+
+    invoke-static {v0}, Lbe/a;->a(Landroid/content/Context;)V
+    :try_end_0
+    .catch Lcom/google/android/gms/common/GooglePlayServicesRepairableException; {:try_start_0 .. :try_end_0} :catch_0
+    .catch Lcom/google/android/gms/common/GooglePlayServicesNotAvailableException; {:try_start_0 .. :try_end_0} :catch_1
+
+    const/4 v0, 0x0
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    :goto_0
+    return-object v0
+
+    :catch_0
+    move-exception v0
+
+    invoke-virtual {v0}, Lcom/google/android/gms/common/GooglePlayServicesRepairableException;->getConnectionStatusCode()I
+
+    move-result v0
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    goto :goto_0
+
+    :catch_1
+    move-exception v0
+
+    iget v0, v0, Lcom/google/android/gms/common/GooglePlayServicesNotAvailableException;->errorCode:I
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    goto :goto_0
+.end method
+
+
+# virtual methods
+.method protected final synthetic doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    check-cast p1, [Ljava/lang/Void;
+
+    invoke-direct {p0, p1}, Lbe/b;->a([Ljava/lang/Void;)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method protected final synthetic onPostExecute(Ljava/lang/Object;)V
+    .locals 3
+
+    check-cast p1, Ljava/lang/Integer;
+
+    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    iget-object v0, p0, Lbe/b;->b:Lbe/a$a;
+
+    invoke-interface {v0}, Lbe/a$a;->a()V
+
+    :goto_0
+    return-void
+
+    :cond_0
+    invoke-static {}, Lbe/a;->a()Lcom/google/android/gms/common/zze;
+
+    iget-object v0, p0, Lbe/b;->a:Landroid/content/Context;
+
+    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
+
+    move-result v1
+
+    const-string v2, "pi"
+
+    invoke-static {v0, v1, v2}, Lcom/google/android/gms/common/zze;->zza(Landroid/content/Context;ILjava/lang/String;)Landroid/content/Intent;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lbe/b;->b:Lbe/a$a;
+
+    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
+
+    move-result v2
+
+    invoke-interface {v1, v2, v0}, Lbe/a$a;->a(ILandroid/content/Intent;)V
+
+    goto :goto_0
+.end method

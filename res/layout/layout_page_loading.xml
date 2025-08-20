@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rlBg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivLoading" android:background="@drawable/anim_page_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/rlLoadFailed" android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_centerInParent="true">
+        <ImageView android:id="@id/ivLoadFailed" android:background="@mipmap/page_loading_wait" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/load_failed_text" android:gravity="center" android:id="@id/tvLoadFailed" android:paddingTop="100.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="5.0dip" android:text="Refresh failed" android:layout_centerInParent="true" />
+    <Button android:textSize="10.0sp" android:textColor="#ffdfdac2" android:id="@id/btnRefresh" android:background="@drawable/bg_button_selector" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginTop="10.0dip" android:minWidth="140.0dip" android:text="Refresh" android:layout_below="@id/rlLoadFailed" android:layout_centerHorizontal="true" />
+</RelativeLayout>

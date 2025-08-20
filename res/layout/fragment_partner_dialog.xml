@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:layout_width="320.0dip" style="@style/dialogSizeStyle">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/bg_partner_dialog" android:layout_marginBottom="@dimen/new_ui_margin" style="@style/dialogMsgStyle">
+            <TextView android:id="@id/tvTitle" android:visibility="visible" android:text="@string/partner_dialog_partner_msg" style="@style/dialogTitleStyle" />
+            <View android:id="@id/vLine" android:background="@color/infoLine" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/lineHei" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="263.0dip">
+                <include android:id="@id/includeMsg" android:visibility="gone" layout="@layout/content_partner_dialog" />
+                <com.sandboxol.refresh.view.PageLoadingView android:id="@id/plvLoading" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" app:show_refresh_button="false" app:background_color="@color/transparent" />
+            </RelativeLayout>
+            <Button android:layout_gravity="center" android:id="@id/btnClose" android:layout_width="150.0dip" android:layout_height="40.0dip" android:text="@string/btn_close" style="@style/newBigBtnStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

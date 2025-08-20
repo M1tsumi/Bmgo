@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/llPack" android:background="@drawable/bg_two_grid_35" android:paddingLeft="18.0dip" android:paddingRight="@dimen/new_ui_margin" android:layout_marginTop="20.0dip" android:layout_marginBottom="16.0dip" style="@style/meFragmentItem">
+        <TextView android:textSize="@dimen/textSize14Sp" android:textColor="@color/gameTypeNamePre" android:id="@id/tvPack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/createAnAccount" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="right|center" android:id="@id/packDown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arrow_bottom" />
+    </LinearLayout>
+</LinearLayout>

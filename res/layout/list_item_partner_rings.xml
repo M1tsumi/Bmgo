@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="96.0dip" android:layout_marginBottom="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/bg_one_grid_50" android:layout_width="72.0dip" android:layout_height="72.0dip">
+        <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivRingIcon" android:visibility="visible" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ic_partner_ring_default" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/ivSelected" android:background="@drawable/bg_item_rings_pre" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textSize="@dimen/textSize8Sp" android:textColor="@color/partner_dialog_main_text_color" android:gravity="center" android:id="@id/tvPlus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:text="@string/partner_ring_no_plus" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/textSize9Sp" android:textColor="@color/gray" android:gravity="center" android:id="@id/tvName" android:background="@drawable/bg_one_grid_50" android:paddingTop="1.0dip" android:layout_width="72.0dip" android:layout_height="24.0dip" android:layout_marginTop="-1.0dip" android:text="Ring* 1" />
+</LinearLayout>

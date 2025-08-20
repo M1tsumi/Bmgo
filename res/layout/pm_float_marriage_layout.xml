@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/viewUnmarried" android:visibility="visible" layout="@layout/pm_float_marriage_married_layout" />
+    <include android:id="@id/viewMarried" android:visibility="gone" layout="@layout/pm_float_marriage_unmarried_layout" />
+</RelativeLayout>

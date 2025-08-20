@@ -1,0 +1,19 @@
+.class public interface abstract Lcom/sandboxol/mctool/natives/McPatch$createItemCall;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/sandboxol/mctool/natives/McPatch;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "createItemCall"
+.end annotation
+
+
+# virtual methods
+.method public abstract onItemCreate()V
+.end method

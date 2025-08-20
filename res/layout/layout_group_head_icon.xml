@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/head_icon_border_size" android:layout_height="@dimen/head_icon_border_size" android:layout_marginLeft="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivGroupIcon" android:layout_width="@dimen/head_icon_size" android:layout_height="@dimen/head_icon_size" android:layout_marginLeft="10.0dip" android:layout_marginTop="9.0dip" android:src="@drawable/head_df" app:type="round" />
+    <com.mcpeonline.multiplayer.view.RoundImageView android:id="@id/ivIconBg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_group_head_border_default" app:type="round" />
+</RelativeLayout>

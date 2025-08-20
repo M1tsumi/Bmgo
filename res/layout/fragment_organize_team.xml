@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/quit" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0" />
+    <RelativeLayout android:id="@id/llContext" android:background="@drawable/bg_mini_game_detail" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="7.0">
+        <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="8.0dip">
+            <include android:id="@id/includeMain" android:visibility="visible" layout="@layout/content_organize_team_main" />
+            <include android:id="@id/includeInvite" android:visibility="gone" layout="@layout/content_organize_team_invite" />
+        </RelativeLayout>
+        <ImageView android:id="@id/ivClose" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:paddingBottom="10.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_no_selector" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

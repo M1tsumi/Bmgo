@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/floatPaddingLeft" android:paddingTop="12.0dip" android:paddingRight="@dimen/floatPaddingRight" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="14.0sp" android:textColor="@color/float_font_color" android:id="@id/tvName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="nickName" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/float_font_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/floatRequest" />
+        </LinearLayout>
+        <Button android:textSize="@dimen/float_font_size" android:textColor="@color/white" android:id="@id/btnRefuse" android:background="@drawable/btn_float_add_friend_selector" android:visibility="visible" android:layout_width="55.0dip" android:layout_height="33.0dip" android:layout_marginRight="10.0dip" android:text="@string/float_realms_friend_refuse" />
+        <Button android:textSize="@dimen/float_font_size" android:textColor="@color/white" android:id="@id/btnAccept" android:background="@drawable/btn_float_add_friend_selector" android:visibility="visible" android:layout_width="55.0dip" android:layout_height="33.0dip" android:text="@string/acceptAdd" />
+    </LinearLayout>
+    <View android:background="@color/float_right_line_color" android:layout_width="fill_parent" android:layout_height="@dimen/lineHei" />
+</LinearLayout>

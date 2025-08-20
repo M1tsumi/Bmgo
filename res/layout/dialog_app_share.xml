@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/share_dialog_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:id="@id/llViewContext" android:background="@drawable/bg_new_dialog" android:padding="@dimen/new_ui_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/bg_one_grid_50" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center" android:layout_height="32.0dip" android:text="@string/share_to_friends" style="@style/textView12spStyle" />
+            <View android:background="@color/line_bg" android:layout_width="fill_parent" android:layout_height="@dimen/lineH" android:layout_marginLeft="@dimen/new_ui_margin" android:layout_marginRight="@dimen/new_ui_margin" />
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/viewShareOverseas" android:paddingTop="@dimen/new_ui_margin" android:paddingBottom="@dimen/new_ui_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/new_ui_margin">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageButton android:layout_gravity="center" android:id="@id/btn_fb_share" android:background="@drawable/square_facebook_selector" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageButton android:layout_gravity="center" android:id="@id/btn_twitter_share" android:background="@drawable/square_twitter_selector" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageButton android:layout_gravity="center" android:id="@id/btn_gplus_share" android:background="@drawable/square_google_plus_selector" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/viewShareChina" android:paddingTop="@dimen/new_ui_margin" android:paddingBottom="@dimen/new_ui_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/new_ui_margin">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageButton android:layout_gravity="center" android:id="@id/ivQQ" android:background="@drawable/share_qq_selector" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageButton android:layout_gravity="center" android:id="@id/ivQQZone" android:background="@drawable/share_qzone_selector" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageButton android:layout_gravity="center" android:id="@id/ivWx" android:background="@drawable/share_wx_selector" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageButton android:layout_gravity="center" android:id="@id/ivWxTimeline" android:background="@drawable/share_timeline_selector" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:gravity="center" android:id="@id/share_cancel" android:layout_marginLeft="0.0dip" android:layout_marginTop="@dimen/new_ui_margin" android:layout_marginRight="0.0dip" android:text="@string/report_cancel" style="@style/newBigBtnStyle" />
+    </LinearLayout>
+</LinearLayout>

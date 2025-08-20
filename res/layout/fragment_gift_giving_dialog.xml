@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:layout_width="300.0dip" style="@style/dialogSizeStyle">
+        <LinearLayout android:orientation="vertical" android:padding="0.0dip" style="@style/dialogMsgStyle">
+            <include layout="@layout/view_fift_giving_dialog_top" />
+            <RelativeLayout android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <android.support.v4.view.ViewPager android:id="@id/vpGift" android:layout_width="fill_parent" android:layout_height="@dimen/gifts_height" />
+                <com.sandboxol.refresh.view.PageLoadingView android:id="@id/plvLoading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" app:show_refresh_button="false" app:background_color="@color/transparent" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/llPoints" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="8.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llEt" android:background="@drawable/bg_two_grid_50_nor" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="4.0dip" style="@style/dialogMsgStyle">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/ic_talk" />
+            <EditText android:textColor="@color/textMainColor" android:textColorHint="@color/hintColor" android:gravity="center_vertical" android:id="@id/etMsg" android:background="@drawable/btn_item_nor_style" android:layout_width="0.0dip" android:layout_height="26.0dip" android:layout_marginRight="18.0dip" android:lines="1" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="7.0dip" android:paddingTop="6.0dip" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/dialogBtnHeight35dp">
+            <Button android:id="@id/btnCancel" android:layout_height="26.0dip" android:text="@string/think_again" android:layout_weight="1.0" style="@style/newLightBtnStyle" />
+            <Button android:id="@id/btnSure" android:layout_height="26.0dip" android:text="@string/giving_gift" android:layout_weight="1.0" style="@style/newLightBtnStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
