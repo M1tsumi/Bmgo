@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 version: 2.12.0
 apkFileName: blockman-multiplayer-for-mcpe-5-10-1.apk
 usesFramework:
@@ -26,3 +27,33 @@ doNotCompress:
 - assets/resources/version.json
 - res/raw/jsnative.zip
 - res/raw/mc_item_others.json
+=======
+version: 2.12.0
+apkFileName: blockman-multiplayer-for-mcpe-5-10-1.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 15
+  targetSdkVersion: 22
+packageInfo:
+  forcedPackageId: 127
+versionInfo:
+  versionCode: 3752
+  versionName: 5.10.1
+doNotCompress:
+- arsc
+- jpg
+- mp3
+- ogg
+- png
+- assets/resources/Media/GUI/GUIAnimateConfig.json
+- assets/resources/Media/Textures/64pixBlocks/fire_layer_0.png.mcmeta
+- assets/resources/Media/Textures/64pixBlocks/fire_layer_1.png.mcmeta
+- assets/resources/Media/Textures/64pixBlocks/portal.png.mcmeta
+- assets/resources/Media/Textures/64pixBlocks/water_flow.png.mcmeta
+- assets/resources/Media/engineVersion.json
+- assets/resources/version.json
+- res/raw/jsnative.zip
+- res/raw/mc_item_others.json
+>>>>>>> origin/main
